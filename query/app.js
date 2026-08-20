@@ -18,6 +18,57 @@
   var currentLevel = "undergrad";
   var selectedMajor = null;
   var selectedClass = null;
+  var hireFilter = false;
+  var weeklyFilter = false;
+  var cityFilter = false;
+
+  var KW_ALIAS = {
+    "电工": ["电气"], "电气": ["电工", "自动化"],
+    "财会": ["财务", "会计"], "会计": ["财会", "财务"], "财务": ["财会", "会计"],
+    "软件": ["计算机"], "人工智能": ["计算机"], "计算机": ["软件", "人工智能", "大数据", "数据科学"],
+    "自动化": ["电气", "控制"], "控制": ["自动化", "电气"],
+    "金融": ["经济", "投资"], "经济": ["金融", "贸易"], "贸易": ["国际经济", "经济"],
+    "工商管理": ["管理", "市场营销"], "管理": ["工商管理", "市场营销"], "市场营销": ["工商管理", "管理"],
+    "机电": ["机械", "电气"], "机械": ["机电", "车辆"], "车辆": ["机械", "汽车"], "汽车": ["车辆"],
+    "物流": ["供应链"], "供应链": ["物流"],
+    "通信": ["电子信息", "信息工程"], "电子信息": ["通信", "电子"], "电子": ["电子信息", "通信", "微电子"],
+    "石油": ["地质", "能源"], "地质": ["石油", "采矿"], "采矿": ["地质", "矿业"],
+    "化工": ["化学", "材料"], "化学": ["化工"],
+    "制药": ["药学", "药物"], "药学": ["制药", "药物"], "药物": ["药学", "制药"],
+    "医学": ["临床", "护理"], "临床": ["医学", "口腔", "中医"], "护理": ["医学"],
+    "土木": ["建筑", "工程管理"], "建筑": ["土木"], "工程管理": ["土木", "造价"],
+    "能源": ["电气", "新能源"], "新能源": ["能源", "材料"], "材料": ["化工", "新能源"],
+    "数学": ["统计", "数据"], "统计": ["数学", "数据"], "数据": ["数学", "统计", "计算机"],
+    "语言": ["英语", "外语", "翻译"], "翻译": ["语言", "外语"],
+    "法学": ["法律"], "法律": ["法学"],
+    "旅游": ["酒店", "会展"], "设计": ["艺术", "视觉"], "教育": ["师范"],
+    "新闻": ["传播", "广告"], "传播": ["新闻", "广告"], "心理": ["应用心理"],
+    "环境": ["环保", "生态"], "生物": ["生命科学"], "水利": ["水电"], "水电": ["水利", "电气"],
+    "信号": ["轨道交通", "通信", "电子信息"],
+    "铁道": ["铁路", "交通运输", "轨道交通"], "铁路": ["铁道", "交通运输", "轨道交通"],
+    "交通运输": ["铁道", "铁路", "轨道交通", "物流"], "轨道交通": ["铁道", "铁路", "交通运输", "车辆"],
+    "农学": ["农业", "园艺", "畜牧", "烟草"], "农业": ["农学"], "园艺": ["农学"], "畜牧": ["农学", "动物"], "烟草": ["农学"],
+    "军工": ["兵器", "航空"], "机器人": ["自动化", "机械", "人工智能"], "安全": ["安全工程"],
+    "食品": ["食品科学"], "水利": ["水电"]
+  };
+
+  function majorRelevant(itemMajors, m) {
+    if (!m) return true;
+    if (!itemMajors || !itemMajors.length) return false;
+    var hay = (m.name + " " + (m.cat || "") + " " + (m.cls || "")).toLowerCase();
+    for (var i = 0; i < itemMajors.length; i++) {
+      var raw = String(itemMajors[i] || "").trim();
+      if (!raw) continue;
+      if (raw === "不限" || raw === "不限专业" || raw === "专业不限" || raw === "无专业限制") return true;
+      var kw = raw.replace(/类$/, "").toLowerCase();
+      if (hay.indexOf(kw) >= 0) return true;
+      var aliases = KW_ALIAS[kw] || [];
+      for (var j = 0; j < aliases.length; j++) {
+        if (hay.indexOf(aliases[j]) >= 0) return true;
+      }
+    }
+    return false;
+  }
 
   function $(sel) { return document.querySelector(sel); }
   function el(tag, cls, html) {
@@ -215,7 +266,13 @@
 
   function selectMajor(m) {
     selectedMajor = m;
+    hireFilter = true;
+    weeklyFilter = true;
+    cityFilter = true;
     renderResult();
+    renderHire();
+    renderWeekly();
+    renderCities();
     $("#result").scrollIntoView({ behavior: "smooth", block: "start" });
   }
 
@@ -339,64 +396,130 @@
   }
 
   function renderCities() {
+    var m = selectedMajor;
+    var filter = cityFilter && !!m;
+    var meta = $("#cityMeta");
     var list = $("#cityList");
     if (!list) return;
     list.innerHTML = "";
-    CITY_DATA.forEach(function (c) {
-      var card = el("div", "city-card");
-      var h = "<div class='city-head'><b>" + esc(c.city) + "</b><span class='tag'>" + esc(c.tag) + "</span></div>";
-      h += "<div class='field'><b>支柱行业：</b>" + esc(c.industries.join("、")) + "</div>";
-      h += "<div class='field'><b>央国企代表：</b>" + esc(c.soc.join("、")) + "</div>";
-      h += "<div class='field'><b>外资企业代表：</b>" + esc(c.foreign.join("、")) + "</div>";
-      h += "<div class='field'><b>大厂/上市公司代表：</b>" + esc(c.listed.join("、")) + "</div>";
-      h += "<div class='field'><b>适合专业/方向：</b>" + esc(c.majors.join("、")) + "</div>";
-      h += "<div class='field'><b>特点：</b>" + esc(c.notes) + "</div>";
-      card.innerHTML = h;
-      list.appendChild(card);
-    });
+    var all = CITY_DATA || [];
+    var show = all;
+    if (filter) show = all.filter(function (c) { return majorRelevant(c.majors, m); });
+    if (meta) {
+      meta.textContent = filter
+        ? "（仅显示适合「" + m.name + "」的城市 " + show.length + "/" + all.length + " 个）"
+        : "（想转行 / 换城市的朋友参考）";
+    }
+    if (!show.length) {
+      list.appendChild(el("div", "empty-state", m
+        ? "暂未匹配到与「" + m.name + "」高度对口的城市，可点下方「查看全部」浏览 50 城。"
+        : "城市指南整理中。"));
+    } else {
+      show.forEach(function (c) {
+        var card = el("div", "city-card");
+        var h = "<div class='city-head'><b>" + esc(c.city) + "</b><span class='tag'>" + esc(c.tag) + "</span></div>";
+        h += "<div class='field'><b>支柱行业：</b>" + esc(c.industries.join("、")) + "</div>";
+        h += "<div class='field'><b>央国企代表：</b>" + esc(c.soc.join("、")) + "</div>";
+        h += "<div class='field'><b>外资企业代表：</b>" + esc(c.foreign.join("、")) + "</div>";
+        h += "<div class='field'><b>大厂/上市公司代表：</b>" + esc(c.listed.join("、")) + "</div>";
+        h += "<div class='field'><b>适合专业/方向：</b>" + esc(c.majors.join("、")) + "</div>";
+        h += "<div class='field'><b>特点：</b>" + esc(c.notes) + "</div>";
+        card.innerHTML = h;
+        list.appendChild(card);
+      });
+    }
+    if (m) {
+      var tb = el("div", "filter-toggle");
+      tb.innerHTML = filter
+        ? "<a href='javascript:void(0)' class='filter-link'>查看全部 " + all.length + " 城 →</a>"
+        : "<a href='javascript:void(0)' class='filter-link'>只显示与「" + m.name + "」相关 ↓</a>";
+      tb.querySelector(".filter-link").addEventListener("click", function () { cityFilter = !cityFilter; renderCities(); });
+      list.appendChild(tb);
+    }
   }
 
   function renderHire() {
-    $("#hireMeta").textContent = "（更新于 " + (HIRE.updatedAt || "") + "）";
+    var m = selectedMajor;
+    var filter = hireFilter && !!m;
+    var meta = $("#hireMeta");
     var list = $("#hireList");
+    if (!list) return;
     list.innerHTML = "";
-    if (!HIRE.items || !HIRE.items.length) {
-      list.appendChild(el("div", "empty-state", HIRE.note || "招录数据整理中。"));
-      return;
+    var all = HIRE.items || [];
+    var show = all;
+    if (filter) show = all.filter(function (it) { return majorRelevant(it.majors, m); });
+    if (meta) {
+      meta.textContent = filter
+        ? "（更新于 " + (HIRE.updatedAt || "") + " · 仅显示与「" + m.name + "」相关 " + show.length + "/" + all.length + " 条）"
+        : "（更新于 " + (HIRE.updatedAt || "") + "）";
     }
-    HIRE.items.forEach(function (it) {
-      var card = el("div", "weekly-item");
-      var h = "<div class='wi-company'><b>" + esc(it.unit) + "</b> <span class='tag'>" + esc(it.year || "") + " " + esc(it.kind || "") + "</span></div>";
-      if (it.count) h += "<div class='field'><b>拟录用人数：</b>" + esc(it.count) + "</div>";
-      if (it.detail) h += "<div class='field'><b>口径说明：</b>" + esc(it.detail) + "</div>";
-      if (it.url) h += "<div class='field'><b>来源：</b><a href='" + esc(it.url) + "' target='_blank' rel='noopener'>官方公示/公告</a></div>";
-      card.innerHTML = h;
-      list.appendChild(card);
-    });
+    if (!show.length) {
+      list.appendChild(el("div", "empty-state", m
+        ? "暂未收录与「" + m.name + "」直接相关的公司招录数据，可点下方「查看全部」参考各行业官方招录规模。"
+        : (HIRE.note || "招录数据整理中。")));
+    } else {
+      show.forEach(function (it) {
+        var card = el("div", "weekly-item");
+        var h = "<div class='wi-company'><b>" + esc(it.unit) + "</b> <span class='tag'>" + esc(it.year || "") + " " + esc(it.kind || "") + "</span></div>";
+        if (it.count) h += "<div class='field'><b>拟录用人数：</b>" + esc(it.count) + "</div>";
+        if (it.detail) h += "<div class='field'><b>口径说明：</b>" + esc(it.detail) + "</div>";
+        if (it.url) h += "<div class='field'><b>来源：</b><a href='" + esc(it.url) + "' target='_blank' rel='noopener'>官方公示/公告</a></div>";
+        card.innerHTML = h;
+        list.appendChild(card);
+      });
+    }
+    if (m) {
+      var tb = el("div", "filter-toggle");
+      tb.innerHTML = filter
+        ? "<a href='javascript:void(0)' class='filter-link'>查看全部 " + all.length + " 条 →</a>"
+        : "<a href='javascript:void(0)' class='filter-link'>只显示与「" + m.name + "」相关 ↓</a>";
+      tb.querySelector(".filter-link").addEventListener("click", function () { hireFilter = !hireFilter; renderHire(); });
+      list.appendChild(tb);
+    }
   }
 
   function renderWeekly() {
-    $("#weekLabel").textContent = "（" + (WEEKLY.weekLabel || "") + " · 更新于 " + (WEEKLY.updatedAt || "") + "）";
+    var m = selectedMajor;
+    var filter = weeklyFilter && !!m;
+    var meta = $("#weekLabel");
     var list = $("#weeklyList");
+    if (!list) return;
     list.innerHTML = "";
-    if (!WEEKLY.items || !WEEKLY.items.length) {
-      list.appendChild(el("div", "empty-state",
-        "本周更新内容正在整理中。\n上线后，这里会每周发布央国企、外资企业、上市公司大厂的公开招聘信息，包含岗位、专业要求、投递渠道和截止时间。"));
-      return;
+    var all = WEEKLY.items || [];
+    var show = all;
+    if (filter) show = all.filter(function (it) { return majorRelevant(it.majors, m); });
+    if (meta) {
+      meta.textContent = filter
+        ? "（" + (WEEKLY.weekLabel || "") + " · 仅显示与「" + m.name + "」相关 " + show.length + "/" + all.length + " 条）"
+        : "（" + (WEEKLY.weekLabel || "") + " · 更新于 " + (WEEKLY.updatedAt || "") + "）";
     }
-    WEEKLY.items.forEach(function (it) {
-      var card = el("div", "weekly-item");
-      var h = "<div class='wi-company'><b>" + esc(it.company) + "</b> <span class='tag'>" + esc(it.type || "") + "</span></div>";
-      h += "<div class='wi-pos'>" + esc(it.position || "") + "</div>";
-      if (it.majors) h += "<div class='field'><b>适用专业：</b>" + esc(it.majors.join("、")) + "</div>";
-      if (it.city) h += "<div class='field'><b>地点：</b>" + esc(it.city) + "</div>";
-      if (it.deadline) h += "<div class='field'><b>截止：</b>" + esc(it.deadline) + "</div>";
-      if (it.publishDate) h += "<div class='field'><b>发布时间：</b>" + esc(it.publishDate) + "</div>";
-      if (it.source) h += "<div class='field'><b>来源：</b>" + (it.url ? "<a href='" + esc(it.url) + "' target='_blank' rel='noopener'>" + esc(it.source) + "</a>" : esc(it.source)) + "</div>";
-      if (it.verified === false) h += "<div class='field'><b>核实状态：</b>核实中</div>";
-      card.innerHTML = h;
-      list.appendChild(card);
-    });
+    if (!show.length) {
+      list.appendChild(el("div", "empty-state", m
+        ? "本周暂未收录与「" + m.name + "」直接相关的招聘，可点下方「查看全部」浏览本周全部单位，或关注下周更新。"
+        : "本周更新内容正在整理中。\n上线后，这里会每周发布央国企、外资企业、上市公司大厂的公开招聘信息，包含岗位、专业要求、投递渠道和截止时间。"));
+    } else {
+      show.forEach(function (it) {
+        var card = el("div", "weekly-item");
+        var h = "<div class='wi-company'><b>" + esc(it.company) + "</b> <span class='tag'>" + esc(it.type || "") + "</span></div>";
+        h += "<div class='wi-pos'>" + esc(it.position || "") + "</div>";
+        if (it.majors) h += "<div class='field'><b>适用专业：</b>" + esc(it.majors.join("、")) + "</div>";
+        if (it.city) h += "<div class='field'><b>地点：</b>" + esc(it.city) + "</div>";
+        if (it.deadline) h += "<div class='field'><b>截止：</b>" + esc(it.deadline) + "</div>";
+        if (it.publishDate) h += "<div class='field'><b>发布时间：</b>" + esc(it.publishDate) + "</div>";
+        if (it.source) h += "<div class='field'><b>来源：</b>" + (it.url ? "<a href='" + esc(it.url) + "' target='_blank' rel='noopener'>" + esc(it.source) + "</a>" : esc(it.source)) + "</div>";
+        if (it.verified === false) h += "<div class='field'><b>核实状态：</b>核实中</div>";
+        card.innerHTML = h;
+        list.appendChild(card);
+      });
+    }
+    if (m) {
+      var tb = el("div", "filter-toggle");
+      tb.innerHTML = filter
+        ? "<a href='javascript:void(0)' class='filter-link'>查看全部 " + all.length + " 条 →</a>"
+        : "<a href='javascript:void(0)' class='filter-link'>只显示与「" + m.name + "」相关 ↓</a>";
+      tb.querySelector(".filter-link").addEventListener("click", function () { weeklyFilter = !weeklyFilter; renderWeekly(); });
+      list.appendChild(tb);
+    }
   }
 
   $("#levelChips").addEventListener("click", function (ev) {
@@ -407,8 +530,14 @@
     for (var i = 0; i < chips.length; i++) { chips[i].classList.remove("active"); }
     btn.classList.add("active");
     selectedMajor = null;
+    hireFilter = false;
+    weeklyFilter = false;
+    cityFilter = false;
     $("#result").classList.add("hidden");
     renderBrowser();
+    renderHire();
+    renderWeekly();
+    renderCities();
   });
 
   function doSearch(opt) {
