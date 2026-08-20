@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>本周更新 · 快找Z哥 & 大伟（官方招聘信息汇总）</title>
+<meta name="description" content="每周更新的央国企、外资企业、上市公司大厂公开招聘信息，含岗位、专业要求、投递渠道和截止时间。">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <div class="brand"><a href="../index.html" style="text-decoration:none;color:inherit;">◈ 快找Z哥 & 大伟 · 本周更新</a></div>
+    <nav class="nav">
+      <a href="index.html">查专业</a>
+      <a href="tool.html?level=undergrad">专业查询</a>
+      <a href="weekly.html">本周更新</a>
+      <a href="tool.html#about">数据说明</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container">
+    <h1>📅 本周招聘更新</h1>
+    <p class="hero-sub">只收录官方来源：央国企 / 外资企业 / 上市公司大厂，每条注明链接、发布时间与截止时间</p>
+    <div class="search-row">
+      <input id="searchInput" type="search" placeholder="搜索公司或岗位关键词，如：银行、铁路、管培生" autocomplete="off">
+    </div>
+    <div class="chips" id="levelChips" style="justify-content:center;margin-top:14px;">
+      <button class="chip active" data-lv="all">全部</button>
+      <button class="chip" data-lv="本科">本科</button>
+      <button class="chip" data-lv="专科">专科</button>
+      <button class="chip" data-lv="硕士">硕士</button>
+    </div>
+    <p class="demo-tip" id="weekMeta"></p>
+  </div>
+</section>
+
+<main class="container">
+  <section id="weekly" class="card">
+    <div id="weeklyList"></div>
+  </section>
+
+  <section id="about" class="card">
+    <h2 class="section-title">📚 数据说明</h2>
+    <ul class="about-list">
+      <li>招聘信息只收录官方来源（单位官网招聘平台、高校就业网核实的公告、国家大学生就业服务平台等），每条注明来源链接、发布时间与截止时间。</li>
+      <li>无法核实的信息不会发布；岗位与要求以各单位官方公告为准。</li>
+      <li>想按专业查询「当前可报企业」，去 <a href="tool.html" style="color:#22d3ee">专业查询</a> 选你的专业即可。</li>
+    </ul>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>快找Z哥 & 大伟 · 专业去向查询 · 每周更新 · 内容仅供参考，不构成求职建议</p>
+  </div>
+</footer>
+
+<script src="data/weekly.js"></script>
+<script>
+(function () {
+  "use strict";
+  var WEEKLY = window.WEEKLY_DATA || {};
+  var curLv = "all";
+  var q = "";
+
+  function $(sel) { return document.querySelector(sel); }
+  function esc(s) {
+    return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) {
+      return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c];
+    });
+  }
+  function el(tag, cls, html) { var e = document.createElement(tag); if (cls) e.className = cls; if (html !== undefined) e.innerHTML = html; return e; }
+
+  function levelMatch(lv, item) {
+    if (lv === "all") return true;
+    var L = (item.level || "") + (item.note || "");
+    if (L.indexOf("不限") >= 0 || !(item.level)) return true;
+    return L.indexOf(lv) >= 0;
+  }
+
+  function render() {
+    $("#weekMeta").textContent = "（" + (WEEKLY.weekLabel || "") + " · 更新于 " + (WEEKLY.updatedAt || "") + " · 共 " + (WEEKLY.items || []).length + " 条）";
+    var list = $("#weeklyList");
+    list.innerHTML = "";
+    var items = (WEEKLY.items || []).filter(function (it) {
+      var okLv = levelMatch(curLv, it);
+      var okQ = true;
+      if (q) {
+        var hay = ((it.company || "") + " " + (it.position || "") + " " + (it.majors || []).join(" ")).toLowerCase();
+        okQ = hay.indexOf(q) >= 0;
+      }
+      return okLv && okQ;
+    });
+    if (!items.length) {
+      list.appendChild(el("div", "empty-state", "没有匹配的招聘信息，换个关键词试试。"));
+      return;
+    }
+    items.forEach(function (it) {
+      var card = el("div", "weekly-item");
+      var h = "<div class='wi-company'><b>" + esc(it.company) + "</b> <span class='tag'>" + esc(it.type || "") + "</span></div>";
+      h += "<div class='wi-pos'>" + esc(it.position || "") + "</div>";
+      if (it.level) h += "<div class='field'><b>学历：</b>" + esc(it.level) + "</div>";
+      if (it.majors) h += "<div class='field'><b>适用专业：</b>" + esc(it.majors.join("、")) + "</div>";
+      if (it.city) h += "<div class='field'><b>地点：</b>" + esc(it.city) + "</div>";
+      if (it.deadline) h += "<div class='field'><b>截止：</b>" + esc(it.deadline) + "</div>";
+      if (it.publishDate) h += "<div class='field'><b>发布时间：</b>" + esc(it.publishDate) + "</div>";
+      if (it.source) h += "<div class='field'><b>来源：</b>" + (it.url ? "<a href='" + esc(it.url) + "' target='_blank' rel='noopener'>" + esc(it.source) + "</a>" : esc(it.source)) + "</div>";
+      if (it.note) h += "<div class='field'><b>说明：</b>" + esc(it.note) + "</div>";
+      if (it.verified === false) h += "<div class='field'><b>核实状态：</b>核实中</div>";
+      card.innerHTML = h;
+      list.appendChild(card);
+    });
+  }
+
+  $("#levelChips").addEventListener("click", function (ev) {
+    var btn = ev.target.closest ? ev.target.closest(".chip") : null;
+    if (!btn) return;
+    curLv = btn.getAttribute("data-lv");
+    document.querySelectorAll("#levelChips .chip").forEach(function (c) { c.classList.remove("active"); });
+    btn.classList.add("active");
+    render();
+  });
+  $("#searchInput").addEventListener("input", function () { q = ($("#searchInput").value || "").trim().toLowerCase(); render(); });
+  render();
+})();
+</script>
+</body>
+</html>

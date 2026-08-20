@@ -137,3 +137,5 @@ details.cat-group summary .cnt{color:var(--muted);font-weight:400;font-size:12px
 .filter-toggle{margin-top:14px;text-align:center;padding-bottom:4px}
 .filter-link{color:var(--primary);font-size:13px;text-decoration:none;border:1px solid rgba(34,211,238,.3);padding:5px 14px;border-radius:999px;display:inline-block;transition:background .15s}
 .filter-link:hover{background:rgba(34,211,238,.1)}
+
+.tag-new{background:rgba(16,185,129,.15);color:#34d399;border:1px solid rgba(16,185,129,.4);margin-left:4px}

@@ -19,7 +19,6 @@
   var selectedMajor = null;
   var selectedClass = null;
   var hireFilter = false;
-  var weeklyFilter = false;
   var cityFilter = false;
 
   var KW_ALIAS = {
@@ -267,11 +266,9 @@
   function selectMajor(m) {
     selectedMajor = m;
     hireFilter = true;
-    weeklyFilter = true;
     cityFilter = true;
     renderResult();
     renderHire();
-    renderWeekly();
     renderCities();
     $("#result").scrollIntoView({ behavior: "smooth", block: "start" });
   }
@@ -370,7 +367,8 @@
     var h = "<h3>📌 当前可报企业（" + (CURRENT.updatedAt || "") + " 更新）</h3>";
     list.forEach(function (it) {
       h += "<div class='current-item'>";
-      h += "<div class='current-company'><b>" + esc(it.company) + "</b> <span class='tag'>" + esc(it.position) + "</span></div>";
+      var isNew = (WEEKLY.items || []).some(function (w) { return w.company === it.company; });
+      h += "<div class='current-company'><b>" + esc(it.company) + "</b> <span class='tag'>" + esc(it.position) + "</span>" + (isNew ? " <span class='tag tag-new'>🆕 本周更新</span>" : "") + "</div>";
       h += "<div class='field'><b>状态：</b>" + esc(it.status) + (it.url ? " · <a href='" + esc(it.url) + "' target='_blank' rel='noopener'>官方入口</a>" : "") + "</div>";
       h += "</div>";
     });
@@ -478,50 +476,6 @@
     }
   }
 
-  function renderWeekly() {
-    var m = selectedMajor;
-    var filter = weeklyFilter && !!m;
-    var meta = $("#weekLabel");
-    var list = $("#weeklyList");
-    if (!list) return;
-    list.innerHTML = "";
-    var all = WEEKLY.items || [];
-    var show = all;
-    if (filter) show = all.filter(function (it) { return majorRelevant(it.majors, m); });
-    if (meta) {
-      meta.textContent = filter
-        ? "（" + (WEEKLY.weekLabel || "") + " · 仅显示与「" + m.name + "」相关 " + show.length + "/" + all.length + " 条）"
-        : "（" + (WEEKLY.weekLabel || "") + " · 更新于 " + (WEEKLY.updatedAt || "") + "）";
-    }
-    if (!show.length) {
-      list.appendChild(el("div", "empty-state", m
-        ? "本周暂未收录与「" + m.name + "」直接相关的招聘，可点下方「查看全部」浏览本周全部单位，或关注下周更新。"
-        : "本周更新内容正在整理中。\n上线后，这里会每周发布央国企、外资企业、上市公司大厂的公开招聘信息，包含岗位、专业要求、投递渠道和截止时间。"));
-    } else {
-      show.forEach(function (it) {
-        var card = el("div", "weekly-item");
-        var h = "<div class='wi-company'><b>" + esc(it.company) + "</b> <span class='tag'>" + esc(it.type || "") + "</span></div>";
-        h += "<div class='wi-pos'>" + esc(it.position || "") + "</div>";
-        if (it.majors) h += "<div class='field'><b>适用专业：</b>" + esc(it.majors.join("、")) + "</div>";
-        if (it.city) h += "<div class='field'><b>地点：</b>" + esc(it.city) + "</div>";
-        if (it.deadline) h += "<div class='field'><b>截止：</b>" + esc(it.deadline) + "</div>";
-        if (it.publishDate) h += "<div class='field'><b>发布时间：</b>" + esc(it.publishDate) + "</div>";
-        if (it.source) h += "<div class='field'><b>来源：</b>" + (it.url ? "<a href='" + esc(it.url) + "' target='_blank' rel='noopener'>" + esc(it.source) + "</a>" : esc(it.source)) + "</div>";
-        if (it.verified === false) h += "<div class='field'><b>核实状态：</b>核实中</div>";
-        card.innerHTML = h;
-        list.appendChild(card);
-      });
-    }
-    if (m) {
-      var tb = el("div", "filter-toggle");
-      tb.innerHTML = filter
-        ? "<a href='javascript:void(0)' class='filter-link'>查看全部 " + all.length + " 条 →</a>"
-        : "<a href='javascript:void(0)' class='filter-link'>只显示与「" + m.name + "」相关 ↓</a>";
-      tb.querySelector(".filter-link").addEventListener("click", function () { weeklyFilter = !weeklyFilter; renderWeekly(); });
-      list.appendChild(tb);
-    }
-  }
-
   $("#levelChips").addEventListener("click", function (ev) {
     var btn = ev.target.closest ? ev.target.closest(".chip") : null;
     if (!btn) return;
@@ -531,12 +485,10 @@
     btn.classList.add("active");
     selectedMajor = null;
     hireFilter = false;
-    weeklyFilter = false;
     cityFilter = false;
     $("#result").classList.add("hidden");
     renderBrowser();
     renderHire();
-    renderWeekly();
     renderCities();
   });
 
@@ -579,7 +531,6 @@
     }
   }
   renderBrowser();
-  renderWeekly();
   renderHire();
   renderCities();
 })();
