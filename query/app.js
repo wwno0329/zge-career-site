@@ -86,26 +86,21 @@
   function renderBrowser() {
     var box = $("#majorBrowser");
     box.innerHTML = "";
+    var resHide = $("#result");
+    if (resHide) resHide.classList.add("hidden");
     var q = ($("#searchInput").value || "").trim();
-    $("#browserHint").textContent = q ? "（显示匹配结果）" : "（点击展开浏览专业大类，再点进具体专业）";
+    $("#browserHint").textContent = q ? "（只显示匹配的专业，点击查看）" : "（点击展开浏览专业大类，或在上方输入专业名/代码搜索）";
 
-    if (q) {
-      var clsRes = [], majRes = [];
-      if (currentLevel !== "graduate") {
-        allClasses(currentLevel).forEach(function (c) {
-          if (c.name.toLowerCase().indexOf(q) >= 0 || c.cat.toLowerCase().indexOf(q) >= 0) clsRes.push(c);
-        });
-      }
-      majRes = searchMajors(q);
-      if (!clsRes.length && !majRes.length) {
-        box.appendChild(el("div", "empty-state", "没有找到相关专业，换个关键词试试，比如「计算机」「会计」「电气」。"));
+        if (q) {
+      var majRes = searchMajors(q);
+      if (!majRes.length) {
+        box.appendChild(el("div", "empty-state", "没有找到相关专业，换个关键词试试，比如「计算机」「会计」「电气」。" + (currentLevel === "graduate" ? "（硕士按学科门类/学科名称检索）" : "")));
         return;
       }
-      clsRes.slice(0, 12).forEach(function (c) { box.appendChild(classRow(c)); });
+      var sum = el("div", "search-summary");
+      sum.innerHTML = "🔎 为你找到 <b>" + majRes.length + "</b> 个专业" + (majRes.length > 40 ? "（显示前 40 个，可输入更具体的关键词）" : "，点击专业查看就业方向");
+      box.appendChild(sum);
       majRes.slice(0, 40).forEach(function (m) { box.appendChild(searchRow(m)); });
-      if (clsRes.length + majRes.length > 52) {
-        box.appendChild(el("div", "empty-state", "匹配较多，请输入更具体的关键词。"));
-      }
       return;
     }
 
@@ -416,10 +411,26 @@
     renderBrowser();
   });
 
-  $("#searchInput").addEventListener("input", renderBrowser);
-  $("#searchBtn").addEventListener("click", renderBrowser);
+  function doSearch(opt) {
+    opt = opt || {};
+    var q = ($("#searchInput").value || "").trim();
+    if (opt.jump && q) {
+      var exact = allMajors(currentLevel).filter(function (m) {
+        return m.name === q || String(m.code).toLowerCase() === q.toLowerCase();
+      });
+      if (exact.length === 1) { selectMajor(exact[0]); return; }
+    }
+    renderBrowser();
+    if (opt.scroll) {
+      var target = $("#majorBrowser");
+      if (target) target.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  }
+
+  $("#searchInput").addEventListener("input", function () { renderBrowser(); });
+  $("#searchBtn").addEventListener("click", function () { doSearch({ jump: true, scroll: true }); });
   $("#searchInput").addEventListener("keydown", function (ev) {
-    if (ev.key === "Enter") { ev.preventDefault(); renderBrowser(); }
+    if (ev.key === "Enter") { ev.preventDefault(); doSearch({ jump: true, scroll: true }); }
   });
 
   var lvlParam = (location.search.match(/level=([a-z]+)/) || [])[1];

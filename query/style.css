@@ -131,3 +131,5 @@ details.cat-group summary .cnt{color:var(--muted);font-weight:400;font-size:12px
 .current-item{border:1px solid rgba(16,185,129,.25);border-radius:8px;padding:8px 10px;margin-bottom:8px;background:rgba(255,255,255,.03)}
 .current-company{font-size:14px;margin-bottom:4px;color:#f1f5f9}
 .current-item a{color:#34d399}
+.search-summary{margin:10px 0 12px;padding:10px 14px;background:rgba(139,92,246,.08);border:1px solid rgba(139,92,246,.25);border-radius:10px;font-size:14px;color:var(--muted)}
+.search-summary b{color:var(--primary)}
