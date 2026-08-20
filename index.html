@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>快找Z哥 · 专业去向与职业规划</title>
+  <meta name="description" content="职业规划导师，专注为18-30岁的学生与职场人解答：专业好不好就业、毕业能去哪、哪个城市更适合你发展。抖音直播 + 1对1咨询。" />
+  <meta name="theme-color" content="#05070f" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='42' fill='none' stroke='%2322d3ee' stroke-width='8'/><circle cx='50' cy='50' r='7' fill='%238b5cf6'/></svg>" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- 背景装饰 -->
+  <div class="bg-glow" aria-hidden="true"></div>
+  <div class="bg-grid" aria-hidden="true"></div>
+  <canvas id="particles" aria-hidden="true"></canvas>
+
+  <!-- 导航栏 -->
+  <header class="nav" id="nav">
+    <div class="nav-inner container">
+      <a href="#hero" class="brand"><span class="brand-mark">◈</span> 快找Z哥</a>
+      <button class="nav-toggle" id="navToggle" aria-label="打开菜单" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav-links" id="navLinks">
+        <a href="#hero" class="nav-link active">首页</a>
+        <a href="#about" class="nav-link">服务</a>
+        <a href="#works" class="nav-link">内容</a>
+        <a href="#updates" class="nav-link">动态</a>
+        <a href="query/index.html" class="nav-link">专业查询</a>
+        <a href="#faq" class="nav-link">问答</a>
+        <a href="#fans" class="nav-link">留言墙</a>
+        <a href="#contact" class="nav-link">联系</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- Hero -->
+    <section class="hero" id="hero">
+      <div class="container hero-inner">
+        <div class="hero-avatar reveal">
+          <img src="assets/avatar.svg" alt="头像" />
+          <span class="hero-badge">1v1 可预约</span>
+        </div>
+        <p class="hero-greet reveal">你好，我是</p>
+        <h1 class="hero-name reveal">Z哥 <span class="gradient-text">Career Coach</span></h1>
+        <p class="hero-typing reveal"><span class="typed" id="typed"></span><span class="cursor">|</span></p>
+        <p class="hero-desc reveal">
+          职业规划导师，为 18-30 岁的学生与职场人指路。<br />
+          专业好不好就业、毕业能去哪、哪个城市适合你发展——在这里一次聊透。
+        </p>
+        <div class="hero-actions reveal">
+                    <a href="query/index.html" class="btn btn-tool">🎯 查专业去向 →</a>
+          <a href="#contact" class="btn btn-primary">预约 1v1 咨询 →</a>
+          <a href="#works" class="btn btn-ghost">看看我的内容</a>
+        </div>
+        <div class="hero-stats reveal">
+          <div class="stat"><strong>52w</strong><span>全网粉丝</span></div>
+          <div class="stat"><strong>3k+</strong><span>服务学员</span></div>
+          <div class="stat"><strong>200+</strong><span>直播场次</span></div>
+        </div>
+        <div class="hero-social reveal">
+          <a href="https://v.douyin.com/rWnWS1YYq30/" target="_blank" rel="noopener" aria-label="抖音" title="抖音">抖音</a>
+          <span class="soon" aria-label="视频号" title="视频号 · 即将上线">视频号 · 即将上线</span>
+          <span class="soon" aria-label="小红书" title="小红书 · 即将上线">小红书 · 即将上线</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- 服务 -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-tag">// SERVICES</span>
+          <h2>我能帮你什么</h2>
+          <p>三大核心板块，覆盖你从选专业到选城市的全过程</p>
+        </div>
+        <div class="about-grid">
+          <div class="about-card reveal">
+            <div class="about-icon">🎯</div>
+            <h3>专业就业解析</h3>
+            <p>这个专业好不好就业？就业方向有哪些？薪资天花板在哪？每个专业给你讲透。</p>
+            <a href="query/index.html" class="about-link">🎯 打开在线查询工具 →</a>
+          </div>
+          <div class="about-card reveal">
+            <div class="about-icon">🧭</div>
+            <h3>毕业去向规划</h3>
+            <p>考研、考公、就业还是留学？结合你的情况，帮你找到性价比最高的那条路。</p>
+            <a href="query/index.html" class="about-link">🎯 先查专业方向 →</a>
+          </div>
+          <div class="about-card reveal">
+            <div class="about-icon">🏙️</div>
+            <h3>城市发展分析</h3>
+            <p>去一线还是新一线？落户政策、薪资水平、行业结构、生活成本，全维度对比。</p>
+            <a href="query/tool.html#cities" class="about-link">🏙️ 打开城市指南 →</a>
+          </div>
+          <div class="about-card reveal">
+            <div class="about-icon">💼</div>
+            <h3>1v1 职业咨询</h3>
+            <p>简历优化、面试准备、转行评估、职业瓶颈突破，一对一深度沟通制定方案。</p>
+            <a href="#contact" class="about-link">💼 立即预约 →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 内容精选 -->
+    <section class="section section-alt" id="works">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-tag">// CONTENT</span>
+          <h2>内容精选</h2>
+          <p>抖音与直播里的高赞内容，这里整理成专栏方便你查看</p>
+        </div>
+        <div class="works-grid">
+          <article class="work-card reveal">
+            <div class="work-thumb" style="--t1:#22d3ee;--t2:#0ea5e9;"><span>📊</span></div>
+            <div class="work-info">
+              <h3>热门专业就业红黑榜</h3>
+              <p>盘点 30+ 热门专业真实就业情况，报志愿前必看。</p>
+              <div class="work-meta"><span>视频系列</span><span>持续更新</span></div>
+              <a class="work-link" href="content/hongheibang.html">阅读文字版 →</a>
+            </div>
+          </article>
+          <article class="work-card reveal">
+            <div class="work-thumb" style="--t1:#3b82f6;--t2:#8b5cf6;"><span>🏙️</span></div>
+            <div class="work-info">
+              <h3>毕业去哪个城市</h3>
+              <p>一线 vs 新一线全对比：薪资、落户、行业、生活成本。</p>
+              <div class="work-meta"><span>系列解析</span><span>2026.08</span></div>
+              <a class="work-link" href="content/chengshi.html">看城市速览 →</a>
+            </div>
+          </article>
+          <article class="work-card reveal">
+            <div class="work-thumb" style="--t1:#8b5cf6;--t2:#d946ef;"><span>🎙️</span></div>
+            <div class="work-info">
+              <h3>直播答疑精选</h3>
+              <p>每周直播答疑回放，同学们最关心的职业问题都在这里。</p>
+              <div class="work-meta"><span>直播回放</span><span>每周更新</span></div>
+              <a class="work-link" href="content/zhixun.html">看文字版 →</a>
+            </div>
+          </article>
+          <article class="work-card reveal">
+            <div class="work-thumb" style="--t1:#0ea5e9;--t2:#34d399;"><span>⚖️</span></div>
+            <div class="work-info">
+              <h3>考研 vs 就业，怎么选</h3>
+              <p>用决策框架帮你判断：你的情况到底该不该考研。</p>
+              <div class="work-meta"><span>决策指南</span><span>2026.07</span></div>
+              <a class="work-link" href="content/kaoyan.html">看决策框架 →</a>
+            </div>
+          </article>
+          <article class="work-card reveal">
+            <div class="work-thumb" style="--t1:#34d399;--t2:#22d3ee;"><span>📄</span></div>
+            <div class="work-info">
+              <h3>简历与面试避坑清单</h3>
+              <p>HR 视角的简历修改要点 + 面试高频问题满分回答。</p>
+              <div class="work-meta"><span>干货资料</span><span>可下载</span></div>
+              <a class="work-link" href="content/jianli.html">看避坑清单 →</a>
+            </div>
+          </article>
+          <article class="work-card reveal">
+            <div class="work-thumb" style="--t1:#f59e0b;--t2:#22d3ee;"><span>🧪</span></div>
+            <div class="work-info">
+              <h3>职业方向测评</h3>
+              <p>在线小工具：30 道题帮你定位适合自己的职业方向。</p>
+              <div class="work-meta"><span>免费工具</span><span>在线可用</span></div>
+              <a class="work-link" href="content/ceping.html">开始测试 →</a>
+            </div>
+          </article>
+          <article class="work-card reveal">
+            <div class="work-thumb" style="--t1:#f43f5e;--t2:#f59e0b;"><span>🗓️</span></div>
+            <div class="work-info">
+              <h3>2027 届秋招时间线</h3>
+              <p>什么时候该投？大厂/银行/央国企/烟草/国考全给你排好时间。</p>
+              <div class="work-meta"><span>求职指南</span><span>2026.08</span></div>
+              <a class="work-link" href="content/qiuzhao.html">看时间线 →</a>
+            </div>
+          </article>
+          <article class="work-card reveal">
+            <div class="work-thumb" style="--t1:#22d3ee;--t2:#8b5cf6;"><span>🎓</span></div>
+            <div class="work-info">
+              <h3>专科生专升本指南</h3>
+              <p>统招/自考/成考怎么选？什么时候考、考什么，一次讲清。</p>
+              <div class="work-meta"><span>升学指南</span><span>2026.08</span></div>
+              <a class="work-link" href="content/zhuanshengben.html">看指南 →</a>
+            </div>
+          </article>
+
+          <article class="work-card reveal">
+            <div class="work-thumb" style="--t1:#22d3ee;--t2:#f59e0b;"><span>🏢</span></div>
+            <div class="work-info">
+              <h3>央国企 vs 大厂，怎么选</h3>
+              <p>稳定与高薪的取舍：收入、加班、户口、晋升一张表讲透。</p>
+              <div class="work-meta"><span>决策指南</span><span>2026.08</span></div>
+              <a class="work-link" href="content/guoqi_dachang.html">看对比 →</a>
+            </div>
+          </article>
+          <article class="work-card reveal">
+            <div class="work-thumb" style="--t1:#34d399;--t2:#f43f5e;"><span>✍️</span></div>
+            <div class="work-info">
+              <h3>应届生签约避坑指南</h3>
+              <p>offer 到手别急着签：薪资结构、三方协议、试用期全避坑。</p>
+              <div class="work-meta"><span>干货资料</span><span>2026.08</span></div>
+              <a class="work-link" href="content/qianyue.html">看避坑清单 →</a>
+            </div>
+          </article>
+
+          <article class="work-card reveal">
+            <div class="work-thumb" style="--t1:#3b82f6;--t2:#22d3ee;"><span>🏦</span></div>
+            <div class="work-info">
+              <h3>银行秋招全流程指南</h3>
+              <p>六大行+股份制：网申、笔试、面试、签约全流程一次讲清。</p>
+              <div class="work-meta"><span>求职指南</span><span>2026.08</span></div>
+              <a class="work-link" href="content/yinhang.html">看指南 →</a>
+            </div>
+          </article>
+          <article class="work-card reveal">
+            <div class="work-thumb" style="--t1:#f43f5e;--t2:#8b5cf6;"><span>📋</span></div>
+            <div class="work-info">
+              <h3>考公科普：国考/省考/事业单位</h3>
+              <p>三者区别、时间线、谁适合考，应届生考公前必看。</p>
+              <div class="work-meta"><span>决策指南</span><span>2026.08</span></div>
+              <a class="work-link" href="content/gongkao.html">看科普 →</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 动态 -->
+    <section class="section" id="updates">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-tag">// UPDATES</span>
+          <h2>最新动态</h2>
+          <p>直播预告、新内容上线，第一时间同步给你</p>
+        </div>
+        <div class="timeline">
+          <div class="timeline-item reveal">
+            <span class="timeline-dot"></span>
+            <div class="timeline-card">
+              <span class="timeline-date">08.19</span>
+              <h3>直播预告：新一线城市就业分析 🎙️</h3>
+              <p>明晚 20:00 抖音直播，聊聊杭州、成都、武汉、长沙到底哪个更适合你。</p>
+            </div>
+          </div>
+          <div class="timeline-item reveal">
+            <span class="timeline-dot"></span>
+            <div class="timeline-card">
+              <span class="timeline-date">08.10</span>
+              <h3>新系列上线：《工科专业就业红黑榜》第 1 期 📊</h3>
+              <p>从真实就业数据出发，拆解计算机、电气、机械等专业的前景与坑。</p>
+            </div>
+          </div>
+          <div class="timeline-item reveal">
+            <span class="timeline-dot"></span>
+            <div class="timeline-card">
+              <span class="timeline-date">07.28</span>
+              <h3>个人网站正式上线 🌐</h3>
+              <p>以后所有干货资料、直播预告、往期内容都会在这里同步，方便你随时查看。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 高频问答 -->
+    <section class="section section-alt" id="faq">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-tag">// FAQ</span>
+          <h2>粉丝高频问题</h2>
+          <p>被问得最多的几个问题，先给你答案</p>
+        </div>
+        <div class="faq-list">
+          <div class="faq-item reveal">
+            <button class="faq-q" type="button">
+              <span>选专业到底要不要看就业率？</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-a"><p>要看，但不能只看。就业率是「当下市场」的信号，专业的天花板和可迁移性才是「未来」的信号。我的建议是三者结合：行业趋势 + 个人优势 + 兴趣匹配，只看就业率容易被短周期数据带偏。</p></div>
+          </div>
+          <div class="faq-item reveal">
+            <button class="faq-q" type="button">
+              <span>毕业去一线城市还是新一线城市？</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-a"><p>先问自己三个问题：你的行业在哪座城市最发达？你的家庭能给你多少启动支持？你想要的生活节奏是什么？一线给机会和上限，新一线给性价比和确定性。没有标准答案，但有标准分析方法。</p></div>
+          </div>
+          <div class="faq-item reveal">
+            <button class="faq-q" type="button">
+              <span>考研、考公、直接就业怎么选？</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-a"><p>关键看三条：你的专业在本科阶段是否足够就业、你考研的目的是学历还是逃避、你未来想进体制内还是市场。建议用「三年后我要什么样的生活」倒推，而不是跟风选。</p></div>
+          </div>
+          <div class="faq-item reveal">
+            <button class="faq-q" type="button">
+              <span>30 岁转行还来得及吗？</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-a"><p>来得及，但要有策略。30 岁转行的优势是阅历、抗压能力和职业素养，劣势是试错成本变高。我的建议是「骑驴找马」：在现有岗位上积累可迁移技能，用业余时间小成本验证新方向，而不是裸辞赌博。</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 留言墙 -->
+    <section class="section" id="fans">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-tag">// MESSAGES</span>
+          <h2>学员留言墙</h2>
+          <p>把你想问的问题留在这里，直播里我会挑着回答</p>
+        </div>
+
+        <div class="fan-form reveal">
+          <form id="fanForm" class="fan-form-inner">
+            <input type="text" id="fanName" placeholder="你的昵称（必填）" maxlength="20" required />
+            <textarea id="fanMsg" rows="3" placeholder="想对老师说的话 / 想问的问题（最多 120 字）" maxlength="120" required></textarea>
+            <button type="submit" class="btn btn-primary">提交留言 ✦</button>
+          </form>
+          <p class="form-tip">💡 留言会保存在你的浏览器里，刷新页面也不会丢哦</p>
+        </div>
+
+        <div class="fan-grid" id="fanGrid">
+          <!-- JS 动态渲染留言 -->
+        </div>
+      </div>
+    </section>
+
+    <!-- 联系 -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="contact-box reveal">
+          <h2>你的职业困惑，值得被认真回答</h2>
+          <p>关注我的抖音看直播答疑，或预约 1v1 深度咨询，我们好好聊聊你的方向。</p>
+          <div class="contact-social">
+            <a href="https://v.douyin.com/rWnWS1YYq30/" target="_blank" rel="noopener" class="btn btn-ghost">抖音 · 看直播</a>
+            <a href="mailto:425987691@qq.com?subject=%E9%A2%84%E7%BA%A61v1%E8%81%8C%E4%B8%9A%E5%92%A8%E8%AF%A2" class="btn btn-ghost">预约 1v1 咨询</a>
+            <span class="btn btn-ghost soon">小红书 · 即将上线</span>
+            <a href="mailto:425987691@qq.com" class="btn btn-ghost">✉️ 商务合作</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- 页脚 -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Z哥 · 职业规划导师 <span class="mono">// CAREER, BUT SMARTER</span></p>
+      <p class="footer-links"><a href="#hero">回到顶部 ↑</a></p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
+
+

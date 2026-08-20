@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>职业方向测评 · 快找Z哥</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+  <div class="top">
+    <a href="../index.html">← 返回主页</a>
+    <a href="../query/index.html">🎯 专业去向查询</a>
+  </div>
+  <h1>职业方向测评</h1>
+  <div class="meta">回答 5 个问题，帮你初步判断更适合「考公考编 / 央国企 / 考研 / 大厂外企 / 自由职业」哪个方向。结果仅供参考，不构成决策建议。</div>
+
+  <div class="quiz-wrap" id="quizWrap">
+    <div class="progress"><i id="progBar" style="width:0%"></i></div>
+    <div id="quizBody"></div>
+  </div>
+</div>
+<script>
+(function () {
+  var paths = {
+    gov: { name: "考公 / 考编", desc: "追求稳定、有编制。适合：专业对口公务员岗位（法学、汉语言、计算机、财会等）。提示：提前准备行测申论，关注国考省考与事业单位招考。" },
+    soc: { name: "央国企", desc: "稳定 + 待遇不错。适合：工科、财会、管理类专业。提示：关注「国聘网」和各单位校招，去查询工具看专业对口方向。" },
+    grad: { name: "考研深造", desc: "提升学历、换赛道。适合：医学/科研/研发类目标岗位，或本科就业面窄想升级。提示：想清楚目标再决定，二战成本高。" },
+    market: { name: "大厂 / 外企", desc: "收入上限高、成长快、竞争激烈。适合：计算机、市场、设计等实践型专业。提示：实习 + 项目 + 面试准备是敲门砖。" },
+    free: { name: "自由职业 / 创业", desc: "自我驱动、灵活。适合：设计、新媒体、内容、手艺人等。提示：先积累作品和客户，别裸辞硬转。" }
+  };
+  var questions = [
+    { q: "你的最高学历（或在读）是？", key: "edu", opts: [
+      { t: "专科", w: { gov: 2, soc: 2, market: 1 } },
+      { t: "本科", w: { market: 2, soc: 2, grad: 1 } },
+      { t: "硕士及以上", w: { market: 2, soc: 2, gov: 1, grad: 1 } }
+    ]},
+    { q: "你的专业更偏向哪一类？", key: "major", opts: [
+      { t: "理工 / 技术类（计算机、电子、机械等）", w: { market: 2, soc: 2, grad: 1 } },
+      { t: "经管 / 财经类（会计、金融、市场等）", w: { soc: 2, market: 1, gov: 1 } },
+      { t: "人文 / 社科类（法学、中文、新闻等）", w: { gov: 2, soc: 1, market: 1 } },
+      { t: "医学 / 教育类", w: { gov: 2, grad: 2, soc: 1 } },
+      { t: "艺术 / 设计类", w: { free: 2, market: 1 } },
+      { t: "不太确定", w: {} }
+    ]},
+    { q: "求职时你最看重什么？", key: "value", opts: [
+      { t: "稳定、有编制", w: { gov: 2, soc: 2 } },
+      { t: "收入上限高", w: { market: 2, free: 1 } },
+      { t: "成长速度快", w: { market: 2, grad: 1 } },
+      { t: "工作生活平衡", w: { soc: 1, gov: 1 } },
+      { t: "自由灵活", w: { free: 3 } }
+    ]},
+    { q: "你的性格更接近？", key: "person", opts: [
+      { t: "喜欢和人打交道", w: { gov: 1, market: 1, free: 1 } },
+      { t: "喜欢钻研技术 / 专业", w: { grad: 2, market: 1 } },
+      { t: "喜欢组织和协调", w: { soc: 2, gov: 1 } },
+      { t: "喜欢创造和表达", w: { free: 2, market: 1 } }
+    ]},
+    { q: "面对风险，你更倾向？", key: "risk", opts: [
+      { t: "求稳，能接受较低起薪", w: { gov: 2, soc: 2 } },
+      { t: "愿意冲一冲高薪", w: { market: 2, free: 1 } },
+      { t: "稳中求进", w: { soc: 1, market: 1, grad: 1 } }
+    ]}
+  ];
+  var idx = 0, scores = { gov: 0, soc: 0, grad: 0, market: 0, free: 0 };
+  var body = document.getElementById("quizBody");
+  var bar = document.getElementById("progBar");
+
+  function render() {
+    if (idx >= questions.length) return renderResult();
+    var q = questions[idx];
+    bar.style.width = Math.round(idx / questions.length * 100) + "%";
+    var h = "<div class='q-title'>" + (idx + 1) + " / " + questions.length + " · " + q.q + "</div>";
+    q.opts.forEach(function (o, oi) {
+      h += "<button class='q-opt' data-oi='" + oi + "'>" + o.t + "</button>";
+    });
+    body.innerHTML = h;
+    body.querySelectorAll(".q-opt").forEach(function (b) {
+      b.addEventListener("click", function () {
+        var o = q.opts[+b.getAttribute("data-oi")];
+        Object.keys(o.w).forEach(function (k) { scores[k] += o.w[k]; });
+        idx++;
+        render();
+      });
+    });
+  }
+
+  function renderResult() {
+    bar.style.width = "100%";
+    var order = Object.keys(scores).sort(function (a, b) { return scores[b] - scores[a]; });
+    var max = Math.max.apply(null, order.map(function (k) { return scores[k]; })) || 1;
+    var h = "<div class='q-title'>测评完成 🎉 你的方向参考（按匹配度排序）</div>";
+    order.forEach(function (k) {
+      var p = paths[k];
+      var pct = Math.round(scores[k] / max * 100);
+      h += "<div class='result-path'><h3>" + p.name + "</h3><div class='score-bar'><i style='width:" + Math.max(pct, 12) + "%'></i></div><p style='font-size:14px;margin:4px 0 0'>" + p.desc + "</p></div>";
+    });
+    h += "<div class='note'>以上为参考方向，建议结合：专业大类就业方向（查询工具）、城市选择（城市指南）、以及和家人/专业的人聊一聊。</div>";
+    h += "<a class='btn' href='../query/index.html'>🎯 查专业方向</a><a class='btn ghost' href='../query/tool.html#cities'>🏙️ 看城市指南</a><a class='btn ghost' href='../index.html#contact'>💼 预约 1v1</a>";
+    body.innerHTML = h;
+  }
+
+  render();
+})();
+</script>
+</body>
+</html>

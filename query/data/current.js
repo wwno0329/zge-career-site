@@ -1,0 +1,12912 @@
+window.CURRENT_DATA = {
+ "updatedAt": "2026-08-20",
+ "note": "按专业整理的「当前可报企业」（官方渠道+链接，每周更新）。状态含预计时间，以各单位官网公告为准。",
+ "majors": {
+  "undergrad:080601": [
+   {
+    "company": "国家电网",
+    "position": "2027届校招（提前批/第一批，电工类为主）",
+    "status": "提前批预计9月下旬启动；第一批11月中旬",
+    "url": "https://zhaopin.sgcc.com.cn"
+   },
+   {
+    "company": "国家能源集团",
+    "position": "2027届校招（电气/机械/能动/采矿等）",
+    "status": "2026春招已结束，关注秋招",
+    "url": "https://zhaopin.chnenergy.com.cn"
+   },
+   {
+    "company": "中国铁路局系统",
+    "position": "各局多批次招聘（大专/本科可报）",
+    "status": "各局陆续发布",
+    "url": "https://rczp.china-railway.com.cn"
+   },
+   {
+    "company": "比亚迪",
+    "position": "2026/2027届校招（电气/车辆/机械）",
+    "status": "官网持续开放",
+    "url": "https://job.byd.com"
+   },
+   {
+    "company": "蔚来",
+    "position": "2027届校招（电气/三电）",
+    "status": "技术提前批7/15-8/14",
+    "url": "https://campus.nio.com"
+   },
+   {
+    "company": "特斯拉中国",
+    "position": "2027届T-STAR（电气/能源）",
+    "status": "全年开放",
+    "url": "https://careers.tesla.cn"
+   },
+   {
+    "company": "小鹏汽车",
+    "position": "2027届探索者计划（三电）",
+    "status": "7月已启动",
+    "url": "https://xiaopeng.jobs.feishu.cn/campus"
+   },
+   {
+    "company": "小米",
+    "position": "2027届全球校招（软件/硬件/芯片等17+职类）",
+    "status": "8月10日已启动",
+    "url": "https://hr.xiaomi.com/campus"
+   },
+   {
+    "company": "中国电信",
+    "position": "2027年度校招（各省公司/专业子公司）",
+    "status": "8月24日起网申开放",
+    "url": "https://www.chinatelecom.com.cn/zp/"
+   },
+   {
+    "company": "中国电信·天翼云",
+    "position": "2027届超级优才/校招提前批",
+    "status": "7月已启动",
+    "url": "https://ctyun.hotjob.cn"
+   },
+   {
+    "company": "创维集团",
+    "position": "2027届校招（研发/制造等，约100人）",
+    "status": "8月17日已启动",
+    "url": "https://skyworth.hotjob.cn"
+   },
+   {
+    "company": "东风商用车",
+    "position": "2027届全球校招（车辆/机械/电气/自动化）",
+    "status": "8月17日已启动",
+    "url": "http://dfmc.hotjob.cn"
+   }
+  ],
+  "undergrad:080901": [
+   {
+    "company": "华为",
+    "position": "2026/2027届秋招（研发/AI/软件/硬件）",
+    "status": "秋招进行中",
+    "url": "https://career.huawei.com"
+   },
+   {
+    "company": "中国移动",
+    "position": "各省公司校招（技术类）",
+    "status": "各省陆续发布",
+    "url": "https://job.10086.cn"
+   },
+   {
+    "company": "中国银行",
+    "position": "信息科技类岗位",
+    "status": "秋招将启动",
+    "url": "https://www.boc.cn"
+   },
+   {
+    "company": "国家电网",
+    "position": "计算机类岗位",
+    "status": "提前批9月下旬",
+    "url": "https://zhaopin.sgcc.com.cn"
+   },
+   {
+    "company": "比亚迪",
+    "position": "研发/IT 岗位",
+    "status": "官网持续开放",
+    "url": "https://job.byd.com"
+   },
+   {
+    "company": "国考",
+    "position": "计算机类对口岗位",
+    "status": "公告预计10月，11月底笔试",
+    "url": "http://bm.scs.gov.cn"
+   },
+   {
+    "company": "招商银行·招银网络科技",
+    "position": "2027届秋招（后端/算法/测试）",
+    "status": "7月底已启动",
+    "url": "https://cmbnt.cmbchina.com"
+   },
+   {
+    "company": "网易游戏（互娱）",
+    "position": "2027届校招（游戏研发/策划/美术）",
+    "status": "7月21日网申开启",
+    "url": "https://campus.game.163.com"
+   },
+   {
+    "company": "拼多多",
+    "position": "2027届校招提前批（研发/产品）",
+    "status": "7月已启动",
+    "url": "https://careers.pddglobalhr.com/campus"
+   },
+   {
+    "company": "哔哩哔哩（B站）",
+    "position": "2027届秋招（全序列）",
+    "status": "8月3日已启动",
+    "url": "https://jobs.bilibili.com"
+   },
+   {
+    "company": "快手",
+    "position": "2027届秋招（技术/产品）",
+    "status": "8月12日已启动",
+    "url": "https://campus.kuaishou.cn"
+   },
+   {
+    "company": "海康威视",
+    "position": "2027届校招（研发/算法）",
+    "status": "超新星+正式批开放",
+    "url": "https://campushr.hikvision.com"
+   },
+   {
+    "company": "小红书",
+    "position": "2027届校招/实习（研发）",
+    "status": "实习生已启动",
+    "url": "https://campus.xiaohongshu.com"
+   },
+   {
+    "company": "腾讯",
+    "position": "2027届校招（技术/产品/市场/职能等）",
+    "status": "8月11日已启动",
+    "url": "https://join.qq.com"
+   },
+   {
+    "company": "字节跳动",
+    "position": "2027届秋招（研发/产品/运营/市场/职能等）",
+    "status": "8月3日已启动，12月31日截止",
+    "url": "https://jobs.bytedance.com"
+   },
+   {
+    "company": "京东",
+    "position": "2027届秋招（技术/产品/物流/职能等）",
+    "status": "8月17日已启动，11月30日截止",
+    "url": "https://campus.jd.com"
+   },
+   {
+    "company": "小米",
+    "position": "2027届全球校招（软件/硬件/芯片等17+职类）",
+    "status": "8月10日已启动",
+    "url": "https://hr.xiaomi.com/campus"
+   },
+   {
+    "company": "中国电信",
+    "position": "2027年度校招（各省公司/专业子公司）",
+    "status": "8月24日起网申开放",
+    "url": "https://www.chinatelecom.com.cn/zp/"
+   },
+   {
+    "company": "中国电信·天翼云",
+    "position": "2027届超级优才/校招提前批",
+    "status": "7月已启动",
+    "url": "https://ctyun.hotjob.cn"
+   },
+   {
+    "company": "用友",
+    "position": "2027届校招高潜人才计划（算法/工程/产品）",
+    "status": "8月7日-10月31日",
+    "url": "https://career.yonyou.com"
+   },
+   {
+    "company": "宁波银行·总行金融科技",
+    "position": "2027届总行金融科技定向生（约100人）",
+    "status": "8月中旬网申已开",
+    "url": "https://zhaopin.nbcb.com.cn"
+   },
+   {
+    "company": "顺丰科技",
+    "position": "2027届提前批",
+    "status": "8月17日已启动",
+    "url": "https://campus.sf-express.com"
+   },
+   {
+    "company": "创维集团",
+    "position": "2027届校招（研发/制造等，约100人）",
+    "status": "8月17日已启动",
+    "url": "https://skyworth.hotjob.cn"
+   }
+  ],
+  "undergrad:080902": [
+   {
+    "company": "华为",
+    "position": "2026/2027届秋招（软件开发）",
+    "status": "秋招进行中",
+    "url": "https://career.huawei.com"
+   },
+   {
+    "company": "中国移动",
+    "position": "各省公司校招（技术类）",
+    "status": "各省陆续发布",
+    "url": "https://job.10086.cn"
+   },
+   {
+    "company": "中国银行",
+    "position": "信息科技类岗位",
+    "status": "秋招将启动",
+    "url": "https://www.boc.cn"
+   },
+   {
+    "company": "比亚迪",
+    "position": "研发/IT 岗位",
+    "status": "官网持续开放",
+    "url": "https://job.byd.com"
+   },
+   {
+    "company": "国考",
+    "position": "计算机类对口岗位",
+    "status": "公告预计10月",
+    "url": "http://bm.scs.gov.cn"
+   },
+   {
+    "company": "招商银行·招银网络科技",
+    "position": "2027届秋招（后端/算法/测试）",
+    "status": "7月底已启动",
+    "url": "https://cmbnt.cmbchina.com"
+   },
+   {
+    "company": "网易游戏（互娱）",
+    "position": "2027届校招（游戏研发/策划/美术）",
+    "status": "7月21日网申开启",
+    "url": "https://campus.game.163.com"
+   },
+   {
+    "company": "拼多多",
+    "position": "2027届校招提前批（研发/产品）",
+    "status": "7月已启动",
+    "url": "https://careers.pddglobalhr.com/campus"
+   },
+   {
+    "company": "哔哩哔哩（B站）",
+    "position": "2027届秋招（全序列）",
+    "status": "8月3日已启动",
+    "url": "https://jobs.bilibili.com"
+   },
+   {
+    "company": "快手",
+    "position": "2027届秋招（技术/产品）",
+    "status": "8月12日已启动",
+    "url": "https://campus.kuaishou.cn"
+   },
+   {
+    "company": "海康威视",
+    "position": "2027届校招（软件开发）",
+    "status": "超新星+正式批开放",
+    "url": "https://campushr.hikvision.com"
+   },
+   {
+    "company": "腾讯",
+    "position": "2027届校招（技术/产品/市场/职能等）",
+    "status": "8月11日已启动",
+    "url": "https://join.qq.com"
+   },
+   {
+    "company": "字节跳动",
+    "position": "2027届秋招（研发/产品/运营/市场/职能等）",
+    "status": "8月3日已启动，12月31日截止",
+    "url": "https://jobs.bytedance.com"
+   },
+   {
+    "company": "京东",
+    "position": "2027届秋招（技术/产品/物流/职能等）",
+    "status": "8月17日已启动，11月30日截止",
+    "url": "https://campus.jd.com"
+   },
+   {
+    "company": "小米",
+    "position": "2027届全球校招（软件/硬件/芯片等17+职类）",
+    "status": "8月10日已启动",
+    "url": "https://hr.xiaomi.com/campus"
+   },
+   {
+    "company": "中国电信",
+    "position": "2027年度校招（各省公司/专业子公司）",
+    "status": "8月24日起网申开放",
+    "url": "https://www.chinatelecom.com.cn/zp/"
+   },
+   {
+    "company": "中国电信·天翼云",
+    "position": "2027届超级优才/校招提前批",
+    "status": "7月已启动",
+    "url": "https://ctyun.hotjob.cn"
+   },
+   {
+    "company": "用友",
+    "position": "2027届校招高潜人才计划（算法/工程/产品）",
+    "status": "8月7日-10月31日",
+    "url": "https://career.yonyou.com"
+   },
+   {
+    "company": "宁波银行·总行金融科技",
+    "position": "2027届总行金融科技定向生（约100人）",
+    "status": "8月中旬网申已开",
+    "url": "https://zhaopin.nbcb.com.cn"
+   },
+   {
+    "company": "顺丰科技",
+    "position": "2027届提前批",
+    "status": "8月17日已启动",
+    "url": "https://campus.sf-express.com"
+   },
+   {
+    "company": "创维集团",
+    "position": "2027届校招（研发/制造等，约100人）",
+    "status": "8月17日已启动",
+    "url": "https://skyworth.hotjob.cn"
+   }
+  ],
+  "undergrad:080701": [
+   {
+    "company": "华为",
+    "position": "2026/2027届秋招（硬件/嵌入式/通信）",
+    "status": "秋招进行中",
+    "url": "https://career.huawei.com"
+   },
+   {
+    "company": "比亚迪",
+    "position": "2026/2027届校招（电子/电气）",
+    "status": "官网持续开放",
+    "url": "https://job.byd.com"
+   },
+   {
+    "company": "中国移动",
+    "position": "各省公司校招（通信类）",
+    "status": "各省陆续发布",
+    "url": "https://job.10086.cn"
+   },
+   {
+    "company": "国家开发投资集团",
+    "position": "2026/2027校招（电子信息等专业）",
+    "status": "进行中",
+    "url": "https://sdic.iguopin.com"
+   },
+   {
+    "company": "vivo",
+    "position": "2027届校招（硬件/软件）",
+    "status": "8月10日已启动",
+    "url": "https://hr-campus.vivo.com"
+   },
+   {
+    "company": "中国铁塔",
+    "position": "2027届校招（通信运维）",
+    "status": "已开放",
+    "url": "https://zhaopin.chinatowercom.cn"
+   },
+   {
+    "company": "腾讯",
+    "position": "2027届校招（技术/产品/市场/职能等）",
+    "status": "8月11日已启动",
+    "url": "https://join.qq.com"
+   },
+   {
+    "company": "字节跳动",
+    "position": "2027届秋招（研发/产品/运营/市场/职能等）",
+    "status": "8月3日已启动，12月31日截止",
+    "url": "https://jobs.bytedance.com"
+   },
+   {
+    "company": "京东",
+    "position": "2027届秋招（技术/产品/物流/职能等）",
+    "status": "8月17日已启动，11月30日截止",
+    "url": "https://campus.jd.com"
+   },
+   {
+    "company": "小米",
+    "position": "2027届全球校招（软件/硬件/芯片等17+职类）",
+    "status": "8月10日已启动",
+    "url": "https://hr.xiaomi.com/campus"
+   },
+   {
+    "company": "中国电信",
+    "position": "2027年度校招（各省公司/专业子公司）",
+    "status": "8月24日起网申开放",
+    "url": "https://www.chinatelecom.com.cn/zp/"
+   },
+   {
+    "company": "中国电信·天翼云",
+    "position": "2027届超级优才/校招提前批",
+    "status": "7月已启动",
+    "url": "https://ctyun.hotjob.cn"
+   },
+   {
+    "company": "用友",
+    "position": "2027届校招高潜人才计划（算法/工程/产品）",
+    "status": "8月7日-10月31日",
+    "url": "https://career.yonyou.com"
+   },
+   {
+    "company": "宁波银行·总行金融科技",
+    "position": "2027届总行金融科技定向生（约100人）",
+    "status": "8月中旬网申已开",
+    "url": "https://zhaopin.nbcb.com.cn"
+   },
+   {
+    "company": "顺丰科技",
+    "position": "2027届提前批",
+    "status": "8月17日已启动",
+    "url": "https://campus.sf-express.com"
+   },
+   {
+    "company": "创维集团",
+    "position": "2027届校招（研发/制造等，约100人）",
+    "status": "8月17日已启动",
+    "url": "https://skyworth.hotjob.cn"
+   }
+  ],
+  "undergrad:120202": [
+   {
+    "company": "中国移动",
+    "position": "各省公司校招（市场类）",
+    "status": "各省陆续发布",
+    "url": "https://job.10086.cn"
+   },
+   {
+    "company": "比亚迪",
+    "position": "2026/2027届校招（市场/销售类）",
+    "status": "官网持续开放",
+    "url": "https://job.byd.com"
+   },
+   {
+    "company": "国考",
+    "position": "经济/管理类对口岗位",
+    "status": "公告预计10月",
+    "url": "http://bm.scs.gov.cn"
+   },
+   {
+    "company": "快消/零售外企",
+    "position": "管培生项目（宝洁/联合利华等）",
+    "status": "各公司官网陆续开放"
+   },
+   {
+    "company": "雀巢中国",
+    "position": "2027届校招（销售/市场管培）",
+    "status": "暑期实习进行中",
+    "url": "https://www.nestle.com.cn"
+   },
+   {
+    "company": "玛氏中国",
+    "position": "2027届管培生（销售/市场）",
+    "status": "陆续开放",
+    "url": "http://marscareer.51job.com"
+   },
+   {
+    "company": "加多宝",
+    "position": "2027届校招（销售/推广管培生）",
+    "status": "8月已启动",
+    "url": "https://jdbchina.zhiye.com"
+   },
+   {
+    "company": "恒安集团",
+    "position": "2027届千帆计划营销管培生（销售/市场）",
+    "status": "8月中下旬开放",
+    "url": "https://hr.hengan.com/recruit/2025/"
+   },
+   {
+    "company": "云南白药",
+    "position": "2027届销售培训生（南京等）",
+    "status": "8月已启动",
+    "url": "https://7w.ncss.cn/student/jobs/AhtFfpBBQeuyrrExUZgyJ4/detail.html"
+   },
+   {
+    "company": "京东·新锐之星",
+    "position": "2027届（物流储备/销售/职能/运维支持等，专科可报）",
+    "status": "8月17日已启动，11月30日截止",
+    "url": "https://campus.jd.com"
+   },
+   {
+    "company": "腾讯",
+    "position": "2027届校招（市场类/职能类）",
+    "status": "8月11日已启动",
+    "url": "https://join.qq.com"
+   },
+   {
+    "company": "字节跳动",
+    "position": "2027届秋招（市场/销售/运营）",
+    "status": "8月3日已启动",
+    "url": "https://jobs.bytedance.com"
+   },
+   {
+    "company": "小米",
+    "position": "2027届全球校招（市场/零售/职能）",
+    "status": "8月10日已启动",
+    "url": "https://hr.xiaomi.com/campus"
+   }
+  ],
+  "undergrad:120203K": [
+   {
+    "company": "中国银行",
+    "position": "综合/财会类岗位",
+    "status": "秋招将启动",
+    "url": "https://www.boc.cn"
+   },
+   {
+    "company": "国家开发投资集团",
+    "position": "2026/2027校招（金融学/工商管理类）",
+    "status": "进行中",
+    "url": "https://sdic.iguopin.com"
+   },
+   {
+    "company": "国考",
+    "position": "税务/审计等对口岗位",
+    "status": "公告预计10月",
+    "url": "http://bm.scs.gov.cn"
+   },
+   {
+    "company": "四大会计师事务所",
+    "position": "校招/寒假实习项目",
+    "status": "各所官网陆续开放"
+   },
+   {
+    "company": "中国农业银行",
+    "position": "2027届校招（总行+分行）",
+    "status": "公告预计9月上旬",
+    "url": "https://career.abchina.com.cn"
+   },
+   {
+    "company": "中国建设银行",
+    "position": "2027届校招（总行+分行）",
+    "status": "公告预计9月9日前后",
+    "url": "http://job.ccb.com"
+   },
+   {
+    "company": "交通银行",
+    "position": "2027届秋招（总行+分行）",
+    "status": "网申约9/5-10/12",
+    "url": "https://job.bankcomm.com"
+   },
+   {
+    "company": "中国人寿",
+    "position": "2027届校招（金融/保险）",
+    "status": "陆续开放",
+    "url": "https://www.chinalife.com.cn/chinalife/zhaopin"
+   },
+   {
+    "company": "普华永道",
+    "position": "2027届秋招（审计/税务）",
+    "status": "8月起在线申请",
+    "url": "https://www.pwccn.com/zh/careers/students.html"
+   },
+   {
+    "company": "德勤中国",
+    "position": "2027校招（审计/咨询）",
+    "status": "已启动",
+    "url": "https://www.deloitte.com/cn/zh/careers"
+   },
+   {
+    "company": "毕马威",
+    "position": "2027届秋招（审计/税务）",
+    "status": "8月4日启动",
+    "url": "https://www.kpmg.com/cn"
+   },
+   {
+    "company": "安永",
+    "position": "2027届校招（审计/咨询）",
+    "status": "陆续开放",
+    "url": "https://ey.hotjob.cn"
+   },
+   {
+    "company": "京东·新锐之星",
+    "position": "2027届（财务/人力/行政/销售等职能方向，专科可报）",
+    "status": "8月17日已启动，11月30日截止",
+    "url": "https://campus.jd.com"
+   },
+   {
+    "company": "京东",
+    "position": "2027届秋招（职能/财务/人力等）",
+    "status": "8月17日已启动",
+    "url": "https://campus.jd.com"
+   },
+   {
+    "company": "字节跳动",
+    "position": "2027届秋招（职能/销售/市场等）",
+    "status": "8月3日已启动",
+    "url": "https://jobs.bytedance.com"
+   },
+   {
+    "company": "腾讯",
+    "position": "2027届校招（职能/市场/设计类）",
+    "status": "8月11日已启动",
+    "url": "https://join.qq.com"
+   }
+  ],
+  "undergrad:020301K": [
+   {
+    "company": "中国银行",
+    "position": "综合/金融类岗位",
+    "status": "秋招将启动",
+    "url": "https://www.boc.cn"
+   },
+   {
+    "company": "国家开发投资集团",
+    "position": "2026/2027校招（金融学类）",
+    "status": "进行中",
+    "url": "https://sdic.iguopin.com"
+   },
+   {
+    "company": "国考",
+    "position": "金融监管/税务等对口岗位",
+    "status": "公告预计10月",
+    "url": "http://bm.scs.gov.cn"
+   },
+   {
+    "company": "国有大行/券商",
+    "position": "各行官网校招陆续开放",
+    "status": "秋招9-11月"
+   },
+   {
+    "company": "中国农业银行",
+    "position": "2027届校招（总行+分行）",
+    "status": "公告预计9月上旬",
+    "url": "https://career.abchina.com.cn"
+   },
+   {
+    "company": "中国建设银行",
+    "position": "2027届校招（总行+分行）",
+    "status": "公告预计9月9日前后",
+    "url": "http://job.ccb.com"
+   },
+   {
+    "company": "交通银行",
+    "position": "2027届秋招（总行+分行）",
+    "status": "网申约9/5-10/12",
+    "url": "https://job.bankcomm.com"
+   },
+   {
+    "company": "中国人寿",
+    "position": "2027届校招（金融/保险）",
+    "status": "陆续开放",
+    "url": "https://www.chinalife.com.cn/chinalife/zhaopin"
+   },
+   {
+    "company": "泰康保险集团",
+    "position": "2027届校招（金融/保险/精算/资管）",
+    "status": "陆续开放",
+    "url": "https://jobtaikang.zhiye.com"
+   }
+  ],
+  "undergrad:030101K": [
+   {
+    "company": "国考",
+    "position": "法检/税务/海关等法学对口岗位",
+    "status": "公告预计10月，11月底笔试",
+    "url": "http://bm.scs.gov.cn"
+   },
+   {
+    "company": "中国银行",
+    "position": "法务/合规类岗位",
+    "status": "秋招将启动",
+    "url": "https://www.boc.cn"
+   },
+   {
+    "company": "国家开发投资集团",
+    "position": "2026/2027校招（管理类，含法务）",
+    "status": "进行中",
+    "url": "https://sdic.iguopin.com"
+   },
+   {
+    "company": "金杜律师事务所",
+    "position": "2027届法律实习生（留用导向）",
+    "status": "长期开放",
+    "url": "https://www.kwm.com/cn/zh/careers/graduates/graduates-china.html"
+   },
+   {
+    "company": "字节跳动",
+    "position": "2027届秋招（法务/合规）",
+    "status": "8月3日已启动",
+    "url": "https://jobs.bytedance.com"
+   },
+   {
+    "company": "腾讯",
+    "position": "2027届校招（法务/合规）",
+    "status": "8月11日已启动",
+    "url": "https://join.qq.com"
+   }
+  ],
+  "undergrad:050101": [
+   {
+    "company": "国考",
+    "position": "中文类对口岗位（文秘/宣传/党建）",
+    "status": "公告预计10月",
+    "url": "http://bm.scs.gov.cn"
+   },
+   {
+    "company": "中国移动",
+    "position": "各省公司校招（综合/市场类）",
+    "status": "各省陆续发布",
+    "url": "https://job.10086.cn"
+   },
+   {
+    "company": "各省教师招聘",
+    "position": "语文教师（考编）",
+    "status": "各省公告陆续发布（关注当地人社局）"
+   },
+   {
+    "company": "新东方",
+    "position": "2027届校招（语文教师/教研）",
+    "status": "7月底已启动",
+    "url": "https://zhaopin.xdf.cn"
+   },
+   {
+    "company": "字节跳动",
+    "position": "2027届秋招（内容运营/文案）",
+    "status": "8月3日已启动",
+    "url": "https://jobs.bytedance.com"
+   },
+   {
+    "company": "腾讯",
+    "position": "2027届校招（内容/市场）",
+    "status": "8月11日已启动",
+    "url": "https://join.qq.com"
+   }
+  ],
+  "undergrad:080202": [
+   {
+    "company": "比亚迪",
+    "position": "2026/2027届校招（机械/结构/工艺）",
+    "status": "官网持续开放",
+    "url": "https://job.byd.com"
+   },
+   {
+    "company": "国家能源集团",
+    "position": "2027届校招（机械类）",
+    "status": "关注秋招",
+    "url": "https://zhaopin.chnenergy.com.cn"
+   },
+   {
+    "company": "中国铁路局系统",
+    "position": "各局多批次招聘（机械/车辆）",
+    "status": "各局陆续发布",
+    "url": "https://rczp.china-railway.com.cn"
+   },
+   {
+    "company": "国家开发投资集团",
+    "position": "2026/2027校招（机械类）",
+    "status": "进行中",
+    "url": "https://sdic.iguopin.com"
+   },
+   {
+    "company": "蔚来",
+    "position": "2027届校招（机械/制造）",
+    "status": "技术提前批7/15-8/14",
+    "url": "https://campus.nio.com"
+   },
+   {
+    "company": "小鹏汽车",
+    "position": "2027届探索者计划（机械）",
+    "status": "7月已启动",
+    "url": "https://xiaopeng.jobs.feishu.cn/campus"
+   },
+   {
+    "company": "理想汽车",
+    "position": "2027届校招（机械/制造）",
+    "status": "8月已启动",
+    "url": "https://www.lixiang.com"
+   },
+   {
+    "company": "小米",
+    "position": "2027届全球校招（软件/硬件/芯片等17+职类）",
+    "status": "8月10日已启动",
+    "url": "https://hr.xiaomi.com/campus"
+   },
+   {
+    "company": "创维集团",
+    "position": "2027届校招（研发/制造等，约100人）",
+    "status": "8月17日已启动",
+    "url": "https://skyworth.hotjob.cn"
+   },
+   {
+    "company": "东风商用车",
+    "position": "2027届全球校招（车辆/机械/电气/自动化）",
+    "status": "8月17日已启动",
+    "url": "http://dfmc.hotjob.cn"
+   }
+  ],
+  "undergrad:101101K": [
+   {
+    "company": "各省医院/卫健委",
+    "position": "护士岗位（事业编/备案制）",
+    "status": "各省公告陆续发布"
+   },
+   {
+    "company": "泰康等康养集团",
+    "position": "护理/健康管理岗",
+    "status": "官网招聘陆续开放",
+    "url": "https://www.taikang.com"
+   },
+   {
+    "company": "外资医院/国际护理项目",
+    "position": "护士（含国际外派）",
+    "status": "各机构官网发布"
+   },
+   {
+    "company": "泰康之家",
+    "position": "2027届（护士/医技/医务）",
+    "status": "实习生计划进行中",
+    "url": "https://jobtaikang.zhiye.com"
+   },
+   {
+    "company": "爱尔眼科",
+    "position": "2027届（眼科护理/门诊护理）",
+    "status": "各院区持续招聘",
+    "url": "https://www.aierchina.com"
+   }
+  ],
+  "undergrad:100201K": [
+   {
+    "company": "各省医院/卫健委",
+    "position": "临床岗位（规培+考编）",
+    "status": "各省公告陆续发布（关注当地卫健委/人社局）"
+   },
+   {
+    "company": "医药外企医学部",
+    "position": "医学事务/临床研究（需硕士+）",
+    "status": "各药企官网陆续开放"
+   },
+   {
+    "company": "泰康之家",
+    "position": "2027届（医生/医技/医务）",
+    "status": "实习生计划已启动，秋招陆续开放",
+    "url": "https://jobtaikang.zhiye.com"
+   },
+   {
+    "company": "爱尔眼科",
+    "position": "2027届（眼科临床医师）",
+    "status": "各院区持续招聘",
+    "url": "https://www.aierchina.com"
+   },
+   {
+    "company": "恒瑞医药",
+    "position": "2027届（医学信息/临床监查）",
+    "status": "5月起招募，可直通校招提前批",
+    "url": "https://www.hengrui.com"
+   }
+  ],
+  "undergrad:080717T": [
+   {
+    "company": "华为",
+    "position": "2026/2027届秋招（AI/算法）",
+    "status": "秋招进行中",
+    "url": "https://career.huawei.com"
+   },
+   {
+    "company": "中国移动",
+    "position": "各省公司校招（AI/大数据）",
+    "status": "各省陆续发布",
+    "url": "https://job.10086.cn"
+   },
+   {
+    "company": "比亚迪",
+    "position": "研发/AI 岗位",
+    "status": "官网持续开放",
+    "url": "https://job.byd.com"
+   },
+   {
+    "company": "招商银行·招银网络科技",
+    "position": "2027届秋招（后端/算法/测试）",
+    "status": "7月底已启动",
+    "url": "https://cmbnt.cmbchina.com"
+   },
+   {
+    "company": "网易游戏（互娱）",
+    "position": "2027届校招（游戏研发/策划/美术）",
+    "status": "7月21日网申开启",
+    "url": "https://campus.game.163.com"
+   },
+   {
+    "company": "拼多多",
+    "position": "2027届校招提前批（研发/产品）",
+    "status": "7月已启动",
+    "url": "https://careers.pddglobalhr.com/campus"
+   },
+   {
+    "company": "哔哩哔哩（B站）",
+    "position": "2027届秋招（全序列）",
+    "status": "8月3日已启动",
+    "url": "https://jobs.bilibili.com"
+   },
+   {
+    "company": "快手",
+    "position": "2027届秋招（技术/产品）",
+    "status": "8月12日已启动",
+    "url": "https://campus.kuaishou.cn"
+   },
+   {
+    "company": "腾讯",
+    "position": "2027届校招（技术/产品/市场/职能等）",
+    "status": "8月11日已启动",
+    "url": "https://join.qq.com"
+   },
+   {
+    "company": "字节跳动",
+    "position": "2027届秋招（研发/产品/运营/市场/职能等）",
+    "status": "8月3日已启动，12月31日截止",
+    "url": "https://jobs.bytedance.com"
+   },
+   {
+    "company": "京东",
+    "position": "2027届秋招（技术/产品/物流/职能等）",
+    "status": "8月17日已启动，11月30日截止",
+    "url": "https://campus.jd.com"
+   },
+   {
+    "company": "小米",
+    "position": "2027届全球校招（软件/硬件/芯片等17+职类）",
+    "status": "8月10日已启动",
+    "url": "https://hr.xiaomi.com/campus"
+   },
+   {
+    "company": "中国电信",
+    "position": "2027年度校招（各省公司/专业子公司）",
+    "status": "8月24日起网申开放",
+    "url": "https://www.chinatelecom.com.cn/zp/"
+   },
+   {
+    "company": "中国电信·天翼云",
+    "position": "2027届超级优才/校招提前批",
+    "status": "7月已启动",
+    "url": "https://ctyun.hotjob.cn"
+   },
+   {
+    "company": "用友",
+    "position": "2027届校招高潜人才计划（算法/工程/产品）",
+    "status": "8月7日-10月31日",
+    "url": "https://career.yonyou.com"
+   },
+   {
+    "company": "宁波银行·总行金融科技",
+    "position": "2027届总行金融科技定向生（约100人）",
+    "status": "8月中旬网申已开",
+    "url": "https://zhaopin.nbcb.com.cn"
+   },
+   {
+    "company": "顺丰科技",
+    "position": "2027届提前批",
+    "status": "8月17日已启动",
+    "url": "https://campus.sf-express.com"
+   },
+   {
+    "company": "创维集团",
+    "position": "2027届校招（研发/制造等，约100人）",
+    "status": "8月17日已启动",
+    "url": "https://skyworth.hotjob.cn"
+   }
+  ],
+  "undergrad:080903": [
+   {
+    "company": "中国移动",
+    "position": "各省公司校招（网络/技术类）",
+    "status": "各省陆续发布",
+    "url": "https://job.10086.cn"
+   },
+   {
+    "company": "华为",
+    "position": "2026/2027届秋招（网络/ICT）",
+    "status": "秋招进行中",
+    "url": "https://career.huawei.com"
+   },
+   {
+    "company": "中国铁路局系统",
+    "position": "各局多批次招聘",
+    "status": "各局陆续发布",
+    "url": "https://rczp.china-railway.com.cn"
+   },
+   {
+    "company": "招商银行·招银网络科技",
+    "position": "2027届秋招（后端/算法/测试）",
+    "status": "7月底已启动",
+    "url": "https://cmbnt.cmbchina.com"
+   },
+   {
+    "company": "网易游戏（互娱）",
+    "position": "2027届校招（游戏研发/策划/美术）",
+    "status": "7月21日网申开启",
+    "url": "https://campus.game.163.com"
+   },
+   {
+    "company": "拼多多",
+    "position": "2027届校招提前批（研发/产品）",
+    "status": "7月已启动",
+    "url": "https://careers.pddglobalhr.com/campus"
+   },
+   {
+    "company": "哔哩哔哩（B站）",
+    "position": "2027届秋招（全序列）",
+    "status": "8月3日已启动",
+    "url": "https://jobs.bilibili.com"
+   },
+   {
+    "company": "快手",
+    "position": "2027届秋招（技术/产品）",
+    "status": "8月12日已启动",
+    "url": "https://campus.kuaishou.cn"
+   },
+   {
+    "company": "腾讯",
+    "position": "2027届校招（技术/产品/市场/职能等）",
+    "status": "8月11日已启动",
+    "url": "https://join.qq.com"
+   },
+   {
+    "company": "字节跳动",
+    "position": "2027届秋招（研发/产品/运营/市场/职能等）",
+    "status": "8月3日已启动，12月31日截止",
+    "url": "https://jobs.bytedance.com"
+   },
+   {
+    "company": "京东",
+    "position": "2027届秋招（技术/产品/物流/职能等）",
+    "status": "8月17日已启动，11月30日截止",
+    "url": "https://campus.jd.com"
+   },
+   {
+    "company": "小米",
+    "position": "2027届全球校招（软件/硬件/芯片等17+职类）",
+    "status": "8月10日已启动",
+    "url": "https://hr.xiaomi.com/campus"
+   },
+   {
+    "company": "中国电信",
+    "position": "2027年度校招（各省公司/专业子公司）",
+    "status": "8月24日起网申开放",
+    "url": "https://www.chinatelecom.com.cn/zp/"
+   },
+   {
+    "company": "中国电信·天翼云",
+    "position": "2027届超级优才/校招提前批",
+    "status": "7月已启动",
+    "url": "https://ctyun.hotjob.cn"
+   },
+   {
+    "company": "用友",
+    "position": "2027届校招高潜人才计划（算法/工程/产品）",
+    "status": "8月7日-10月31日",
+    "url": "https://career.yonyou.com"
+   },
+   {
+    "company": "宁波银行·总行金融科技",
+    "position": "2027届总行金融科技定向生（约100人）",
+    "status": "8月中旬网申已开",
+    "url": "https://zhaopin.nbcb.com.cn"
+   },
+   {
+    "company": "顺丰科技",
+    "position": "2027届提前批",
+    "status": "8月17日已启动",
+    "url": "https://campus.sf-express.com"
+   },
+   {
+    "company": "创维集团",
+    "position": "2027届校招（研发/制造等，约100人）",
+    "status": "8月17日已启动",
+    "url": "https://skyworth.hotjob.cn"
+   }
+  ],
+  "undergrad:080904K": [
+   {
+    "company": "华为",
+    "position": "2026/2027届秋招（安全类）",
+    "status": "秋招进行中",
+    "url": "https://career.huawei.com"
+   },
+   {
+    "company": "中国移动",
+    "position": "各省公司校招（网络安全）",
+    "status": "各省陆续发布",
+    "url": "https://job.10086.cn"
+   },
+   {
+    "company": "国考",
+    "position": "公安网安等对口岗位",
+    "status": "公告预计10月",
+    "url": "http://bm.scs.gov.cn"
+   },
+   {
+    "company": "招商银行·招银网络科技",
+    "position": "2027届秋招（后端/算法/测试）",
+    "status": "7月底已启动",
+    "url": "https://cmbnt.cmbchina.com"
+   },
+   {
+    "company": "网易游戏（互娱）",
+    "position": "2027届校招（游戏研发/策划/美术）",
+    "status": "7月21日网申开启",
+    "url": "https://campus.game.163.com"
+   },
+   {
+    "company": "拼多多",
+    "position": "2027届校招提前批（研发/产品）",
+    "status": "7月已启动",
+    "url": "https://careers.pddglobalhr.com/campus"
+   },
+   {
+    "company": "哔哩哔哩（B站）",
+    "position": "2027届秋招（全序列）",
+    "status": "8月3日已启动",
+    "url": "https://jobs.bilibili.com"
+   },
+   {
+    "company": "快手",
+    "position": "2027届秋招（技术/产品）",
+    "status": "8月12日已启动",
+    "url": "https://campus.kuaishou.cn"
+   },
+   {
+    "company": "腾讯",
+    "position": "2027届校招（技术/产品/市场/职能等）",
+    "status": "8月11日已启动",
+    "url": "https://join.qq.com"
+   },
+   {
+    "company": "字节跳动",
+    "position": "2027届秋招（研发/产品/运营/市场/职能等）",
+    "status": "8月3日已启动，12月31日截止",
+    "url": "https://jobs.bytedance.com"
+   },
+   {
+    "company": "京东",
+    "position": "2027届秋招（技术/产品/物流/职能等）",
+    "status": "8月17日已启动，11月30日截止",
+    "url": "https://campus.jd.com"
+   },
+   {
+    "company": "小米",
+    "position": "2027届全球校招（软件/硬件/芯片等17+职类）",
+    "status": "8月10日已启动",
+    "url": "https://hr.xiaomi.com/campus"
+   },
+   {
+    "company": "中国电信",
+    "position": "2027年度校招（各省公司/专业子公司）",
+    "status": "8月24日起网申开放",
+    "url": "https://www.chinatelecom.com.cn/zp/"
+   },
+   {
+    "company": "中国电信·天翼云",
+    "position": "2027届超级优才/校招提前批",
+    "status": "7月已启动",
+    "url": "https://ctyun.hotjob.cn"
+   },
+   {
+    "company": "用友",
+    "position": "2027届校招高潜人才计划（算法/工程/产品）",
+    "status": "8月7日-10月31日",
+    "url": "https://career.yonyou.com"
+   },
+   {
+    "company": "宁波银行·总行金融科技",
+    "position": "2027届总行金融科技定向生（约100人）",
+    "status": "8月中旬网申已开",
+    "url": "https://zhaopin.nbcb.com.cn"
+   },
+   {
+    "company": "顺丰科技",
+    "position": "2027届提前批",
+    "status": "8月17日已启动",
+    "url": "https://campus.sf-express.com"
+   },
+   {
+    "company": "创维集团",
+    "position": "2027届校招（研发/制造等，约100人）",
+    "status": "8月17日已启动",
+    "url": "https://skyworth.hotjob.cn"
+   }
+  ],
+  "undergrad:040106": [
+   {
+    "company": "各省教师招聘",
+    "position": "学前教育（幼师考编）",
+    "status": "各省公告陆续发布（关注当地人社局/教育局）"
+   },
+   {
+    "company": "托育/幼教集团",
+    "position": "幼师/教研岗",
+    "status": "各机构官网发布"
+   },
+   {
+    "company": "新东方",
+    "position": "2027届校招（少儿素养/教师岗）",
+    "status": "7月底已启动",
+    "url": "https://zhaopin.xdf.cn"
+   },
+   {
+    "company": "学而思",
+    "position": "2027届校招（素养教师/启蒙方向）",
+    "status": "7月已启动",
+    "url": "https://www.xueersi.com"
+   },
+   {
+    "company": "各省公办幼儿园",
+    "position": "幼师考编/合同制",
+    "status": "关注当地教育局/人社局公告",
+    "url": "https://bm.scs.gov.cn"
+   },
+   {
+    "company": "泰康之家",
+    "position": "2027届校招（康养/教育延伸岗）",
+    "status": "8月陆续开放",
+    "url": "https://jobtaikang.zhiye.com"
+   }
+  ],
+  "undergrad:100701": [
+   {
+    "company": "国药集团/华润医药",
+    "position": "药学/质量/研发岗",
+    "status": "官网招聘陆续开放"
+   },
+   {
+    "company": "医院药房",
+    "position": "药师/调剂（考编）",
+    "status": "各省公告陆续发布"
+   },
+   {
+    "company": "药明康德等 CRO",
+    "position": "临床协调/质量（本科可报）",
+    "status": "官网招聘开放",
+    "url": "https://www.wuxiapptec.com"
+   },
+   {
+    "company": "恒瑞医药",
+    "position": "2027届实习生/校招（研发/生产/医药信息）",
+    "status": "5月起招募，可直通提前批",
+    "url": "https://www.hengrui.com"
+   },
+   {
+    "company": "广药集团",
+    "position": "2027届（研发/QA/QC/营销）",
+    "status": "官网招聘开放",
+    "url": "https://www.gpc.com.cn"
+   },
+   {
+    "company": "华润三九",
+    "position": "2026/2027届（营销管培/医药信息顾问）",
+    "status": "持续招聘",
+    "url": "https://wecruit.hotjob.cn/SU613834ecbef57c3b6383b50e/pb/school.html"
+   }
+  ],
+  "undergrad:120801": [
+   {
+    "company": "中国移动",
+    "position": "各省公司校招（市场/运营类）",
+    "status": "各省陆续发布",
+    "url": "https://job.10086.cn"
+   },
+   {
+    "company": "比亚迪",
+    "position": "市场/电商类岗位",
+    "status": "官网持续开放",
+    "url": "https://job.byd.com"
+   },
+   {
+    "company": "各电商平台/品牌",
+    "position": "运营/直播/数据分析",
+    "status": "各公司官网陆续开放"
+   },
+   {
+    "company": "京东",
+    "position": "2027届秋招（电商/产品/运营）",
+    "status": "8月17日已启动",
+    "url": "https://campus.jd.com"
+   },
+   {
+    "company": "京东·新锐之星",
+    "position": "2027届（物流储备/销售/职能/运维支持等，专科可报）",
+    "status": "8月17日已启动，11月30日截止",
+    "url": "https://campus.jd.com"
+   },
+   {
+    "company": "字节跳动",
+    "position": "2027届秋招（电商/运营/产品）",
+    "status": "8月3日已启动",
+    "url": "https://jobs.bytedance.com"
+   },
+   {
+    "company": "腾讯",
+    "position": "2027届校招（产品/市场）",
+    "status": "8月11日已启动",
+    "url": "https://join.qq.com"
+   }
+  ],
+  "zhuanke:510202": [
+   {
+    "company": "中国移动",
+    "position": "各省公司校招（部分岗位大专可报）",
+    "status": "各省陆续发布",
+    "url": "https://job.10086.cn"
+   },
+   {
+    "company": "中国铁路局系统",
+    "position": "各局多批次招聘（大专可报一线岗）",
+    "status": "各局陆续发布",
+    "url": "https://rczp.china-railway.com.cn"
+   },
+   {
+    "company": "IT服务/政企信息化企业",
+    "position": "网络运维/技术支持",
+    "status": "各企业官网招聘"
+   },
+   {
+    "company": "招商银行·招银网络科技",
+    "position": "2027届秋招（后端/算法/测试）",
+    "status": "7月底已启动",
+    "url": "https://cmbnt.cmbchina.com"
+   },
+   {
+    "company": "网易游戏（互娱）",
+    "position": "2027届校招（游戏研发/策划/美术）",
+    "status": "7月21日网申开启",
+    "url": "https://campus.game.163.com"
+   },
+   {
+    "company": "拼多多",
+    "position": "2027届校招提前批（研发/产品）",
+    "status": "7月已启动",
+    "url": "https://careers.pddglobalhr.com/campus"
+   },
+   {
+    "company": "哔哩哔哩（B站）",
+    "position": "2027届秋招（全序列）",
+    "status": "8月3日已启动",
+    "url": "https://jobs.bilibili.com"
+   },
+   {
+    "company": "快手",
+    "position": "2027届秋招（技术/产品）",
+    "status": "8月12日已启动",
+    "url": "https://campus.kuaishou.cn"
+   },
+   {
+    "company": "京东·新锐之星",
+    "position": "2027届（物流储备/销售/职能/运维支持等，专科可报）",
+    "status": "8月17日已启动，11月30日截止",
+    "url": "https://campus.jd.com"
+   },
+   {
+    "company": "创维集团",
+    "position": "2027届校招（技术/制造岗，专科可报）",
+    "status": "8月17日已启动",
+    "url": "https://skyworth.hotjob.cn"
+   },
+   {
+    "company": "比亚迪",
+    "position": "2027届大专专场（机电/机械/电气/计算机/物流等）",
+    "status": "8月持续招聘",
+    "url": "https://job.byd.com"
+   }
+  ],
+  "zhuanke:460301": [
+   {
+    "company": "中国铁路局系统",
+    "position": "各局多批次招聘（大专可报）",
+    "status": "各局陆续发布",
+    "url": "https://rczp.china-railway.com.cn"
+   },
+   {
+    "company": "比亚迪",
+    "position": "2026/2027届校招（设备/自动化）",
+    "status": "官网持续开放",
+    "url": "https://job.byd.com"
+   },
+   {
+    "company": "国家能源集团",
+    "position": "生产/运维类岗位",
+    "status": "关注秋招",
+    "url": "https://zhaopin.chnenergy.com.cn"
+   },
+   {
+    "company": "京东·新锐之星",
+    "position": "2027届（物流储备/销售/职能/运维支持等，专科可报）",
+    "status": "8月17日已启动，11月30日截止",
+    "url": "https://campus.jd.com"
+   }
+  ],
+  "zhuanke:460306": [
+   {
+    "company": "国家电网下属/铁路局",
+    "position": "电气运维类（大专可报）",
+    "status": "各局/各单位陆续发布",
+    "url": "https://rczp.china-railway.com.cn"
+   },
+   {
+    "company": "比亚迪",
+    "position": "设备/电气类岗位",
+    "status": "官网持续开放",
+    "url": "https://job.byd.com"
+   },
+   {
+    "company": "国家能源集团",
+    "position": "电气/运行类岗位",
+    "status": "关注秋招",
+    "url": "https://zhaopin.chnenergy.com.cn"
+   },
+   {
+    "company": "京东·新锐之星",
+    "position": "2027届（物流储备/销售/职能/运维支持等，专科可报）",
+    "status": "8月17日已启动，11月30日截止",
+    "url": "https://campus.jd.com"
+   }
+  ],
+  "zhuanke:460305": [
+   {
+    "company": "比亚迪",
+    "position": "自动化/机器人相关岗位",
+    "status": "官网持续开放",
+    "url": "https://job.byd.com"
+   },
+   {
+    "company": "国家能源集团",
+    "position": "智能制造相关岗位",
+    "status": "关注秋招",
+    "url": "https://zhaopin.chnenergy.com.cn"
+   },
+   {
+    "company": "机器人集成商/厂商",
+    "position": "机器人应用/调试工程师",
+    "status": "各企业官网招聘"
+   },
+   {
+    "company": "京东·新锐之星",
+    "position": "2027届（物流储备/销售/职能/运维支持等，专科可报）",
+    "status": "8月17日已启动，11月30日截止",
+    "url": "https://campus.jd.com"
+   }
+  ],
+  "zhuanke:460702": [
+   {
+    "company": "比亚迪",
+    "position": "2026/2027届校招（整车/三电）",
+    "status": "官网持续开放",
+    "url": "https://job.byd.com"
+   },
+   {
+    "company": "整车厂（含外资）",
+    "position": "生产/检测/售后技术",
+    "status": "各厂官网陆续开放"
+   },
+   {
+    "company": "京东·新锐之星",
+    "position": "2027届（物流储备/销售/职能/运维支持等，专科可报）",
+    "status": "8月17日已启动，11月30日截止",
+    "url": "https://campus.jd.com"
+   },
+   {
+    "company": "小鹏汽车",
+    "position": "2027届探索者计划（三电/制造）",
+    "status": "7月已启动",
+    "url": "https://xiaopeng.jobs.feishu.cn/campus"
+   }
+  ],
+  "zhuanke:530302": [
+   {
+    "company": "中国银行",
+    "position": "柜员/运营类岗位（部分大专可报）",
+    "status": "秋招将启动",
+    "url": "https://www.boc.cn"
+   },
+   {
+    "company": "国考",
+    "position": "税务等财会对口岗位",
+    "status": "公告预计10月",
+    "url": "http://bm.scs.gov.cn"
+   },
+   {
+    "company": "代账/财税服务企业",
+    "position": "会计/助理岗位",
+    "status": "各企业官网招聘"
+   },
+   {
+    "company": "毕马威",
+    "position": "2027届校招（审计/会计服务）",
+    "status": "8月4日已启动",
+    "url": "https://www.kpmg.com/cn"
+   },
+   {
+    "company": "京东",
+    "position": "2027届校招（财务/结算岗）",
+    "status": "8月17日已启动",
+    "url": "https://campus.jd.com"
+   },
+   {
+    "company": "用友",
+    "position": "2027届校招（财务软件实施顾问）",
+    "status": "8月7日已启动",
+    "url": "https://career.yonyou.com"
+   },
+   {
+    "company": "宁波银行",
+    "position": "2027届校招（运营/财务岗）",
+    "status": "8月中旬已开",
+    "url": "https://zhaopin.nbcb.com.cn"
+   }
+  ],
+  "zhuanke:520201": [
+   {
+    "company": "各省医院/卫健委",
+    "position": "护士招聘（大专可报）",
+    "status": "各省公告陆续发布"
+   },
+   {
+    "company": "泰康等康养集团",
+    "position": "护理/健康管理岗",
+    "status": "官网招聘陆续开放",
+    "url": "https://www.taikang.com"
+   },
+   {
+    "company": "体检机构（美年健康等）",
+    "position": "护理/健康管理",
+    "status": "官网招聘开放"
+   },
+   {
+    "company": "泰康之家",
+    "position": "2027届（护士/护理）",
+    "status": "实习生计划进行中",
+    "url": "https://jobtaikang.zhiye.com"
+   },
+   {
+    "company": "爱尔眼科",
+    "position": "2027届（眼科护理）",
+    "status": "各院区持续招聘",
+    "url": "https://www.aierchina.com"
+   }
+  ],
+  "undergrad:081001": [
+   {
+    "company": "中国建筑（中建系统）",
+    "position": "2027届校招（土木/施工/技术）",
+    "status": "已启动，需通过中建测评",
+    "url": "https://job.cscec8b.com.cn"
+   },
+   {
+    "company": "国家开发投资集团",
+    "position": "2026/2027校招（土木类）",
+    "status": "进行中",
+    "url": "https://sdic.iguopin.com"
+   },
+   {
+    "company": "中国铁路局系统",
+    "position": "各局多批次招聘",
+    "status": "各局陆续发布",
+    "url": "https://rczp.china-railway.com.cn"
+   },
+   {
+    "company": "保利集团",
+    "position": "2027届校招（地产/工程）",
+    "status": "陆续开放",
+    "url": "https://polycareer.zhiye.com/campus"
+   },
+   {
+    "company": "中国铁建",
+    "position": "2027届校招（土木/工程）",
+    "status": "7月18日已启动",
+    "url": "https://www.crcc.cn"
+   },
+   {
+    "company": "中国交建",
+    "position": "2027届校招（土木/水利/交通）",
+    "status": "各单位陆续发布",
+    "url": "http://zhaopin.ccccltd.cn"
+   },
+   {
+    "company": "牧原股份",
+    "position": "2027届提前批（工程项目经理管培/环保）",
+    "status": "6月已启动",
+    "url": "https://www.muyuanfoods.com"
+   }
+  ],
+  "undergrad:082801": [
+   {
+    "company": "中国建筑（中建系统）",
+    "position": "2027届校招（建筑/设计）",
+    "status": "已启动",
+    "url": "https://job.cscec8b.com.cn"
+   },
+   {
+    "company": "各设计院",
+    "position": "建筑/规划岗位",
+    "status": "各院官网陆续开放"
+   },
+   {
+    "company": "中国铁建",
+    "position": "2027届校招（建筑设计/工程）",
+    "status": "7月18日已启动",
+    "url": "https://www.crcc.cn"
+   },
+   {
+    "company": "中建集团",
+    "position": "2027届校招（建筑设计/工程岗）",
+    "status": "8月启动",
+    "url": "https://recruit.cscec.com"
+   },
+   {
+    "company": "中铁二院",
+    "position": "2027届校招（建筑/规划/结构岗）",
+    "status": "6月已发布",
+    "url": "http://www.creec.cn"
+   },
+   {
+    "company": "保利集团",
+    "position": "2027届校招（地产/设计岗）",
+    "status": "8月启动",
+    "url": "https://polycareer.zhiye.com"
+   }
+  ],
+  "undergrad:120204": [
+   {
+    "company": "中国银行",
+    "position": "综合/财会类岗位",
+    "status": "秋招将启动",
+    "url": "https://www.boc.cn"
+   },
+   {
+    "company": "国家开发投资集团",
+    "position": "2026/2027校招（工商管理类）",
+    "status": "进行中",
+    "url": "https://sdic.iguopin.com"
+   },
+   {
+    "company": "国考",
+    "position": "税务/审计对口岗位",
+    "status": "公告预计10月",
+    "url": "http://bm.scs.gov.cn"
+   },
+   {
+    "company": "四大会计师事务所",
+    "position": "校招/寒假实习",
+    "status": "各所官网陆续开放"
+   },
+   {
+    "company": "中国农业银行",
+    "position": "2027届校招（总行+分行）",
+    "status": "公告预计9月上旬",
+    "url": "https://career.abchina.com.cn"
+   },
+   {
+    "company": "中国建设银行",
+    "position": "2027届校招（总行+分行）",
+    "status": "公告预计9月9日前后",
+    "url": "http://job.ccb.com"
+   },
+   {
+    "company": "交通银行",
+    "position": "2027届秋招（总行+分行）",
+    "status": "网申约9/5-10/12",
+    "url": "https://job.bankcomm.com"
+   },
+   {
+    "company": "中国人寿",
+    "position": "2027届校招（金融/保险）",
+    "status": "陆续开放",
+    "url": "https://www.chinalife.com.cn/chinalife/zhaopin"
+   },
+   {
+    "company": "普华永道",
+    "position": "2027届秋招（审计/税务）",
+    "status": "8月起在线申请",
+    "url": "https://www.pwccn.com/zh/careers/students.html"
+   },
+   {
+    "company": "毕马威",
+    "position": "2027届秋招（税务/审计）",
+    "status": "8月4日启动",
+    "url": "https://www.kpmg.com/cn"
+   },
+   {
+    "company": "京东·新锐之星",
+    "position": "2027届（财务/人力/行政/销售等职能方向，专科可报）",
+    "status": "8月17日已启动，11月30日截止",
+    "url": "https://campus.jd.com"
+   },
+   {
+    "company": "京东",
+    "position": "2027届秋招（职能/财务/人力等）",
+    "status": "8月17日已启动",
+    "url": "https://campus.jd.com"
+   },
+   {
+    "company": "字节跳动",
+    "position": "2027届秋招（职能/销售/市场等）",
+    "status": "8月3日已启动",
+    "url": "https://jobs.bytedance.com"
+   },
+   {
+    "company": "腾讯",
+    "position": "2027届校招（职能/市场/设计类）",
+    "status": "8月11日已启动",
+    "url": "https://join.qq.com"
+   }
+  ],
+  "undergrad:080703": [
+   {
+    "company": "中兴通讯",
+    "position": "2027届校招（研发，提前批）",
+    "status": "提前批截止9月8日",
+    "url": "https://job.zte.com.cn"
+   },
+   {
+    "company": "华为",
+    "position": "2026/2027届秋招（通信/研发）",
+    "status": "秋招进行中",
+    "url": "https://career.huawei.com"
+   },
+   {
+    "company": "中国移动/电信/联通",
+    "position": "各省公司校招（通信类）",
+    "status": "各省陆续发布",
+    "url": "https://job.10086.cn"
+   },
+   {
+    "company": "中国铁塔",
+    "position": "2027届校招（通信运维/物联）",
+    "status": "已开放",
+    "url": "https://zhaopin.chinatowercom.cn"
+   },
+   {
+    "company": "vivo",
+    "position": "2027届校招（通信/软件）",
+    "status": "8月10日已启动",
+    "url": "https://hr-campus.vivo.com"
+   },
+   {
+    "company": "腾讯",
+    "position": "2027届校招（技术/产品/市场/职能等）",
+    "status": "8月11日已启动",
+    "url": "https://join.qq.com"
+   },
+   {
+    "company": "字节跳动",
+    "position": "2027届秋招（研发/产品/运营/市场/职能等）",
+    "status": "8月3日已启动，12月31日截止",
+    "url": "https://jobs.bytedance.com"
+   },
+   {
+    "company": "京东",
+    "position": "2027届秋招（技术/产品/物流/职能等）",
+    "status": "8月17日已启动，11月30日截止",
+    "url": "https://campus.jd.com"
+   },
+   {
+    "company": "小米",
+    "position": "2027届全球校招（软件/硬件/芯片等17+职类）",
+    "status": "8月10日已启动",
+    "url": "https://hr.xiaomi.com/campus"
+   },
+   {
+    "company": "中国电信",
+    "position": "2027年度校招（各省公司/专业子公司）",
+    "status": "8月24日起网申开放",
+    "url": "https://www.chinatelecom.com.cn/zp/"
+   },
+   {
+    "company": "中国电信·天翼云",
+    "position": "2027届超级优才/校招提前批",
+    "status": "7月已启动",
+    "url": "https://ctyun.hotjob.cn"
+   },
+   {
+    "company": "用友",
+    "position": "2027届校招高潜人才计划（算法/工程/产品）",
+    "status": "8月7日-10月31日",
+    "url": "https://career.yonyou.com"
+   },
+   {
+    "company": "宁波银行·总行金融科技",
+    "position": "2027届总行金融科技定向生（约100人）",
+    "status": "8月中旬网申已开",
+    "url": "https://zhaopin.nbcb.com.cn"
+   },
+   {
+    "company": "顺丰科技",
+    "position": "2027届提前批",
+    "status": "8月17日已启动",
+    "url": "https://campus.sf-express.com"
+   },
+   {
+    "company": "创维集团",
+    "position": "2027届校招（研发/制造等，约100人）",
+    "status": "8月17日已启动",
+    "url": "https://skyworth.hotjob.cn"
+   }
+  ],
+  "undergrad:050201": [
+   {
+    "company": "国考",
+    "position": "英语类对口岗位（外事/海关等）",
+    "status": "公告预计10月",
+    "url": "http://bm.scs.gov.cn"
+   },
+   {
+    "company": "各省教师招聘",
+    "position": "英语教师（考编）",
+    "status": "各省公告陆续发布"
+   },
+   {
+    "company": "跨境电商/外贸企业",
+    "position": "海外运营/外贸",
+    "status": "各企业官网招聘"
+   },
+   {
+    "company": "新东方",
+    "position": "2027届校招（英语教师/留学顾问）",
+    "status": "7月底已启动",
+    "url": "https://zhaopin.xdf.cn"
+   },
+   {
+    "company": "字节跳动",
+    "position": "2027届秋招（国际化/内容/市场）",
+    "status": "8月3日已启动",
+    "url": "https://jobs.bytedance.com"
+   }
+  ],
+  "undergrad:080801": [
+   {
+    "company": "国家电网",
+    "position": "2027届校招（自动化/电工类）",
+    "status": "提前批9月下旬",
+    "url": "https://zhaopin.sgcc.com.cn"
+   },
+   {
+    "company": "国家能源集团",
+    "position": "2027届校招（电气/自动化）",
+    "status": "关注秋招",
+    "url": "https://zhaopin.chnenergy.com.cn"
+   },
+   {
+    "company": "比亚迪",
+    "position": "自动化/设备类岗位",
+    "status": "官网持续开放",
+    "url": "https://job.byd.com"
+   },
+   {
+    "company": "国家电投集团",
+    "position": "2027届校招（电气类）",
+    "status": "正式秋招预计10月",
+    "url": "https://zhaopin.spic.com.cn"
+   },
+   {
+    "company": "小米",
+    "position": "2027届全球校招（软件/硬件/芯片等17+职类）",
+    "status": "8月10日已启动",
+    "url": "https://hr.xiaomi.com/campus"
+   },
+   {
+    "company": "中国电信",
+    "position": "2027年度校招（各省公司/专业子公司）",
+    "status": "8月24日起网申开放",
+    "url": "https://www.chinatelecom.com.cn/zp/"
+   },
+   {
+    "company": "中国电信·天翼云",
+    "position": "2027届超级优才/校招提前批",
+    "status": "7月已启动",
+    "url": "https://ctyun.hotjob.cn"
+   },
+   {
+    "company": "创维集团",
+    "position": "2027届校招（研发/制造等，约100人）",
+    "status": "8月17日已启动",
+    "url": "https://skyworth.hotjob.cn"
+   },
+   {
+    "company": "东风商用车",
+    "position": "2027届全球校招（车辆/机械/电气/自动化）",
+    "status": "8月17日已启动",
+    "url": "http://dfmc.hotjob.cn"
+   }
+  ],
+  "undergrad:080207": [
+   {
+    "company": "比亚迪",
+    "position": "2026/2027届校招（车辆/三电）",
+    "status": "官网持续开放",
+    "url": "https://job.byd.com"
+   },
+   {
+    "company": "中国中车",
+    "position": "2027届校招（车辆工程）",
+    "status": "关注各子企业公告"
+   },
+   {
+    "company": "外资/合资整车厂",
+    "position": "研发/质量岗",
+    "status": "各厂官网陆续开放"
+   },
+   {
+    "company": "蔚来",
+    "position": "2027届校招（整车/三电）",
+    "status": "技术提前批7/15-8/14",
+    "url": "https://campus.nio.com"
+   },
+   {
+    "company": "特斯拉中国",
+    "position": "2027届T-STAR（车辆/销售）",
+    "status": "全年开放",
+    "url": "https://careers.tesla.cn"
+   },
+   {
+    "company": "小鹏汽车",
+    "position": "2027届探索者计划（车辆/三电）",
+    "status": "7月已启动",
+    "url": "https://xiaopeng.jobs.feishu.cn/campus"
+   },
+   {
+    "company": "理想汽车",
+    "position": "2027届校招（整车/三电）",
+    "status": "8月已启动",
+    "url": "https://www.lixiang.com"
+   },
+   {
+    "company": "小米",
+    "position": "2027届全球校招（软件/硬件/芯片等17+职类）",
+    "status": "8月10日已启动",
+    "url": "https://hr.xiaomi.com/campus"
+   },
+   {
+    "company": "创维集团",
+    "position": "2027届校招（研发/制造等，约100人）",
+    "status": "8月17日已启动",
+    "url": "https://skyworth.hotjob.cn"
+   },
+   {
+    "company": "东风商用车",
+    "position": "2027届全球校招（车辆/机械/电气/自动化）",
+    "status": "8月17日已启动",
+    "url": "http://dfmc.hotjob.cn"
+   }
+  ],
+  "undergrad:071101": [
+   {
+    "company": "国考",
+    "position": "心理学对口岗位（教育/监管等）",
+    "status": "公告预计10月",
+    "url": "http://bm.scs.gov.cn"
+   },
+   {
+    "company": "各省教师招聘",
+    "position": "心理健康教师（考编）",
+    "status": "各省公告陆续发布"
+   },
+   {
+    "company": "企业HR/用户研究",
+    "position": "HR/用研岗位",
+    "status": "各企业官网招聘"
+   },
+   {
+    "company": "字节跳动",
+    "position": "2027届秋招（用户研究/HR）",
+    "status": "8月3日已启动",
+    "url": "https://jobs.bytedance.com"
+   },
+   {
+    "company": "腾讯",
+    "position": "2027届校招（用户研究/HR/产品）",
+    "status": "8月11日已启动",
+    "url": "https://join.qq.com"
+   }
+  ],
+  "undergrad:120601": [
+   {
+    "company": "中国铁路局系统",
+    "position": "各局多批次招聘（物流/运营）",
+    "status": "各局陆续发布",
+    "url": "https://rczp.china-railway.com.cn"
+   },
+   {
+    "company": "顺丰/京东物流等",
+    "position": "物流/供应链岗位",
+    "status": "各公司官网招聘",
+    "url": "https://campus.sf-express.com"
+   },
+   {
+    "company": "中国邮政",
+    "position": "2027届校招（物流/速递）",
+    "status": "秋季启动",
+    "url": "https://zhaopin.chinapost.com.cn"
+   },
+   {
+    "company": "中国物流集团",
+    "position": "2027届校招（物流/供应链）",
+    "status": "秋招9-10月集中",
+    "url": "https://chinalogisticsgroup.hotjob.cn"
+   },
+   {
+    "company": "京东·新锐之星",
+    "position": "2027届（物流储备/销售/职能/运维支持等，专科可报）",
+    "status": "8月17日已启动，11月30日截止",
+    "url": "https://campus.jd.com"
+   },
+   {
+    "company": "京东",
+    "position": "2027届秋招（物流方向）",
+    "status": "8月17日已启动",
+    "url": "https://campus.jd.com"
+   },
+   {
+    "company": "顺丰",
+    "position": "2027届校招（物流/管理/技术）",
+    "status": "提前批8月17日已启动",
+    "url": "https://campus.sf-express.com"
+   }
+  ],
+  "undergrad:040107": [
+   {
+    "company": "各省教师招聘",
+    "position": "小学教师（考编）",
+    "status": "各省公告陆续发布（关注当地人社局/教育局）"
+   },
+   {
+    "company": "新东方",
+    "position": "2027届校招（素养/教师岗）",
+    "status": "7月底已启动",
+    "url": "https://zhaopin.xdf.cn"
+   },
+   {
+    "company": "学而思",
+    "position": "2027届校招（小学素养/国际语言教师）",
+    "status": "7月已启动",
+    "url": "https://www.xueersi.com"
+   },
+   {
+    "company": "各省中小学教师招聘",
+    "position": "教师编制考试",
+    "status": "关注当地教育局/人社局",
+    "url": "https://bm.scs.gov.cn"
+   }
+  ],
+  "zhuanke:510203": [
+   {
+    "company": "中兴通讯",
+    "position": "2027届校招（部分岗位本科/大专可报）",
+    "status": "提前批9月8日",
+    "url": "https://job.zte.com.cn"
+   },
+   {
+    "company": "IT服务/政企信息化企业",
+    "position": "开发/实施/测试",
+    "status": "各企业官网招聘"
+   },
+   {
+    "company": "招商银行·招银网络科技",
+    "position": "2027届秋招（后端/算法/测试）",
+    "status": "7月底已启动",
+    "url": "https://cmbnt.cmbchina.com"
+   },
+   {
+    "company": "网易游戏（互娱）",
+    "position": "2027届校招（游戏研发/策划/美术）",
+    "status": "7月21日网申开启",
+    "url": "https://campus.game.163.com"
+   },
+   {
+    "company": "拼多多",
+    "position": "2027届校招提前批（研发/产品）",
+    "status": "7月已启动",
+    "url": "https://careers.pddglobalhr.com/campus"
+   },
+   {
+    "company": "哔哩哔哩（B站）",
+    "position": "2027届秋招（全序列）",
+    "status": "8月3日已启动",
+    "url": "https://jobs.bilibili.com"
+   },
+   {
+    "company": "快手",
+    "position": "2027届秋招（技术/产品）",
+    "status": "8月12日已启动",
+    "url": "https://campus.kuaishou.cn"
+   },
+   {
+    "company": "京东·新锐之星",
+    "position": "2027届（物流储备/销售/职能/运维支持等，专科可报）",
+    "status": "8月17日已启动，11月30日截止",
+    "url": "https://campus.jd.com"
+   },
+   {
+    "company": "创维集团",
+    "position": "2027届校招（技术/制造岗，专科可报）",
+    "status": "8月17日已启动",
+    "url": "https://skyworth.hotjob.cn"
+   },
+   {
+    "company": "比亚迪",
+    "position": "2027届大专专场（机电/机械/电气/计算机/物流等）",
+    "status": "8月持续招聘",
+    "url": "https://job.byd.com"
+   }
+  ],
+  "zhuanke:530701": [
+   {
+    "company": "中国移动",
+    "position": "各省公司校招（市场/运营类）",
+    "status": "各省陆续发布",
+    "url": "https://job.10086.cn"
+   },
+   {
+    "company": "电商平台/品牌",
+    "position": "运营/客服管理",
+    "status": "各公司官网招聘"
+   },
+   {
+    "company": "京东·新锐之星",
+    "position": "2027届（电商运营/客服/物流，专科可报）",
+    "status": "8月17日已启动，11月30日截止",
+    "url": "https://campus.jd.com"
+   },
+   {
+    "company": "字节跳动",
+    "position": "2027届秋招（抖音电商/直播/运营）",
+    "status": "8月3日已启动",
+    "url": "https://jobs.bytedance.com"
+   }
+  ],
+  "undergrad:020401": [
+   {
+    "company": "中国银行",
+    "position": "国际结算/贸易金融岗",
+    "status": "秋招将启动",
+    "url": "https://www.boc.cn"
+   },
+   {
+    "company": "国考",
+    "position": "海关/商务系统对口岗位",
+    "status": "公告预计10月",
+    "url": "http://bm.scs.gov.cn"
+   },
+   {
+    "company": "跨境电商/外贸企业",
+    "position": "外贸/跨境运营",
+    "status": "各企业官网招聘"
+   },
+   {
+    "company": "中国农业银行",
+    "position": "2027届校招（总行+分行）",
+    "status": "公告预计9月上旬",
+    "url": "https://career.abchina.com.cn"
+   },
+   {
+    "company": "中国建设银行",
+    "position": "2027届校招（总行+分行）",
+    "status": "公告预计9月9日前后",
+    "url": "http://job.ccb.com"
+   },
+   {
+    "company": "交通银行",
+    "position": "2027届秋招（总行+分行）",
+    "status": "网申约9/5-10/12",
+    "url": "https://job.bankcomm.com"
+   },
+   {
+    "company": "中国人寿",
+    "position": "2027届校招（金融/保险）",
+    "status": "陆续开放",
+    "url": "https://www.chinalife.com.cn/chinalife/zhaopin"
+   }
+  ],
+  "undergrad:120206": [
+   {
+    "company": "中国移动",
+    "position": "各省公司校招（综合/人力资源）",
+    "status": "各省陆续发布",
+    "url": "https://job.10086.cn"
+   },
+   {
+    "company": "国考",
+    "position": "人社系统对口岗位",
+    "status": "公告预计10月",
+    "url": "http://bm.scs.gov.cn"
+   },
+   {
+    "company": "大厂/猎头公司",
+    "position": "HR 校招岗",
+    "status": "各公司官网招聘"
+   },
+   {
+    "company": "京东·新锐之星",
+    "position": "2027届（财务/人力/行政/销售等职能方向，专科可报）",
+    "status": "8月17日已启动，11月30日截止",
+    "url": "https://campus.jd.com"
+   },
+   {
+    "company": "京东",
+    "position": "2027届秋招（职能/财务/人力等）",
+    "status": "8月17日已启动",
+    "url": "https://campus.jd.com"
+   },
+   {
+    "company": "字节跳动",
+    "position": "2027届秋招（职能/销售/市场等）",
+    "status": "8月3日已启动",
+    "url": "https://jobs.bytedance.com"
+   },
+   {
+    "company": "腾讯",
+    "position": "2027届校招（职能/市场/设计类）",
+    "status": "8月11日已启动",
+    "url": "https://join.qq.com"
+   }
+  ],
+  "undergrad:050301": [
+   {
+    "company": "国考",
+    "position": "宣传/文化系统对口岗位",
+    "status": "公告预计10月",
+    "url": "http://bm.scs.gov.cn"
+   },
+   {
+    "company": "中国移动",
+    "position": "各省公司校招（市场/宣传类）",
+    "status": "各省陆续发布",
+    "url": "https://job.10086.cn"
+   },
+   {
+    "company": "主流媒体/互联网内容",
+    "position": "记者/编辑/运营",
+    "status": "各媒体校招官网"
+   },
+   {
+    "company": "小红书",
+    "position": "2027届校招/实习（内容/运营）",
+    "status": "实习生已启动",
+    "url": "https://campus.xiaohongshu.com"
+   },
+   {
+    "company": "字节跳动",
+    "position": "2027届秋招（内容/媒体运营）",
+    "status": "8月3日已启动",
+    "url": "https://jobs.bytedance.com"
+   },
+   {
+    "company": "腾讯",
+    "position": "2027届校招（内容/市场）",
+    "status": "8月11日已启动",
+    "url": "https://join.qq.com"
+   }
+  ],
+  "undergrad:070101": [
+   {
+    "company": "国考",
+    "position": "统计/税务等数学对口岗位",
+    "status": "公告预计10月",
+    "url": "http://bm.scs.gov.cn"
+   },
+   {
+    "company": "各省教师招聘",
+    "position": "数学教师（考编）",
+    "status": "各省公告陆续发布"
+   },
+   {
+    "company": "银行/数据企业",
+    "position": "数据/统计岗位",
+    "status": "各企业官网招聘"
+   },
+   {
+    "company": "字节跳动",
+    "position": "2027届秋招（算法/数据）",
+    "status": "8月3日已启动",
+    "url": "https://jobs.bytedance.com"
+   },
+   {
+    "company": "京东",
+    "position": "2027届秋招（算法/数据）",
+    "status": "8月17日已启动",
+    "url": "https://campus.jd.com"
+   },
+   {
+    "company": "新东方",
+    "position": "2027届校招（数学教师）",
+    "status": "7月底已启动",
+    "url": "https://zhaopin.xdf.cn"
+   }
+  ],
+  "undergrad:070302": [
+   {
+    "company": "中国石化",
+    "position": "2026/2027校招（化工/工艺）",
+    "status": "官方平台开放",
+    "url": "https://job.sinopec.com"
+   },
+   {
+    "company": "万华化学等上市材料企业",
+    "position": "工艺/研发",
+    "status": "官网招聘开放",
+    "url": "https://www.whchem.com"
+   },
+   {
+    "company": "宁德时代等新能源企业",
+    "position": "材料/工艺岗",
+    "status": "官网持续开放",
+    "url": "https://job.byd.com"
+   },
+   {
+    "company": "万华化学",
+    "position": "2027届校招（研发/工艺岗）",
+    "status": "8-9月启动",
+    "url": "https://www.whchem.com"
+   },
+   {
+    "company": "金发科技",
+    "position": "2027届校招（材料研发/工艺）",
+    "status": "8-9月启动",
+    "url": "https://www.kingfa.com.cn"
+   },
+   {
+    "company": "恒力集团",
+    "position": "2027届校招（化工/工艺岗）",
+    "status": "8-9月启动",
+    "url": "https://www.hengli.com"
+   }
+  ],
+  "undergrad:071001": [
+   {
+    "company": "药明康德等 CRO",
+    "position": "研发/实验/质检",
+    "status": "官网招聘开放",
+    "url": "https://www.wuxiapptec.com"
+   },
+   {
+    "company": "华大基因",
+    "position": "实验技术/科研",
+    "status": "官网招聘开放",
+    "url": "https://www.genomics.cn"
+   },
+   {
+    "company": "生物医药上市公司",
+    "position": "质检/研发助理",
+    "status": "各公司官网招聘"
+   },
+   {
+    "company": "药明康德",
+    "position": "2027届校招（生物研发/CRO）",
+    "status": "8月启动",
+    "url": "https://www.wuxiapptec.com"
+   },
+   {
+    "company": "复宏汉霖",
+    "position": "2027届校招（生物药研发岗）",
+    "status": "8-9月启动",
+    "url": "https://www.henlius.com"
+   }
+  ],
+  "undergrad:100301K": [
+   {
+    "company": "各省医院/卫健委",
+    "position": "口腔医师（考编+规培）",
+    "status": "各省公告陆续发布"
+   },
+   {
+    "company": "通策医疗等口腔连锁",
+    "position": "口腔医师/正畸",
+    "status": "官网招聘开放",
+    "url": "https://www.tongce.com"
+   },
+   {
+    "company": "泰康口腔",
+    "position": "2027届（口腔医师/医助）",
+    "status": "实习生计划进行中",
+    "url": "https://jobtaikang.zhiye.com"
+   },
+   {
+    "company": "现代牙科/义齿企业",
+    "position": "2027届校招（口腔技术/医师助理）",
+    "status": "8-9月启动",
+    "url": "https://www.moderndental.com"
+   },
+   {
+    "company": "京东健康",
+    "position": "2027届校招（口腔/医疗健康岗）",
+    "status": "8月3日已启动",
+    "url": "https://campus.jd.com"
+   },
+   {
+    "company": "爱尔眼科/连锁医疗",
+    "position": "2027届校招（口腔/医疗管理岗）",
+    "status": "8-9月启动",
+    "url": "https://www.aierchina.com"
+   }
+  ],
+  "undergrad:071201": [
+   {
+    "company": "国考",
+    "position": "统计/税务对口岗位",
+    "status": "公告预计10月",
+    "url": "http://bm.scs.gov.cn"
+   },
+   {
+    "company": "中国银行",
+    "position": "数据/风控类岗位",
+    "status": "秋招将启动",
+    "url": "https://www.boc.cn"
+   },
+   {
+    "company": "大厂/外企数据岗",
+    "position": "数据分析/数据开发",
+    "status": "各公司官网招聘"
+   },
+   {
+    "company": "字节跳动",
+    "position": "2027届秋招（数据分析）",
+    "status": "8月3日已启动",
+    "url": "https://jobs.bytedance.com"
+   },
+   {
+    "company": "京东",
+    "position": "2027届秋招（数据/风控）",
+    "status": "8月17日已启动",
+    "url": "https://campus.jd.com"
+   }
+  ],
+  "undergrad:080910T": [
+   {
+    "company": "中国移动",
+    "position": "各省公司校招（大数据/技术类）",
+    "status": "各省陆续发布",
+    "url": "https://job.10086.cn"
+   },
+   {
+    "company": "中国银行",
+    "position": "信息科技类岗位",
+    "status": "秋招将启动",
+    "url": "https://www.boc.cn"
+   },
+   {
+    "company": "大厂数据岗",
+    "position": "数据开发/算法",
+    "status": "各公司官网招聘"
+   },
+   {
+    "company": "招商银行·招银网络科技",
+    "position": "2027届秋招（后端/算法/测试）",
+    "status": "7月底已启动",
+    "url": "https://cmbnt.cmbchina.com"
+   },
+   {
+    "company": "网易游戏（互娱）",
+    "position": "2027届校招（游戏研发/策划/美术）",
+    "status": "7月21日网申开启",
+    "url": "https://campus.game.163.com"
+   },
+   {
+    "company": "拼多多",
+    "position": "2027届校招提前批（研发/产品）",
+    "status": "7月已启动",
+    "url": "https://careers.pddglobalhr.com/campus"
+   },
+   {
+    "company": "哔哩哔哩（B站）",
+    "position": "2027届秋招（全序列）",
+    "status": "8月3日已启动",
+    "url": "https://jobs.bilibili.com"
+   },
+   {
+    "company": "快手",
+    "position": "2027届秋招（技术/产品）",
+    "status": "8月12日已启动",
+    "url": "https://campus.kuaishou.cn"
+   },
+   {
+    "company": "腾讯",
+    "position": "2027届校招（技术/产品/市场/职能等）",
+    "status": "8月11日已启动",
+    "url": "https://join.qq.com"
+   },
+   {
+    "company": "字节跳动",
+    "position": "2027届秋招（研发/产品/运营/市场/职能等）",
+    "status": "8月3日已启动，12月31日截止",
+    "url": "https://jobs.bytedance.com"
+   },
+   {
+    "company": "京东",
+    "position": "2027届秋招（技术/产品/物流/职能等）",
+    "status": "8月17日已启动，11月30日截止",
+    "url": "https://campus.jd.com"
+   },
+   {
+    "company": "小米",
+    "position": "2027届全球校招（软件/硬件/芯片等17+职类）",
+    "status": "8月10日已启动",
+    "url": "https://hr.xiaomi.com/campus"
+   },
+   {
+    "company": "中国电信",
+    "position": "2027年度校招（各省公司/专业子公司）",
+    "status": "8月24日起网申开放",
+    "url": "https://www.chinatelecom.com.cn/zp/"
+   },
+   {
+    "company": "中国电信·天翼云",
+    "position": "2027届超级优才/校招提前批",
+    "status": "7月已启动",
+    "url": "https://ctyun.hotjob.cn"
+   },
+   {
+    "company": "用友",
+    "position": "2027届校招高潜人才计划（算法/工程/产品）",
+    "status": "8月7日-10月31日",
+    "url": "https://career.yonyou.com"
+   },
+   {
+    "company": "宁波银行·总行金融科技",
+    "position": "2027届总行金融科技定向生（约100人）",
+    "status": "8月中旬网申已开",
+    "url": "https://zhaopin.nbcb.com.cn"
+   },
+   {
+    "company": "顺丰科技",
+    "position": "2027届提前批",
+    "status": "8月17日已启动",
+    "url": "https://campus.sf-express.com"
+   },
+   {
+    "company": "创维集团",
+    "position": "2027届校招（研发/制造等，约100人）",
+    "status": "8月17日已启动",
+    "url": "https://skyworth.hotjob.cn"
+   }
+  ],
+  "undergrad:100801": [
+   {
+    "company": "云南白药/同仁堂等中药上市公司",
+    "position": "研发/质量/市场",
+    "status": "官网招聘开放",
+    "url": "https://www.ynby.com"
+   },
+   {
+    "company": "医院药房/中医药国企",
+    "position": "中药师/调剂",
+    "status": "各省公告陆续发布"
+   },
+   {
+    "company": "广药集团",
+    "position": "2027届（中药研发/QA/QC）",
+    "status": "官网招聘开放",
+    "url": "https://www.gpc.com.cn"
+   },
+   {
+    "company": "华润三九",
+    "position": "2026/2027届（生产/质量/营销）",
+    "status": "持续招聘",
+    "url": "https://wecruit.hotjob.cn/SU613834ecbef57c3b6383b50e/pb/school.html"
+   }
+  ],
+  "undergrad:080704": [
+   {
+    "company": "中芯国际等半导体企业",
+    "position": "芯片设计/工艺/封测",
+    "status": "官网招聘开放",
+    "url": "https://www.smics.com"
+   },
+   {
+    "company": "华为海思/中兴微电子",
+    "position": "芯片设计",
+    "status": "秋招进行中",
+    "url": "https://career.huawei.com"
+   },
+   {
+    "company": "中国电科/中国电子院所",
+    "position": "芯片/工艺岗位",
+    "status": "各单位官网招聘"
+   },
+   {
+    "company": "腾讯",
+    "position": "2027届校招（技术/产品/市场/职能等）",
+    "status": "8月11日已启动",
+    "url": "https://join.qq.com"
+   },
+   {
+    "company": "字节跳动",
+    "position": "2027届秋招（研发/产品/运营/市场/职能等）",
+    "status": "8月3日已启动，12月31日截止",
+    "url": "https://jobs.bytedance.com"
+   },
+   {
+    "company": "京东",
+    "position": "2027届秋招（技术/产品/物流/职能等）",
+    "status": "8月17日已启动，11月30日截止",
+    "url": "https://campus.jd.com"
+   },
+   {
+    "company": "小米",
+    "position": "2027届全球校招（软件/硬件/芯片等17+职类）",
+    "status": "8月10日已启动",
+    "url": "https://hr.xiaomi.com/campus"
+   },
+   {
+    "company": "中国电信",
+    "position": "2027年度校招（各省公司/专业子公司）",
+    "status": "8月24日起网申开放",
+    "url": "https://www.chinatelecom.com.cn/zp/"
+   },
+   {
+    "company": "中国电信·天翼云",
+    "position": "2027届超级优才/校招提前批",
+    "status": "7月已启动",
+    "url": "https://ctyun.hotjob.cn"
+   },
+   {
+    "company": "用友",
+    "position": "2027届校招高潜人才计划（算法/工程/产品）",
+    "status": "8月7日-10月31日",
+    "url": "https://career.yonyou.com"
+   },
+   {
+    "company": "宁波银行·总行金融科技",
+    "position": "2027届总行金融科技定向生（约100人）",
+    "status": "8月中旬网申已开",
+    "url": "https://zhaopin.nbcb.com.cn"
+   },
+   {
+    "company": "顺丰科技",
+    "position": "2027届提前批",
+    "status": "8月17日已启动",
+    "url": "https://campus.sf-express.com"
+   },
+   {
+    "company": "创维集团",
+    "position": "2027届校招（研发/制造等，约100人）",
+    "status": "8月17日已启动",
+    "url": "https://skyworth.hotjob.cn"
+   }
+  ],
+  "undergrad:101003": [
+   {
+    "company": "各省医院/卫健委",
+    "position": "影像技师（考编）",
+    "status": "各省公告陆续发布"
+   },
+   {
+    "company": "GE/西门子医疗等设备厂商",
+    "position": "应用工程师",
+    "status": "各公司官网招聘"
+   },
+   {
+    "company": "迈瑞医疗",
+    "position": "2027届校招（影像设备/应用）",
+    "status": "技能人才已启动",
+    "url": "https://www.mindray.com"
+   },
+   {
+    "company": "泰康之家",
+    "position": "2027届（医技岗）",
+    "status": "实习生计划进行中",
+    "url": "https://jobtaikang.zhiye.com"
+   }
+  ],
+  "undergrad:050306T": [
+   {
+    "company": "字节跳动（抖音）",
+    "position": "2027届校招（运营/内容）",
+    "status": "8月3日已启动",
+    "url": "https://jobs.bytedance.com"
+   },
+   {
+    "company": "快手/B站/小红书",
+    "position": "内容/运营岗",
+    "status": "各公司官网招聘"
+   },
+   {
+    "company": "央国企宣传部门",
+    "position": "新媒体运营",
+    "status": "各单位官网招聘"
+   },
+   {
+    "company": "小红书",
+    "position": "2027届校招/实习（内容/运营）",
+    "status": "实习生已启动",
+    "url": "https://campus.xiaohongshu.com"
+   },
+   {
+    "company": "字节跳动",
+    "position": "2027届秋招（新媒体/内容运营）",
+    "status": "8月3日已启动",
+    "url": "https://jobs.bytedance.com"
+   }
+  ],
+  "undergrad:120102": [
+   {
+    "company": "中国移动",
+    "position": "各省公司校招（信息化/技术类）",
+    "status": "正式批8月底-9月",
+    "url": "https://job.10086.cn"
+   },
+   {
+    "company": "中国银行",
+    "position": "信息科技类岗位",
+    "status": "秋招将启动",
+    "url": "https://www.boc.cn"
+   },
+   {
+    "company": "用友/金蝶等软件公司",
+    "position": "实施/产品岗",
+    "status": "官网招聘开放"
+   },
+   {
+    "company": "用友",
+    "position": "2027届校招（产品/实施顾问）",
+    "status": "8月7日已启动",
+    "url": "https://career.yonyou.com"
+   },
+   {
+    "company": "华为",
+    "position": "2027届校招（IT/数字化岗）",
+    "status": "8月启动",
+    "url": "https://career.huawei.com"
+   },
+   {
+    "company": "顺丰科技",
+    "position": "2027届校招（系统/数据岗）",
+    "status": "8月17日已启动",
+    "url": "https://campus.sf-express.com"
+   },
+   {
+    "company": "广联达",
+    "position": "2027届校招（数字建造/产品岗）",
+    "status": "8-9月启动",
+    "url": "https://www.glodon.com"
+   }
+  ],
+  "undergrad:120108T": [
+   {
+    "company": "中国移动",
+    "position": "各省公司校招（大数据/技术类）",
+    "status": "正式批8月底-9月",
+    "url": "https://job.10086.cn"
+   },
+   {
+    "company": "美团/字节等大厂",
+    "position": "商业分析/数据岗",
+    "status": "已启动",
+    "url": "https://campus.meituan.com"
+   },
+   {
+    "company": "中国银行",
+    "position": "数据类岗位",
+    "status": "秋招将启动",
+    "url": "https://www.boc.cn"
+   },
+   {
+    "company": "字节跳动",
+    "position": "2027届校招（数据/策略岗）",
+    "status": "8月3日已启动",
+    "url": "https://jobs.bytedance.com"
+   },
+   {
+    "company": "用友",
+    "position": "2027届校招（数据产品/实施）",
+    "status": "8月7日已启动",
+    "url": "https://career.yonyou.com"
+   },
+   {
+    "company": "华为",
+    "position": "2027届校招（大数据/IT岗）",
+    "status": "8月启动",
+    "url": "https://career.huawei.com"
+   },
+   {
+    "company": "京东",
+    "position": "2027届校招（数据/运营岗）",
+    "status": "8月17日已启动",
+    "url": "https://campus.jd.com"
+   }
+  ],
+  "undergrad:050303": [
+   {
+    "company": "字节跳动（巨量引擎）",
+    "position": "广告/营销岗",
+    "status": "8月3日已启动",
+    "url": "https://jobs.bytedance.com"
+   },
+   {
+    "company": "奥美等4A广告公司",
+    "position": "客户执行/创意",
+    "status": "各公司官网招聘"
+   },
+   {
+    "company": "腾讯广告",
+    "position": "市场/广告岗位",
+    "status": "8月11日已启动",
+    "url": "https://careers.tencent.com"
+   },
+   {
+    "company": "蓝色光标",
+    "position": "2027届（AI营销/策划/客户执行）",
+    "status": "校招官网陆续更新",
+    "url": "https://bluefocus.jobs.feishu.cn/"
+   },
+   {
+    "company": "京东",
+    "position": "2027届秋招（营销/市场）",
+    "status": "8月17日已启动",
+    "url": "https://campus.jd.com"
+   }
+  ],
+  "undergrad:080401": [
+   {
+    "company": "宁德时代",
+    "position": "2027届校招（材料/电化学研发）",
+    "status": "8月18日已启动",
+    "url": "https://Talent.CATL.com"
+   },
+   {
+    "company": "万华化学",
+    "position": "校招（材料研发/工艺）",
+    "status": "官网持续开放",
+    "url": "https://www.whchem.com"
+   },
+   {
+    "company": "国家能源集团",
+    "position": "2027届校招（材料类）",
+    "status": "秋招进行中",
+    "url": "http://zhaopin.chnenergy.com.cn"
+   },
+   {
+    "company": "中国宝武（宝钢）",
+    "position": "2027届校招（钢铁材料/工艺）",
+    "status": "暑期实习+秋招提前批进行中",
+    "url": "https://www.baosteel.com"
+   },
+   {
+    "company": "中国五矿",
+    "position": "2027届校招（矿业/材料）",
+    "status": "已开放",
+    "url": "https://zhaopin.minmetals.com.cn"
+   },
+   {
+    "company": "中国黄金集团",
+    "position": "2027届校招（矿业/材料）",
+    "status": "陆续开放",
+    "url": "https://www.chinagoldgroup.com"
+   },
+   {
+    "company": "中国中煤",
+    "position": "2027届校招（煤炭/材料）",
+    "status": "陆续开放",
+    "url": "https://zhaopin.chinacoal.com"
+   }
+  ],
+  "undergrad:080501": [
+   {
+    "company": "国家能源集团",
+    "position": "2027届校招（火电/风电/光伏）",
+    "status": "秋招进行中",
+    "url": "http://zhaopin.chnenergy.com.cn"
+   },
+   {
+    "company": "国家电投",
+    "position": "2027届校招（清洁能源/核电）",
+    "status": "正式秋招预计10月",
+    "url": "https://zhaopin.spic.com.cn"
+   },
+   {
+    "company": "华能集团",
+    "position": "2027届校招（火电/风电）",
+    "status": "校招系统开放",
+    "url": "https://zhaopin.chng.com.cn"
+   },
+   {
+    "company": "中广核",
+    "position": "2027届校招（核电运营）",
+    "status": "进行中",
+    "url": "https://cgn.hotjob.cn"
+   },
+   {
+    "company": "中国中煤",
+    "position": "2027届校招（电力/化工）",
+    "status": "陆续开放",
+    "url": "https://zhaopin.chinacoal.com"
+   },
+   {
+    "company": "中国海油",
+    "position": "2027届校招（能源/动力）",
+    "status": "秋招陆续开放",
+    "url": "https://cnooc.zhaopin.com"
+   }
+  ],
+  "undergrad:080905": [
+   {
+    "company": "中国移动",
+    "position": "各省公司校招（物联网/技术类）",
+    "status": "正式批8月底-9月",
+    "url": "https://job.10086.cn"
+   },
+   {
+    "company": "华为",
+    "position": "2026/2027届秋招（IoT/嵌入式）",
+    "status": "秋招进行中",
+    "url": "https://career.huawei.com"
+   },
+   {
+    "company": "小米",
+    "position": "2027届校招（IoT/智能硬件）",
+    "status": "8月10日已启动",
+    "url": "https://hr.xiaomi.com/campus"
+   },
+   {
+    "company": "京东方",
+    "position": "2027届校招（物联网/电子）",
+    "status": "提前批已启动",
+    "url": "https://campus.boe.com"
+   },
+   {
+    "company": "腾讯",
+    "position": "2027届校招（技术/产品/市场/职能等）",
+    "status": "8月11日已启动",
+    "url": "https://join.qq.com"
+   },
+   {
+    "company": "字节跳动",
+    "position": "2027届秋招（研发/产品/运营/市场/职能等）",
+    "status": "8月3日已启动，12月31日截止",
+    "url": "https://jobs.bytedance.com"
+   },
+   {
+    "company": "京东",
+    "position": "2027届秋招（技术/产品/物流/职能等）",
+    "status": "8月17日已启动，11月30日截止",
+    "url": "https://campus.jd.com"
+   },
+   {
+    "company": "中国电信",
+    "position": "2027年度校招（各省公司/专业子公司）",
+    "status": "8月24日起网申开放",
+    "url": "https://www.chinatelecom.com.cn/zp/"
+   },
+   {
+    "company": "中国电信·天翼云",
+    "position": "2027届超级优才/校招提前批",
+    "status": "7月已启动",
+    "url": "https://ctyun.hotjob.cn"
+   },
+   {
+    "company": "用友",
+    "position": "2027届校招高潜人才计划（算法/工程/产品）",
+    "status": "8月7日-10月31日",
+    "url": "https://career.yonyou.com"
+   },
+   {
+    "company": "宁波银行·总行金融科技",
+    "position": "2027届总行金融科技定向生（约100人）",
+    "status": "8月中旬网申已开",
+    "url": "https://zhaopin.nbcb.com.cn"
+   },
+   {
+    "company": "顺丰科技",
+    "position": "2027届提前批",
+    "status": "8月17日已启动",
+    "url": "https://campus.sf-express.com"
+   },
+   {
+    "company": "创维集团",
+    "position": "2027届校招（研发/制造等，约100人）",
+    "status": "8月17日已启动",
+    "url": "https://skyworth.hotjob.cn"
+   }
+  ],
+  "undergrad:080906": [
+   {
+    "company": "字节跳动",
+    "position": "2027届校招（内容/技术）",
+    "status": "8月3日已启动",
+    "url": "https://jobs.bytedance.com"
+   },
+   {
+    "company": "腾讯",
+    "position": "2027届校招（技术/产品/设计）",
+    "status": "8月11日已启动",
+    "url": "https://careers.tencent.com"
+   },
+   {
+    "company": "米哈游",
+    "position": "2027届校招（程序/美术）",
+    "status": "8月已启动",
+    "url": "https://jobs.mihoyo.com"
+   },
+   {
+    "company": "网易",
+    "position": "2027届校招（技术/游戏/内容）",
+    "status": "官网陆续开放",
+    "url": "https://hr.163.com"
+   },
+   {
+    "company": "京东",
+    "position": "2027届秋招（技术/产品/物流/职能等）",
+    "status": "8月17日已启动，11月30日截止",
+    "url": "https://campus.jd.com"
+   },
+   {
+    "company": "小米",
+    "position": "2027届全球校招（软件/硬件/芯片等17+职类）",
+    "status": "8月10日已启动",
+    "url": "https://hr.xiaomi.com/campus"
+   },
+   {
+    "company": "创维集团",
+    "position": "2027届校招（研发/制造等，约100人）",
+    "status": "8月17日已启动",
+    "url": "https://skyworth.hotjob.cn"
+   }
+  ],
+  "undergrad:080803T": [
+   {
+    "company": "大疆",
+    "position": "2027届“拓疆者”校招（机器人/算法）",
+    "status": "已启动",
+    "url": "https://careers.dji.com"
+   },
+   {
+    "company": "三一集团",
+    "position": "2027届校招（机器人/自动化）",
+    "status": "提前批已启动",
+    "url": "https://sany.zhiye.com/campus/jobs"
+   },
+   {
+    "company": "比亚迪",
+    "position": "2027届校招（机器人/自动化）",
+    "status": "官网持续开放",
+    "url": "https://job.byd.com"
+   },
+   {
+    "company": "新松机器人",
+    "position": "校招（机器人研发/调试）",
+    "status": "官网招聘开放",
+    "url": "https://www.siasun.com"
+   },
+   {
+    "company": "小米",
+    "position": "2027届全球校招（软件/硬件/芯片等17+职类）",
+    "status": "8月10日已启动",
+    "url": "https://hr.xiaomi.com/campus"
+   },
+   {
+    "company": "中国电信",
+    "position": "2027年度校招（各省公司/专业子公司）",
+    "status": "8月24日起网申开放",
+    "url": "https://www.chinatelecom.com.cn/zp/"
+   },
+   {
+    "company": "中国电信·天翼云",
+    "position": "2027届超级优才/校招提前批",
+    "status": "7月已启动",
+    "url": "https://ctyun.hotjob.cn"
+   },
+   {
+    "company": "创维集团",
+    "position": "2027届校招（研发/制造等，约100人）",
+    "status": "8月17日已启动",
+    "url": "https://skyworth.hotjob.cn"
+   },
+   {
+    "company": "东风商用车",
+    "position": "2027届全球校招（车辆/机械/电气/自动化）",
+    "status": "8月17日已启动",
+    "url": "http://dfmc.hotjob.cn"
+   }
+  ],
+  "undergrad:082502": [
+   {
+    "company": "中国能建",
+    "position": "2027届校招（环保/水务/新能源）",
+    "status": "进行中",
+    "url": "https://ceec.iguopin.com"
+   },
+   {
+    "company": "中国电建",
+    "position": "2027届校招（环境/水务工程）",
+    "status": "统一平台开放",
+    "url": "https://zhaopin.powerchina.cn"
+   },
+   {
+    "company": "三峡集团",
+    "position": "2027届校招（长江大保护/生态环保）",
+    "status": "专属网申开放",
+    "url": "https://www.zhipin.com/dz/sxjt/"
+   },
+   {
+    "company": "光大环境",
+    "position": "校招（固废/水务运营）",
+    "status": "官网招聘开放",
+    "url": "https://www.ebchinaintl.com"
+   },
+   {
+    "company": "牧原股份",
+    "position": "2027届提前批（环保工艺研发岗）",
+    "status": "6月已启动",
+    "url": "https://www.muyuanfoods.com"
+   }
+  ],
+  "undergrad:082701": [
+   {
+    "company": "中粮集团",
+    "position": "2027届校招（食品/粮油加工）",
+    "status": "统一网申开放",
+    "url": "http://campus.51job.com/cofco"
+   },
+   {
+    "company": "中储粮",
+    "position": "2027届校招（仓储/质检）",
+    "status": "秋招待启动",
+    "url": "https://www.sinograin.com.cn"
+   },
+   {
+    "company": "伊利集团",
+    "position": "校招（研发/生产/质检）",
+    "status": "官网招聘开放",
+    "url": "https://www.yili.com"
+   },
+   {
+    "company": "蒙牛集团",
+    "position": "校招（研发/生产）",
+    "status": "官网招聘开放",
+    "url": "https://www.mengniu.com.cn"
+   },
+   {
+    "company": "雀巢中国",
+    "position": "2027届校招（食品/技术）",
+    "status": "暑期实习进行中",
+    "url": "https://www.nestle.com.cn"
+   },
+   {
+    "company": "玛氏中国",
+    "position": "2027届管培生（供应/研发）",
+    "status": "陆续开放",
+    "url": "http://marscareer.51job.com"
+   }
+  ],
+  "undergrad:120201K": [
+   {
+    "company": "华润集团",
+    "position": "2027届校招（管培/职能/业务）",
+    "status": "正式批7-8月",
+    "url": "https://runjob.crc.com.cn"
+   },
+   {
+    "company": "中国移动",
+    "position": "各省公司校招（市场/综合）",
+    "status": "正式批8月底-9月",
+    "url": "https://job.10086.cn"
+   },
+   {
+    "company": "京东",
+    "position": "2027届校招（采销/职能/管培）",
+    "status": "8月3日已启动",
+    "url": "https://campus.jd.com"
+   },
+   {
+    "company": "宝洁",
+    "position": "2027届校招（管理培训生）",
+    "status": "官网开放",
+    "url": "https://careers.pg.com.cn"
+   },
+   {
+    "company": "国考",
+    "position": "经济/管理类对口岗位",
+    "status": "公告预计10月",
+    "url": "http://bm.scs.gov.cn"
+   },
+   {
+    "company": "中国农业银行",
+    "position": "2027届校招（总行+分行）",
+    "status": "公告预计9月上旬",
+    "url": "https://career.abchina.com.cn"
+   },
+   {
+    "company": "中国建设银行",
+    "position": "2027届校招（总行+分行）",
+    "status": "公告预计9月9日前后",
+    "url": "http://job.ccb.com"
+   },
+   {
+    "company": "交通银行",
+    "position": "2027届秋招（总行+分行）",
+    "status": "网申约9/5-10/12",
+    "url": "https://job.bankcomm.com"
+   },
+   {
+    "company": "中国人寿",
+    "position": "2027届校招（金融/保险）",
+    "status": "陆续开放",
+    "url": "https://www.chinalife.com.cn/chinalife/zhaopin"
+   },
+   {
+    "company": "中国邮政",
+    "position": "2027届校招（管理/职能）",
+    "status": "秋季启动",
+    "url": "https://zhaopin.chinapost.com.cn"
+   },
+   {
+    "company": "雀巢中国",
+    "position": "2027届校招（管培生）",
+    "status": "暑期实习进行中",
+    "url": "https://www.nestle.com.cn"
+   },
+   {
+    "company": "玛氏中国",
+    "position": "2027届管培生（职能）",
+    "status": "陆续开放",
+    "url": "http://marscareer.51job.com"
+   },
+   {
+    "company": "保利集团",
+    "position": "2027届校招（管理/金融）",
+    "status": "陆续开放",
+    "url": "https://polycareer.zhiye.com/campus"
+   },
+   {
+    "company": "加多宝",
+    "position": "2027届校招（销售/推广管培生）",
+    "status": "8月已启动",
+    "url": "https://jdbchina.zhiye.com"
+   },
+   {
+    "company": "恒安集团",
+    "position": "2027届千帆计划营销管培生（销售/市场）",
+    "status": "8月中下旬开放",
+    "url": "https://hr.hengan.com/recruit/2025/"
+   },
+   {
+    "company": "云南白药",
+    "position": "2027届销售培训生（南京等）",
+    "status": "8月已启动",
+    "url": "https://7w.ncss.cn/student/jobs/AhtFfpBBQeuyrrExUZgyJ4/detail.html"
+   },
+   {
+    "company": "京东·新锐之星",
+    "position": "2027届（物流储备/销售/职能/运维支持等，专科可报）",
+    "status": "8月17日已启动，11月30日截止",
+    "url": "https://campus.jd.com"
+   },
+   {
+    "company": "腾讯",
+    "position": "2027届校招（市场/职能/产品）",
+    "status": "8月11日已启动",
+    "url": "https://join.qq.com"
+   },
+   {
+    "company": "字节跳动",
+    "position": "2027届秋招（市场/职能/运营）",
+    "status": "8月3日已启动",
+    "url": "https://jobs.bytedance.com"
+   },
+   {
+    "company": "小米",
+    "position": "2027届全球校招（市场/职能/零售）",
+    "status": "8月10日已启动",
+    "url": "https://hr.xiaomi.com/campus"
+   }
+  ],
+  "undergrad:120402": [
+   {
+    "company": "国考",
+    "position": "行政/文秘类对口岗位",
+    "status": "公告预计10月",
+    "url": "http://bm.scs.gov.cn"
+   },
+   {
+    "company": "中国邮政",
+    "position": "2027届校招（综合管理）",
+    "status": "秋季启动",
+    "url": "https://zhaopin.chinapost.com.cn"
+   },
+   {
+    "company": "华润集团",
+    "position": "2027届校招（职能管理）",
+    "status": "正式批7-8月",
+    "url": "https://runjob.crc.com.cn"
+   },
+   {
+    "company": "中国移动",
+    "position": "各省公司校招（综合/行政）",
+    "status": "正式批8月底-9月",
+    "url": "https://job.10086.cn"
+   },
+   {
+    "company": "京东·新锐之星",
+    "position": "2027届（财务/人力/行政/销售等职能方向，专科可报）",
+    "status": "8月17日已启动，11月30日截止",
+    "url": "https://campus.jd.com"
+   },
+   {
+    "company": "京东",
+    "position": "2027届秋招（职能/财务/人力等）",
+    "status": "8月17日已启动",
+    "url": "https://campus.jd.com"
+   },
+   {
+    "company": "字节跳动",
+    "position": "2027届秋招（职能/销售/市场等）",
+    "status": "8月3日已启动",
+    "url": "https://jobs.bytedance.com"
+   },
+   {
+    "company": "腾讯",
+    "position": "2027届校招（职能/市场/设计类）",
+    "status": "8月11日已启动",
+    "url": "https://join.qq.com"
+   }
+  ],
+  "undergrad:120901K": [
+   {
+    "company": "中国旅游集团",
+    "position": "2027届校招（中免/酒店/旅行）",
+    "status": "预计9月上旬上线",
+    "url": "https://ctg.zhaopin.com"
+   },
+   {
+    "company": "华侨城集团",
+    "position": "校招（文旅运营/管理）",
+    "status": "官网招聘开放",
+    "url": "https://www.chinaoct.com"
+   },
+   {
+    "company": "华住集团",
+    "position": "校招（酒店运营/管培）",
+    "status": "官网招聘开放",
+    "url": "https://www.huazhu.com"
+   },
+   {
+    "company": "携程集团",
+    "position": "2027届留用实习/校招",
+    "status": "已开放",
+    "url": "https://campus.ctrip.com"
+   }
+  ],
+  "undergrad:081101": [
+   {
+    "company": "三峡集团",
+    "position": "2027届校招（水电/新能源）",
+    "status": "专属网申开放",
+    "url": "https://www.zhipin.com/dz/sxjt/"
+   },
+   {
+    "company": "中国电建",
+    "position": "2027届校招（水电工程局/设计院）",
+    "status": "统一平台开放",
+    "url": "https://zhaopin.powerchina.cn"
+   },
+   {
+    "company": "中国能建",
+    "position": "2027届校招（电力工程）",
+    "status": "进行中",
+    "url": "https://ceec.iguopin.com"
+   },
+   {
+    "company": "国家电投",
+    "position": "2027届校招（水电/清洁能源）",
+    "status": "正式秋招预计10月",
+    "url": "https://zhaopin.spic.com.cn"
+   }
+  ],
+  "undergrad:081201": [
+   {
+    "company": "中国铁建",
+    "position": "2027届校招（工程测量/勘测）",
+    "status": "已启动",
+    "url": "https://www.crcc.cn"
+   },
+   {
+    "company": "中国交建",
+    "position": "2027届校招（测绘/路桥）",
+    "status": "各子公司陆续发布",
+    "url": "https://www.ccccltd.cn/rlzy/rczp/rcyjtx/"
+   },
+   {
+    "company": "航天宏图",
+    "position": "校招（遥感/地理信息）",
+    "status": "官网招聘开放",
+    "url": "https://www.piesat.com.cn"
+   },
+   {
+    "company": "南方测绘",
+    "position": "校招（测绘/地理信息）",
+    "status": "官网招聘开放",
+    "url": "https://www.southsurvey.com"
+   }
+  ],
+  "undergrad:082901": [
+   {
+    "company": "中国石油",
+    "position": "2027届校招（安全/工程）",
+    "status": "秋招陆续发布",
+    "url": "https://zhaopin.cnpc.com.cn"
+   },
+   {
+    "company": "中国石化",
+    "position": "2027届校招（安全环保）",
+    "status": "秋招陆续发布",
+    "url": "https://job.sinopec.com"
+   },
+   {
+    "company": "国家能源集团",
+    "position": "2027届校招（安全工程类）",
+    "status": "秋招进行中",
+    "url": "http://zhaopin.chnenergy.com.cn"
+   },
+   {
+    "company": "中建集团",
+    "position": "2027届校招（安全工程岗）",
+    "status": "统一测试后投递",
+    "url": "https://recruit.cscec.com"
+   },
+   {
+    "company": "中国中煤",
+    "position": "2027届校招（安全工程）",
+    "status": "陆续开放",
+    "url": "https://zhaopin.chinacoal.com"
+   }
+  ],
+  "undergrad:130502": [
+   {
+    "company": "腾讯",
+    "position": "2027届校招（视觉/UI设计）",
+    "status": "8月11日已启动",
+    "url": "https://careers.tencent.com"
+   },
+   {
+    "company": "字节跳动",
+    "position": "2027届校招（设计类）",
+    "status": "8月3日已启动",
+    "url": "https://jobs.bytedance.com"
+   },
+   {
+    "company": "网易",
+    "position": "2027届校招（视觉设计）",
+    "status": "官网陆续开放",
+    "url": "https://hr.163.com"
+   },
+   {
+    "company": "奥美等4A广告",
+    "position": "客户执行/美术指导",
+    "status": "各公司官网招聘",
+    "url": "https://www.ogilvy.com.cn"
+   },
+   {
+    "company": "蓝色光标",
+    "position": "2027届（视觉/创意/设计）",
+    "status": "校招官网陆续更新",
+    "url": "https://bluefocus.jobs.feishu.cn/"
+   }
+  ],
+  "undergrad:130503": [
+   {
+    "company": "中建集团",
+    "position": "2027届校招（设计/装饰）",
+    "status": "统一测试后投递",
+    "url": "https://recruit.cscec.com"
+   },
+   {
+    "company": "金螳螂",
+    "position": "校招（室内/深化设计）",
+    "status": "官网招聘开放",
+    "url": "https://www.goldmantis.com"
+   },
+   {
+    "company": "华侨城集团",
+    "position": "校招（文旅/景观设计）",
+    "status": "官网招聘开放",
+    "url": "https://www.chinaoct.com"
+   },
+   {
+    "company": "东易日盛",
+    "position": "校招（家装设计）",
+    "status": "官网招聘开放",
+    "url": "https://www.dyrs.com.cn"
+   },
+   {
+    "company": "蓝色光标",
+    "position": "2027届（空间/会展/视觉设计）",
+    "status": "校招官网陆续更新",
+    "url": "https://bluefocus.jobs.feishu.cn/"
+   },
+   {
+    "company": "欧派家居",
+    "position": "校招（家居设计/空间设计）",
+    "status": "官网招聘开放",
+    "url": "https://www.oppein.com"
+   }
+  ],
+  "undergrad:130508": [
+   {
+    "company": "米哈游",
+    "position": "2027届校招（原画/3D/动画）",
+    "status": "8月已启动",
+    "url": "https://jobs.mihoyo.com"
+   },
+   {
+    "company": "腾讯",
+    "position": "2027届校招（游戏美术/数字内容）",
+    "status": "8月11日已启动",
+    "url": "https://careers.tencent.com"
+   },
+   {
+    "company": "字节跳动",
+    "position": "2027届校招（AIGC/视觉）",
+    "status": "8月3日已启动",
+    "url": "https://jobs.bytedance.com"
+   },
+   {
+    "company": "B站",
+    "position": "校招（内容/动画）",
+    "status": "官网招聘开放",
+    "url": "https://jobs.bilibili.com"
+   },
+   {
+    "company": "网易游戏（互娱）",
+    "position": "2027届校招（美术/设计）",
+    "status": "7月21日网申开启",
+    "url": "https://campus.game.163.com"
+   }
+  ],
+  "undergrad:080213T": [
+   {
+    "company": "三一集团",
+    "position": "2027届校招（智能制造/数字化）",
+    "status": "提前批已启动",
+    "url": "https://sany.zhiye.com/campus/jobs"
+   },
+   {
+    "company": "比亚迪",
+    "position": "2027届校招（智能制造/工艺）",
+    "status": "官网持续开放",
+    "url": "https://job.byd.com"
+   },
+   {
+    "company": "中国中车",
+    "position": "2027届校招（智能制造/产线）",
+    "status": "9月上旬上线",
+    "url": "https://crrc.hotjob.cn"
+   },
+   {
+    "company": "小米",
+    "position": "2027届校招（智能制造）",
+    "status": "8月10日已启动",
+    "url": "https://hr.xiaomi.com/campus"
+   },
+   {
+    "company": "创维集团",
+    "position": "2027届校招（研发/制造等，约100人）",
+    "status": "8月17日已启动",
+    "url": "https://skyworth.hotjob.cn"
+   },
+   {
+    "company": "东风商用车",
+    "position": "2027届全球校招（车辆/机械/电气/自动化）",
+    "status": "8月17日已启动",
+    "url": "http://dfmc.hotjob.cn"
+   }
+  ],
+  "undergrad:081801": [
+   {
+    "company": "国铁集团",
+    "position": "各铁路局多批次招聘（交通/运输类）",
+    "status": "各局陆续发布",
+    "url": "https://rczp.china-railway.com.cn"
+   },
+   {
+    "company": "中国中铁",
+    "position": "2027届校招（交通运输/工程）",
+    "status": "已启动",
+    "url": "https://www.crec.cn"
+   },
+   {
+    "company": "中国交建",
+    "position": "2027届校招（交通/路桥）",
+    "status": "各子公司陆续发布",
+    "url": "https://www.ccccltd.cn/rlzy/rczp/rcyjtx/"
+   },
+   {
+    "company": "顺丰",
+    "position": "2027届校招（运营/物流/科技）",
+    "status": "提前批已启动",
+    "url": "https://campus.sf-express.com"
+   }
+  ],
+  "undergrad:081802": [
+   {
+    "company": "中国铁建",
+    "position": "2027届校招（交通/市政工程）",
+    "status": "已启动",
+    "url": "https://www.crcc.cn"
+   },
+   {
+    "company": "中国交建",
+    "position": "2027届校招（交通工程）",
+    "status": "各子公司陆续发布",
+    "url": "https://www.ccccltd.cn/rlzy/rczp/rcyjtx/"
+   },
+   {
+    "company": "中建集团",
+    "position": "2027届校招（基础设施/市政）",
+    "status": "统一测试后投递",
+    "url": "https://recruit.cscec.com"
+   },
+   {
+    "company": "中国中车",
+    "position": "2027届校招（轨道交通）",
+    "status": "9月上旬上线",
+    "url": "https://crrc.hotjob.cn"
+   },
+   {
+    "company": "顺丰",
+    "position": "2027届校招（物流/运力/管理）",
+    "status": "提前批8月17日已启动",
+    "url": "https://campus.sf-express.com"
+   }
+  ],
+  "undergrad:120602": [
+   {
+    "company": "京东",
+    "position": "2027届校招（物流/供应链）",
+    "status": "8月3日已启动",
+    "url": "https://campus.jd.com"
+   },
+   {
+    "company": "顺丰",
+    "position": "2027届校招（运营/科技）",
+    "status": "提前批已启动",
+    "url": "https://campus.sf-express.com"
+   },
+   {
+    "company": "中国邮政",
+    "position": "2027届校招（速递物流）",
+    "status": "秋季启动",
+    "url": "https://zhaopin.chinapost.com.cn"
+   },
+   {
+    "company": "中远海运",
+    "position": "2027届校招（航运物流）",
+    "status": "9月中旬-11月网申",
+    "url": "https://www.coscoshipping.com"
+   },
+   {
+    "company": "中国物流集团",
+    "position": "2027届校招（物流工程）",
+    "status": "秋招9-10月集中",
+    "url": "https://chinalogisticsgroup.hotjob.cn"
+   },
+   {
+    "company": "京东·新锐之星",
+    "position": "2027届（物流储备/销售/职能/运维支持等，专科可报）",
+    "status": "8月17日已启动，11月30日截止",
+    "url": "https://campus.jd.com"
+   }
+  ],
+  "zhuanke:510101": [
+   {
+    "company": "华为",
+    "position": "2027届秋招（硬件/制造）",
+    "status": "秋招进行中",
+    "url": "https://career.huawei.com"
+   },
+   {
+    "company": "京东方",
+    "position": "2027届校招（显示/电子）",
+    "status": "提前批已启动",
+    "url": "https://campus.boe.com"
+   },
+   {
+    "company": "比亚迪",
+    "position": "2027届校招（电子/电气）",
+    "status": "官网持续开放",
+    "url": "https://job.byd.com"
+   },
+   {
+    "company": "中国电信",
+    "position": "2027届校招（装维/技术支撑）",
+    "status": "秋季启动",
+    "url": "https://job.chinatelecom.com.cn"
+   },
+   {
+    "company": "中兴通讯",
+    "position": "2027届校招（制造/测试）",
+    "status": "提前批9月8日截止",
+    "url": "https://job.zte.com.cn"
+   },
+   {
+    "company": "京东·新锐之星",
+    "position": "2027届（物流储备/销售/职能/运维支持等，专科可报）",
+    "status": "8月17日已启动，11月30日截止",
+    "url": "https://campus.jd.com"
+   },
+   {
+    "company": "创维集团",
+    "position": "2027届校招（技术/制造岗，专科可报）",
+    "status": "8月17日已启动",
+    "url": "https://skyworth.hotjob.cn"
+   }
+  ],
+  "zhuanke:510201": [
+   {
+    "company": "华为",
+    "position": "2027届秋招（IT/软件）",
+    "status": "秋招进行中",
+    "url": "https://career.huawei.com"
+   },
+   {
+    "company": "字节跳动",
+    "position": "2027届校招（研发/运营）",
+    "status": "8月3日已启动",
+    "url": "https://jobs.bytedance.com"
+   },
+   {
+    "company": "天翼云",
+    "position": "2027届校招（云计算）",
+    "status": "报名截止10月3日",
+    "url": "https://ctyun.hotjob.cn"
+   },
+   {
+    "company": "京东",
+    "position": "2027届校招（技术/运维）",
+    "status": "8月3日已启动",
+    "url": "https://campus.jd.com"
+   },
+   {
+    "company": "招商银行·招银网络科技",
+    "position": "2027届秋招（后端/算法/测试）",
+    "status": "7月底已启动",
+    "url": "https://cmbnt.cmbchina.com"
+   },
+   {
+    "company": "网易游戏（互娱）",
+    "position": "2027届校招（游戏研发/策划/美术）",
+    "status": "7月21日网申开启",
+    "url": "https://campus.game.163.com"
+   },
+   {
+    "company": "拼多多",
+    "position": "2027届校招提前批（研发/产品）",
+    "status": "7月已启动",
+    "url": "https://careers.pddglobalhr.com/campus"
+   },
+   {
+    "company": "哔哩哔哩（B站）",
+    "position": "2027届秋招（全序列）",
+    "status": "8月3日已启动",
+    "url": "https://jobs.bilibili.com"
+   },
+   {
+    "company": "快手",
+    "position": "2027届秋招（技术/产品）",
+    "status": "8月12日已启动",
+    "url": "https://campus.kuaishou.cn"
+   },
+   {
+    "company": "京东·新锐之星",
+    "position": "2027届（物流储备/销售/职能/运维支持等，专科可报）",
+    "status": "8月17日已启动，11月30日截止",
+    "url": "https://campus.jd.com"
+   },
+   {
+    "company": "创维集团",
+    "position": "2027届校招（技术/制造岗，专科可报）",
+    "status": "8月17日已启动",
+    "url": "https://skyworth.hotjob.cn"
+   },
+   {
+    "company": "比亚迪",
+    "position": "2027届大专专场（机电/机械/电气/计算机/物流等）",
+    "status": "8月持续招聘",
+    "url": "https://job.byd.com"
+   }
+  ],
+  "zhuanke:510205": [
+   {
+    "company": "中国移动",
+    "position": "各省公司校招（大数据/技术）",
+    "status": "正式批8月底-9月",
+    "url": "https://job.10086.cn"
+   },
+   {
+    "company": "天翼云",
+    "position": "2027届校招（数据/云计算）",
+    "status": "报名截止10月3日",
+    "url": "https://ctyun.hotjob.cn"
+   },
+   {
+    "company": "美团",
+    "position": "2027届校招（数据/商业分析）",
+    "status": "8月17日已启动",
+    "url": "https://campus.meituan.com"
+   },
+   {
+    "company": "字节跳动",
+    "position": "2027届校招（数据岗）",
+    "status": "8月3日已启动",
+    "url": "https://jobs.bytedance.com"
+   },
+   {
+    "company": "京东·新锐之星",
+    "position": "2027届（物流储备/销售/职能/运维支持等，专科可报）",
+    "status": "8月17日已启动，11月30日截止",
+    "url": "https://campus.jd.com"
+   },
+   {
+    "company": "创维集团",
+    "position": "2027届校招（技术/制造岗，专科可报）",
+    "status": "8月17日已启动",
+    "url": "https://skyworth.hotjob.cn"
+   },
+   {
+    "company": "比亚迪",
+    "position": "2027届大专专场（机电/机械/电气/计算机/物流等）",
+    "status": "8月持续招聘",
+    "url": "https://job.byd.com"
+   }
+  ],
+  "zhuanke:510209": [
+   {
+    "company": "科大讯飞",
+    "position": "2027届校招（AI开发/算法）",
+    "status": "正式批已启动",
+    "url": "https://iflytek.zhiye.com"
+   },
+   {
+    "company": "百度",
+    "position": "2027届校招（AI/AIDU计划）",
+    "status": "已启动",
+    "url": "https://talent.baidu.com"
+   },
+   {
+    "company": "华为",
+    "position": "2027届秋招（AI/软件）",
+    "status": "秋招进行中",
+    "url": "https://career.huawei.com"
+   },
+   {
+    "company": "中国移动",
+    "position": "各省公司校招（AI/技术）",
+    "status": "正式批8月底-9月",
+    "url": "https://job.10086.cn"
+   },
+   {
+    "company": "京东·新锐之星",
+    "position": "2027届（物流储备/销售/职能/运维支持等，专科可报）",
+    "status": "8月17日已启动，11月30日截止",
+    "url": "https://campus.jd.com"
+   },
+   {
+    "company": "创维集团",
+    "position": "2027届校招（技术/制造岗，专科可报）",
+    "status": "8月17日已启动",
+    "url": "https://skyworth.hotjob.cn"
+   },
+   {
+    "company": "比亚迪",
+    "position": "2027届大专专场（机电/机械/电气/计算机/物流等）",
+    "status": "8月持续招聘",
+    "url": "https://job.byd.com"
+   }
+  ],
+  "zhuanke:440301": [
+   {
+    "company": "中建集团",
+    "position": "2027届校招（施工/技术管理）",
+    "status": "统一测试后投递",
+    "url": "https://recruit.cscec.com"
+   },
+   {
+    "company": "中国铁建",
+    "position": "2027届校招（工程/施工）",
+    "status": "已启动",
+    "url": "https://www.crcc.cn"
+   },
+   {
+    "company": "中国交建",
+    "position": "2027届校招（路桥施工）",
+    "status": "各子公司陆续发布",
+    "url": "https://www.ccccltd.cn/rlzy/rczp/rcyjtx/"
+   },
+   {
+    "company": "中国能建",
+    "position": "2027届校招（电力建设）",
+    "status": "进行中",
+    "url": "https://ceec.iguopin.com"
+   },
+   {
+    "company": "中国建筑（中建系统）",
+    "position": "2027届校招（施工/技术，部分大专岗）",
+    "status": "已启动",
+    "url": "https://job.cscec8b.com.cn"
+   }
+  ],
+  "zhuanke:440501": [
+   {
+    "company": "中建集团",
+    "position": "2027届校招（造价/商务）",
+    "status": "统一测试后投递",
+    "url": "https://recruit.cscec.com"
+   },
+   {
+    "company": "中国铁建",
+    "position": "2027届校招（造价/经管）",
+    "status": "已启动",
+    "url": "https://www.crcc.cn"
+   },
+   {
+    "company": "中国电建",
+    "position": "2027届校招（造价/合同）",
+    "status": "统一平台开放",
+    "url": "https://zhaopin.powerchina.cn"
+   },
+   {
+    "company": "中国交建",
+    "position": "2027届校招（成本/造价）",
+    "status": "各子公司陆续发布",
+    "url": "https://www.ccccltd.cn/rlzy/rczp/rcyjtx/"
+   },
+   {
+    "company": "中国建筑（中建系统）",
+    "position": "2027届校招（造价/商务）",
+    "status": "已启动",
+    "url": "https://job.cscec8b.com.cn"
+   },
+   {
+    "company": "牧原股份",
+    "position": "2027届提前批（工程造价/工程管理）",
+    "status": "6月已启动",
+    "url": "https://www.muyuanfoods.com"
+   }
+  ],
+  "zhuanke:430105": [
+   {
+    "company": "国家电网",
+    "position": "各省公司招聘（电工类，专科可报）",
+    "status": "第一批11月中旬",
+    "url": "https://zhaopin.sgcc.com.cn"
+   },
+   {
+    "company": "南方电网",
+    "position": "2027届校招（电力类）",
+    "status": "9-10月启动",
+    "url": "https://zhaopin.csg.cn"
+   },
+   {
+    "company": "国家电投",
+    "position": "2027届校招（电气/运行）",
+    "status": "正式秋招预计10月",
+    "url": "https://zhaopin.spic.com.cn"
+   },
+   {
+    "company": "华能集团",
+    "position": "2027届校招（电厂运行）",
+    "status": "校招系统开放",
+    "url": "https://zhaopin.chng.com.cn"
+   },
+   {
+    "company": "京东·新锐之星",
+    "position": "2027届（物流储备/销售/职能/运维支持等，专科可报）",
+    "status": "8月17日已启动，11月30日截止",
+    "url": "https://campus.jd.com"
+   },
+   {
+    "company": "比亚迪",
+    "position": "2027届大专专场（机电/机械/电气/计算机/物流等）",
+    "status": "8月持续招聘",
+    "url": "https://job.byd.com"
+   }
+  ],
+  "zhuanke:520301": [
+   {
+    "company": "国药集团",
+    "position": "2027届校招（生产/质量/研发）",
+    "status": "专属网申开放",
+    "url": "https://www.sinopharm.com"
+   },
+   {
+    "company": "药明康德",
+    "position": "校招（实验/研发/质检）",
+    "status": "官网招聘开放",
+    "url": "https://www.wuxiapptec.com"
+   },
+   {
+    "company": "扬子江药业",
+    "position": "校招（生产/质量）",
+    "status": "官网招聘开放",
+    "url": "https://www.yzj.cn"
+   },
+   {
+    "company": "医院药房/卫健委",
+    "position": "药师/调剂（考编）",
+    "status": "各省公告陆续发布"
+   },
+   {
+    "company": "恒瑞医药",
+    "position": "2027届（生产/医药信息）",
+    "status": "5月起招募",
+    "url": "https://www.hengrui.com"
+   },
+   {
+    "company": "华润三九",
+    "position": "2026/2027届（生产/营销）",
+    "status": "持续招聘",
+    "url": "https://wecruit.hotjob.cn/SU613834ecbef57c3b6383b50e/pb/school.html"
+   }
+  ],
+  "zhuanke:520501": [
+   {
+    "company": "金域医学",
+    "position": "校招/实习（检验技术员）",
+    "status": "全国实验室招聘中",
+    "url": "https://www.kingmed.com.cn"
+   },
+   {
+    "company": "迪安诊断",
+    "position": "校招（检验技术）",
+    "status": "官网招聘开放",
+    "url": "https://www.dazd.cn"
+   },
+   {
+    "company": "华大基因",
+    "position": "校招（实验技术）",
+    "status": "官网招聘开放",
+    "url": "https://www.genomics.cn"
+   },
+   {
+    "company": "医院检验科",
+    "position": "检验技师（考编）",
+    "status": "各省公告陆续发布"
+   }
+  ],
+  "zhuanke:570102K": [
+   {
+    "company": "公立幼儿园",
+    "position": "幼儿教师（考编，各地教育局）",
+    "status": "各省公告陆续发布"
+   },
+   {
+    "company": "新东方等教育集团",
+    "position": "幼教/素质教育教师",
+    "status": "官网招聘开放",
+    "url": "https://www.neworiental.org"
+   },
+   {
+    "company": "民办幼教集团",
+    "position": "主班/配班教师",
+    "status": "各集团官网招聘"
+   },
+   {
+    "company": "早教机构",
+    "position": "早教指导师（金宝贝/美吉姆等）",
+    "status": "各机构官网招聘"
+   },
+   {
+    "company": "新东方",
+    "position": "2027届校招（素养/少儿教师）",
+    "status": "7月底已启动",
+    "url": "https://zhaopin.xdf.cn"
+   }
+  ],
+  "zhuanke:530605": [
+   {
+    "company": "宝洁",
+    "position": "2027届校招（销售/市场）",
+    "status": "官网开放",
+    "url": "https://careers.pg.com.cn"
+   },
+   {
+    "company": "京东",
+    "position": "2027届校招（采销/市场）",
+    "status": "8月3日已启动",
+    "url": "https://campus.jd.com"
+   },
+   {
+    "company": "中国移动",
+    "position": "各省公司校招（市场类）",
+    "status": "正式批8月底-9月",
+    "url": "https://job.10086.cn"
+   },
+   {
+    "company": "字节跳动",
+    "position": "2027届校招（商业化/运营）",
+    "status": "8月3日已启动",
+    "url": "https://jobs.bytedance.com"
+   },
+   {
+    "company": "加多宝",
+    "position": "2027届校招（销售管培生）",
+    "status": "8月已启动",
+    "url": "https://jdbchina.zhiye.com"
+   },
+   {
+    "company": "京东·新锐之星",
+    "position": "2027届（销售/职能，专科可报）",
+    "status": "8月17日已启动",
+    "url": "https://campus.jd.com"
+   }
+  ],
+  "zhuanke:530802": [
+   {
+    "company": "京东",
+    "position": "2027届校招（物流/仓储管理）",
+    "status": "8月3日已启动",
+    "url": "https://campus.jd.com"
+   },
+   {
+    "company": "顺丰",
+    "position": "2027届校招（运营/网点管理）",
+    "status": "提前批已启动",
+    "url": "https://campus.sf-express.com"
+   },
+   {
+    "company": "中国邮政",
+    "position": "2027届校招（速递物流）",
+    "status": "秋季启动",
+    "url": "https://zhaopin.chinapost.com.cn"
+   },
+   {
+    "company": "中储粮",
+    "position": "2027届校招（仓储/物流）",
+    "status": "秋招待启动",
+    "url": "https://www.sinograin.com.cn"
+   },
+   {
+    "company": "中国物流集团",
+    "position": "2027届校招（仓储/物流）",
+    "status": "秋招9-10月集中",
+    "url": "https://chinalogisticsgroup.hotjob.cn"
+   }
+  ],
+  "zhuanke:500211": [
+   {
+    "company": "比亚迪",
+    "position": "2027届校招（售后/制造）",
+    "status": "官网持续开放",
+    "url": "https://job.byd.com"
+   },
+   {
+    "company": "上汽通用五菱",
+    "position": "校招（制造/售后）",
+    "status": "官网招聘开放",
+    "url": "https://www.sgmw.com.cn"
+   },
+   {
+    "company": "吉利汽车",
+    "position": "校招（制造/服务）",
+    "status": "官网招聘开放",
+    "url": "https://campus.geely.com"
+   },
+   {
+    "company": "途虎养车",
+    "position": "校招/社招（门店/技术）",
+    "status": "官网招聘开放",
+    "url": "https://www.tuhu.cn"
+   },
+   {
+    "company": "京东·新锐之星",
+    "position": "2027届（物流储备/销售/职能/运维支持等，专科可报）",
+    "status": "8月17日已启动，11月30日截止",
+    "url": "https://campus.jd.com"
+   }
+  ],
+  "zhuanke:460103": [
+   {
+    "company": "中国中车",
+    "position": "2027届校招（数控/制造）",
+    "status": "9月上旬上线",
+    "url": "https://crrc.hotjob.cn"
+   },
+   {
+    "company": "三一集团",
+    "position": "2027届校招（数控/工艺）",
+    "status": "提前批已启动",
+    "url": "https://sany.zhiye.com/campus/jobs"
+   },
+   {
+    "company": "徐工集团",
+    "position": "校招（数控/智能制造）",
+    "status": "官网招聘开放",
+    "url": "https://www.xcmg.com"
+   },
+   {
+    "company": "比亚迪",
+    "position": "2027届校招（制造/工艺）",
+    "status": "官网持续开放",
+    "url": "https://job.byd.com"
+   },
+   {
+    "company": "京东·新锐之星",
+    "position": "2027届（物流储备/销售/职能/运维支持等，专科可报）",
+    "status": "8月17日已启动，11月30日截止",
+    "url": "https://campus.jd.com"
+   }
+  ],
+  "zhuanke:460104": [
+   {
+    "company": "中国中车",
+    "position": "2027届校招（机械制造）",
+    "status": "9月上旬上线",
+    "url": "https://crrc.hotjob.cn"
+   },
+   {
+    "company": "三一集团",
+    "position": "2027届校招（机械/工艺）",
+    "status": "提前批已启动",
+    "url": "https://sany.zhiye.com/campus/jobs"
+   },
+   {
+    "company": "比亚迪",
+    "position": "2027届校招（机械/制造）",
+    "status": "官网持续开放",
+    "url": "https://job.byd.com"
+   },
+   {
+    "company": "徐工集团",
+    "position": "校招（机械制造）",
+    "status": "官网招聘开放",
+    "url": "https://www.xcmg.com"
+   },
+   {
+    "company": "京东·新锐之星",
+    "position": "2027届（物流储备/销售/职能/运维支持等，专科可报）",
+    "status": "8月17日已启动，11月30日截止",
+    "url": "https://campus.jd.com"
+   }
+  ],
+  "zhuanke:540101": [
+   {
+    "company": "中国旅游集团",
+    "position": "2027届校招（景区/酒店/免税）",
+    "status": "预计9月上旬上线",
+    "url": "https://ctg.zhaopin.com"
+   },
+   {
+    "company": "华侨城集团",
+    "position": "校招（文旅运营）",
+    "status": "官网招聘开放",
+    "url": "https://www.chinaoct.com"
+   },
+   {
+    "company": "华住集团",
+    "position": "校招（酒店运营/管培）",
+    "status": "官网招聘开放",
+    "url": "https://www.huazhu.com"
+   },
+   {
+    "company": "携程集团",
+    "position": "2027届留用实习",
+    "status": "已开放",
+    "url": "https://campus.ctrip.com"
+   }
+  ],
+  "zhuanke:530201": [
+   {
+    "company": "邮储银行",
+    "position": "2027届秋招（柜面/客户经理）",
+    "status": "预计9月初启动",
+    "url": "https://job.psbc.com"
+   },
+   {
+    "company": "中国银行",
+    "position": "综合类岗位（部分省份专科可报）",
+    "status": "秋招将启动",
+    "url": "https://www.boc.cn"
+   },
+   {
+    "company": "中国人寿",
+    "position": "校招（销售/运营）",
+    "status": "官网招聘开放",
+    "url": "https://www.chinalife.com.cn"
+   },
+   {
+    "company": "各省农商行/城商行",
+    "position": "柜面/客户经理",
+    "status": "各地公告陆续发布"
+   },
+   {
+    "company": "泰康保险集团",
+    "position": "2027届（保险/营销/运营）",
+    "status": "陆续开放",
+    "url": "https://jobtaikang.zhiye.com"
+   }
+  ],
+  "zhuanke:500606": [
+   {
+    "company": "广州地铁",
+    "position": "校招（运营/站务）",
+    "status": "官网招聘开放",
+    "url": "https://www.gzmtr.com"
+   },
+   {
+    "company": "深圳地铁",
+    "position": "校招（运营/站务）",
+    "status": "官网招聘开放",
+    "url": "https://www.szmc.net"
+   },
+   {
+    "company": "北京地铁",
+    "position": "校招（运营/乘务）",
+    "status": "官网招聘开放",
+    "url": "https://www.bjsubway.com"
+   },
+   {
+    "company": "上海申通地铁",
+    "position": "校招（运营管理）",
+    "status": "官网招聘开放",
+    "url": "https://www.shmetro.com"
+   },
+   {
+    "company": "中国铁路局系统",
+    "position": "各局多批次（大专可报）",
+    "status": "各局陆续发布",
+    "url": "https://rczp.china-railway.com.cn"
+   },
+   {
+    "company": "中国中车",
+    "position": "2027届校招（技术技能类，优秀专科可择优）",
+    "status": "已开放",
+    "url": "https://crrc.hotjob.cn"
+   }
+  ],
+  "zhuanke:510204": [
+   {
+    "company": "字节跳动",
+    "position": "2027届校招（内容/技术）",
+    "status": "8月3日已启动",
+    "url": "https://jobs.bytedance.com"
+   },
+   {
+    "company": "B站",
+    "position": "校招（内容/产品）",
+    "status": "官网招聘开放",
+    "url": "https://jobs.bilibili.com"
+   },
+   {
+    "company": "网易",
+    "position": "2027届校招（内容/技术）",
+    "status": "官网陆续开放",
+    "url": "https://hr.163.com"
+   },
+   {
+    "company": "爱奇艺",
+    "position": "校招（内容/技术）",
+    "status": "官网招聘开放",
+    "url": "https://www.iqiyi.com"
+   },
+   {
+    "company": "京东·新锐之星",
+    "position": "2027届（物流储备/销售/职能/运维支持等，专科可报）",
+    "status": "8月17日已启动，11月30日截止",
+    "url": "https://campus.jd.com"
+   },
+   {
+    "company": "创维集团",
+    "position": "2027届校招（技术/制造岗，专科可报）",
+    "status": "8月17日已启动",
+    "url": "https://skyworth.hotjob.cn"
+   },
+   {
+    "company": "比亚迪",
+    "position": "2027届大专专场（机电/机械/电气/计算机/物流等）",
+    "status": "8月持续招聘",
+    "url": "https://job.byd.com"
+   }
+  ],
+  "zhuanke:510215": [
+   {
+    "company": "米哈游",
+    "position": "2027届校招（动画/美术）",
+    "status": "8月已启动",
+    "url": "https://jobs.mihoyo.com"
+   },
+   {
+    "company": "腾讯",
+    "position": "2027届校招（游戏美术）",
+    "status": "8月11日已启动",
+    "url": "https://careers.tencent.com"
+   },
+   {
+    "company": "网易",
+    "position": "2027届校招（游戏/动画）",
+    "status": "官网陆续开放",
+    "url": "https://hr.163.com"
+   },
+   {
+    "company": "玄机科技等动画公司",
+    "position": "动画/模型师",
+    "status": "各公司官网招聘"
+   },
+   {
+    "company": "京东·新锐之星",
+    "position": "2027届（物流储备/销售/职能/运维支持等，专科可报）",
+    "status": "8月17日已启动，11月30日截止",
+    "url": "https://campus.jd.com"
+   },
+   {
+    "company": "创维集团",
+    "position": "2027届校招（技术/制造岗，专科可报）",
+    "status": "8月17日已启动",
+    "url": "https://skyworth.hotjob.cn"
+   },
+   {
+    "company": "比亚迪",
+    "position": "2027届大专专场（机电/机械/电气/计算机/物流等）",
+    "status": "8月持续招聘",
+    "url": "https://job.byd.com"
+   }
+  ],
+  "zhuanke:460609": [
+   {
+    "company": "大疆",
+    "position": "2027届校招（无人机研发/技术支持）",
+    "status": "已启动",
+    "url": "https://careers.dji.com"
+   },
+   {
+    "company": "极飞科技",
+    "position": "校招（无人机应用）",
+    "status": "官网招聘开放",
+    "url": "https://www.xaircraft.com"
+   },
+   {
+    "company": "国家电网",
+    "position": "无人机巡检岗位（合作单位）",
+    "status": "各批次招聘中",
+    "url": "https://zhaopin.sgcc.com.cn"
+   },
+   {
+    "company": "纵横股份",
+    "position": "校招（无人机行业应用）",
+    "status": "官网招聘开放",
+    "url": "https://www.jouav.com"
+   },
+   {
+    "company": "京东·新锐之星",
+    "position": "2027届（物流储备/销售/职能/运维支持等，专科可报）",
+    "status": "8月17日已启动，11月30日截止",
+    "url": "https://campus.jd.com"
+   },
+   {
+    "company": "比亚迪",
+    "position": "2027届大专专场（机电/机械/电气/计算机/物流等）",
+    "status": "8月持续招聘",
+    "url": "https://job.byd.com"
+   }
+  ],
+  "zhuanke:570201": [
+   {
+    "company": "中远海运",
+    "position": "2027届校招（外贸/航运业务）",
+    "status": "9月中旬-11月网申",
+    "url": "https://www.coscoshipping.com"
+   },
+   {
+    "company": "中国外运",
+    "position": "校招（国际物流/货代）",
+    "status": "官网招聘开放",
+    "url": "https://www.sinotrans.com"
+   },
+   {
+    "company": "比亚迪",
+    "position": "2027届校招（海外市场/销售）",
+    "status": "官网持续开放",
+    "url": "https://job.byd.com"
+   },
+   {
+    "company": "安克创新",
+    "position": "校招（跨境电商/海外运营）",
+    "status": "官网招聘开放",
+    "url": "https://www.anker.com"
+   }
+  ],
+  "undergrad:081301": [
+   {
+    "company": "中国石化",
+    "position": "2027届校招（化工/工艺）",
+    "status": "秋招陆续发布",
+    "url": "https://job.sinopec.com"
+   },
+   {
+    "company": "中国石油",
+    "position": "2027届校招（炼化/化工）",
+    "status": "秋招陆续发布",
+    "url": "https://zhaopin.cnpc.com.cn"
+   },
+   {
+    "company": "万华化学",
+    "position": "校招（工艺/研发）",
+    "status": "官网持续开放",
+    "url": "https://www.whchem.com"
+   },
+   {
+    "company": "中国中化",
+    "position": "校招（化工/材料）",
+    "status": "官网招聘开放",
+    "url": "https://www.sinochem.com"
+   },
+   {
+    "company": "中国海油",
+    "position": "2027届校招（化工/工艺）",
+    "status": "秋招陆续开放",
+    "url": "https://cnooc.zhaopin.com"
+   }
+  ],
+  "undergrad:081302": [
+   {
+    "company": "国药集团",
+    "position": "2027届校招（生产/研发/质量）",
+    "status": "专属网申开放",
+    "url": "https://www.sinopharm.com"
+   },
+   {
+    "company": "药明康德",
+    "position": "校招（研发/实验/质检）",
+    "status": "官网招聘开放",
+    "url": "https://www.wuxiapptec.com"
+   },
+   {
+    "company": "恒瑞医药",
+    "position": "校招（研发/生产）",
+    "status": "官网招聘开放",
+    "url": "https://www.hrs.com.cn"
+   },
+   {
+    "company": "华润医药",
+    "position": "校招（生产/营销）",
+    "status": "华润统一平台",
+    "url": "https://runjob.crc.com.cn"
+   }
+  ],
+  "undergrad:080702": [
+   {
+    "company": "华为",
+    "position": "2027届秋招（电子/半导体）",
+    "status": "秋招进行中",
+    "url": "https://career.huawei.com"
+   },
+   {
+    "company": "京东方",
+    "position": "2027届校招（显示/电子）",
+    "status": "提前批已启动",
+    "url": "https://campus.boe.com"
+   },
+   {
+    "company": "中芯国际",
+    "position": "校招（芯片/工艺）",
+    "status": "官网招聘开放",
+    "url": "https://www.smics.com"
+   },
+   {
+    "company": "中国电科",
+    "position": "2027届校招（电子类院所）",
+    "status": "各院所陆续发布",
+    "url": "https://cetc38.zhaopin.com"
+   },
+   {
+    "company": "vivo",
+    "position": "2027届校招（电子/硬件）",
+    "status": "8月10日已启动",
+    "url": "https://hr-campus.vivo.com"
+   },
+   {
+    "company": "海康威视",
+    "position": "2027届校招（电子/算法）",
+    "status": "超新星+正式批开放",
+    "url": "https://campushr.hikvision.com"
+   },
+   {
+    "company": "腾讯",
+    "position": "2027届校招（技术/产品/市场/职能等）",
+    "status": "8月11日已启动",
+    "url": "https://join.qq.com"
+   },
+   {
+    "company": "字节跳动",
+    "position": "2027届秋招（研发/产品/运营/市场/职能等）",
+    "status": "8月3日已启动，12月31日截止",
+    "url": "https://jobs.bytedance.com"
+   },
+   {
+    "company": "京东",
+    "position": "2027届秋招（技术/产品/物流/职能等）",
+    "status": "8月17日已启动，11月30日截止",
+    "url": "https://campus.jd.com"
+   },
+   {
+    "company": "小米",
+    "position": "2027届全球校招（软件/硬件/芯片等17+职类）",
+    "status": "8月10日已启动",
+    "url": "https://hr.xiaomi.com/campus"
+   },
+   {
+    "company": "中国电信",
+    "position": "2027年度校招（各省公司/专业子公司）",
+    "status": "8月24日起网申开放",
+    "url": "https://www.chinatelecom.com.cn/zp/"
+   },
+   {
+    "company": "中国电信·天翼云",
+    "position": "2027届超级优才/校招提前批",
+    "status": "7月已启动",
+    "url": "https://ctyun.hotjob.cn"
+   },
+   {
+    "company": "用友",
+    "position": "2027届校招高潜人才计划（算法/工程/产品）",
+    "status": "8月7日-10月31日",
+    "url": "https://career.yonyou.com"
+   },
+   {
+    "company": "宁波银行·总行金融科技",
+    "position": "2027届总行金融科技定向生（约100人）",
+    "status": "8月中旬网申已开",
+    "url": "https://zhaopin.nbcb.com.cn"
+   },
+   {
+    "company": "顺丰科技",
+    "position": "2027届提前批",
+    "status": "8月17日已启动",
+    "url": "https://campus.sf-express.com"
+   },
+   {
+    "company": "创维集团",
+    "position": "2027届校招（研发/制造等，约100人）",
+    "status": "8月17日已启动",
+    "url": "https://skyworth.hotjob.cn"
+   }
+  ],
+  "undergrad:080710T": [
+   {
+    "company": "中芯国际",
+    "position": "校招（芯片设计/工艺）",
+    "status": "官网招聘开放",
+    "url": "https://www.smics.com"
+   },
+   {
+    "company": "华为海思",
+    "position": "2027届秋招（芯片设计）",
+    "status": "秋招进行中",
+    "url": "https://career.huawei.com"
+   },
+   {
+    "company": "中国电科/中国电子",
+    "position": "2027届校招（集成电路）",
+    "status": "各院所陆续发布",
+    "url": "https://cetc38.zhaopin.com"
+   },
+   {
+    "company": "中兴通讯",
+    "position": "2027届校招（IC 开发）",
+    "status": "提前批9月8日截止",
+    "url": "https://job.zte.com.cn"
+   },
+   {
+    "company": "腾讯",
+    "position": "2027届校招（技术/产品/市场/职能等）",
+    "status": "8月11日已启动",
+    "url": "https://join.qq.com"
+   },
+   {
+    "company": "字节跳动",
+    "position": "2027届秋招（研发/产品/运营/市场/职能等）",
+    "status": "8月3日已启动，12月31日截止",
+    "url": "https://jobs.bytedance.com"
+   },
+   {
+    "company": "京东",
+    "position": "2027届秋招（技术/产品/物流/职能等）",
+    "status": "8月17日已启动，11月30日截止",
+    "url": "https://campus.jd.com"
+   },
+   {
+    "company": "小米",
+    "position": "2027届全球校招（软件/硬件/芯片等17+职类）",
+    "status": "8月10日已启动",
+    "url": "https://hr.xiaomi.com/campus"
+   },
+   {
+    "company": "中国电信",
+    "position": "2027年度校招（各省公司/专业子公司）",
+    "status": "8月24日起网申开放",
+    "url": "https://www.chinatelecom.com.cn/zp/"
+   },
+   {
+    "company": "中国电信·天翼云",
+    "position": "2027届超级优才/校招提前批",
+    "status": "7月已启动",
+    "url": "https://ctyun.hotjob.cn"
+   },
+   {
+    "company": "用友",
+    "position": "2027届校招高潜人才计划（算法/工程/产品）",
+    "status": "8月7日-10月31日",
+    "url": "https://career.yonyou.com"
+   },
+   {
+    "company": "宁波银行·总行金融科技",
+    "position": "2027届总行金融科技定向生（约100人）",
+    "status": "8月中旬网申已开",
+    "url": "https://zhaopin.nbcb.com.cn"
+   },
+   {
+    "company": "顺丰科技",
+    "position": "2027届提前批",
+    "status": "8月17日已启动",
+    "url": "https://campus.sf-express.com"
+   },
+   {
+    "company": "创维集团",
+    "position": "2027届校招（研发/制造等，约100人）",
+    "status": "8月17日已启动",
+    "url": "https://skyworth.hotjob.cn"
+   }
+  ],
+  "undergrad:100501K": [
+   {
+    "company": "医院/卫健委",
+    "position": "中医师（考编+规培）",
+    "status": "各省公告陆续发布"
+   },
+   {
+    "company": "云南白药",
+    "position": "校招（中药研发/市场）",
+    "status": "官网招聘开放",
+    "url": "https://www.ynby.com"
+   },
+   {
+    "company": "同仁堂",
+    "position": "校招（药学/中医）",
+    "status": "官网招聘开放",
+    "url": "https://www.tongrentang.com"
+   },
+   {
+    "company": "国药集团",
+    "position": "2027届校招（中医药方向）",
+    "status": "专属网申开放",
+    "url": "https://www.sinopharm.com"
+   }
+  ],
+  "undergrad:100401K": [
+   {
+    "company": "疾控中心/卫健委",
+    "position": "公卫医师（考编）",
+    "status": "各省公告陆续发布"
+   },
+   {
+    "company": "医院公卫科",
+    "position": "公共卫生岗位（考编）",
+    "status": "各省公告陆续发布"
+   },
+   {
+    "company": "国药集团",
+    "position": "2027届校招（公卫/生物）",
+    "status": "专属网申开放",
+    "url": "https://www.sinopharm.com"
+   },
+   {
+    "company": "泰康之家",
+    "position": "2027届（健康管理/公卫）",
+    "status": "实习生计划进行中",
+    "url": "https://jobtaikang.zhiye.com"
+   }
+  ],
+  "undergrad:101005": [
+   {
+    "company": "医院康复科",
+    "position": "康复治疗师（考编/合同）",
+    "status": "各省公告陆续发布"
+   },
+   {
+    "company": "康复连锁机构",
+    "position": "康复治疗师",
+    "status": "官网招聘开放"
+   },
+   {
+    "company": "GE/西门子医疗",
+    "position": "康复设备应用工程师",
+    "status": "各公司官网招聘",
+    "url": "https://jobs.siemens-healthineers.com"
+   },
+   {
+    "company": "泰康之家",
+    "position": "2027届校招（康复治疗师/医技岗）",
+    "status": "8月已发布",
+    "url": "https://jobtaikang.zhiye.com"
+   },
+   {
+    "company": "美年大健康",
+    "position": "2027届校招（康复/健康管理岗）",
+    "status": "8-9月启动",
+    "url": "https://www.health-100.cn"
+   },
+   {
+    "company": "爱尔眼科",
+    "position": "2027届校招（视光康复/医疗岗）",
+    "status": "8-9月启动",
+    "url": "https://www.aierchina.com"
+   },
+   {
+    "company": "鱼跃医疗",
+    "position": "2027届校招（康复设备/临床）",
+    "status": "8-9月启动",
+    "url": "https://www.yuyue.com.cn"
+   }
+  ],
+  "undergrad:120207": [
+   {
+    "company": "四大会计师事务所",
+    "position": "校招/寒假实习（审计）",
+    "status": "各所官网陆续开放"
+   },
+   {
+    "company": "国有大行",
+    "position": "内审/财会类岗位",
+    "status": "秋招9-10月",
+    "url": "https://job.icbc.com.cn"
+   },
+   {
+    "company": "央企内审/财务",
+    "position": "审计/财务岗",
+    "status": "各央企官网招聘",
+    "url": "https://runjob.crc.com.cn"
+   },
+   {
+    "company": "国考（审计署/税务）",
+    "position": "审计类对口岗位",
+    "status": "公告预计10月",
+    "url": "http://bm.scs.gov.cn"
+   },
+   {
+    "company": "普华永道",
+    "position": "2027届秋招（审计/鉴证）",
+    "status": "8月起在线申请",
+    "url": "https://www.pwccn.com/zh/careers/students.html"
+   },
+   {
+    "company": "德勤中国",
+    "position": "2027校招（审计）",
+    "status": "已启动",
+    "url": "https://www.deloitte.com/cn/zh/careers"
+   },
+   {
+    "company": "毕马威",
+    "position": "2027届秋招（审计）",
+    "status": "8月4日启动",
+    "url": "https://www.kpmg.com/cn"
+   },
+   {
+    "company": "安永",
+    "position": "2027届校招（审计）",
+    "status": "陆续开放",
+    "url": "https://ey.hotjob.cn"
+   },
+   {
+    "company": "京东·新锐之星",
+    "position": "2027届（财务/人力/行政/销售等职能方向，专科可报）",
+    "status": "8月17日已启动，11月30日截止",
+    "url": "https://campus.jd.com"
+   },
+   {
+    "company": "京东",
+    "position": "2027届秋招（职能/财务/人力等）",
+    "status": "8月17日已启动",
+    "url": "https://campus.jd.com"
+   },
+   {
+    "company": "字节跳动",
+    "position": "2027届秋招（职能/销售/市场等）",
+    "status": "8月3日已启动",
+    "url": "https://jobs.bytedance.com"
+   },
+   {
+    "company": "腾讯",
+    "position": "2027届校招（职能/市场/设计类）",
+    "status": "8月11日已启动",
+    "url": "https://join.qq.com"
+   }
+  ],
+  "undergrad:020302": [
+   {
+    "company": "券商/基金",
+    "position": "2027届校招（量化/研究）",
+    "status": "秋招陆续开放"
+   },
+   {
+    "company": "国家开发银行",
+    "position": "2027届校招（金融/理工）",
+    "status": "公告预计9月中旬",
+    "url": "https://www.cdb.com.cn"
+   },
+   {
+    "company": "中国银行",
+    "position": "金融类岗位",
+    "status": "秋招将启动",
+    "url": "https://www.boc.cn"
+   },
+   {
+    "company": "邮储银行",
+    "position": "2027届秋招（金融类）",
+    "status": "预计9月初启动",
+    "url": "https://job.psbc.com"
+   }
+  ],
+  "undergrad:040201": [
+   {
+    "company": "中小学体育教师",
+    "position": "体育教师（考编）",
+    "status": "各省公告陆续发布"
+   },
+   {
+    "company": "体育培训机构",
+    "position": "教练/课程",
+    "status": "各机构官网招聘"
+   },
+   {
+    "company": "中体产业等体育上市公司",
+    "position": "运营/赛事",
+    "status": "官网招聘开放",
+    "url": "https://www.csg.com.cn"
+   },
+   {
+    "company": "安踏",
+    "position": "2027届校招（零售运营/管培生）",
+    "status": "8月启动",
+    "url": "https://www.anta.com"
+   },
+   {
+    "company": "李宁",
+    "position": "2027届校招（运营/管培生）",
+    "status": "8-9月启动",
+    "url": "https://www.lining.com"
+   },
+   {
+    "company": "各省中小学体育教师",
+    "position": "教师编制考试",
+    "status": "关注当地教育局公告",
+    "url": "https://bm.scs.gov.cn"
+   }
+  ],
+  "undergrad:090101": [
+   {
+    "company": "中粮集团",
+    "position": "2027届校招（农业/粮油）",
+    "status": "统一网申开放",
+    "url": "http://campus.51job.com/cofco"
+   },
+   {
+    "company": "中储粮",
+    "position": "2027届校招（仓储/质检）",
+    "status": "秋招待启动",
+    "url": "https://www.sinograin.com.cn"
+   },
+   {
+    "company": "北大荒集团",
+    "position": "校招（农业技术）",
+    "status": "官网招聘开放",
+    "url": "https://www.chinabdh.com"
+   },
+   {
+    "company": "隆平高科等种业",
+    "position": "校招（育种/推广）",
+    "status": "官网招聘开放",
+    "url": "https://www.lpht.com.cn"
+   },
+   {
+    "company": "中国中化",
+    "position": "2027届校招（农业/化工）",
+    "status": "已开放",
+    "url": "https://sinochem.hotjob.cn"
+   }
+  ],
+  "undergrad:130309": [
+   {
+    "company": "广电集团/央媒",
+    "position": "主持人/出镜记者",
+    "status": "各单位招聘公告"
+   },
+   {
+    "company": "字节跳动（抖音）",
+    "position": "2027届校招（内容/主持）",
+    "status": "8月3日已启动",
+    "url": "https://jobs.bytedance.com"
+   },
+   {
+    "company": "新媒体MCN/直播机构",
+    "position": "主播/内容策划",
+    "status": "各机构官网招聘"
+   },
+   {
+    "company": "芒果超媒",
+    "position": "2027届校招（主持人/内容岗）",
+    "status": "8-9月启动",
+    "url": "https://www.mgtv.com"
+   },
+   {
+    "company": "字节跳动",
+    "position": "2027届校招（直播/内容岗）",
+    "status": "8月3日已启动",
+    "url": "https://jobs.bytedance.com"
+   },
+   {
+    "company": "各地广电/融媒体",
+    "position": "主持人/编导（考编/社招）",
+    "status": "关注各地招聘公告",
+    "url": "https://bm.scs.gov.cn"
+   }
+  ],
+  "undergrad:081002": [
+   {
+    "company": "中建集团",
+    "position": "2027届校招（暖通/机电）",
+    "status": "统一测试后投递",
+    "url": "https://recruit.cscec.com"
+   },
+   {
+    "company": "中国铁建",
+    "position": "2027届校招（暖通/设备）",
+    "status": "已启动",
+    "url": "https://www.crcc.cn"
+   },
+   {
+    "company": "中国能建",
+    "position": "2027届校招（能源动力）",
+    "status": "进行中",
+    "url": "https://ceec.iguopin.com"
+   },
+   {
+    "company": "格力/美的/海尔",
+    "position": "校招（暖通/制冷）",
+    "status": "官网招聘开放",
+    "url": "https://www.gree.com.cn"
+   }
+  ],
+  "undergrad:090401": [
+   {
+    "company": "牧原股份",
+    "position": "校招（兽医/养殖）",
+    "status": "官网招聘开放",
+    "url": "https://www.muyuanfoods.com"
+   },
+   {
+    "company": "温氏股份",
+    "position": "校招（动医/动科）",
+    "status": "官网招聘开放",
+    "url": "https://www.wens.com.cn"
+   },
+   {
+    "company": "宠物医疗连锁",
+    "position": "兽医助理/宠物医生",
+    "status": "各连锁招聘开放",
+    "url": "https://www.ruipeng.com"
+   },
+   {
+    "company": "畜牧兽医站（考编）",
+    "position": "官方兽医",
+    "status": "各省公告陆续发布"
+   },
+   {
+    "company": "新瑞鹏宠物医疗集团",
+    "position": "2027届（储备兽医师/兽医助理）",
+    "status": "校招持续开放",
+    "url": "https://www.ruipengpet.com"
+   }
+  ],
+  "zhuanke:510206": [
+   {
+    "company": "天翼云",
+    "position": "2027届校招（云计算）",
+    "status": "报名截止10月3日",
+    "url": "https://ctyun.hotjob.cn"
+   },
+   {
+    "company": "华为",
+    "position": "2027届秋招（云/IT）",
+    "status": "秋招进行中",
+    "url": "https://career.huawei.com"
+   },
+   {
+    "company": "阿里云生态",
+    "position": "校招/生态岗位（云服务）",
+    "status": "阿里2027届已启动",
+    "url": "https://campus-talent.alibaba.com"
+   },
+   {
+    "company": "京东",
+    "position": "2027届校招（技术/运维）",
+    "status": "8月3日已启动",
+    "url": "https://campus.jd.com"
+   },
+   {
+    "company": "京东·新锐之星",
+    "position": "2027届（物流储备/销售/职能/运维支持等，专科可报）",
+    "status": "8月17日已启动，11月30日截止",
+    "url": "https://campus.jd.com"
+   },
+   {
+    "company": "创维集团",
+    "position": "2027届校招（技术/制造岗，专科可报）",
+    "status": "8月17日已启动",
+    "url": "https://skyworth.hotjob.cn"
+   },
+   {
+    "company": "比亚迪",
+    "position": "2027届大专专场（机电/机械/电气/计算机/物流等）",
+    "status": "8月持续招聘",
+    "url": "https://job.byd.com"
+   }
+  ],
+  "zhuanke:510207": [
+   {
+    "company": "天翼云",
+    "position": "2027届校招（信息安全）",
+    "status": "报名截止10月3日",
+    "url": "https://ctyun.hotjob.cn"
+   },
+   {
+    "company": "奇安信",
+    "position": "校招（安全服务）",
+    "status": "官网招聘开放",
+    "url": "https://www.qianxin.com"
+   },
+   {
+    "company": "深信服",
+    "position": "校招（安全/技术支持）",
+    "status": "官网招聘开放",
+    "url": "https://www.sangfor.com.cn"
+   },
+   {
+    "company": "中国移动",
+    "position": "各省公司校招（安全/技术）",
+    "status": "正式批8月底-9月",
+    "url": "https://job.10086.cn"
+   },
+   {
+    "company": "京东·新锐之星",
+    "position": "2027届（物流储备/销售/职能/运维支持等，专科可报）",
+    "status": "8月17日已启动，11月30日截止",
+    "url": "https://campus.jd.com"
+   },
+   {
+    "company": "创维集团",
+    "position": "2027届校招（技术/制造岗，专科可报）",
+    "status": "8月17日已启动",
+    "url": "https://skyworth.hotjob.cn"
+   },
+   {
+    "company": "比亚迪",
+    "position": "2027届大专专场（机电/机械/电气/计算机/物流等）",
+    "status": "8月持续招聘",
+    "url": "https://job.byd.com"
+   }
+  ],
+  "zhuanke:440101": [
+   {
+    "company": "中建集团",
+    "position": "2027届校招（建筑设计/深化）",
+    "status": "统一测试后投递",
+    "url": "https://recruit.cscec.com"
+   },
+   {
+    "company": "中国铁建",
+    "position": "2027届校招（设计院）",
+    "status": "已启动",
+    "url": "https://www.crcc.cn"
+   },
+   {
+    "company": "华侨城集团",
+    "position": "校招（文旅/设计）",
+    "status": "官网招聘开放",
+    "url": "https://www.chinaoct.com"
+   },
+   {
+    "company": "建筑设计院/装饰公司",
+    "position": "绘图员/助理设计师",
+    "status": "各设计院官网招聘"
+   }
+  ],
+  "zhuanke:430108": [
+   {
+    "company": "国家电网",
+    "position": "各省公司招聘（电工类，专科可报）",
+    "status": "第一批11月中旬",
+    "url": "https://zhaopin.sgcc.com.cn"
+   },
+   {
+    "company": "南方电网",
+    "position": "2027届校招（电力类）",
+    "status": "9-10月启动",
+    "url": "https://zhaopin.csg.cn"
+   },
+   {
+    "company": "华能集团",
+    "position": "2027届校招（电厂运行）",
+    "status": "校招系统开放",
+    "url": "https://zhaopin.chng.com.cn"
+   },
+   {
+    "company": "国家电投",
+    "position": "2027届校招（电气/运行）",
+    "status": "正式秋招预计10月",
+    "url": "https://zhaopin.spic.com.cn"
+   },
+   {
+    "company": "京东·新锐之星",
+    "position": "2027届（物流储备/销售/职能/运维支持等，专科可报）",
+    "status": "8月17日已启动，11月30日截止",
+    "url": "https://campus.jd.com"
+   },
+   {
+    "company": "比亚迪",
+    "position": "2027届大专专场（机电/机械/电气/计算机/物流等）",
+    "status": "8月持续招聘",
+    "url": "https://job.byd.com"
+   }
+  ],
+  "zhuanke:540106": [
+   {
+    "company": "华住集团",
+    "position": "校招（酒店运营/管培）",
+    "status": "官网招聘开放",
+    "url": "https://www.huazhu.com"
+   },
+   {
+    "company": "中国旅游集团",
+    "position": "2027届校招（酒店/免税）",
+    "status": "预计9月上旬上线",
+    "url": "https://ctg.zhaopin.com"
+   },
+   {
+    "company": "万豪/希尔顿等国际酒店",
+    "position": "管培生/前台",
+    "status": "各集团官网招聘"
+   },
+   {
+    "company": "携程集团",
+    "position": "2027届留用实习（酒店业务）",
+    "status": "已开放",
+    "url": "https://campus.ctrip.com"
+   }
+  ],
+  "zhuanke:520601": [
+   {
+    "company": "医院康复科",
+    "position": "康复治疗师（考编/合同）",
+    "status": "各省公告陆续发布"
+   },
+   {
+    "company": "康复连锁机构",
+    "position": "康复治疗师",
+    "status": "官网招聘开放"
+   },
+   {
+    "company": "GE/西门子医疗",
+    "position": "康复设备应用工程师",
+    "status": "各公司官网招聘",
+    "url": "https://jobs.siemens-healthineers.com"
+   },
+   {
+    "company": "泰康之家",
+    "position": "2027届校招（康复治疗师/医技岗）",
+    "status": "8月已发布",
+    "url": "https://jobtaikang.zhiye.com"
+   },
+   {
+    "company": "美年大健康",
+    "position": "2027届校招（康复/健康管理岗）",
+    "status": "8-9月启动",
+    "url": "https://www.health-100.cn"
+   },
+   {
+    "company": "鱼跃医疗",
+    "position": "2027届校招（康复设备/临床）",
+    "status": "8-9月启动",
+    "url": "https://www.yuyue.com.cn"
+   }
+  ],
+  "zhuanke:460701": [
+   {
+    "company": "比亚迪",
+    "position": "2027届校招（汽车制造）",
+    "status": "官网持续开放",
+    "url": "https://job.byd.com"
+   },
+   {
+    "company": "上汽通用五菱",
+    "position": "校招（整车制造）",
+    "status": "官网招聘开放",
+    "url": "https://www.sgmw.com.cn"
+   },
+   {
+    "company": "吉利汽车",
+    "position": "校招（制造/试验）",
+    "status": "官网招聘开放",
+    "url": "https://campus.geely.com"
+   },
+   {
+    "company": "一汽集团",
+    "position": "校招（整车制造）",
+    "status": "官网招聘开放",
+    "url": "https://www.faw.com.cn"
+   },
+   {
+    "company": "京东·新锐之星",
+    "position": "2027届（物流储备/销售/职能/运维支持等，专科可报）",
+    "status": "8月17日已启动，11月30日截止",
+    "url": "https://campus.jd.com"
+   }
+  ],
+  "zhuanke:510103": [
+   {
+    "company": "京东方",
+    "position": "2027届校招（电子制造）",
+    "status": "提前批已启动",
+    "url": "https://campus.boe.com"
+   },
+   {
+    "company": "华为",
+    "position": "2027届秋招（硬件制造）",
+    "status": "秋招进行中",
+    "url": "https://career.huawei.com"
+   },
+   {
+    "company": "比亚迪",
+    "position": "2027届校招（电子/电气）",
+    "status": "官网持续开放",
+    "url": "https://job.byd.com"
+   },
+   {
+    "company": "中国电信",
+    "position": "2027届校招（装维/技术支撑）",
+    "status": "秋季启动",
+    "url": "https://job.chinatelecom.com.cn"
+   },
+   {
+    "company": "京东·新锐之星",
+    "position": "2027届（物流储备/销售/职能/运维支持等，专科可报）",
+    "status": "8月17日已启动，11月30日截止",
+    "url": "https://campus.jd.com"
+   },
+   {
+    "company": "创维集团",
+    "position": "2027届校招（技术/制造岗，专科可报）",
+    "status": "8月17日已启动",
+    "url": "https://skyworth.hotjob.cn"
+   }
+  ],
+  "zhuanke:500603": [
+   {
+    "company": "广州地铁",
+    "position": "校招（机电/设备）",
+    "status": "官网招聘开放",
+    "url": "https://www.gzmtr.com"
+   },
+   {
+    "company": "深圳地铁",
+    "position": "校招（机电/设备）",
+    "status": "官网招聘开放",
+    "url": "https://www.szmc.net"
+   },
+   {
+    "company": "中国中车",
+    "position": "2027届校招（轨交机电）",
+    "status": "9月上旬上线",
+    "url": "https://crrc.hotjob.cn"
+   },
+   {
+    "company": "北京地铁",
+    "position": "校招（机电/设备）",
+    "status": "官网招聘开放",
+    "url": "https://www.bjsubway.com"
+   },
+   {
+    "company": "京东·新锐之星",
+    "position": "2027届（物流储备/销售/职能/运维支持等，专科可报）",
+    "status": "8月17日已启动，11月30日截止",
+    "url": "https://campus.jd.com"
+   },
+   {
+    "company": "比亚迪",
+    "position": "2027届大专专场（机电/机械/电气/计算机/物流等）",
+    "status": "8月持续招聘",
+    "url": "https://job.byd.com"
+   }
+  ],
+  "zhuanke:520502": [
+   {
+    "company": "医院影像科",
+    "position": "影像技师（考编）",
+    "status": "各省公告陆续发布"
+   },
+   {
+    "company": "GE/西门子医疗",
+    "position": "应用工程师",
+    "status": "各公司官网招聘",
+    "url": "https://jobs.siemens-healthineers.com"
+   },
+   {
+    "company": "联影医疗",
+    "position": "校招（影像设备/应用）",
+    "status": "官网招聘开放",
+    "url": "https://www.united-imaging.com"
+   },
+   {
+    "company": "迈瑞医疗",
+    "position": "校招（影像/售后）",
+    "status": "官网招聘开放",
+    "url": "https://www.mindray.com"
+   }
+  ],
+  "undergrad:080714T": [
+   {
+    "company": "华为",
+    "position": "2027届秋招（电子/硬件）",
+    "status": "秋招进行中",
+    "url": "https://career.huawei.com"
+   },
+   {
+    "company": "京东方",
+    "position": "2027届校招（显示/电子）",
+    "status": "提前批已启动",
+    "url": "https://campus.boe.com"
+   },
+   {
+    "company": "中兴通讯",
+    "position": "2027届校招（电子/IC）",
+    "status": "提前批9月8日截止",
+    "url": "https://job.zte.com.cn"
+   },
+   {
+    "company": "中国电科",
+    "position": "2027届校招（电子类院所）",
+    "status": "各院所陆续发布",
+    "url": "https://cetc38.zhaopin.com"
+   },
+   {
+    "company": "腾讯",
+    "position": "2027届校招（技术/产品/市场/职能等）",
+    "status": "8月11日已启动",
+    "url": "https://join.qq.com"
+   },
+   {
+    "company": "字节跳动",
+    "position": "2027届秋招（研发/产品/运营/市场/职能等）",
+    "status": "8月3日已启动，12月31日截止",
+    "url": "https://jobs.bytedance.com"
+   },
+   {
+    "company": "京东",
+    "position": "2027届秋招（技术/产品/物流/职能等）",
+    "status": "8月17日已启动，11月30日截止",
+    "url": "https://campus.jd.com"
+   },
+   {
+    "company": "小米",
+    "position": "2027届全球校招（软件/硬件/芯片等17+职类）",
+    "status": "8月10日已启动",
+    "url": "https://hr.xiaomi.com/campus"
+   },
+   {
+    "company": "中国电信",
+    "position": "2027年度校招（各省公司/专业子公司）",
+    "status": "8月24日起网申开放",
+    "url": "https://www.chinatelecom.com.cn/zp/"
+   },
+   {
+    "company": "中国电信·天翼云",
+    "position": "2027届超级优才/校招提前批",
+    "status": "7月已启动",
+    "url": "https://ctyun.hotjob.cn"
+   },
+   {
+    "company": "用友",
+    "position": "2027届校招高潜人才计划（算法/工程/产品）",
+    "status": "8月7日-10月31日",
+    "url": "https://career.yonyou.com"
+   },
+   {
+    "company": "宁波银行·总行金融科技",
+    "position": "2027届总行金融科技定向生（约100人）",
+    "status": "8月中旬网申已开",
+    "url": "https://zhaopin.nbcb.com.cn"
+   },
+   {
+    "company": "顺丰科技",
+    "position": "2027届提前批",
+    "status": "8月17日已启动",
+    "url": "https://campus.sf-express.com"
+   },
+   {
+    "company": "创维集团",
+    "position": "2027届校招（研发/制造等，约100人）",
+    "status": "8月17日已启动",
+    "url": "https://skyworth.hotjob.cn"
+   }
+  ],
+  "undergrad:080705": [
+   {
+    "company": "京东方",
+    "position": "2027届校招（显示/光学）",
+    "status": "提前批已启动",
+    "url": "https://campus.boe.com"
+   },
+   {
+    "company": "华为",
+    "position": "2027届秋招（光电/硬件）",
+    "status": "秋招进行中",
+    "url": "https://career.huawei.com"
+   },
+   {
+    "company": "舜宇光学",
+    "position": "校招（光学/镜头）",
+    "status": "官网招聘开放",
+    "url": "https://www.sunnyoptical.com"
+   },
+   {
+    "company": "中国电科",
+    "position": "2027届校招（光电院所）",
+    "status": "各院所陆续发布",
+    "url": "https://cetc38.zhaopin.com"
+   },
+   {
+    "company": "腾讯",
+    "position": "2027届校招（技术/产品/市场/职能等）",
+    "status": "8月11日已启动",
+    "url": "https://join.qq.com"
+   },
+   {
+    "company": "字节跳动",
+    "position": "2027届秋招（研发/产品/运营/市场/职能等）",
+    "status": "8月3日已启动，12月31日截止",
+    "url": "https://jobs.bytedance.com"
+   },
+   {
+    "company": "京东",
+    "position": "2027届秋招（技术/产品/物流/职能等）",
+    "status": "8月17日已启动，11月30日截止",
+    "url": "https://campus.jd.com"
+   },
+   {
+    "company": "小米",
+    "position": "2027届全球校招（软件/硬件/芯片等17+职类）",
+    "status": "8月10日已启动",
+    "url": "https://hr.xiaomi.com/campus"
+   },
+   {
+    "company": "中国电信",
+    "position": "2027年度校招（各省公司/专业子公司）",
+    "status": "8月24日起网申开放",
+    "url": "https://www.chinatelecom.com.cn/zp/"
+   },
+   {
+    "company": "中国电信·天翼云",
+    "position": "2027届超级优才/校招提前批",
+    "status": "7月已启动",
+    "url": "https://ctyun.hotjob.cn"
+   },
+   {
+    "company": "用友",
+    "position": "2027届校招高潜人才计划（算法/工程/产品）",
+    "status": "8月7日-10月31日",
+    "url": "https://career.yonyou.com"
+   },
+   {
+    "company": "宁波银行·总行金融科技",
+    "position": "2027届总行金融科技定向生（约100人）",
+    "status": "8月中旬网申已开",
+    "url": "https://zhaopin.nbcb.com.cn"
+   },
+   {
+    "company": "顺丰科技",
+    "position": "2027届提前批",
+    "status": "8月17日已启动",
+    "url": "https://campus.sf-express.com"
+   },
+   {
+    "company": "创维集团",
+    "position": "2027届校招（研发/制造等，约100人）",
+    "status": "8月17日已启动",
+    "url": "https://skyworth.hotjob.cn"
+   }
+  ],
+  "undergrad:080301": [
+   {
+    "company": "华为",
+    "position": "2027届秋招（硬件/测试）",
+    "status": "秋招进行中",
+    "url": "https://career.huawei.com"
+   },
+   {
+    "company": "京东方",
+    "position": "2027届校招（设备/工艺）",
+    "status": "提前批已启动",
+    "url": "https://campus.boe.com"
+   },
+   {
+    "company": "中国电科",
+    "position": "2027届校招（仪器/测控）",
+    "status": "各院所陆续发布",
+    "url": "https://cetc38.zhaopin.com"
+   },
+   {
+    "company": "比亚迪",
+    "position": "2027届校招（测试/自动化）",
+    "status": "官网持续开放",
+    "url": "https://job.byd.com"
+   },
+   {
+    "company": "小米",
+    "position": "2027届全球校招（软件/硬件/芯片等17+职类）",
+    "status": "8月10日已启动",
+    "url": "https://hr.xiaomi.com/campus"
+   },
+   {
+    "company": "中国电信",
+    "position": "2027年度校招（各省公司/专业子公司）",
+    "status": "8月24日起网申开放",
+    "url": "https://www.chinatelecom.com.cn/zp/"
+   },
+   {
+    "company": "中国电信·天翼云",
+    "position": "2027届超级优才/校招提前批",
+    "status": "7月已启动",
+    "url": "https://ctyun.hotjob.cn"
+   },
+   {
+    "company": "创维集团",
+    "position": "2027届校招（研发/制造等，约100人）",
+    "status": "8月17日已启动",
+    "url": "https://skyworth.hotjob.cn"
+   },
+   {
+    "company": "东风商用车",
+    "position": "2027届全球校招（车辆/机械/电气/自动化）",
+    "status": "8月17日已启动",
+    "url": "http://dfmc.hotjob.cn"
+   }
+  ],
+  "undergrad:080204": [
+   {
+    "company": "中国中车",
+    "position": "2027届校招（机电/电气）",
+    "status": "9月上旬上线",
+    "url": "https://crrc.hotjob.cn"
+   },
+   {
+    "company": "比亚迪",
+    "position": "2027届校招（机电/自动化）",
+    "status": "官网持续开放",
+    "url": "https://job.byd.com"
+   },
+   {
+    "company": "三一集团",
+    "position": "2027届校招（机电/液压）",
+    "status": "提前批已启动",
+    "url": "https://sany.zhiye.com/campus/jobs"
+   },
+   {
+    "company": "博世",
+    "position": "2027届校招（机电/嵌入式）",
+    "status": "8月已启动",
+    "url": "https://app.mokahr.com/campus_apply/bosch"
+   },
+   {
+    "company": "小米",
+    "position": "2027届全球校招（软件/硬件/芯片等17+职类）",
+    "status": "8月10日已启动",
+    "url": "https://hr.xiaomi.com/campus"
+   },
+   {
+    "company": "中国电信",
+    "position": "2027年度校招（各省公司/专业子公司）",
+    "status": "8月24日起网申开放",
+    "url": "https://www.chinatelecom.com.cn/zp/"
+   },
+   {
+    "company": "中国电信·天翼云",
+    "position": "2027届超级优才/校招提前批",
+    "status": "7月已启动",
+    "url": "https://ctyun.hotjob.cn"
+   },
+   {
+    "company": "创维集团",
+    "position": "2027届校招（研发/制造等，约100人）",
+    "status": "8月17日已启动",
+    "url": "https://skyworth.hotjob.cn"
+   },
+   {
+    "company": "东风商用车",
+    "position": "2027届全球校招（车辆/机械/电气/自动化）",
+    "status": "8月17日已启动",
+    "url": "http://dfmc.hotjob.cn"
+   }
+  ],
+  "undergrad:080203": [
+   {
+    "company": "中国中车",
+    "position": "2027届校招（材料成型/工艺）",
+    "status": "9月上旬上线",
+    "url": "https://crrc.hotjob.cn"
+   },
+   {
+    "company": "比亚迪",
+    "position": "2027届校招（冲压/焊接工艺）",
+    "status": "官网持续开放",
+    "url": "https://job.byd.com"
+   },
+   {
+    "company": "宁德时代",
+    "position": "2027届校招（材料/工艺）",
+    "status": "8月18日已启动",
+    "url": "https://Talent.CATL.com"
+   },
+   {
+    "company": "徐工集团",
+    "position": "校招（材料成型/焊接）",
+    "status": "官网招聘开放",
+    "url": "https://www.xcmg.com"
+   },
+   {
+    "company": "小米",
+    "position": "2027届全球校招（软件/硬件/芯片等17+职类）",
+    "status": "8月10日已启动",
+    "url": "https://hr.xiaomi.com/campus"
+   },
+   {
+    "company": "创维集团",
+    "position": "2027届校招（研发/制造等，约100人）",
+    "status": "8月17日已启动",
+    "url": "https://skyworth.hotjob.cn"
+   },
+   {
+    "company": "东风商用车",
+    "position": "2027届全球校招（车辆/机械/电气/自动化）",
+    "status": "8月17日已启动",
+    "url": "http://dfmc.hotjob.cn"
+   }
+  ],
+  "undergrad:080602T": [
+   {
+    "company": "国家电网",
+    "position": "2027届校招（信息通信/调度）",
+    "status": "第一批11月中旬",
+    "url": "https://zhaopin.sgcc.com.cn"
+   },
+   {
+    "company": "南方电网",
+    "position": "2027届校招（智能电网/信息）",
+    "status": "9-10月启动",
+    "url": "https://zhaopin.csg.cn"
+   },
+   {
+    "company": "国家电投",
+    "position": "2027届校招（电气/信息）",
+    "status": "正式秋招预计10月",
+    "url": "https://zhaopin.spic.com.cn"
+   },
+   {
+    "company": "许继电气等电网装备",
+    "position": "校招（继保/自动化）",
+    "status": "官网招聘开放",
+    "url": "https://www.xjgc.com"
+   },
+   {
+    "company": "小米",
+    "position": "2027届全球校招（软件/硬件/芯片等17+职类）",
+    "status": "8月10日已启动",
+    "url": "https://hr.xiaomi.com/campus"
+   },
+   {
+    "company": "中国电信",
+    "position": "2027年度校招（各省公司/专业子公司）",
+    "status": "8月24日起网申开放",
+    "url": "https://www.chinatelecom.com.cn/zp/"
+   },
+   {
+    "company": "中国电信·天翼云",
+    "position": "2027届超级优才/校招提前批",
+    "status": "7月已启动",
+    "url": "https://ctyun.hotjob.cn"
+   },
+   {
+    "company": "创维集团",
+    "position": "2027届校招（研发/制造等，约100人）",
+    "status": "8月17日已启动",
+    "url": "https://skyworth.hotjob.cn"
+   },
+   {
+    "company": "东风商用车",
+    "position": "2027届全球校招（车辆/机械/电气/自动化）",
+    "status": "8月17日已启动",
+    "url": "http://dfmc.hotjob.cn"
+   }
+  ],
+  "undergrad:082601": [
+   {
+    "company": "迈瑞医疗",
+    "position": "2027届校招（研发/技能）",
+    "status": "技能人才已启动",
+    "url": "https://www.mindray.com"
+   },
+   {
+    "company": "联影医疗",
+    "position": "校招（影像设备/研发）",
+    "status": "官网招聘开放",
+    "url": "https://www.united-imaging.com"
+   },
+   {
+    "company": "GE医疗",
+    "position": "校招（影像/监护）",
+    "status": "官网招聘开放",
+    "url": "https://jobs.siemens-healthineers.com"
+   },
+   {
+    "company": "鱼跃医疗",
+    "position": "校招（器械/研发）",
+    "status": "官网招聘开放",
+    "url": "https://www.yuyue.com.cn"
+   }
+  ],
+  "undergrad:081003": [
+   {
+    "company": "中国能建",
+    "position": "2027届校招（给排水/环保）",
+    "status": "进行中",
+    "url": "https://ceec.iguopin.com"
+   },
+   {
+    "company": "中国电建",
+    "position": "2027届校招（水务/市政）",
+    "status": "统一平台开放",
+    "url": "https://zhaopin.powerchina.cn"
+   },
+   {
+    "company": "三峡集团",
+    "position": "2027届校招（长江大保护/水务）",
+    "status": "专属网申开放",
+    "url": "https://www.zhipin.com/dz/sxjt/"
+   },
+   {
+    "company": "光大环境",
+    "position": "校招（水务运营）",
+    "status": "官网招聘开放",
+    "url": "https://www.ebchinaintl.com"
+   }
+  ],
+  "undergrad:081901": [
+   {
+    "company": "中国船舶",
+    "position": "2027届校招（造船/设计）",
+    "status": "已开放",
+    "url": "http://www.cssc.net.cn"
+   },
+   {
+    "company": "中远海运",
+    "position": "2027届校招（航运/海工）",
+    "status": "9月中旬-11月网申",
+    "url": "https://www.coscoshipping.com"
+   },
+   {
+    "company": "招商局工业",
+    "position": "校招（海工装备）",
+    "status": "官网招聘开放",
+    "url": "https://www.cmindustry.com.cn"
+   },
+   {
+    "company": "中集来福士",
+    "position": "校招（海工/船海）",
+    "status": "官网招聘开放",
+    "url": "https://www.cimc-raffles.com"
+   }
+  ],
+  "undergrad:082002": [
+   {
+    "company": "航天科技集团",
+    "position": "2027届校招（飞行器/总体）",
+    "status": "提前批已启动",
+    "url": "http://www.spacetalent.com.cn"
+   },
+   {
+    "company": "中国航空工业",
+    "position": "2027届校招（飞机设计）",
+    "status": "各院所陆续发布",
+    "url": "https://www.avic.com"
+   },
+   {
+    "company": "中国商飞",
+    "position": "2027届校招（民机/设计）",
+    "status": "实习生+校招开放",
+    "url": "https://zhaopin.comac.cc"
+   },
+   {
+    "company": "航天科工",
+    "position": "2027届校招（飞行器/控制）",
+    "status": "已全面启动",
+    "url": "https://casicjob.iguopin.com"
+   }
+  ],
+  "undergrad:082702": [
+   {
+    "company": "中粮集团",
+    "position": "2027届校招（食品安全/质检）",
+    "status": "统一网申开放",
+    "url": "http://campus.51job.com/cofco"
+   },
+   {
+    "company": "中储粮",
+    "position": "2027届校招（质检/仓储）",
+    "status": "秋招待启动",
+    "url": "https://www.sinograin.com.cn"
+   },
+   {
+    "company": "伊利集团",
+    "position": "校招（质检/研发）",
+    "status": "官网招聘开放",
+    "url": "https://www.yili.com"
+   },
+   {
+    "company": "蒙牛集团",
+    "position": "校招（质检/品控）",
+    "status": "官网招聘开放",
+    "url": "https://www.mengniu.com.cn"
+   }
+  ],
+  "undergrad:082803": [
+   {
+    "company": "中建集团",
+    "position": "2027届校招（景观/设计）",
+    "status": "统一测试后投递",
+    "url": "https://recruit.cscec.com"
+   },
+   {
+    "company": "华侨城集团",
+    "position": "校招（文旅/景观）",
+    "status": "官网招聘开放",
+    "url": "https://www.chinaoct.com"
+   },
+   {
+    "company": "棕榈股份",
+    "position": "校招（园林景观）",
+    "status": "官网招聘开放",
+    "url": "https://www.palm-la.com"
+   },
+   {
+    "company": "金螳螂",
+    "position": "校招（景观/装饰）",
+    "status": "官网招聘开放",
+    "url": "https://www.goldmantis.com"
+   }
+  ],
+  "undergrad:090502": [
+   {
+    "company": "中建集团",
+    "position": "2027届校招（园林/绿化）",
+    "status": "统一测试后投递",
+    "url": "https://recruit.cscec.com"
+   },
+   {
+    "company": "华侨城集团",
+    "position": "校招（景区/园林）",
+    "status": "官网招聘开放",
+    "url": "https://www.chinaoct.com"
+   },
+   {
+    "company": "棕榈股份",
+    "position": "校招（园林工程）",
+    "status": "官网招聘开放",
+    "url": "https://www.palm-la.com"
+   },
+   {
+    "company": "各地园林局/市政",
+    "position": "园林技术岗（考编）",
+    "status": "各省公告陆续发布"
+   }
+  ],
+  "undergrad:080205": [
+   {
+    "company": "华为",
+    "position": "2027届秋招（工业设计/UX）",
+    "status": "秋招进行中",
+    "url": "https://career.huawei.com"
+   },
+   {
+    "company": "小米",
+    "position": "2027届校招（工业设计）",
+    "status": "8月10日已启动",
+    "url": "https://hr.xiaomi.com/campus"
+   },
+   {
+    "company": "蔚来",
+    "position": "2027届校招（汽车设计）",
+    "status": "技术提前批7/15-8/14",
+    "url": "https://campus.nio.com"
+   },
+   {
+    "company": "比亚迪",
+    "position": "2027届校招（工业设计）",
+    "status": "官网持续开放",
+    "url": "https://job.byd.com"
+   },
+   {
+    "company": "腾讯",
+    "position": "2027届校招（技术/产品/市场/职能等）",
+    "status": "8月11日已启动",
+    "url": "https://join.qq.com"
+   },
+   {
+    "company": "字节跳动",
+    "position": "2027届秋招（研发/产品/运营/市场/职能等）",
+    "status": "8月3日已启动，12月31日截止",
+    "url": "https://jobs.bytedance.com"
+   },
+   {
+    "company": "创维集团",
+    "position": "2027届校招（研发/制造等，约100人）",
+    "status": "8月17日已启动",
+    "url": "https://skyworth.hotjob.cn"
+   }
+  ],
+  "undergrad:080802T": [
+   {
+    "company": "国铁集团",
+    "position": "各铁路局招聘（信号/控制）",
+    "status": "各局陆续发布",
+    "url": "https://rczp.china-railway.com.cn"
+   },
+   {
+    "company": "中国中车",
+    "position": "2027届校招（信号/电气）",
+    "status": "9月上旬上线",
+    "url": "https://crrc.hotjob.cn"
+   },
+   {
+    "company": "中国通号",
+    "position": "校招（轨道交通信号）",
+    "status": "官网招聘开放",
+    "url": "https://www.crsc.cn"
+   },
+   {
+    "company": "各地铁公司",
+    "position": "校招（信号/ATS）",
+    "status": "各公司官网招聘",
+    "url": "https://www.gzmtr.com"
+   },
+   {
+    "company": "小米",
+    "position": "2027届全球校招（软件/硬件/芯片等17+职类）",
+    "status": "8月10日已启动",
+    "url": "https://hr.xiaomi.com/campus"
+   },
+   {
+    "company": "中国电信",
+    "position": "2027年度校招（各省公司/专业子公司）",
+    "status": "8月24日起网申开放",
+    "url": "https://www.chinatelecom.com.cn/zp/"
+   },
+   {
+    "company": "中国电信·天翼云",
+    "position": "2027届超级优才/校招提前批",
+    "status": "7月已启动",
+    "url": "https://ctyun.hotjob.cn"
+   },
+   {
+    "company": "创维集团",
+    "position": "2027届校招（研发/制造等，约100人）",
+    "status": "8月17日已启动",
+    "url": "https://skyworth.hotjob.cn"
+   },
+   {
+    "company": "东风商用车",
+    "position": "2027届全球校招（车辆/机械/电气/自动化）",
+    "status": "8月17日已启动",
+    "url": "http://dfmc.hotjob.cn"
+   }
+  ],
+  "undergrad:050207": [
+   {
+    "company": "中远海运",
+    "position": "2027届校招（日语/航运业务）",
+    "status": "9月中旬-11月网申",
+    "url": "https://www.coscoshipping.com"
+   },
+   {
+    "company": "丰田汽车",
+    "position": "校招（日语/制造/销售）",
+    "status": "官网招聘开放",
+    "url": "https://www.toyota.com.cn"
+   },
+   {
+    "company": "优衣库",
+    "position": "校招（零售管培）",
+    "status": "官网招聘开放",
+    "url": "https://www.uniqlo.com/cn"
+   },
+   {
+    "company": "日本商社/外企",
+    "position": "日语商务/翻译岗",
+    "status": "各公司官网招聘"
+   },
+   {
+    "company": "字节跳动",
+    "position": "2027届秋招（国际化/海外运营）",
+    "status": "8月3日已启动",
+    "url": "https://jobs.bytedance.com"
+   }
+  ],
+  "zhuanke:510208": [
+   {
+    "company": "字节跳动",
+    "position": "2027届校招（XR/内容）",
+    "status": "8月3日已启动",
+    "url": "https://jobs.bytedance.com"
+   },
+   {
+    "company": "腾讯",
+    "position": "2027届校招（XR/游戏）",
+    "status": "8月11日已启动",
+    "url": "https://careers.tencent.com"
+   },
+   {
+    "company": "米哈游",
+    "position": "2027届校招（3D/程序）",
+    "status": "8月已启动",
+    "url": "https://jobs.mihoyo.com"
+   },
+   {
+    "company": "网易",
+    "position": "2027届校招（游戏/XR）",
+    "status": "7月21日网申开启",
+    "url": "https://campus.game.163.com"
+   },
+   {
+    "company": "京东·新锐之星",
+    "position": "2027届（物流储备/销售/职能/运维支持等，专科可报）",
+    "status": "8月17日已启动，11月30日截止",
+    "url": "https://campus.jd.com"
+   },
+   {
+    "company": "创维集团",
+    "position": "2027届校招（技术/制造岗，专科可报）",
+    "status": "8月17日已启动",
+    "url": "https://skyworth.hotjob.cn"
+   },
+   {
+    "company": "比亚迪",
+    "position": "2027届大专专场（机电/机械/电气/计算机/物流等）",
+    "status": "8月持续招聘",
+    "url": "https://job.byd.com"
+   }
+  ],
+  "zhuanke:500601": [
+   {
+    "company": "中国中车",
+    "position": "2027届校招（轨交工程）",
+    "status": "9月上旬上线",
+    "url": "https://crrc.hotjob.cn"
+   },
+   {
+    "company": "中国铁建",
+    "position": "2027届校招（轨道交通工程）",
+    "status": "已启动",
+    "url": "https://www.crcc.cn"
+   },
+   {
+    "company": "广州地铁",
+    "position": "校招（线路/土建）",
+    "status": "官网招聘开放",
+    "url": "https://www.gzmtr.com"
+   },
+   {
+    "company": "深圳地铁",
+    "position": "校招（线路/土建）",
+    "status": "官网招聘开放",
+    "url": "https://www.szmc.net"
+   }
+  ],
+  "zhuanke:570103K": [
+   {
+    "company": "公立小学",
+    "position": "小学教师（考编）",
+    "status": "各省公告陆续发布"
+   },
+   {
+    "company": "新东方等教育机构",
+    "position": "学科教师/助教",
+    "status": "官网招聘开放",
+    "url": "https://www.neworiental.org"
+   },
+   {
+    "company": "民办学校",
+    "position": "小学教师",
+    "status": "各校招聘公告"
+   },
+   {
+    "company": "学而思等教培",
+    "position": "学科教师",
+    "status": "官网招聘开放",
+    "url": "https://www.xueersi.com"
+   }
+  ],
+  "zhuanke:520202": [
+   {
+    "company": "医院产科/妇产医院",
+    "position": "助产士（考编/合同）",
+    "status": "各省公告陆续发布"
+   },
+   {
+    "company": "妇幼保健院",
+    "position": "助产/护理岗",
+    "status": "各省公告陆续发布"
+   },
+   {
+    "company": "泰康之家",
+    "position": "2027届（护理/医务岗）",
+    "status": "实习生计划进行中",
+    "url": "https://jobtaikang.zhiye.com"
+   },
+   {
+    "company": "泰康之家/泰康医疗",
+    "position": "2027届校招（助产/护理岗）",
+    "status": "8月陆续开放",
+    "url": "https://jobtaikang.zhiye.com"
+   },
+   {
+    "company": "各地妇产医院/妇幼保健院",
+    "position": "助产士（招聘/考编）",
+    "status": "关注当地卫健委公告",
+    "url": "https://www.health-100.cn"
+   }
+  ],
+  "zhuanke:460110": [
+   {
+    "company": "中国中车",
+    "position": "2027届校招（焊接/制造）",
+    "status": "9月上旬上线",
+    "url": "https://crrc.hotjob.cn"
+   },
+   {
+    "company": "中国船舶",
+    "position": "2027届校招（焊接/造船）",
+    "status": "已开放",
+    "url": "http://www.cssc.net.cn"
+   },
+   {
+    "company": "三一集团",
+    "position": "2027届校招（焊接工艺）",
+    "status": "提前批已启动",
+    "url": "https://sany.zhiye.com/campus/jobs"
+   },
+   {
+    "company": "徐工集团",
+    "position": "校招（焊接/制造）",
+    "status": "官网招聘开放",
+    "url": "https://www.xcmg.com"
+   },
+   {
+    "company": "京东·新锐之星",
+    "position": "2027届（物流储备/销售/职能/运维支持等，专科可报）",
+    "status": "8月17日已启动，11月30日截止",
+    "url": "https://campus.jd.com"
+   },
+   {
+    "company": "比亚迪",
+    "position": "2027届大专专场（机电/机械/电气/计算机/物流等）",
+    "status": "8月持续招聘",
+    "url": "https://job.byd.com"
+   }
+  ],
+  "zhuanke:520504": [
+   {
+    "company": "医院口腔科/口腔医院",
+    "position": "口腔技师/助理",
+    "status": "各省公告陆续发布"
+   },
+   {
+    "company": "现代牙科等义齿企业",
+    "position": "义齿技师/CAD设计",
+    "status": "官网招聘开放",
+    "url": "https://www.moderndental.com"
+   },
+   {
+    "company": "通策医疗等口腔连锁",
+    "position": "口腔技师/助理",
+    "status": "官网招聘开放",
+    "url": "https://www.tongce.com"
+   },
+   {
+    "company": "现代牙科",
+    "position": "2027届校招（义齿/口腔技术岗）",
+    "status": "8-9月启动",
+    "url": "https://www.moderndental.com"
+   },
+   {
+    "company": "泰康口腔",
+    "position": "2027届校招（口腔技术岗）",
+    "status": "8月陆续开放",
+    "url": "https://jobtaikang.zhiye.com"
+   }
+  ],
+  "undergrad:070201": [
+   {
+    "company": "中芯国际等半导体企业",
+    "position": "校招（工艺/器件）",
+    "status": "官网招聘开放",
+    "url": "https://www.smics.com"
+   },
+   {
+    "company": "华为",
+    "position": "2027届秋招（物理/光学方向）",
+    "status": "秋招进行中",
+    "url": "https://career.huawei.com"
+   },
+   {
+    "company": "中学物理教师",
+    "position": "教师（考编）",
+    "status": "各省公告陆续发布"
+   },
+   {
+    "company": "新东方等教育机构",
+    "position": "物理教师",
+    "status": "官网招聘开放",
+    "url": "https://www.neworiental.org"
+   },
+   {
+    "company": "京东方",
+    "position": "2027届校招（显示/光学）",
+    "status": "提前批已启动",
+    "url": "https://campus.boe.com"
+   }
+  ],
+  "undergrad:070301": [
+   {
+    "company": "中国石化",
+    "position": "2027届校招（化工/研发）",
+    "status": "秋招陆续发布",
+    "url": "https://job.sinopec.com"
+   },
+   {
+    "company": "万华化学",
+    "position": "校招（化学研发/工艺）",
+    "status": "官网持续开放",
+    "url": "https://www.whchem.com"
+   },
+   {
+    "company": "巴斯夫等外企",
+    "position": "校招（化学/材料）",
+    "status": "官网招聘开放",
+    "url": "https://www.basf.com/cn"
+   },
+   {
+    "company": "SGS等检测机构",
+    "position": "化学检测",
+    "status": "官网招聘开放",
+    "url": "https://www.sgsgroup.com.cn"
+   },
+   {
+    "company": "恒瑞医药",
+    "position": "2027届（化学/药物合成）",
+    "status": "5月起招募",
+    "url": "https://www.hengrui.com"
+   }
+  ],
+  "undergrad:071002": [
+   {
+    "company": "药明康德",
+    "position": "校招（生物/研发）",
+    "status": "官网招聘开放",
+    "url": "https://www.wuxiapptec.com"
+   },
+   {
+    "company": "华大基因",
+    "position": "校招（实验技术/科研）",
+    "status": "官网招聘开放",
+    "url": "https://www.genomics.cn"
+   },
+   {
+    "company": "金域医学",
+    "position": "校招（检验/实验）",
+    "status": "全国实验室招聘中",
+    "url": "https://www.kingmed.com.cn"
+   },
+   {
+    "company": "迈瑞医疗",
+    "position": "2027届校招（生物/研发）",
+    "status": "技能人才已启动",
+    "url": "https://www.mindray.com"
+   }
+  ],
+  "undergrad:050304": [
+   {
+    "company": "字节跳动",
+    "position": "2027届校招（内容/运营）",
+    "status": "8月3日已启动",
+    "url": "https://jobs.bytedance.com"
+   },
+   {
+    "company": "腾讯",
+    "position": "2027届校招（内容/市场）",
+    "status": "8月11日已启动",
+    "url": "https://careers.tencent.com"
+   },
+   {
+    "company": "蓝色光标等公关公司",
+    "position": "公关/传播",
+    "status": "官网招聘开放",
+    "url": "https://www.bluefocus.com"
+   },
+   {
+    "company": "央媒/广电",
+    "position": "记者/编辑/传播",
+    "status": "各单位招聘公告"
+   }
+  ],
+  "undergrad:050103": [
+   {
+    "company": "国际中文教师（语合中心/孔子学院）",
+    "position": "志愿者/公派教师",
+    "status": "项目陆续招募",
+    "url": "https://www.chinese.cn"
+   },
+   {
+    "company": "新东方等教育机构",
+    "position": "对外汉语/语文教师",
+    "status": "官网招聘开放",
+    "url": "https://www.neworiental.org"
+   },
+   {
+    "company": "国际学校",
+    "position": "中文教师",
+    "status": "各校招聘公告"
+   },
+   {
+    "company": "国考（对外汉语相关）",
+    "position": "教育类对口岗位",
+    "status": "公告预计10月",
+    "url": "http://bm.scs.gov.cn"
+   }
+  ],
+  "undergrad:060101": [
+   {
+    "company": "国考/省考",
+    "position": "文博/党史/档案等岗位",
+    "status": "公告预计10月",
+    "url": "http://bm.scs.gov.cn"
+   },
+   {
+    "company": "中学历史教师",
+    "position": "教师（考编）",
+    "status": "各省公告陆续发布"
+   },
+   {
+    "company": "出版社/博物馆",
+    "position": "编辑/文博岗位",
+    "status": "各单位招聘公告"
+   },
+   {
+    "company": "新东方",
+    "position": "2027届校招（人文素养教师）",
+    "status": "7月底已启动",
+    "url": "https://zhaopin.xdf.cn"
+   },
+   {
+    "company": "字节跳动",
+    "position": "2027届秋招（内容/文化）",
+    "status": "8月3日已启动",
+    "url": "https://jobs.bytedance.com"
+   }
+  ],
+  "undergrad:020201K": [
+   {
+    "company": "国考/省考",
+    "position": "财政/税务对口岗位",
+    "status": "公告预计10月",
+    "url": "http://bm.scs.gov.cn"
+   },
+   {
+    "company": "国家开发银行",
+    "position": "2027届校招（金融/经济）",
+    "status": "公告预计9月中旬",
+    "url": "https://www.cdb.com.cn"
+   },
+   {
+    "company": "中国银行",
+    "position": "金融/财会类岗位",
+    "status": "秋招将启动",
+    "url": "https://www.boc.cn"
+   },
+   {
+    "company": "邮储银行",
+    "position": "2027届秋招（金融类）",
+    "status": "预计9月初启动",
+    "url": "https://job.psbc.com"
+   }
+  ],
+  "undergrad:020303": [
+   {
+    "company": "中国人寿",
+    "position": "2027届校招（保险/金融）",
+    "status": "陆续开放",
+    "url": "https://www.chinalife.com.cn/chinalife/zhaopin"
+   },
+   {
+    "company": "中国平安",
+    "position": "校招（保险/金融科技）",
+    "status": "官网招聘开放",
+    "url": "https://www.pingan.com"
+   },
+   {
+    "company": "中国人保",
+    "position": "校招（保险）",
+    "status": "官网招聘开放",
+    "url": "https://www.picc.com.cn"
+   },
+   {
+    "company": "邮储银行",
+    "position": "2027届秋招（金融类）",
+    "status": "预计9月初启动",
+    "url": "https://job.psbc.com"
+   },
+   {
+    "company": "泰康保险集团",
+    "position": "2027届校招（保险/精算/运营）",
+    "status": "陆续开放",
+    "url": "https://jobtaikang.zhiye.com"
+   }
+  ],
+  "undergrad:081008T": [
+   {
+    "company": "中建集团",
+    "position": "2027届校招（智能建造）",
+    "status": "统一测试后投递",
+    "url": "https://recruit.cscec.com"
+   },
+   {
+    "company": "中国铁建",
+    "position": "2027届校招（智能建造/信息化）",
+    "status": "已启动",
+    "url": "https://www.crcc.cn"
+   },
+   {
+    "company": "广联达",
+    "position": "校招（BIM/数字建造）",
+    "status": "官网招聘开放",
+    "url": "https://www.glodon.com"
+   },
+   {
+    "company": "中国能建",
+    "position": "2027届校招（数字建造）",
+    "status": "进行中",
+    "url": "https://ceec.iguopin.com"
+   }
+  ],
+  "undergrad:082201": [
+   {
+    "company": "中广核",
+    "position": "2027届校招（核电运营）",
+    "status": "进行中",
+    "url": "https://cgn.hotjob.cn"
+   },
+   {
+    "company": "中核集团",
+    "position": "2027届校招（核工程）",
+    "status": "官网招聘开放",
+    "url": "https://www.cnnc.com.cn"
+   },
+   {
+    "company": "国家电投",
+    "position": "2027届校招（核电/能源）",
+    "status": "正式秋招预计10月",
+    "url": "https://zhaopin.spic.com.cn"
+   },
+   {
+    "company": "华能核电",
+    "position": "2027届校招（核电）",
+    "status": "校招系统开放",
+    "url": "https://zhaopin.chng.com.cn"
+   }
+  ],
+  "undergrad:081803K": [
+   {
+    "company": "中远海运",
+    "position": "2027届校招（航海/航运）",
+    "status": "9月中旬-11月网申",
+    "url": "https://www.coscoshipping.com"
+   },
+   {
+    "company": "招商轮船",
+    "position": "校招（船员/航运）",
+    "status": "官网招聘开放",
+    "url": "https://www.cmenergyshipping.com"
+   },
+   {
+    "company": "海事局（考编）",
+    "position": "海事执法/监管",
+    "status": "各省公告陆续发布"
+   },
+   {
+    "company": "船员公司/航运企业",
+    "position": "驾驶员/三副",
+    "status": "各公司官网招聘"
+   }
+  ],
+  "undergrad:081804K": [
+   {
+    "company": "中远海运",
+    "position": "2027届校招（轮机/航运）",
+    "status": "9月中旬-11月网申",
+    "url": "https://www.coscoshipping.com"
+   },
+   {
+    "company": "中国船舶",
+    "position": "2027届校招（轮机/动力）",
+    "status": "已开放",
+    "url": "http://www.cssc.net.cn"
+   },
+   {
+    "company": "招商轮船",
+    "position": "校招（轮机员）",
+    "status": "官网招聘开放",
+    "url": "https://www.cmenergyshipping.com"
+   },
+   {
+    "company": "海事局（考编）",
+    "position": "轮机监管岗",
+    "status": "各省公告陆续发布"
+   }
+  ],
+  "undergrad:130310": [
+   {
+    "company": "米哈游",
+    "position": "2027届校招（动画/美术）",
+    "status": "8月已启动",
+    "url": "https://jobs.mihoyo.com"
+   },
+   {
+    "company": "腾讯",
+    "position": "2027届校招（游戏美术）",
+    "status": "8月11日已启动",
+    "url": "https://careers.tencent.com"
+   },
+   {
+    "company": "网易",
+    "position": "2027届校招（动画/游戏）",
+    "status": "7月21日网申开启",
+    "url": "https://campus.game.163.com"
+   },
+   {
+    "company": "玄机科技等动画公司",
+    "position": "动画师/模型师",
+    "status": "各公司官网招聘"
+   }
+  ],
+  "undergrad:130401": [
+   {
+    "company": "中小学美术教师",
+    "position": "教师（考编）",
+    "status": "各省公告陆续发布"
+   },
+   {
+    "company": "美术培训机构",
+    "position": "美术教师",
+    "status": "各机构官网招聘"
+   },
+   {
+    "company": "设计公司/出版社",
+    "position": "美术设计/插画",
+    "status": "各公司官网招聘"
+   },
+   {
+    "company": "字节跳动",
+    "position": "2027届校招（视觉/设计岗）",
+    "status": "8月3日已启动",
+    "url": "https://jobs.bytedance.com"
+   },
+   {
+    "company": "腾讯",
+    "position": "2027届校招（美术/设计岗）",
+    "status": "8月启动",
+    "url": "https://join.qq.com"
+   },
+   {
+    "company": "雅昌文化",
+    "position": "2027届校招（艺术/设计岗）",
+    "status": "8-9月启动",
+    "url": "https://www.artron.com.cn"
+   },
+   {
+    "company": "米哈游",
+    "position": "2027届校招（美术/原画岗）",
+    "status": "8-9月启动",
+    "url": "https://jobs.mihoyo.com"
+   }
+  ],
+  "undergrad:130202": [
+   {
+    "company": "中小学音乐教师",
+    "position": "教师（考编）",
+    "status": "各省公告陆续发布"
+   },
+   {
+    "company": "音乐培训机构",
+    "position": "音乐教师",
+    "status": "各机构官网招聘"
+   },
+   {
+    "company": "演艺/文化公司",
+    "position": "演出运营/音乐制作",
+    "status": "各公司官网招聘"
+   },
+   {
+    "company": "芒果超媒",
+    "position": "2027届校招（音乐/内容岗）",
+    "status": "8-9月启动",
+    "url": "https://www.mgtv.com"
+   },
+   {
+    "company": "米哈游",
+    "position": "2027届校招（音乐/音频岗）",
+    "status": "8-9月启动",
+    "url": "https://jobs.mihoyo.com"
+   },
+   {
+    "company": "各地中小学音乐教师",
+    "position": "教师编制考试",
+    "status": "关注当地教育局公告",
+    "url": "https://bm.scs.gov.cn"
+   }
+  ],
+  "undergrad:030302": [
+   {
+    "company": "社区/社工机构",
+    "position": "社会工作者",
+    "status": "各地招聘公告"
+   },
+   {
+    "company": "民政系统（考编）",
+    "position": "民政/社会事务岗",
+    "status": "各省公告陆续发布"
+   },
+   {
+    "company": "基金会/公益组织",
+    "position": "项目官员",
+    "status": "各机构官网招聘"
+   },
+   {
+    "company": "泰康之家",
+    "position": "2027届校招（社工/康养服务岗）",
+    "status": "8月陆续开放",
+    "url": "https://jobtaikang.zhiye.com"
+   },
+   {
+    "company": "央国企党群/工会",
+    "position": "党群/工会岗",
+    "status": "关注各央企官网",
+    "url": "https://runjob.crc.com.cn"
+   }
+  ],
+  "zhuanke:530301": [
+   {
+    "company": "邮储银行",
+    "position": "2027届秋招（柜面/财务）",
+    "status": "预计9月初启动",
+    "url": "https://job.psbc.com"
+   },
+   {
+    "company": "中国银行",
+    "position": "综合类岗位（部分省份专科可报）",
+    "status": "秋招将启动",
+    "url": "https://www.boc.cn"
+   },
+   {
+    "company": "企业财务/代账机构",
+    "position": "财务/会计助理",
+    "status": "各公司官网招聘"
+   },
+   {
+    "company": "会计师事务所",
+    "position": "审计助理",
+    "status": "各所官网招聘"
+   }
+  ],
+  "zhuanke:540102": [
+   {
+    "company": "旅行社",
+    "position": "导游/计调",
+    "status": "各社招聘公告"
+   },
+   {
+    "company": "中国旅游集团",
+    "position": "2027届校招（景区/导游）",
+    "status": "预计9月上旬上线",
+    "url": "https://ctg.zhaopin.com"
+   },
+   {
+    "company": "华侨城集团",
+    "position": "校招（景区运营）",
+    "status": "官网招聘开放",
+    "url": "https://www.chinaoct.com"
+   },
+   {
+    "company": "携程集团",
+    "position": "2027届留用实习（旅游业务）",
+    "status": "已开放",
+    "url": "https://campus.ctrip.com"
+   }
+  ],
+  "zhuanke:440102": [
+   {
+    "company": "金螳螂",
+    "position": "校招（装饰施工/设计）",
+    "status": "官网招聘开放",
+    "url": "https://www.goldmantis.com"
+   },
+   {
+    "company": "东易日盛",
+    "position": "校招（家装/施工）",
+    "status": "官网招聘开放",
+    "url": "https://www.dyrs.com.cn"
+   },
+   {
+    "company": "中建集团装饰板块",
+    "position": "2027届校招（装饰施工）",
+    "status": "统一测试后投递",
+    "url": "https://recruit.cscec.com"
+   },
+   {
+    "company": "欧派家居",
+    "position": "2027届校招（整装/技术岗）",
+    "status": "8-9月启动",
+    "url": "https://www.oppein.com"
+   },
+   {
+    "company": "中建集团",
+    "position": "2027届校招（装饰/工程岗）",
+    "status": "8月启动",
+    "url": "https://recruit.cscec.com"
+   }
+  ],
+  "zhuanke:510301": [
+   {
+    "company": "中国移动",
+    "position": "各省公司校招（通信/网络）",
+    "status": "正式批8月底-9月",
+    "url": "https://job.10086.cn"
+   },
+   {
+    "company": "中国电信",
+    "position": "2027届校招（通信/装维）",
+    "status": "秋季启动",
+    "url": "https://job.chinatelecom.com.cn"
+   },
+   {
+    "company": "中国联通",
+    "position": "2027届校招（通信/网络）",
+    "status": "已开放",
+    "url": "https://zglt.zhaopin.com"
+   },
+   {
+    "company": "华为",
+    "position": "2027届秋招（通信/工程）",
+    "status": "秋招进行中",
+    "url": "https://career.huawei.com"
+   }
+  ],
+  "zhuanke:500405": [
+   {
+    "company": "中国国航",
+    "position": "乘务员/安全员招聘",
+    "status": "官方招聘系统开放",
+    "url": "https://www.airchina.com.cn"
+   },
+   {
+    "company": "南方航空",
+    "position": "乘务员招聘",
+    "status": "官方招聘系统开放",
+    "url": "https://job.csair.com"
+   },
+   {
+    "company": "东方航空",
+    "position": "乘务员/地勤招聘",
+    "status": "官方招聘系统开放",
+    "url": "https://job.ceair.com"
+   },
+   {
+    "company": "机场地勤",
+    "position": "值机/贵宾/安检",
+    "status": "各机场招聘公告"
+   },
+   {
+    "company": "中国南方航空",
+    "position": "空乘/地勤招聘（大专可报）",
+    "status": "官网招聘陆续发布",
+    "url": "https://job.csair.com"
+   }
+  ],
+  "zhuanke:510102": [
+   {
+    "company": "中国移动",
+    "position": "各省公司校招（物联网）",
+    "status": "正式批8月底-9月",
+    "url": "https://job.10086.cn"
+   },
+   {
+    "company": "华为",
+    "position": "2027届秋招（IoT/嵌入式）",
+    "status": "秋招进行中",
+    "url": "https://career.huawei.com"
+   },
+   {
+    "company": "小米",
+    "position": "2027届校招（IoT）",
+    "status": "8月10日已启动",
+    "url": "https://hr.xiaomi.com/campus"
+   },
+   {
+    "company": "京东方",
+    "position": "2027届校招（物联网/电子）",
+    "status": "提前批已启动",
+    "url": "https://campus.boe.com"
+   },
+   {
+    "company": "京东·新锐之星",
+    "position": "2027届（物流储备/销售/职能/运维支持等，专科可报）",
+    "status": "8月17日已启动，11月30日截止",
+    "url": "https://campus.jd.com"
+   },
+   {
+    "company": "创维集团",
+    "position": "2027届校招（技术/制造岗，专科可报）",
+    "status": "8月17日已启动",
+    "url": "https://skyworth.hotjob.cn"
+   },
+   {
+    "company": "比亚迪",
+    "position": "2027届大专专场（机电/机械/电气/计算机/物流等）",
+    "status": "8月持续招聘",
+    "url": "https://job.byd.com"
+   }
+  ],
+  "zhuanke:540105": [
+   {
+    "company": "文旅集团/研学基地",
+    "position": "研学导师/课程设计",
+    "status": "各基地招聘公告"
+   },
+   {
+    "company": "教育机构",
+    "position": "研学/营地导师",
+    "status": "各机构官网招聘"
+   },
+   {
+    "company": "华侨城集团",
+    "position": "校招（文旅运营）",
+    "status": "官网招聘开放",
+    "url": "https://www.chinaoct.com"
+   },
+   {
+    "company": "中国旅游集团",
+    "position": "2027届校招（文旅）",
+    "status": "预计9月上旬上线",
+    "url": "https://ctg.zhaopin.com"
+   }
+  ],
+  "zhuanke:430301": [
+   {
+    "company": "隆基绿能",
+    "position": "校招（光伏工艺/设备）",
+    "status": "官网招聘开放",
+    "url": "https://www.longi.com"
+   },
+   {
+    "company": "天合光能",
+    "position": "校招（光伏/工艺）",
+    "status": "官网招聘开放",
+    "url": "https://www.trinasolar.com"
+   },
+   {
+    "company": "国家能源集团",
+    "position": "2027届校招（光伏/新能源）",
+    "status": "秋招进行中",
+    "url": "http://zhaopin.chnenergy.com.cn"
+   },
+   {
+    "company": "晶澳科技",
+    "position": "校招（光伏制造）",
+    "status": "官网招聘开放",
+    "url": "https://www.jasolar.com"
+   }
+  ],
+  "undergrad:100203TK": [
+   {
+    "company": "医院影像科",
+    "position": "影像诊断医师（考编）",
+    "status": "各省公告陆续发布"
+   },
+   {
+    "company": "公立三甲/二甲医院",
+    "position": "医学影像岗位",
+    "status": "各医院招聘公告"
+   },
+   {
+    "company": "第三方影像中心",
+    "position": "影像诊断",
+    "status": "各机构招聘公告"
+   },
+   {
+    "company": "联影医疗",
+    "position": "2027届校招（医学影像/临床应用）",
+    "status": "8-9月启动",
+    "url": "https://www.united-imaging.com"
+   },
+   {
+    "company": "迈瑞医疗",
+    "position": "2027届校招（医学影像/临床）",
+    "status": "8月启动",
+    "url": "https://www.mindray.com"
+   },
+   {
+    "company": "GE医疗",
+    "position": "2027届校招（影像/临床应用）",
+    "status": "8-9月启动",
+    "url": "https://jobs.siemens-healthineers.com"
+   },
+   {
+    "company": "泰康医疗",
+    "position": "2027届校招（影像诊断岗）",
+    "status": "8月陆续开放",
+    "url": "https://jobtaikang.zhiye.com"
+   }
+  ],
+  "undergrad:100202TK": [
+   {
+    "company": "医院麻醉科",
+    "position": "麻醉医师（考编）",
+    "status": "各省公告陆续发布"
+   },
+   {
+    "company": "公立医院",
+    "position": "麻醉科岗位",
+    "status": "各医院招聘公告"
+   },
+   {
+    "company": "泰康医疗/泰康之家",
+    "position": "2027届校招（麻醉/围术期医疗岗）",
+    "status": "8月陆续开放",
+    "url": "https://jobtaikang.zhiye.com"
+   },
+   {
+    "company": "各地三甲医院",
+    "position": "麻醉医师（招聘/规培）",
+    "status": "关注医院官网与卫健委公告",
+    "url": "https://www.health-100.cn"
+   },
+   {
+    "company": "爱尔眼科",
+    "position": "2027届校招（麻醉/医疗岗）",
+    "status": "8-9月启动",
+    "url": "https://www.aierchina.com"
+   }
+  ],
+  "undergrad:100207TK": [
+   {
+    "company": "儿童医院/儿科",
+    "position": "儿科医师（考编）",
+    "status": "各省公告陆续发布"
+   },
+   {
+    "company": "公立医院儿科",
+    "position": "儿科岗位",
+    "status": "各医院招聘公告"
+   },
+   {
+    "company": "泰康之家/泰康医疗",
+    "position": "2027届校招（儿科医疗岗）",
+    "status": "8月陆续开放",
+    "url": "https://jobtaikang.zhiye.com"
+   },
+   {
+    "company": "京东健康",
+    "position": "2027届校招（医疗健康岗）",
+    "status": "8月3日已启动",
+    "url": "https://campus.jd.com"
+   },
+   {
+    "company": "各地儿童医院/妇幼保健院",
+    "position": "儿科医师（招聘/规培）",
+    "status": "关注当地卫健委公告",
+    "url": "https://www.health-100.cn"
+   }
+  ],
+  "undergrad:100502K": [
+   {
+    "company": "中医院/卫健委",
+    "position": "针灸推拿医师（考编）",
+    "status": "各省公告陆续发布"
+   },
+   {
+    "company": "固生堂等中医连锁",
+    "position": "中医师/针灸推拿",
+    "status": "官网招聘开放",
+    "url": "https://www.gstzy.cn"
+   },
+   {
+    "company": "同仁堂",
+    "position": "校招（中医药方向）",
+    "status": "官网招聘开放",
+    "url": "https://www.tongrentang.com"
+   },
+   {
+    "company": "固生堂",
+    "position": "2027届校招（针灸推拿/中医临床）",
+    "status": "8-9月启动",
+    "url": "https://www.gstzy.cn"
+   },
+   {
+    "company": "泰康之家",
+    "position": "2027届校招（中医康养岗）",
+    "status": "8月陆续开放",
+    "url": "https://jobtaikang.zhiye.com"
+   }
+  ],
+  "undergrad:100601K": [
+   {
+    "company": "中医院/综合医院",
+    "position": "中西医结合医师（考编）",
+    "status": "各省公告陆续发布"
+   },
+   {
+    "company": "国药集团",
+    "position": "2027届校招（中医药方向）",
+    "status": "专属网申开放",
+    "url": "https://www.sinopharm.com"
+   },
+   {
+    "company": "固生堂",
+    "position": "2027届校招（中医临床岗）",
+    "status": "8-9月启动",
+    "url": "https://www.gstzy.cn"
+   },
+   {
+    "company": "同仁堂",
+    "position": "2027届校招（中医药岗）",
+    "status": "8-9月启动",
+    "url": "https://www.tongrentang.com"
+   },
+   {
+    "company": "泰康之家",
+    "position": "2027届校招（中医康养岗）",
+    "status": "8月陆续开放",
+    "url": "https://jobtaikang.zhiye.com"
+   }
+  ],
+  "undergrad:100901K": [
+   {
+    "company": "公安法医（考编）",
+    "position": "法医岗位",
+    "status": "各省公告陆续发布"
+   },
+   {
+    "company": "司法鉴定机构",
+    "position": "法医鉴定",
+    "status": "各机构招聘公告"
+   },
+   {
+    "company": "保险公司",
+    "position": "法医核赔",
+    "status": "各公司官网招聘",
+    "url": "https://www.chinalife.com.cn/chinalife/zhaopin"
+   },
+   {
+    "company": "公安招警/法医岗位",
+    "position": "法医岗（公务员招录）",
+    "status": "关注国考/省考公告",
+    "url": "https://bm.scs.gov.cn"
+   },
+   {
+    "company": "迪安诊断",
+    "position": "2027届校招（司法鉴定/法医检验）",
+    "status": "8-9月启动",
+    "url": "https://www.dazd.cn"
+   },
+   {
+    "company": "华大基因",
+    "position": "2027届校招（法医/检测技术岗）",
+    "status": "8-9月启动",
+    "url": "https://www.genomics.cn"
+   }
+  ],
+  "undergrad:120701": [
+   {
+    "company": "比亚迪",
+    "position": "2027届校招（工业工程/精益）",
+    "status": "官网持续开放",
+    "url": "https://job.byd.com"
+   },
+   {
+    "company": "宁德时代",
+    "position": "2027届校招（IE/制造）",
+    "status": "8月18日已启动",
+    "url": "https://Talent.CATL.com"
+   },
+   {
+    "company": "中国中车",
+    "position": "2027届校招（工业工程）",
+    "status": "9月上旬上线",
+    "url": "https://crrc.hotjob.cn"
+   },
+   {
+    "company": "三一集团",
+    "position": "2027届校招（IE/运营）",
+    "status": "提前批已启动",
+    "url": "https://sany.zhiye.com/campus/jobs"
+   }
+  ],
+  "undergrad:082503": [
+   {
+    "company": "中国能建",
+    "position": "2027届校招（环保/环境）",
+    "status": "进行中",
+    "url": "https://ceec.iguopin.com"
+   },
+   {
+    "company": "中国电建",
+    "position": "2027届校招（环境/水务）",
+    "status": "统一平台开放",
+    "url": "https://zhaopin.powerchina.cn"
+   },
+   {
+    "company": "光大环境",
+    "position": "校招（固废/水务）",
+    "status": "官网招聘开放",
+    "url": "https://www.ebchinaintl.com"
+   },
+   {
+    "company": "环保上市公司",
+    "position": "环境监测/环评",
+    "status": "各公司官网招聘"
+   },
+   {
+    "company": "牧原股份",
+    "position": "2027届提前批（环保工艺研发岗）",
+    "status": "6月已启动",
+    "url": "https://www.muyuanfoods.com"
+   }
+  ],
+  "undergrad:071004": [
+   {
+    "company": "中国能建/中国电建",
+    "position": "2027届校招（生态修复）",
+    "status": "进行中",
+    "url": "https://ceec.iguopin.com"
+   },
+   {
+    "company": "林草系统（考编）",
+    "position": "生态保护岗",
+    "status": "各省公告陆续发布"
+   },
+   {
+    "company": "生态修复企业",
+    "position": "生态工程师",
+    "status": "各公司官网招聘"
+   },
+   {
+    "company": "先正达中国",
+    "position": "2027届校招（生态/农业技术）",
+    "status": "8-9月启动",
+    "url": "https://www.syngenta.com.cn"
+   },
+   {
+    "company": "环保系统事业单位",
+    "position": "生态环境岗位",
+    "status": "关注省考/事业单位公告",
+    "url": "https://bm.scs.gov.cn"
+   },
+   {
+    "company": "隆平高科",
+    "position": "2027届校招（生态/育种技术）",
+    "status": "8-9月启动",
+    "url": "https://www.lpht.com.cn"
+   }
+  ],
+  "undergrad:090301": [
+   {
+    "company": "牧原股份",
+    "position": "校招（养殖/营养）",
+    "status": "官网招聘开放",
+    "url": "https://www.muyuanfoods.com"
+   },
+   {
+    "company": "温氏股份",
+    "position": "校招（动科/养殖）",
+    "status": "官网招聘开放",
+    "url": "https://www.wens.com.cn"
+   },
+   {
+    "company": "新希望六和",
+    "position": "校招（养殖/饲料）",
+    "status": "官网招聘开放",
+    "url": "https://www.newhopegroup.com"
+   },
+   {
+    "company": "正大集团",
+    "position": "校招（养殖/饲料）",
+    "status": "官网招聘开放",
+    "url": "https://www.cpgroup.cn"
+   }
+  ],
+  "undergrad:090501": [
+   {
+    "company": "林草系统（考编）",
+    "position": "林业管理/技术岗",
+    "status": "各省公告陆续发布"
+   },
+   {
+    "company": "中林集团等林业央企",
+    "position": "林业技术/管理",
+    "status": "官网招聘开放",
+    "url": "https://www.chinagrainforest.com"
+   },
+   {
+    "company": "园林绿化企业",
+    "position": "林业/绿化工程",
+    "status": "各公司官网招聘"
+   },
+   {
+    "company": "北大荒集团",
+    "position": "2027届校招（林业/农业岗）",
+    "status": "8-9月启动",
+    "url": "https://www.chinabdh.com"
+   },
+   {
+    "company": "隆平高科",
+    "position": "2027届校招（育种/技术岗）",
+    "status": "8-9月启动",
+    "url": "https://www.lpht.com.cn"
+   },
+   {
+    "company": "林业系统事业单位",
+    "position": "林业业务岗（考编）",
+    "status": "关注省考公告",
+    "url": "https://bm.scs.gov.cn"
+   }
+  ],
+  "undergrad:090601": [
+   {
+    "company": "海大集团",
+    "position": "校招（水产养殖/饲料）",
+    "status": "官网招聘开放",
+    "url": "https://www.haid.com.cn"
+   },
+   {
+    "company": "通威股份",
+    "position": "校招（水产/光伏）",
+    "status": "官网招聘开放",
+    "url": "https://www.tongwei.com"
+   },
+   {
+    "company": "国联水产",
+    "position": "校招（水产加工/养殖）",
+    "status": "官网招聘开放",
+    "url": "https://www.guolian.cn"
+   },
+   {
+    "company": "渔业部门（考编）",
+    "position": "水产技术岗",
+    "status": "各省公告陆续发布"
+   }
+  ],
+  "undergrad:090102": [
+   {
+    "company": "种苗/果蔬企业",
+    "position": "园艺技术/育种",
+    "status": "各公司官网招聘"
+   },
+   {
+    "company": "农科院/农业部门（考编）",
+    "position": "园艺技术岗",
+    "status": "各省公告陆续发布"
+   },
+   {
+    "company": "中粮集团",
+    "position": "2027届校招（农业方向）",
+    "status": "统一网申开放",
+    "url": "http://campus.51job.com/cofco"
+   },
+   {
+    "company": "先正达中国",
+    "position": "2027届校招（园艺/农业技术）",
+    "status": "8-9月启动",
+    "url": "https://www.syngenta.com.cn"
+   },
+   {
+    "company": "隆平高科",
+    "position": "2027届校招（育种/技术岗）",
+    "status": "8-9月启动",
+    "url": "https://www.lpht.com.cn"
+   },
+   {
+    "company": "海大集团",
+    "position": "2027届校招（农业技术岗）",
+    "status": "8-9月启动",
+    "url": "https://www.haid.com.cn"
+   }
+  ],
+  "undergrad:090103": [
+   {
+    "company": "先正达中国",
+    "position": "校招（植保/市场）",
+    "status": "官网招聘开放",
+    "url": "https://www.syngenta.com.cn"
+   },
+   {
+    "company": "拜耳作物科学",
+    "position": "校招（植保/技术）",
+    "status": "官网招聘开放",
+    "url": "https://www.bayer.com.cn"
+   },
+   {
+    "company": "植保站/农业部门（考编）",
+    "position": "植保技术岗",
+    "status": "各省公告陆续发布"
+   },
+   {
+    "company": "隆平高科",
+    "position": "2027届校招（育种/植保）",
+    "status": "8-9月启动",
+    "url": "https://www.lpht.com.cn"
+   }
+  ],
+  "undergrad:070102": [
+   {
+    "company": "华为",
+    "position": "2027届秋招（算法/软件）",
+    "status": "秋招进行中",
+    "url": "https://career.huawei.com"
+   },
+   {
+    "company": "腾讯",
+    "position": "2027届校招（算法/开发）",
+    "status": "8月11日已启动",
+    "url": "https://careers.tencent.com"
+   },
+   {
+    "company": "银行科技部门",
+    "position": "数据/算法岗",
+    "status": "秋招9-10月",
+    "url": "https://job.icbc.com.cn"
+   },
+   {
+    "company": "中学数学/信息教师",
+    "position": "教师（考编）",
+    "status": "各省公告陆续发布"
+   }
+  ],
+  "undergrad:070202": [
+   {
+    "company": "中芯国际等半导体",
+    "position": "校招（工艺/器件）",
+    "status": "官网招聘开放",
+    "url": "https://www.smics.com"
+   },
+   {
+    "company": "华为",
+    "position": "2027届秋招（光学/硬件）",
+    "status": "秋招进行中",
+    "url": "https://career.huawei.com"
+   },
+   {
+    "company": "光电/激光企业",
+    "position": "应用/研发岗",
+    "status": "各公司官网招聘"
+   },
+   {
+    "company": "中学物理教师",
+    "position": "教师（考编）",
+    "status": "各省公告陆续发布"
+   }
+  ],
+  "undergrad:081304T": [
+   {
+    "company": "中国石化",
+    "position": "2027届校招（能源化工）",
+    "status": "秋招陆续发布",
+    "url": "https://job.sinopec.com"
+   },
+   {
+    "company": "万华化学",
+    "position": "校招（能源材料）",
+    "status": "官网持续开放",
+    "url": "https://www.whchem.com"
+   },
+   {
+    "company": "宁德时代",
+    "position": "2027届校招（电池材料）",
+    "status": "8月18日已启动",
+    "url": "https://Talent.CATL.com"
+   },
+   {
+    "company": "国家能源集团",
+    "position": "2027届校招（煤化工）",
+    "status": "秋招进行中",
+    "url": "http://zhaopin.chnenergy.com.cn"
+   }
+  ],
+  "undergrad:100703TK": [
+   {
+    "company": "医院药学部",
+    "position": "临床药师（考编）",
+    "status": "各省公告陆续发布"
+   },
+   {
+    "company": "国药集团",
+    "position": "2027届校招（药学/临床）",
+    "status": "专属网申开放",
+    "url": "https://www.sinopharm.com"
+   },
+   {
+    "company": "药企临床医学部",
+    "position": "医学事务/临床",
+    "status": "各公司官网招聘",
+    "url": "https://www.wuxiapptec.com"
+   },
+   {
+    "company": "恒瑞医药",
+    "position": "2027届校招（临床药学/医学岗）",
+    "status": "8-9月启动",
+    "url": "https://www.hengrui.com"
+   },
+   {
+    "company": "扬子江药业",
+    "position": "2027届校招（临床药学/医学岗）",
+    "status": "8-9月启动",
+    "url": "https://www.yzj.cn"
+   },
+   {
+    "company": "药明康德",
+    "position": "2027届校招（临床研究/CRO）",
+    "status": "8月启动",
+    "url": "https://www.wuxiapptec.com"
+   }
+  ],
+  "zhuanke:510106": [
+   {
+    "company": "华为",
+    "position": "2027届秋招（移动应用/测试）",
+    "status": "秋招进行中",
+    "url": "https://career.huawei.com"
+   },
+   {
+    "company": "字节跳动",
+    "position": "2027届校招（客户端/运营）",
+    "status": "8月3日已启动",
+    "url": "https://jobs.bytedance.com"
+   },
+   {
+    "company": "小米",
+    "position": "2027届校招（移动应用）",
+    "status": "8月10日已启动",
+    "url": "https://hr.xiaomi.com/campus"
+   },
+   {
+    "company": "中国移动",
+    "position": "各省公司校招（应用/技术）",
+    "status": "正式批8月底-9月",
+    "url": "https://job.10086.cn"
+   },
+   {
+    "company": "京东·新锐之星",
+    "position": "2027届（物流储备/销售/职能/运维支持等，专科可报）",
+    "status": "8月17日已启动，11月30日截止",
+    "url": "https://campus.jd.com"
+   },
+   {
+    "company": "创维集团",
+    "position": "2027届校招（技术/制造岗，专科可报）",
+    "status": "8月17日已启动",
+    "url": "https://skyworth.hotjob.cn"
+   },
+   {
+    "company": "比亚迪",
+    "position": "2027届大专专场（机电/机械/电气/计算机/物流等）",
+    "status": "8月持续招聘",
+    "url": "https://job.byd.com"
+   }
+  ],
+  "zhuanke:500102": [
+   {
+    "company": "国铁集团",
+    "position": "各铁路局招聘（工务/施工）",
+    "status": "各局陆续发布",
+    "url": "https://rczp.china-railway.com.cn"
+   },
+   {
+    "company": "中国铁建",
+    "position": "2027届校招（铁路工程）",
+    "status": "已启动",
+    "url": "https://www.crcc.cn"
+   },
+   {
+    "company": "中国中铁",
+    "position": "2027届校招（铁路施工）",
+    "status": "已启动",
+    "url": "https://www.crec.cn"
+   },
+   {
+    "company": "中国铁路局系统",
+    "position": "2027届校招（工务/设备岗）",
+    "status": "关注各局公告",
+    "url": "https://rczp.china-railway.com.cn"
+   }
+  ],
+  "zhuanke:500105": [
+   {
+    "company": "国铁集团",
+    "position": "各局机车乘务员/检修（专科可报）",
+    "status": "各局陆续发布",
+    "url": "https://rczp.china-railway.com.cn"
+   },
+   {
+    "company": "中国中车",
+    "position": "2027届校招（机车制造）",
+    "status": "9月上旬上线",
+    "url": "https://crrc.hotjob.cn"
+   },
+   {
+    "company": "中国铁路局系统",
+    "position": "各局多批次（大专可报）",
+    "status": "各局陆续发布",
+    "url": "https://rczp.china-railway.com.cn"
+   },
+   {
+    "company": "中国中车·各子公司",
+    "position": "2027届校招（株洲/青岛等基地，机车检修）",
+    "status": "8月启动",
+    "url": "https://crrc.hotjob.cn"
+   },
+   {
+    "company": "中国通号",
+    "position": "2027届校招（轨道交通装备维护）",
+    "status": "8-9月启动",
+    "url": "https://www.crsc.cn"
+   }
+  ],
+  "zhuanke:500108": [
+   {
+    "company": "国铁集团",
+    "position": "各局动车组检修（专科可报）",
+    "status": "各局陆续发布",
+    "url": "https://rczp.china-railway.com.cn"
+   },
+   {
+    "company": "中国中车",
+    "position": "2027届校招（动车检修）",
+    "status": "9月上旬上线",
+    "url": "https://crrc.hotjob.cn"
+   },
+   {
+    "company": "中国铁路局系统",
+    "position": "各局多批次（大专可报）",
+    "status": "各局陆续发布",
+    "url": "https://rczp.china-railway.com.cn"
+   },
+   {
+    "company": "中国中车·各子公司",
+    "position": "2027届校招（动车制造/检修，含大专）",
+    "status": "8月启动",
+    "url": "https://crrc.hotjob.cn"
+   },
+   {
+    "company": "中国通号",
+    "position": "2027届校招（轨道车辆装备）",
+    "status": "8-9月启动",
+    "url": "https://www.crsc.cn"
+   }
+  ],
+  "undergrad:030201": [
+   {
+    "company": "国考/省考",
+    "position": "党务/行政/宣传岗位",
+    "status": "公告预计10月",
+    "url": "http://bm.scs.gov.cn"
+   },
+   {
+    "company": "央国企党建/行政",
+    "position": "党建/宣传/行政岗",
+    "status": "各企业官网招聘"
+   },
+   {
+    "company": "高校辅导员",
+    "position": "辅导员（高校招聘）",
+    "status": "各高校招聘公告"
+   },
+   {
+    "company": "保利集团",
+    "position": "2027届校招（综合管理/职能岗）",
+    "status": "8月启动",
+    "url": "https://polycareer.zhiye.com"
+   },
+   {
+    "company": "中国中化",
+    "position": "2027届校招（行政/党建岗）",
+    "status": "8-9月启动",
+    "url": "https://sinochem.hotjob.cn"
+   }
+  ],
+  "undergrad:030301": [
+   {
+    "company": "国考/省考",
+    "position": "民政/统计/调查岗位",
+    "status": "公告预计10月",
+    "url": "http://bm.scs.gov.cn"
+   },
+   {
+    "company": "社会调查/咨询公司",
+    "position": "研究员/调查员",
+    "status": "各公司官网招聘",
+    "url": "https://www.ipsos.com"
+   },
+   {
+    "company": "社工机构/基金会",
+    "position": "项目/社工",
+    "status": "各机构招聘公告"
+   },
+   {
+    "company": "IPSOS等市场研究",
+    "position": "2027届校招（研究/分析岗）",
+    "status": "8-9月启动",
+    "url": "https://www.ipsos.com"
+   },
+   {
+    "company": "泰康之家",
+    "position": "2027届校招（社工/康养研究岗）",
+    "status": "8月陆续开放",
+    "url": "https://jobtaikang.zhiye.com"
+   },
+   {
+    "company": "字节跳动",
+    "position": "2027届校招（用户研究岗）",
+    "status": "8月3日已启动",
+    "url": "https://jobs.bytedance.com"
+   }
+  ],
+  "undergrad:010101": [
+   {
+    "company": "国考/省考",
+    "position": "理论/宣传/文职岗位",
+    "status": "公告预计10月",
+    "url": "http://bm.scs.gov.cn"
+   },
+   {
+    "company": "高校辅导员/教研",
+    "position": "辅导员/研究",
+    "status": "各高校招聘公告"
+   },
+   {
+    "company": "出版社/文化公司",
+    "position": "编辑/内容",
+    "status": "各公司官网招聘"
+   },
+   {
+    "company": "央国企党建/宣传",
+    "position": "党建宣传岗",
+    "status": "关注各央企官网",
+    "url": "https://runjob.crc.com.cn"
+   }
+  ],
+  "undergrad:060102": [
+   {
+    "company": "国考/省考",
+    "position": "文博/外事/档案岗位",
+    "status": "公告预计10月",
+    "url": "http://bm.scs.gov.cn"
+   },
+   {
+    "company": "博物馆/档案馆",
+    "position": "文博岗位",
+    "status": "各单位招聘公告"
+   },
+   {
+    "company": "出版社/国际交流机构",
+    "position": "编辑/外事",
+    "status": "各机构招聘公告"
+   },
+   {
+    "company": "文博/文保事业单位",
+    "position": "文博研究/展陈岗（考编）",
+    "status": "关注各地文物局公告",
+    "url": "https://bm.scs.gov.cn"
+   }
+  ],
+  "undergrad:050261": [
+   {
+    "company": "外事/翻译机构",
+    "position": "口笔译",
+    "status": "各机构招聘公告"
+   },
+   {
+    "company": "央企海外业务",
+    "position": "翻译/海外岗",
+    "status": "各央企官网招聘",
+    "url": "https://www.coscoshipping.com"
+   },
+   {
+    "company": "跨境电商/出海企业",
+    "position": "翻译/海外运营",
+    "status": "各公司官网招聘"
+   },
+   {
+    "company": "央企海外项目",
+    "position": "翻译/外事岗",
+    "status": "关注各央企官网",
+    "url": "https://www.cscec.com"
+   },
+   {
+    "company": "字节跳动",
+    "position": "2027届校招（国际化/翻译）",
+    "status": "8月3日已启动",
+    "url": "https://jobs.bytedance.com"
+   },
+   {
+    "company": "外交部/外事系统",
+    "position": "翻译岗（公务员）",
+    "status": "关注国考公告",
+    "url": "https://bm.scs.gov.cn"
+   }
+  ],
+  "undergrad:050302": [
+   {
+    "company": "广电/央媒",
+    "position": "记者/编导/后期",
+    "status": "各单位招聘公告"
+   },
+   {
+    "company": "字节跳动",
+    "position": "2027届校招（内容/运营）",
+    "status": "8月3日已启动",
+    "url": "https://jobs.bytedance.com"
+   },
+   {
+    "company": "芒果超媒",
+    "position": "校招（内容/编导）",
+    "status": "官网招聘开放",
+    "url": "https://www.mgtv.com"
+   },
+   {
+    "company": "腾讯",
+    "position": "2027届校招（内容/市场）",
+    "status": "8月11日已启动",
+    "url": "https://careers.tencent.com"
+   }
+  ],
+  "undergrad:050305": [
+   {
+    "company": "出版社/期刊",
+    "position": "编辑",
+    "status": "各单位招聘公告"
+   },
+   {
+    "company": "互联网内容平台",
+    "position": "内容编辑/运营",
+    "status": "各平台官网招聘",
+    "url": "https://jobs.bytedance.com"
+   },
+   {
+    "company": "中文在线等数字出版",
+    "position": "内容/产品",
+    "status": "官网招聘开放",
+    "url": "https://www.chineseall.com"
+   },
+   {
+    "company": "阅文集团",
+    "position": "2027届校招（内容/编辑岗）",
+    "status": "8-9月启动",
+    "url": "https://www.yuewen.com"
+   },
+   {
+    "company": "中文在线",
+    "position": "2027届校招（内容/运营岗）",
+    "status": "8-9月启动",
+    "url": "https://www.chineseall.com"
+   },
+   {
+    "company": "字节跳动",
+    "position": "2027届校招（内容运营）",
+    "status": "8月3日已启动",
+    "url": "https://jobs.bytedance.com"
+   }
+  ],
+  "undergrad:070901": [
+   {
+    "company": "中国石油",
+    "position": "2027届校招（地质/勘探）",
+    "status": "秋招陆续发布",
+    "url": "https://zhaopin.cnpc.com.cn"
+   },
+   {
+    "company": "中国石化",
+    "position": "2027届校招（地质/工程）",
+    "status": "秋招陆续发布",
+    "url": "https://job.sinopec.com"
+   },
+   {
+    "company": "中国地质调查局（考编）",
+    "position": "地质调查岗",
+    "status": "各省公告陆续发布"
+   },
+   {
+    "company": "地矿企业",
+    "position": "地质/勘探技术",
+    "status": "各公司官网招聘"
+   }
+  ],
+  "undergrad:070601": [
+   {
+    "company": "气象局（考编）",
+    "position": "气象预报/观测",
+    "status": "各省公告陆续发布"
+   },
+   {
+    "company": "空管/民航气象",
+    "position": "航空气象",
+    "status": "民航系统招聘公告"
+   },
+   {
+    "company": "新能源风电企业",
+    "position": "风资源评估",
+    "status": "各公司官网招聘",
+    "url": "https://www.goldwind.com.cn"
+   },
+   {
+    "company": "航天宏图",
+    "position": "2027届校招（气象遥感/数据分析）",
+    "status": "8-9月启动",
+    "url": "https://www.piesat.com.cn"
+   },
+   {
+    "company": "气象系统事业单位",
+    "position": "气象业务岗（考编）",
+    "status": "关注中国气象局/省考公告",
+    "url": "https://bm.scs.gov.cn"
+   },
+   {
+    "company": "中科星图",
+    "position": "2027届校招（气象/遥感）",
+    "status": "8-9月启动",
+    "url": "https://www.geovis.com.cn"
+   }
+  ],
+  "undergrad:070701": [
+   {
+    "company": "海洋局/海警（考编）",
+    "position": "海洋管理/执法",
+    "status": "各省公告陆续发布"
+   },
+   {
+    "company": "中远海运",
+    "position": "2027届校招（航运/海洋）",
+    "status": "9月中旬-11月网申",
+    "url": "https://www.coscoshipping.com"
+   },
+   {
+    "company": "涉海科研/企业",
+    "position": "海洋技术",
+    "status": "各机构招聘公告"
+   },
+   {
+    "company": "招商轮船",
+    "position": "2027届校招（航运管理岗）",
+    "status": "8-9月启动",
+    "url": "https://www.cmenergyshipping.com"
+   },
+   {
+    "company": "自然资源系统事业单位",
+    "position": "海洋业务岗（考编）",
+    "status": "关注省考/事业单位公告",
+    "url": "https://bm.scs.gov.cn"
+   }
+  ],
+  "undergrad:130305": [
+   {
+    "company": "广电/央媒",
+    "position": "编导/策划/后期",
+    "status": "各单位招聘公告"
+   },
+   {
+    "company": "芒果超媒",
+    "position": "校招（编导/内容）",
+    "status": "官网招聘开放",
+    "url": "https://www.mgtv.com"
+   },
+   {
+    "company": "字节跳动",
+    "position": "2027届校招（内容/运营）",
+    "status": "8月3日已启动",
+    "url": "https://jobs.bytedance.com"
+   },
+   {
+    "company": "影视/广告公司",
+    "position": "编导/策划",
+    "status": "各公司官网招聘"
+   }
+  ],
+  "undergrad:130505": [
+   {
+    "company": "安踏/李宁等运动品牌",
+    "position": "服装设计/商品企划",
+    "status": "各公司官网招聘",
+    "url": "https://www.anta.com"
+   },
+   {
+    "company": "波司登等服装企业",
+    "position": "服装设计",
+    "status": "官网招聘开放",
+    "url": "https://www.bosideng.com"
+   },
+   {
+    "company": "跨境电商服装",
+    "position": "服装设计/选品",
+    "status": "各公司官网招聘"
+   },
+   {
+    "company": "波司登",
+    "position": "2027届校招（设计/商品岗）",
+    "status": "8-9月启动",
+    "url": "https://www.bosideng.com"
+   },
+   {
+    "company": "安踏",
+    "position": "2027届校招（设计/商品岗）",
+    "status": "8月启动",
+    "url": "https://www.anta.com"
+   },
+   {
+    "company": "李宁",
+    "position": "2027届校招（设计/商品岗）",
+    "status": "8-9月启动",
+    "url": "https://www.lining.com"
+   }
+  ],
+  "undergrad:130504": [
+   {
+    "company": "华为",
+    "position": "2027届秋招（工业设计/产品）",
+    "status": "秋招进行中",
+    "url": "https://career.huawei.com"
+   },
+   {
+    "company": "小米",
+    "position": "2027届校招（产品设计）",
+    "status": "8月10日已启动",
+    "url": "https://hr.xiaomi.com/campus"
+   },
+   {
+    "company": "比亚迪",
+    "position": "2027届校招（产品设计）",
+    "status": "官网持续开放",
+    "url": "https://job.byd.com"
+   },
+   {
+    "company": "家电/消费电子企业",
+    "position": "产品设计",
+    "status": "各公司官网招聘",
+    "url": "https://www.gree.com.cn"
+   }
+  ],
+  "undergrad:040203": [
+   {
+    "company": "体育局/学校（考编）",
+    "position": "体育管理/教师",
+    "status": "各省公告陆续发布"
+   },
+   {
+    "company": "健身/体育培训",
+    "position": "教练/运营",
+    "status": "各机构官网招聘"
+   },
+   {
+    "company": "赛事运营公司",
+    "position": "赛事运营",
+    "status": "各公司官网招聘",
+    "url": "https://www.csg.com.cn"
+   },
+   {
+    "company": "安踏",
+    "position": "2027届校招（零售/社群运营）",
+    "status": "8月启动",
+    "url": "https://www.anta.com"
+   },
+   {
+    "company": "李宁",
+    "position": "2027届校招（零售管培生）",
+    "status": "8-9月启动",
+    "url": "https://www.lining.com"
+   },
+   {
+    "company": "泰康之家",
+    "position": "2027届校招（康养运动康复岗）",
+    "status": "8月陆续开放",
+    "url": "https://jobtaikang.zhiye.com"
+   }
+  ],
+  "undergrad:020305T": [
+   {
+    "company": "券商/基金量化",
+    "position": "量化/研究",
+    "status": "秋招陆续开放"
+   },
+   {
+    "company": "保险公司精算",
+    "position": "精算助理",
+    "status": "各公司官网招聘",
+    "url": "https://www.chinalife.com.cn/chinalife/zhaopin"
+   },
+   {
+    "company": "银行",
+    "position": "金融科技/风控",
+    "status": "秋招9-10月",
+    "url": "https://job.icbc.com.cn"
+   },
+   {
+    "company": "国家开发银行",
+    "position": "2027届校招（金融/数学）",
+    "status": "公告预计9月中旬",
+    "url": "https://www.cdb.com.cn"
+   }
+  ],
+  "zhuanke:530604": [
+   {
+    "company": "创业孵化/产业园区",
+    "position": "运营/孵化服务",
+    "status": "各园区招聘公告"
+   },
+   {
+    "company": "中小企业",
+    "position": "运营/市场",
+    "status": "各公司官网招聘"
+   },
+   {
+    "company": "电商创业/代运营",
+    "position": "运营/店主",
+    "status": "各平台招聘公告"
+   },
+   {
+    "company": "京东·新锐之星",
+    "position": "2027届校招（物流储备/运营，专科可报）",
+    "status": "8月17日-11月30日",
+    "url": "https://campus.jd.com"
+   },
+   {
+    "company": "字节跳动",
+    "position": "2027届校招（电商/运营岗）",
+    "status": "8月3日已启动",
+    "url": "https://jobs.bytedance.com"
+   },
+   {
+    "company": "创维集团",
+    "position": "2027届校招（销售/运营，含专科岗）",
+    "status": "8月17日已启动",
+    "url": "https://skyworth.hotjob.cn"
+   }
+  ],
+  "zhuanke:570202": [
+   {
+    "company": "外贸企业",
+    "position": "外贸业务员",
+    "status": "各公司官网招聘"
+   },
+   {
+    "company": "跨境电商",
+    "position": "运营/客服",
+    "status": "各公司官网招聘",
+    "url": "https://www.anker.com"
+   },
+   {
+    "company": "外企客服",
+    "position": "客服/商务",
+    "status": "各公司官网招聘"
+   },
+   {
+    "company": "中国外运",
+    "position": "校招（国际物流/货代）",
+    "status": "官网招聘开放",
+    "url": "https://www.sinotrans.com"
+   }
+  ],
+  "zhuanke:520802": [
+   {
+    "company": "托育机构/早教中心",
+    "position": "托育教师/保育员",
+    "status": "各机构招聘公告"
+   },
+   {
+    "company": "幼儿园",
+    "position": "保育/助教",
+    "status": "各园招聘公告"
+   },
+   {
+    "company": "婴幼儿服务品牌",
+    "position": "育儿顾问",
+    "status": "各品牌官网招聘"
+   },
+   {
+    "company": "新东方",
+    "position": "2027届校招（少儿/托育相关）",
+    "status": "8月提前批",
+    "url": "https://zhaopin.xdf.cn"
+   },
+   {
+    "company": "学而思",
+    "position": "2027届校招（素养/启蒙）",
+    "status": "7月已启动",
+    "url": "https://www.xueersi.com"
+   },
+   {
+    "company": "各地托育/幼教机构",
+    "position": "托育老师/保育员",
+    "status": "关注当地招聘公告",
+    "url": "https://bm.scs.gov.cn"
+   }
+  ],
+  "zhuanke:540112": [
+   {
+    "company": "会展公司",
+    "position": "会展执行/策划",
+    "status": "各公司招聘公告"
+   },
+   {
+    "company": "公关/活动公司",
+    "position": "活动执行",
+    "status": "各公司官网招聘"
+   },
+   {
+    "company": "文旅集团",
+    "position": "活动策划/运营",
+    "status": "各集团官网招聘",
+    "url": "https://www.chinaoct.com"
+   },
+   {
+    "company": "华侨城集团",
+    "position": "2027届校招（文旅/会展运营）",
+    "status": "8-9月启动",
+    "url": "https://www.chinaoct.com"
+   },
+   {
+    "company": "携程集团",
+    "position": "2027届校招（会奖/运营岗）",
+    "status": "8-9月启动",
+    "url": "https://campus.ctrip.com"
+   },
+   {
+    "company": "芒果超媒",
+    "position": "2027届校招（活动/内容岗）",
+    "status": "8-9月启动",
+    "url": "https://www.mgtv.com"
+   }
+  ],
+  "zhuanke:520803": [
+   {
+    "company": "养老机构/康养社区",
+    "position": "老年护理/管理",
+    "status": "各机构招聘公告"
+   },
+   {
+    "company": "医院老年科/医养结合",
+    "position": "护理/康复",
+    "status": "各医院招聘公告"
+   },
+   {
+    "company": "智慧养老企业",
+    "position": "运营/健康管理",
+    "status": "各公司官网招聘"
+   },
+   {
+    "company": "泰康之家",
+    "position": "2027届校招（康养/照护岗）",
+    "status": "8月已发布",
+    "url": "https://jobtaikang.zhiye.com"
+   },
+   {
+    "company": "美年大健康",
+    "position": "2027届校招（健康管理岗）",
+    "status": "8-9月启动",
+    "url": "https://www.health-100.cn"
+   },
+   {
+    "company": "中国人寿",
+    "position": "2027届校招（养老/健康险）",
+    "status": "8-9月启动",
+    "url": "https://www.chinalife.com.cn"
+   }
+  ],
+  "zhuanke:530704": [
+   {
+    "company": "直播电商/MCN",
+    "position": "主播/运营/场控",
+    "status": "各机构招聘公告"
+   },
+   {
+    "company": "品牌自播",
+    "position": "直播运营/主播",
+    "status": "各品牌招聘公告"
+   },
+   {
+    "company": "抖音电商/淘宝直播生态",
+    "position": "运营/投手",
+    "status": "各公司官网招聘",
+    "url": "https://jobs.bytedance.com"
+   },
+   {
+    "company": "字节跳动",
+    "position": "2027届校招（抖音电商/直播运营）",
+    "status": "8月3日已启动",
+    "url": "https://jobs.bytedance.com"
+   },
+   {
+    "company": "京东",
+    "position": "2027届校招（电商/运营岗）",
+    "status": "8月17日已启动",
+    "url": "https://campus.jd.com"
+   },
+   {
+    "company": "创维集团",
+    "position": "2027届校招（电商/推广岗，含专科）",
+    "status": "8月17日已启动",
+    "url": "https://skyworth.hotjob.cn"
+   },
+   {
+    "company": "拼多多",
+    "position": "2027届校招（电商运营岗）",
+    "status": "8-9月启动",
+    "url": "https://careers.pddglobalhr.com"
+   }
+  ],
+  "undergrad:020101": [
+   {
+    "company": "国考/省考",
+    "position": "发改/财政/经济岗位",
+    "status": "公告预计10月",
+    "url": "http://bm.scs.gov.cn"
+   },
+   {
+    "company": "国家开发银行",
+    "position": "2027届校招（经济/金融）",
+    "status": "公告预计9月中旬",
+    "url": "https://www.cdb.com.cn"
+   },
+   {
+    "company": "中国银行",
+    "position": "金融/经济类岗位",
+    "status": "秋招将启动",
+    "url": "https://www.boc.cn"
+   },
+   {
+    "company": "券商/研究机构",
+    "position": "研究/分析",
+    "status": "秋招陆续开放"
+   },
+   {
+    "company": "泰康保险集团",
+    "position": "2027届校招（金融/保险/投资）",
+    "status": "陆续开放",
+    "url": "https://jobtaikang.zhiye.com"
+   },
+   {
+    "company": "京东",
+    "position": "2027届秋招（采销/金融/职能）",
+    "status": "8月17日已启动",
+    "url": "https://campus.jd.com"
+   }
+  ],
+  "undergrad:020102": [
+   {
+    "company": "统计局（考编）",
+    "position": "统计调查岗",
+    "status": "各省公告陆续发布"
+   },
+   {
+    "company": "银行风控/数据",
+    "position": "风控/数据分析",
+    "status": "秋招9-10月",
+    "url": "https://job.icbc.com.cn"
+   },
+   {
+    "company": "数据分析/咨询公司",
+    "position": "数据分析师",
+    "status": "各公司官网招聘"
+   },
+   {
+    "company": "毕马威",
+    "position": "2027届校招（审计/咨询）",
+    "status": "8月4日已启动",
+    "url": "https://www.kpmg.com/cn"
+   },
+   {
+    "company": "德勤中国",
+    "position": "2027届校招（审计/咨询）",
+    "status": "8月启动",
+    "url": "https://www.deloitte.com"
+   },
+   {
+    "company": "中国银行",
+    "position": "2027届校招（数据分析/金融科技）",
+    "status": "8月启动",
+    "url": "https://www.boc.cn"
+   },
+   {
+    "company": "统计局系统",
+    "position": "统计业务岗（公务员）",
+    "status": "关注国考公告",
+    "url": "https://bm.scs.gov.cn"
+   }
+  ],
+  "undergrad:020310T": [
+   {
+    "company": "招银网络科技",
+    "position": "2027届秋招（金融科技）",
+    "status": "7月底已启动",
+    "url": "https://cmbnt.cmbchina.com"
+   },
+   {
+    "company": "工商银行科技子公司",
+    "position": "2027届校招（金融科技）",
+    "status": "预计9月上旬",
+    "url": "https://job.icbc.com.cn"
+   },
+   {
+    "company": "蚂蚁集团生态",
+    "position": "校招（金融科技）",
+    "status": "阿里2027届已启动",
+    "url": "https://campus-talent.alibaba.com"
+   },
+   {
+    "company": "腾讯金融科技",
+    "position": "2027届校招（金融科技）",
+    "status": "8月11日已启动",
+    "url": "https://careers.tencent.com"
+   }
+  ],
+  "undergrad:040108": [
+   {
+    "company": "特殊教育学校",
+    "position": "特教教师（考编）",
+    "status": "各省公告陆续发布"
+   },
+   {
+    "company": "残联系统（考编）",
+    "position": "康复/服务岗",
+    "status": "各省公告陆续发布"
+   },
+   {
+    "company": "特教康复机构",
+    "position": "特教教师/康复师",
+    "status": "各机构招聘公告"
+   },
+   {
+    "company": "各省特殊教育学校",
+    "position": "特教教师（考编）",
+    "status": "关注当地教育局公告",
+    "url": "https://bm.scs.gov.cn"
+   },
+   {
+    "company": "新东方",
+    "position": "2027届校招（融合教育/素养教师）",
+    "status": "8月提前批",
+    "url": "https://zhaopin.xdf.cn"
+   }
+  ],
+  "undergrad:040104": [
+   {
+    "company": "学校信息中心",
+    "position": "教育信息化岗",
+    "status": "各校招聘公告"
+   },
+   {
+    "company": "教育科技企业",
+    "position": "课程/产品/技术",
+    "status": "各公司官网招聘",
+    "url": "https://www.iflytek.com"
+   },
+   {
+    "company": "在线教育平台",
+    "position": "教研/产品/运营",
+    "status": "各平台招聘公告"
+   },
+   {
+    "company": "科大讯飞",
+    "position": "2027届校招（智慧教育/产品岗）",
+    "status": "8月启动",
+    "url": "https://iflytek.zhiye.com"
+   },
+   {
+    "company": "新东方",
+    "position": "2027届校招（在线教育/产品运营）",
+    "status": "8月提前批",
+    "url": "https://zhaopin.xdf.cn"
+   },
+   {
+    "company": "学而思",
+    "position": "2027届校招（教育科技/教研）",
+    "status": "7月已启动",
+    "url": "https://www.xueersi.com"
+   }
+  ],
+  "undergrad:050107T": [
+   {
+    "company": "国考/省考",
+    "position": "文秘/行政岗位",
+    "status": "公告预计10月",
+    "url": "http://bm.scs.gov.cn"
+   },
+   {
+    "company": "央国企行政/办公室",
+    "position": "行政/文秘",
+    "status": "各企业官网招聘",
+    "url": "https://runjob.crc.com.cn"
+   },
+   {
+    "company": "企业高管秘书",
+    "position": "秘书/助理",
+    "status": "各公司官网招聘"
+   },
+   {
+    "company": "字节跳动",
+    "position": "2027届校招（行政/职能岗）",
+    "status": "8月3日已启动",
+    "url": "https://jobs.bytedance.com"
+   }
+  ],
+  "undergrad:120501": [
+   {
+    "company": "图书馆（考编）",
+    "position": "图书管理员",
+    "status": "各省公告陆续发布"
+   },
+   {
+    "company": "高校图书馆",
+    "position": "图书情报岗",
+    "status": "各高校招聘公告"
+   },
+   {
+    "company": "数字图书馆/知识企业",
+    "position": "内容/知识管理",
+    "status": "各公司官网招聘"
+   },
+   {
+    "company": "央国企档案/知识管理",
+    "position": "信息管理/知识管理岗",
+    "status": "关注各央企官网",
+    "url": "https://runjob.crc.com.cn"
+   },
+   {
+    "company": "字节跳动",
+    "position": "2027届校招（内容/知识管理）",
+    "status": "8月3日已启动",
+    "url": "https://jobs.bytedance.com"
+   }
+  ],
+  "undergrad:120502": [
+   {
+    "company": "档案馆（考编）",
+    "position": "档案管理岗",
+    "status": "各省公告陆续发布"
+   },
+   {
+    "company": "企业档案管理",
+    "position": "档案/知识管理",
+    "status": "各企业官网招聘"
+   },
+   {
+    "company": "档案数字化企业",
+    "position": "档案数字化",
+    "status": "各公司官网招聘"
+   },
+   {
+    "company": "央国企档案/办公室",
+    "position": "档案管理岗",
+    "status": "关注各央企官网",
+    "url": "https://runjob.crc.com.cn"
+   },
+   {
+    "company": "国家开发银行",
+    "position": "2027届校招（综合/档案管理）",
+    "status": "8-9月启动",
+    "url": "https://www.cdb.com.cn"
+   }
+  ],
+  "undergrad:120401": [
+   {
+    "company": "国考/省考/事业单位",
+    "position": "公共管理岗位",
+    "status": "公告预计10月",
+    "url": "http://bm.scs.gov.cn"
+   },
+   {
+    "company": "社区/街道（考编）",
+    "position": "社区管理岗",
+    "status": "各省公告陆续发布"
+   },
+   {
+    "company": "央国企行政/运营",
+    "position": "行政/运营",
+    "status": "各企业官网招聘",
+    "url": "https://runjob.crc.com.cn"
+   },
+   {
+    "company": "保利集团",
+    "position": "2027届校招（综合/职能岗）",
+    "status": "8月启动",
+    "url": "https://polycareer.zhiye.com"
+   },
+   {
+    "company": "华侨城集团",
+    "position": "2027届校招（运营/管理岗）",
+    "status": "8-9月启动",
+    "url": "https://www.chinaoct.com"
+   },
+   {
+    "company": "央国企行政/管理",
+    "position": "综合管理岗",
+    "status": "关注各央企官网",
+    "url": "https://runjob.crc.com.cn"
+   }
+  ],
+  "undergrad:120403": [
+   {
+    "company": "人社局（考编）",
+    "position": "社保/就业岗",
+    "status": "各省公告陆续发布"
+   },
+   {
+    "company": "社保经办机构",
+    "position": "社保经办",
+    "status": "各机构招聘公告"
+   },
+   {
+    "company": "企业 HR",
+    "position": "人事/薪酬",
+    "status": "各公司官网招聘"
+   },
+   {
+    "company": "中国人寿",
+    "position": "2027届校招（保险/社保相关）",
+    "status": "8-9月启动",
+    "url": "https://www.chinalife.com.cn"
+   },
+   {
+    "company": "中国人保",
+    "position": "2027届校招（保险/运营岗）",
+    "status": "8-9月启动",
+    "url": "https://www.picc.com.cn"
+   },
+   {
+    "company": "人社系统事业单位",
+    "position": "社保业务岗（考编）",
+    "status": "关注省考公告",
+    "url": "https://bm.scs.gov.cn"
+   }
+  ],
+  "undergrad:120404": [
+   {
+    "company": "自然资源局（考编）",
+    "position": "土地管理岗",
+    "status": "各省公告陆续发布"
+   },
+   {
+    "company": "测绘/规划企业",
+    "position": "土地评估/规划",
+    "status": "各公司官网招聘",
+    "url": "https://www.southsurvey.com"
+   },
+   {
+    "company": "房地产/评估机构",
+    "position": "土地评估",
+    "status": "各机构招聘公告"
+   },
+   {
+    "company": "保利集团",
+    "position": "2027届校招（投资/地产岗）",
+    "status": "8月启动",
+    "url": "https://polycareer.zhiye.com"
+   },
+   {
+    "company": "中国交建",
+    "position": "2027届校招（土地/基建管理）",
+    "status": "8-9月启动",
+    "url": "https://zhaopin.ccccltd.cn"
+   },
+   {
+    "company": "自然资源系统事业单位",
+    "position": "土地管理岗（考编）",
+    "status": "关注省考公告",
+    "url": "https://bm.scs.gov.cn"
+   }
+  ],
+  "undergrad:120405": [
+   {
+    "company": "城管/住建（考编）",
+    "position": "城市管理岗",
+    "status": "各省公告陆续发布"
+   },
+   {
+    "company": "智慧城市企业",
+    "position": "智慧城市运营",
+    "status": "各公司官网招聘",
+    "url": "https://www.hikvision.com"
+   },
+   {
+    "company": "城市运营服务企业",
+    "position": "城市运营",
+    "status": "各公司官网招聘"
+   },
+   {
+    "company": "万物云",
+    "position": "2027届校招（城市服务/运营岗）",
+    "status": "8-9月启动",
+    "url": "https://www.onewo.com"
+   },
+   {
+    "company": "保利物业",
+    "position": "2027届校招（城市服务/运营）",
+    "status": "8-9月启动",
+    "url": "https://www.polywuye.com"
+   },
+   {
+    "company": "华侨城集团",
+    "position": "2027届校招（文旅城市运营）",
+    "status": "8-9月启动",
+    "url": "https://www.chinaoct.com"
+   }
+  ],
+  "undergrad:081005T": [
+   {
+    "company": "中国铁建",
+    "position": "2027届校招（地下工程）",
+    "status": "已启动",
+    "url": "https://www.crcc.cn"
+   },
+   {
+    "company": "中国交建",
+    "position": "2027届校招（隧道/地下）",
+    "status": "各子公司陆续发布",
+    "url": "https://www.ccccltd.cn/rlzy/rczp/rcyjtx/"
+   },
+   {
+    "company": "中建集团",
+    "position": "2027届校招（地下空间）",
+    "status": "统一测试后投递",
+    "url": "https://recruit.cscec.com"
+   },
+   {
+    "company": "各地铁公司",
+    "position": "校招（地铁工程）",
+    "status": "各公司官网招聘",
+    "url": "https://www.gzmtr.com"
+   }
+  ],
+  "undergrad:083002T": [
+   {
+    "company": "药明康德",
+    "position": "校招（生物药/研发）",
+    "status": "官网招聘开放",
+    "url": "https://www.wuxiapptec.com"
+   },
+   {
+    "company": "恒瑞医药",
+    "position": "校招（生物制药）",
+    "status": "官网招聘开放",
+    "url": "https://www.hrs.com.cn"
+   },
+   {
+    "company": "国药集团",
+    "position": "2027届校招（生物医药）",
+    "status": "专属网申开放",
+    "url": "https://www.sinopharm.com"
+   },
+   {
+    "company": "复宏汉霖等生物药企",
+    "position": "校招（生物药）",
+    "status": "官网招聘开放",
+    "url": "https://www.henlius.com"
+   }
+  ],
+  "zhuanke:530303": [
+   {
+    "company": "会计师事务所",
+    "position": "审计助理",
+    "status": "各所官网招聘"
+   },
+   {
+    "company": "企业内审/财务",
+    "position": "审计/财务助理",
+    "status": "各公司官网招聘"
+   },
+   {
+    "company": "审计局（考编）",
+    "position": "审计辅助岗",
+    "status": "各省公告陆续发布"
+   },
+   {
+    "company": "毕马威",
+    "position": "2027届校招（审计岗）",
+    "status": "8月4日已启动",
+    "url": "https://www.kpmg.com/cn"
+   },
+   {
+    "company": "安永",
+    "position": "2027届校招（审计岗）",
+    "status": "8月启动",
+    "url": "https://ey.hotjob.cn"
+   },
+   {
+    "company": "央国企内审/财务",
+    "position": "内审/财务岗",
+    "status": "关注各央企官网",
+    "url": "https://runjob.crc.com.cn"
+   }
+  ],
+  "zhuanke:530702": [
+   {
+    "company": "安克创新",
+    "position": "校招（跨境电商/海外运营）",
+    "status": "官网招聘开放",
+    "url": "https://www.anker.com"
+   },
+   {
+    "company": "跨境电商平台",
+    "position": "运营/招商",
+    "status": "各平台招聘公告"
+   },
+   {
+    "company": "外贸/跨境企业",
+    "position": "跨境运营",
+    "status": "各公司官网招聘"
+   },
+   {
+    "company": "字节跳动",
+    "position": "2027届校招（跨境电商/运营）",
+    "status": "8月3日已启动",
+    "url": "https://jobs.bytedance.com"
+   },
+   {
+    "company": "京东",
+    "position": "2027届校招（跨境/国际业务）",
+    "status": "8月17日已启动",
+    "url": "https://campus.jd.com"
+   },
+   {
+    "company": "阿里国际站/蚂蚁生态",
+    "position": "2027届校招（跨境电商岗）",
+    "status": "8月启动",
+    "url": "https://campus-talent.alibaba.com"
+   }
+  ],
+  "zhuanke:570101K": [
+   {
+    "company": "早教/托育机构",
+    "position": "早教指导师",
+    "status": "各机构招聘公告"
+   },
+   {
+    "company": "幼儿园",
+    "position": "早期教育教师",
+    "status": "各园招聘公告"
+   },
+   {
+    "company": "金宝贝等早教品牌",
+    "position": "早教指导师",
+    "status": "各品牌官网招聘"
+   },
+   {
+    "company": "新东方",
+    "position": "2027届校招（少儿素养/早教）",
+    "status": "8月提前批",
+    "url": "https://zhaopin.xdf.cn"
+   },
+   {
+    "company": "学而思",
+    "position": "2027届校招（启蒙/素养教师）",
+    "status": "7月已启动",
+    "url": "https://www.xueersi.com"
+   },
+   {
+    "company": "各地早教/托育机构",
+    "position": "早教老师",
+    "status": "关注当地招聘公告",
+    "url": "https://bm.scs.gov.cn"
+   }
+  ],
+  "zhuanke:440104": [
+   {
+    "company": "园林绿化企业",
+    "position": "园林施工/养护",
+    "status": "各公司招聘公告"
+   },
+   {
+    "company": "中建集团",
+    "position": "2027届校招（园林/绿化）",
+    "status": "统一测试后投递",
+    "url": "https://recruit.cscec.com"
+   },
+   {
+    "company": "华侨城集团",
+    "position": "校招（景区园林）",
+    "status": "官网招聘开放",
+    "url": "https://www.chinaoct.com"
+   },
+   {
+    "company": "棕榈股份",
+    "position": "2027届校招（园林/工程岗）",
+    "status": "8-9月启动",
+    "url": "https://www.palm-la.com"
+   }
+  ],
+  "undergrad:020202": [
+   {
+    "company": "税务系统（考编）",
+    "position": "税务岗位",
+    "status": "国考公告预计10月",
+    "url": "http://bm.scs.gov.cn"
+   },
+   {
+    "company": "四大税务部",
+    "position": "税务咨询",
+    "status": "各所官网陆续开放",
+    "url": "https://www.pwccn.com/zh/careers/students.html"
+   },
+   {
+    "company": "企业税务/财务",
+    "position": "税务专员",
+    "status": "各公司官网招聘"
+   },
+   {
+    "company": "税务师事务所",
+    "position": "税务助理",
+    "status": "各所招聘公告"
+   }
+  ],
+  "undergrad:050204": [
+   {
+    "company": "央企海外项目",
+    "position": "法语翻译/海外岗",
+    "status": "各央企官网招聘",
+    "url": "https://www.cscec.com"
+   },
+   {
+    "company": "外交部/外事（考公）",
+    "position": "法语外事岗",
+    "status": "公告预计10月",
+    "url": "http://bm.scs.gov.cn"
+   },
+   {
+    "company": "跨境电商非洲/法语区",
+    "position": "海外运营",
+    "status": "各公司官网招聘"
+   },
+   {
+    "company": "中国交建/中电建",
+    "position": "2027届校招（非洲法语区项目）",
+    "status": "8-9月启动",
+    "url": "https://zhaopin.ccccltd.cn"
+   },
+   {
+    "company": "字节跳动",
+    "position": "2027届校招（国际化/法语）",
+    "status": "8月3日已启动",
+    "url": "https://jobs.bytedance.com"
+   }
+  ],
+  "undergrad:050203": [
+   {
+    "company": "德企",
+    "position": "德语翻译/业务",
+    "status": "各公司官网招聘",
+    "url": "https://www.bosch.com.cn"
+   },
+   {
+    "company": "央企对德业务",
+    "position": "德语业务",
+    "status": "各央企官网招聘"
+   },
+   {
+    "company": "汽车/机械德企",
+    "position": "德语岗位",
+    "status": "各公司官网招聘"
+   },
+   {
+    "company": "博世",
+    "position": "2027届校招（德语/技术岗）",
+    "status": "8-9月启动",
+    "url": "https://app.mokahr.com"
+   },
+   {
+    "company": "字节跳动",
+    "position": "2027届校招（国际化/德语）",
+    "status": "8月3日已启动",
+    "url": "https://jobs.bytedance.com"
+   }
+  ],
+  "undergrad:050202": [
+   {
+    "company": "央企对俄业务",
+    "position": "俄语业务/翻译",
+    "status": "各央企官网招聘",
+    "url": "https://www.coscoshipping.com"
+   },
+   {
+    "company": "外交部/外事（考公）",
+    "position": "俄语外事岗",
+    "status": "公告预计10月",
+    "url": "http://bm.scs.gov.cn"
+   },
+   {
+    "company": "跨境电商俄语区",
+    "position": "俄语运营",
+    "status": "各公司官网招聘"
+   },
+   {
+    "company": "中国一拖/央企对俄",
+    "position": "2027届校招（俄语业务/海外）",
+    "status": "8-9月启动",
+    "url": "https://www.yituo.com.cn"
+   },
+   {
+    "company": "字节跳动",
+    "position": "2027届校招（国际化/俄语）",
+    "status": "8月3日已启动",
+    "url": "https://jobs.bytedance.com"
+   }
+  ],
+  "undergrad:050205": [
+   {
+    "company": "央企拉美/西语区项目",
+    "position": "西语翻译/海外岗",
+    "status": "各央企官网招聘",
+    "url": "https://www.cscec.com"
+   },
+   {
+    "company": "外贸/跨境电商西语区",
+    "position": "西语运营",
+    "status": "各公司官网招聘"
+   },
+   {
+    "company": "翻译公司",
+    "position": "西语口笔译",
+    "status": "各机构招聘公告"
+   },
+   {
+    "company": "中国电建",
+    "position": "2027届校招（拉美西语区项目）",
+    "status": "8-9月启动",
+    "url": "https://zhaopin.powerchina.cn"
+   },
+   {
+    "company": "中国交建",
+    "position": "2027届校招（拉美西语区）",
+    "status": "8-9月启动",
+    "url": "https://zhaopin.ccccltd.cn"
+   },
+   {
+    "company": "字节跳动",
+    "position": "2027届校招（国际化/西语）",
+    "status": "8月3日已启动",
+    "url": "https://jobs.bytedance.com"
+   }
+  ],
+  "undergrad:050209": [
+   {
+    "company": "韩企/对韩业务",
+    "position": "韩语业务/翻译",
+    "status": "各公司官网招聘"
+   },
+   {
+    "company": "跨境电商韩国站",
+    "position": "韩语运营",
+    "status": "各公司官网招聘"
+   },
+   {
+    "company": "娱乐/内容出海",
+    "position": "韩语内容",
+    "status": "各公司官网招聘"
+   },
+   {
+    "company": "字节跳动",
+    "position": "2027届校招（国际化/韩语）",
+    "status": "8月3日已启动",
+    "url": "https://jobs.bytedance.com"
+   }
+  ],
+  "undergrad:100205TK": [
+   {
+    "company": "精神专科医院",
+    "position": "精神科医师（考编）",
+    "status": "各省公告陆续发布"
+   },
+   {
+    "company": "综合医院精神科",
+    "position": "精神科医师",
+    "status": "各医院招聘公告"
+   },
+   {
+    "company": "心理/精神机构",
+    "position": "精神科/心理",
+    "status": "各机构招聘公告"
+   },
+   {
+    "company": "泰康医疗/泰康之家",
+    "position": "2027届校招（精神心理/医疗岗）",
+    "status": "8月陆续开放",
+    "url": "https://jobtaikang.zhiye.com"
+   },
+   {
+    "company": "各地精神卫生中心",
+    "position": "精神科医师（招聘/规培）",
+    "status": "关注当地卫健委公告",
+    "url": "https://www.health-100.cn"
+   },
+   {
+    "company": "京东健康",
+    "position": "2027届校招（心理健康/医疗岗）",
+    "status": "8月3日已启动",
+    "url": "https://campus.jd.com"
+   }
+  ],
+  "undergrad:100204TK": [
+   {
+    "company": "医院眼科",
+    "position": "眼视光医师（考编）",
+    "status": "各省公告陆续发布"
+   },
+   {
+    "company": "爱尔眼科",
+    "position": "眼科医师/视光",
+    "status": "官网招聘开放",
+    "url": "https://www.aierchina.com"
+   },
+   {
+    "company": "视光中心/眼镜企业",
+    "position": "视光师",
+    "status": "各企业官网招聘"
+   },
+   {
+    "company": "泰康口腔/泰康医疗",
+    "position": "2027届校招（视光/眼科岗）",
+    "status": "8月陆续开放",
+    "url": "https://jobtaikang.zhiye.com"
+   },
+   {
+    "company": "现代牙科/眼视光机构",
+    "position": "视光师/眼科助理",
+    "status": "关注机构官网",
+    "url": "https://www.moderndental.com"
+   }
+  ],
+  "undergrad:082802": [
+   {
+    "company": "自然资源/规划部门（考编）",
+    "position": "规划岗位",
+    "status": "各省公告陆续发布"
+   },
+   {
+    "company": "城市规划设计院",
+    "position": "规划设计师",
+    "status": "各设计院招聘公告"
+   },
+   {
+    "company": "中建/华侨城",
+    "position": "规划/设计岗",
+    "status": "官网招聘开放",
+    "url": "https://recruit.cscec.com"
+   },
+   {
+    "company": "中国铁建",
+    "position": "2027届校招（规划/设计岗）",
+    "status": "8月陆续启动",
+    "url": "https://www.crcc.cn"
+   },
+   {
+    "company": "中建集团",
+    "position": "2027届校招（规划/设计岗）",
+    "status": "8月启动",
+    "url": "https://recruit.cscec.com"
+   },
+   {
+    "company": "中国交建",
+    "position": "2027届校招（规划咨询岗）",
+    "status": "8-9月启动",
+    "url": "https://zhaopin.ccccltd.cn"
+   }
+  ],
+  "undergrad:081004": [
+   {
+    "company": "中建集团",
+    "position": "2027届校招（建筑电气）",
+    "status": "统一测试后投递",
+    "url": "https://recruit.cscec.com"
+   },
+   {
+    "company": "中国铁建",
+    "position": "2027届校招（机电/电气）",
+    "status": "已启动",
+    "url": "https://www.crcc.cn"
+   },
+   {
+    "company": "施耐德/西门子",
+    "position": "智能建筑/电气",
+    "status": "官网招聘开放",
+    "url": "https://www.se.com/cn"
+   },
+   {
+    "company": "智能建筑企业",
+    "position": "建筑智能化",
+    "status": "各公司官网招聘"
+   }
+  ],
+  "undergrad:083001": [
+   {
+    "company": "药明康德",
+    "position": "校招（生物/发酵）",
+    "status": "官网招聘开放",
+    "url": "https://www.wuxiapptec.com"
+   },
+   {
+    "company": "华大基因",
+    "position": "校招（生物技术）",
+    "status": "官网招聘开放",
+    "url": "https://www.genomics.cn"
+   },
+   {
+    "company": "国药集团",
+    "position": "2027届校招（生物工程）",
+    "status": "专属网申开放",
+    "url": "https://www.sinopharm.com"
+   },
+   {
+    "company": "生物发酵/食品生物企业",
+    "position": "发酵/工艺",
+    "status": "各公司官网招聘"
+   }
+  ],
+  "zhuanke:520804": [
+   {
+    "company": "心理咨询机构",
+    "position": "心理咨询师/助理",
+    "status": "各机构招聘公告"
+   },
+   {
+    "company": "学校心理辅导",
+    "position": "心理教师/辅导员",
+    "status": "各校招聘公告"
+   },
+   {
+    "company": "医院心理科",
+    "position": "心理治疗助理",
+    "status": "各医院招聘公告"
+   },
+   {
+    "company": "字节跳动",
+    "position": "2027届校招（用户研究/心理相关）",
+    "status": "8月3日已启动",
+    "url": "https://jobs.bytedance.com"
+   },
+   {
+    "company": "各地学校/教育机构",
+    "position": "心理辅导岗",
+    "status": "关注当地教育局公告",
+    "url": "https://bm.scs.gov.cn"
+   },
+   {
+    "company": "泰康之家",
+    "position": "2027届校招（心理/康养服务岗）",
+    "status": "8月陆续开放",
+    "url": "https://jobtaikang.zhiye.com"
+   }
+  ],
+  "zhuanke:550101": [
+   {
+    "company": "设计公司",
+    "position": "设计助理",
+    "status": "各公司招聘公告"
+   },
+   {
+    "company": "广告/品牌公司",
+    "position": "视觉/平面",
+    "status": "各公司官网招聘"
+   },
+   {
+    "company": "装修/软装企业",
+    "position": "软装/深化设计",
+    "status": "各公司官网招聘"
+   },
+   {
+    "company": "字节跳动",
+    "position": "2027届校招（视觉/设计岗）",
+    "status": "8月3日已启动",
+    "url": "https://jobs.bytedance.com"
+   },
+   {
+    "company": "腾讯",
+    "position": "2027届校招（美术/设计岗）",
+    "status": "8月启动",
+    "url": "https://join.qq.com"
+   },
+   {
+    "company": "奥美等4A广告",
+    "position": "设计/创意岗",
+    "status": "关注公司官网",
+    "url": "https://www.ogilvy.com.cn"
+   },
+   {
+    "company": "小米",
+    "position": "2027届校招（设计岗）",
+    "status": "8月10日已启动",
+    "url": "https://hr.xiaomi.com"
+   }
+  ],
+  "zhuanke:550103": [
+   {
+    "company": "字节跳动",
+    "position": "2027届校招（内容/视觉）",
+    "status": "8月3日已启动",
+    "url": "https://jobs.bytedance.com"
+   },
+   {
+    "company": "腾讯",
+    "position": "2027届校招（设计类）",
+    "status": "8月11日已启动",
+    "url": "https://careers.tencent.com"
+   },
+   {
+    "company": "米哈游",
+    "position": "2027届校招（美术/3D）",
+    "status": "8月已启动",
+    "url": "https://jobs.mihoyo.com"
+   },
+   {
+    "company": "网易",
+    "position": "2027届校招（美术/内容）",
+    "status": "7月21日网申开启",
+    "url": "https://campus.game.163.com"
+   }
+  ],
+  "zhuanke:520506": [
+   {
+    "company": "医院呼吸科/ICU",
+    "position": "呼吸治疗师",
+    "status": "各医院招聘公告"
+   },
+   {
+    "company": "鱼跃/迈瑞等呼吸机企业",
+    "position": "呼吸设备应用",
+    "status": "官网招聘开放",
+    "url": "https://www.mindray.com"
+   },
+   {
+    "company": "康养/慢病机构",
+    "position": "呼吸康复",
+    "status": "各机构招聘公告"
+   },
+   {
+    "company": "各地三甲医院",
+    "position": "呼吸治疗师（招聘）",
+    "status": "关注医院官网/卫健委公告",
+    "url": "https://www.health-100.cn"
+   },
+   {
+    "company": "迈瑞医疗",
+    "position": "2027届校招（呼吸机/临床支持）",
+    "status": "8月启动",
+    "url": "https://www.mindray.com"
+   },
+   {
+    "company": "鱼跃医疗",
+    "position": "2027届校招（呼吸设备/临床）",
+    "status": "8-9月启动",
+    "url": "https://www.yuyue.com.cn"
+   }
+  ],
+  "zhuanke:440103": [
+   {
+    "company": "古建修复企业",
+    "position": "古建施工/修复",
+    "status": "各企业招聘公告"
+   },
+   {
+    "company": "文物局/文保（考编）",
+    "position": "文保岗位",
+    "status": "各省公告陆续发布"
+   },
+   {
+    "company": "中建（古建板块）",
+    "position": "古建工程",
+    "status": "统一测试后投递",
+    "url": "https://recruit.cscec.com"
+   },
+   {
+    "company": "中建集团",
+    "position": "2027届校招（古建/工程岗）",
+    "status": "8月启动",
+    "url": "https://recruit.cscec.com"
+   },
+   {
+    "company": "中国铁建",
+    "position": "2027届校招（工程/技术岗）",
+    "status": "8月陆续启动",
+    "url": "https://www.crcc.cn"
+   }
+  ],
+  "undergrad:070504": [
+   {
+    "company": "航天宏图",
+    "position": "校招（遥感/GIS）",
+    "status": "官网招聘开放",
+    "url": "https://www.piesat.com.cn"
+   },
+   {
+    "company": "南方测绘",
+    "position": "校招（测绘/GIS）",
+    "status": "官网招聘开放",
+    "url": "https://www.southsurvey.com"
+   },
+   {
+    "company": "高德/百度地图等位置服务",
+    "position": "GIS 开发/数据",
+    "status": "各公司官网招聘",
+    "url": "https://campus-talent.alibaba.com"
+   },
+   {
+    "company": "自然资源/测绘部门（考编）",
+    "position": "GIS 技术岗",
+    "status": "各省公告陆续发布"
+   }
+  ],
+  "undergrad:080403": [
+   {
+    "company": "万华化学",
+    "position": "校招（材料化学/工艺）",
+    "status": "官网持续开放",
+    "url": "https://www.whchem.com"
+   },
+   {
+    "company": "中国石化",
+    "position": "2027届校招（化工/材料）",
+    "status": "秋招陆续发布",
+    "url": "https://job.sinopec.com"
+   },
+   {
+    "company": "宁德时代",
+    "position": "2027届校招（电池材料）",
+    "status": "8月18日已启动",
+    "url": "https://Talent.CATL.com"
+   },
+   {
+    "company": "巴斯夫等外企",
+    "position": "校招（材料化学）",
+    "status": "官网招聘开放",
+    "url": "https://www.basf.com/cn"
+   }
+  ],
+  "undergrad:080407": [
+   {
+    "company": "金发科技",
+    "position": "校招（高分子材料）",
+    "status": "官网招聘开放",
+    "url": "https://www.kingfa.com.cn"
+   },
+   {
+    "company": "万华化学",
+    "position": "校招（高分子/工艺）",
+    "status": "官网持续开放",
+    "url": "https://www.whchem.com"
+   },
+   {
+    "company": "中石化",
+    "position": "2027届校招（高分子/化工）",
+    "status": "秋招陆续发布",
+    "url": "https://job.sinopec.com"
+   },
+   {
+    "company": "巴斯夫等外企",
+    "position": "校招（高分子材料）",
+    "status": "官网招聘开放",
+    "url": "https://www.basf.com/cn"
+   }
+  ],
+  "undergrad:080414T": [
+   {
+    "company": "宁德时代",
+    "position": "2027届校招（电池材料/器件）",
+    "status": "8月18日已启动",
+    "url": "https://Talent.CATL.com"
+   },
+   {
+    "company": "比亚迪",
+    "position": "2027届校招（电池/材料）",
+    "status": "官网持续开放",
+    "url": "https://job.byd.com"
+   },
+   {
+    "company": "隆基绿能",
+    "position": "校招（光伏材料）",
+    "status": "官网招聘开放",
+    "url": "https://www.longi.com"
+   },
+   {
+    "company": "中创新航",
+    "position": "校招（电池材料）",
+    "status": "官网招聘开放",
+    "url": "https://www.calb.cn"
+   }
+  ],
+  "undergrad:080412T": [
+   {
+    "company": "京东方",
+    "position": "2027届校招（显示材料）",
+    "status": "提前批已启动",
+    "url": "https://campus.boe.com"
+   },
+   {
+    "company": "中芯国际等半导体",
+    "position": "校招（半导体材料）",
+    "status": "官网招聘开放",
+    "url": "https://www.smics.com"
+   },
+   {
+    "company": "万华化学",
+    "position": "校招（功能材料）",
+    "status": "官网持续开放",
+    "url": "https://www.whchem.com"
+   },
+   {
+    "company": "金发科技",
+    "position": "2027届校招（改性材料研发）",
+    "status": "8-9月启动",
+    "url": "https://www.kingfa.com.cn"
+   },
+   {
+    "company": "宁德时代",
+    "position": "2027届校招（材料/电芯研发）",
+    "status": "8月启动",
+    "url": "https://talent.catl.com"
+   }
+  ],
+  "undergrad:030601K": [
+   {
+    "company": "公安系统（招警/考编）",
+    "position": "治安民警",
+    "status": "各省招警公告陆续发布"
+   },
+   {
+    "company": "铁路公安",
+    "position": "铁路治安",
+    "status": "国考/省考公告"
+   },
+   {
+    "company": "海关/边检",
+    "position": "执法岗位",
+    "status": "国考公告预计10月",
+    "url": "http://bm.scs.gov.cn"
+   },
+   {
+    "company": "公安招警",
+    "position": "公安岗位（公务员招录）",
+    "status": "关注省考/公安联考公告",
+    "url": "https://bm.scs.gov.cn"
+   },
+   {
+    "company": "国考/省考",
+    "position": "政法/综合岗",
+    "status": "关注国考公告",
+    "url": "https://bm.scs.gov.cn"
+   }
+  ],
+  "undergrad:030602K": [
+   {
+    "company": "公安系统（招警）",
+    "position": "侦查民警",
+    "status": "各省招警公告陆续发布"
+   },
+   {
+    "company": "检察院/纪检",
+    "position": "侦查/调查",
+    "status": "考编公告陆续发布"
+   },
+   {
+    "company": "国安系统",
+    "position": "侦查岗位",
+    "status": "以招录公告为准"
+   },
+   {
+    "company": "公安招警",
+    "position": "刑侦/经侦岗（公务员招录）",
+    "status": "关注省考/公安联考公告",
+    "url": "https://bm.scs.gov.cn"
+   },
+   {
+    "company": "迪安诊断",
+    "position": "2027届校招（司法鉴定岗）",
+    "status": "8-9月启动",
+    "url": "https://www.dazd.cn"
+   }
+  ],
+  "undergrad:100513TK": [
+   {
+    "company": "中医院/骨科医院",
+    "position": "中医骨伤医师（考编）",
+    "status": "各省公告陆续发布"
+   },
+   {
+    "company": "同仁堂",
+    "position": "校招（中医药方向）",
+    "status": "官网招聘开放",
+    "url": "https://www.tongrentang.com"
+   },
+   {
+    "company": "运动康复/骨科连锁",
+    "position": "中医骨伤/康复",
+    "status": "各机构招聘公告"
+   },
+   {
+    "company": "固生堂",
+    "position": "2027届校招（骨伤/中医临床）",
+    "status": "8-9月启动",
+    "url": "https://www.gstzy.cn"
+   },
+   {
+    "company": "泰康之家",
+    "position": "2027届校招（康养/中医岗）",
+    "status": "8月陆续开放",
+    "url": "https://jobtaikang.zhiye.com"
+   }
+  ],
+  "undergrad:101007": [
+   {
+    "company": "海关（考编）",
+    "position": "卫生检疫岗",
+    "status": "国考公告预计10月",
+    "url": "http://bm.scs.gov.cn"
+   },
+   {
+    "company": "疾控中心",
+    "position": "卫生检验岗",
+    "status": "各省公告陆续发布"
+   },
+   {
+    "company": "第三方检验机构",
+    "position": "检验技术",
+    "status": "各机构招聘公告",
+    "url": "https://www.kingmed.com.cn"
+   },
+   {
+    "company": "海关系统",
+    "position": "卫生检疫岗（公务员招录）",
+    "status": "关注国考公告",
+    "url": "https://bm.scs.gov.cn"
+   },
+   {
+    "company": "迪安诊断",
+    "position": "2027届校招（检验/实验室技术）",
+    "status": "8-9月启动",
+    "url": "https://www.dazd.cn"
+   },
+   {
+    "company": "华大基因",
+    "position": "2027届校招（检测技术岗）",
+    "status": "8-9月启动",
+    "url": "https://www.genomics.cn"
+   }
+  ],
+  "undergrad:101011T": [
+   {
+    "company": "迈瑞医疗",
+    "position": "2027届校招（智能医疗）",
+    "status": "技能人才已启动",
+    "url": "https://www.mindray.com"
+   },
+   {
+    "company": "联影医疗",
+    "position": "校招（医疗 AI）",
+    "status": "官网招聘开放",
+    "url": "https://www.united-imaging.com"
+   },
+   {
+    "company": "GE医疗",
+    "position": "校招（医疗设备/AI）",
+    "status": "官网招聘开放",
+    "url": "https://jobs.siemens-healthineers.com"
+   },
+   {
+    "company": "医疗 AI 企业",
+    "position": "医学影像 AI",
+    "status": "各公司官网招聘"
+   }
+  ],
+  "undergrad:090107T": [
+   {
+    "company": "中茶集团",
+    "position": "校招（茶叶/销售）",
+    "status": "官网招聘开放",
+    "url": "https://www.chinatea.com.cn"
+   },
+   {
+    "company": "八马/竹叶青等茶企",
+    "position": "茶艺/销售/技术",
+    "status": "各公司官网招聘"
+   },
+   {
+    "company": "农科院/茶科所",
+    "position": "茶叶技术岗",
+    "status": "各机构招聘公告"
+   },
+   {
+    "company": "益海嘉里",
+    "position": "2027届校招（食品/茶饮相关）",
+    "status": "8-9月启动",
+    "url": "https://www.yihaijiali.com"
+   }
+  ],
+  "undergrad:070801": [
+   {
+    "company": "中国石油",
+    "position": "2027届校招（物探/地质）",
+    "status": "秋招陆续发布",
+    "url": "https://zhaopin.cnpc.com.cn"
+   },
+   {
+    "company": "中国石化",
+    "position": "2027届校招（物探）",
+    "status": "秋招陆续发布",
+    "url": "https://job.sinopec.com"
+   },
+   {
+    "company": "地震局（考编）",
+    "position": "地震监测",
+    "status": "各省公告陆续发布"
+   },
+   {
+    "company": "地矿/勘探企业",
+    "position": "地球物理勘探",
+    "status": "各公司官网招聘"
+   }
+  ],
+  "zhuanke:520505": [
+   {
+    "company": "医院放疗科",
+    "position": "放疗技师",
+    "status": "各医院招聘公告"
+   },
+   {
+    "company": "联影医疗等放疗设备企业",
+    "position": "放疗设备应用",
+    "status": "官网招聘开放",
+    "url": "https://www.united-imaging.com"
+   },
+   {
+    "company": "肿瘤医院",
+    "position": "放疗技术",
+    "status": "各医院招聘公告"
+   },
+   {
+    "company": "联影医疗",
+    "position": "2027届校招（放疗设备/临床应用）",
+    "status": "8-9月启动",
+    "url": "https://www.united-imaging.com"
+   },
+   {
+    "company": "各地三甲医院",
+    "position": "放疗技师（招聘）",
+    "status": "关注医院官网/卫健委公告",
+    "url": "https://www.health-100.cn"
+   }
+  ],
+  "zhuanke:550104": [
+   {
+    "company": "工业设计公司",
+    "position": "产品设计",
+    "status": "各公司招聘公告"
+   },
+   {
+    "company": "家电/消费电子企业",
+    "position": "产品外观设计",
+    "status": "各公司官网招聘",
+    "url": "https://www.gree.com.cn"
+   },
+   {
+    "company": "家居/家具企业",
+    "position": "产品设计",
+    "status": "各公司官网招聘"
+   },
+   {
+    "company": "小米",
+    "position": "2027届校招（工业设计/产品设计）",
+    "status": "8月10日已启动",
+    "url": "https://hr.xiaomi.com"
+   },
+   {
+    "company": "字节跳动",
+    "position": "2027届校招（产品/设计岗）",
+    "status": "8月3日已启动",
+    "url": "https://jobs.bytedance.com"
+   },
+   {
+    "company": "华为",
+    "position": "2027届校招（ID设计/产品）",
+    "status": "8月启动",
+    "url": "https://career.huawei.com"
+   }
+  ],
+  "zhuanke:570206": [
+   {
+    "company": "日企",
+    "position": "日语业务/翻译",
+    "status": "各公司官网招聘",
+    "url": "https://www.toyota.com.cn"
+   },
+   {
+    "company": "跨境电商日本站",
+    "position": "日语运营",
+    "status": "各公司官网招聘"
+   },
+   {
+    "company": "旅游/酒店日语",
+    "position": "日语服务",
+    "status": "各机构招聘公告"
+   },
+   {
+    "company": "丰田/日企",
+    "position": "2027届校招（日语/技术岗）",
+    "status": "关注各企业官网",
+    "url": "https://www.toyota.com.cn"
+   },
+   {
+    "company": "字节跳动",
+    "position": "2027届校招（国际化/日语）",
+    "status": "8月3日已启动",
+    "url": "https://jobs.bytedance.com"
+   },
+   {
+    "company": "央企海外/跨境电商",
+    "position": "日语翻译/运营岗",
+    "status": "关注各央企官网",
+    "url": "https://www.cscec.com"
+   }
+  ],
+  "zhuanke:520503": [
+   {
+    "company": "药明康德",
+    "position": "校招（生物技术）",
+    "status": "官网招聘开放",
+    "url": "https://www.wuxiapptec.com"
+   },
+   {
+    "company": "华大基因",
+    "position": "校招（实验技术）",
+    "status": "官网招聘开放",
+    "url": "https://www.genomics.cn"
+   },
+   {
+    "company": "医院检验科",
+    "position": "检验技术",
+    "status": "各医院招聘公告"
+   },
+   {
+    "company": "复宏汉霖",
+    "position": "2027届校招（生物药生产技术）",
+    "status": "8-9月启动",
+    "url": "https://www.henlius.com"
+   },
+   {
+    "company": "泰康医疗/体检机构",
+    "position": "2027届校招（检验/医技岗）",
+    "status": "8月陆续开放",
+    "url": "https://jobtaikang.zhiye.com"
+   }
+  ],
+  "undergrad:081502": [
+   {
+    "company": "中国石油",
+    "position": "2027届校招（石油工程）",
+    "status": "秋招陆续发布",
+    "url": "https://zhaopin.cnpc.com.cn"
+   },
+   {
+    "company": "中国海油",
+    "position": "2027届校招（海上油气）",
+    "status": "秋招陆续开放",
+    "url": "https://cnooc.zhaopin.com"
+   },
+   {
+    "company": "中国石化",
+    "position": "2027届校招（油气开发）",
+    "status": "秋招陆续发布",
+    "url": "https://job.sinopec.com"
+   },
+   {
+    "company": "油服企业",
+    "position": "钻井/完井/技术",
+    "status": "各公司官网招聘"
+   }
+  ],
+  "undergrad:081501": [
+   {
+    "company": "国家能源集团",
+    "position": "2027届校招（采矿/生产）",
+    "status": "秋招进行中",
+    "url": "http://zhaopin.chnenergy.com.cn"
+   },
+   {
+    "company": "中国中煤",
+    "position": "2027届校招（煤炭开采）",
+    "status": "陆续开放",
+    "url": "https://zhaopin.chinacoal.com"
+   },
+   {
+    "company": "中国五矿",
+    "position": "2027届校招（矿业）",
+    "status": "已开放",
+    "url": "https://zhaopin.minmetals.com.cn"
+   },
+   {
+    "company": "陕煤等省属煤企",
+    "position": "采矿/安全技术",
+    "status": "各公司官网招聘"
+   }
+  ],
+  "undergrad:081504": [
+   {
+    "company": "国家管网集团",
+    "position": "2027届校招（油气储运）",
+    "status": "官网招聘开放",
+    "url": "https://www.pipechina.com.cn"
+   },
+   {
+    "company": "中国石油",
+    "position": "2027届校招（储运）",
+    "status": "秋招陆续发布",
+    "url": "https://zhaopin.cnpc.com.cn"
+   },
+   {
+    "company": "中国石化",
+    "position": "2027届校招（储运）",
+    "status": "秋招陆续发布",
+    "url": "https://job.sinopec.com"
+   },
+   {
+    "company": "中国海油",
+    "position": "2027届校招（储运）",
+    "status": "秋招陆续开放",
+    "url": "https://cnooc.zhaopin.com"
+   }
+  ],
+  "undergrad:083102K": [
+   {
+    "company": "消防救援队伍（招录）",
+    "position": "消防指挥/技术",
+    "status": "国家综合性消防救援队伍招录公告"
+   },
+   {
+    "company": "中建/化工央企安全",
+    "position": "消防/安全工程师",
+    "status": "各企业官网招聘",
+    "url": "https://recruit.cscec.com"
+   },
+   {
+    "company": "青鸟消防等消防企业",
+    "position": "消防技术/销售",
+    "status": "官网招聘开放",
+    "url": "https://www.jade-bird.com"
+   },
+   {
+    "company": "青鸟消防",
+    "position": "2027届校招（消防电子/工程岗）",
+    "status": "8-9月启动",
+    "url": "https://www.jade-bird.com"
+   },
+   {
+    "company": "中建集团",
+    "position": "2027届校招（消防安全/工程岗）",
+    "status": "8月启动",
+    "url": "https://recruit.cscec.com"
+   },
+   {
+    "company": "国家消防救援队伍",
+    "position": "消防员招录（面向应届）",
+    "status": "关注国家消防救援局公告",
+    "url": "https://bm.scs.gov.cn"
+   }
+  ],
+  "undergrad:081401": [
+   {
+    "company": "中国石油",
+    "position": "2027届校招（地质工程）",
+    "status": "秋招陆续发布",
+    "url": "https://zhaopin.cnpc.com.cn"
+   },
+   {
+    "company": "中国交建",
+    "position": "2027届校招（地质/岩土）",
+    "status": "各子公司陆续发布",
+    "url": "https://www.ccccltd.cn/rlzy/rczp/rcyjtx/"
+   },
+   {
+    "company": "中国电建",
+    "position": "2027届校招（地质/勘察）",
+    "status": "统一平台开放",
+    "url": "https://zhaopin.powerchina.cn"
+   },
+   {
+    "company": "地矿/岩土企业",
+    "position": "岩土/勘察技术",
+    "status": "各公司官网招聘"
+   }
+  ],
+  "undergrad:070401": [
+   {
+    "company": "中科院天文台/科研院所",
+    "position": "科研助理",
+    "status": "各院所招聘公告",
+    "url": "https://www.nao.cas.cn"
+   },
+   {
+    "company": "高校科研助理",
+    "position": "科研/教学",
+    "status": "各高校招聘公告"
+   },
+   {
+    "company": "天文科技/科普企业",
+    "position": "科普/数据",
+    "status": "各公司官网招聘"
+   },
+   {
+    "company": "航天科技集团",
+    "position": "2027届校招（天文/测控相关）",
+    "status": "8月启动",
+    "url": "https://www.spacetalent.com.cn"
+   }
+  ],
+  "undergrad:070702": [
+   {
+    "company": "海洋局/海警（考编）",
+    "position": "海洋管理/技术",
+    "status": "各省公告陆续发布"
+   },
+   {
+    "company": "中远海运",
+    "position": "2027届校招（航运/海洋）",
+    "status": "9月中旬-11月网申",
+    "url": "https://www.coscoshipping.com"
+   },
+   {
+    "company": "海洋科技企业",
+    "position": "海洋技术/装备",
+    "status": "各公司官网招聘"
+   },
+   {
+    "company": "航天宏图",
+    "position": "2027届校招（海洋遥感/技术岗）",
+    "status": "8-9月启动",
+    "url": "https://www.piesat.com.cn"
+   },
+   {
+    "company": "招商局工业",
+    "position": "2027届校招（海工技术岗）",
+    "status": "8-9月启动",
+    "url": "https://www.cmindustry.com.cn"
+   }
+  ],
+  "undergrad:082302": [
+   {
+    "company": "中国一拖",
+    "position": "校招（农机/机械）",
+    "status": "官网招聘开放",
+    "url": "https://www.yituo.com.cn"
+   },
+   {
+    "company": "中联重科",
+    "position": "2027届校招（农机/装备）",
+    "status": "官网招聘开放",
+    "url": "https://www.zoomlion.com"
+   },
+   {
+    "company": "久保田等外资农机",
+    "position": "农机技术/销售",
+    "status": "官网招聘开放",
+    "url": "https://www.kubota.com.cn"
+   },
+   {
+    "company": "农业部门（考编）",
+    "position": "农机管理",
+    "status": "各省公告陆续发布"
+   }
+  ],
+  "undergrad:081805K": [
+   {
+    "company": "中国国航",
+    "position": "飞行学员招聘",
+    "status": "官方招聘系统开放",
+    "url": "https://www.airchina.com.cn"
+   },
+   {
+    "company": "南方航空",
+    "position": "飞行学员招聘",
+    "status": "官方招聘系统开放",
+    "url": "https://job.csair.com"
+   },
+   {
+    "company": "东方航空",
+    "position": "飞行学员招聘",
+    "status": "官方招聘系统开放",
+    "url": "https://job.ceair.com"
+   },
+   {
+    "company": "民航局/航校",
+    "position": "飞行教员/管理",
+    "status": "民航系统招聘公告"
+   }
+  ],
+  "undergrad:080604T": [
+   {
+    "company": "国家电网",
+    "position": "2027届校招（电气/智能控制）",
+    "status": "第一批11月中旬",
+    "url": "https://zhaopin.sgcc.com.cn"
+   },
+   {
+    "company": "南方电网",
+    "position": "2027届校招（电气）",
+    "status": "9-10月启动",
+    "url": "https://zhaopin.csg.cn"
+   },
+   {
+    "company": "国家电投",
+    "position": "2027届校招（电气/控制）",
+    "status": "正式秋招预计10月",
+    "url": "https://zhaopin.spic.com.cn"
+   },
+   {
+    "company": "许继电气等电网装备",
+    "position": "继保/自动化",
+    "status": "官网招聘开放",
+    "url": "https://www.xjgc.com"
+   },
+   {
+    "company": "小米",
+    "position": "2027届全球校招（软件/硬件/芯片等17+职类）",
+    "status": "8月10日已启动",
+    "url": "https://hr.xiaomi.com/campus"
+   },
+   {
+    "company": "中国电信",
+    "position": "2027年度校招（各省公司/专业子公司）",
+    "status": "8月24日起网申开放",
+    "url": "https://www.chinatelecom.com.cn/zp/"
+   },
+   {
+    "company": "中国电信·天翼云",
+    "position": "2027届超级优才/校招提前批",
+    "status": "7月已启动",
+    "url": "https://ctyun.hotjob.cn"
+   },
+   {
+    "company": "创维集团",
+    "position": "2027届校招（研发/制造等，约100人）",
+    "status": "8月17日已启动",
+    "url": "https://skyworth.hotjob.cn"
+   },
+   {
+    "company": "东风商用车",
+    "position": "2027届全球校招（车辆/机械/电气/自动化）",
+    "status": "8月17日已启动",
+    "url": "http://dfmc.hotjob.cn"
+   }
+  ],
+  "zhuanke:520801": [
+   {
+    "company": "健康管理公司",
+    "position": "健康管理师",
+    "status": "各公司招聘公告"
+   },
+   {
+    "company": "医院健康管理中心",
+    "position": "健康管理",
+    "status": "各医院招聘公告"
+   },
+   {
+    "company": "美年大健康等体检机构",
+    "position": "健康顾问/导检",
+    "status": "官网招聘开放",
+    "url": "https://www.health-100.cn"
+   },
+   {
+    "company": "美年大健康",
+    "position": "2027届校招（健康管理/体检岗）",
+    "status": "8-9月启动",
+    "url": "https://www.health-100.cn"
+   },
+   {
+    "company": "泰康之家",
+    "position": "2027届校招（健康管理/照护岗）",
+    "status": "8月已发布",
+    "url": "https://jobtaikang.zhiye.com"
+   },
+   {
+    "company": "中国人寿",
+    "position": "2027届校招（健康保险/运营）",
+    "status": "8-9月启动",
+    "url": "https://www.chinalife.com.cn"
+   }
+  ],
+  "zhuanke:570307": [
+   {
+    "company": "健身俱乐部",
+    "position": "健身教练",
+    "status": "各俱乐部招聘公告"
+   },
+   {
+    "company": "体育培训/赛事公司",
+    "position": "教练/运营",
+    "status": "各公司招聘公告"
+   },
+   {
+    "company": "中体产业等体育上市公司",
+    "position": "健身/运营",
+    "status": "官网招聘开放",
+    "url": "https://www.csg.com.cn"
+   },
+   {
+    "company": "安踏",
+    "position": "2027届校招（零售/运动服务岗）",
+    "status": "8月启动",
+    "url": "https://www.anta.com"
+   },
+   {
+    "company": "李宁",
+    "position": "2027届校招（零售/运动服务）",
+    "status": "8-9月启动",
+    "url": "https://www.lining.com"
+   },
+   {
+    "company": "泰康之家",
+    "position": "2027届校招（运动康复/健康岗）",
+    "status": "8月陆续开放",
+    "url": "https://jobtaikang.zhiye.com"
+   }
+  ],
+  "zhuanke:500401": [
+   {
+    "company": "机场地勤",
+    "position": "值机/贵宾/安检",
+    "status": "各机场招聘公告"
+   },
+   {
+    "company": "航空公司地面服务",
+    "position": "地面服务",
+    "status": "各航司招聘系统",
+    "url": "https://job.csair.com"
+   },
+   {
+    "company": "民航运输企业",
+    "position": "客运/货运运营",
+    "status": "各公司招聘公告"
+   },
+   {
+    "company": "中国国航",
+    "position": "2027届校招（地面服务/运营岗）",
+    "status": "8-9月启动",
+    "url": "https://www.airchina.com.cn"
+   },
+   {
+    "company": "东方航空",
+    "position": "2027届校招（地面服务岗）",
+    "status": "8-9月启动",
+    "url": "https://job.ceair.com"
+   },
+   {
+    "company": "携程集团",
+    "position": "2027届校招（票务/运营岗）",
+    "status": "8-9月启动",
+    "url": "https://campus.ctrip.com"
+   }
+  ],
+  "zhuanke:510307": [
+   {
+    "company": "中国移动",
+    "position": "各省公司校招（网络/技术）",
+    "status": "正式批8月底-9月",
+    "url": "https://job.10086.cn"
+   },
+   {
+    "company": "华为",
+    "position": "2027届秋招（网络/通信）",
+    "status": "秋招进行中",
+    "url": "https://career.huawei.com"
+   },
+   {
+    "company": "小米",
+    "position": "2027届校招（IoT/网络）",
+    "status": "8月10日已启动",
+    "url": "https://hr.xiaomi.com/campus"
+   },
+   {
+    "company": "中兴通讯",
+    "position": "2027届校招（网络）",
+    "status": "提前批9月8日截止",
+    "url": "https://job.zte.com.cn"
+   },
+   {
+    "company": "京东·新锐之星",
+    "position": "2027届（物流储备/销售/职能/运维支持等，专科可报）",
+    "status": "8月17日已启动，11月30日截止",
+    "url": "https://campus.jd.com"
+   },
+   {
+    "company": "创维集团",
+    "position": "2027届校招（技术/制造岗，专科可报）",
+    "status": "8月17日已启动",
+    "url": "https://skyworth.hotjob.cn"
+   },
+   {
+    "company": "比亚迪",
+    "position": "2027届大专专场（机电/机械/电气/计算机/物流等）",
+    "status": "8月持续招聘",
+    "url": "https://job.byd.com"
+   }
+  ],
+  "undergrad:080208": [
+   {
+    "company": "比亚迪",
+    "position": "2027届校招（售后/服务）",
+    "status": "官网持续开放",
+    "url": "https://job.byd.com"
+   },
+   {
+    "company": "上汽通用五菱",
+    "position": "校招（售后/服务）",
+    "status": "官网招聘开放",
+    "url": "https://www.sgmw.com.cn"
+   },
+   {
+    "company": "途虎养车",
+    "position": "校招/社招（门店/技术）",
+    "status": "官网招聘开放",
+    "url": "https://www.tuhu.cn"
+   },
+   {
+    "company": "吉利汽车",
+    "position": "校招（售后/服务）",
+    "status": "官网招聘开放",
+    "url": "https://campus.geely.com"
+   }
+  ],
+  "undergrad:080216T": [
+   {
+    "company": "比亚迪",
+    "position": "2027届校招（新能源整车）",
+    "status": "官网持续开放",
+    "url": "https://job.byd.com"
+   },
+   {
+    "company": "宁德时代",
+    "position": "2027届校招（三电）",
+    "status": "8月18日已启动",
+    "url": "https://Talent.CATL.com"
+   },
+   {
+    "company": "蔚来",
+    "position": "2027届校招（三电/整车）",
+    "status": "技术提前批7/15-8/14",
+    "url": "https://campus.nio.com"
+   },
+   {
+    "company": "理想汽车",
+    "position": "2027届校招（三电/整车）",
+    "status": "8月已启动",
+    "url": "https://www.lixiang.com"
+   }
+  ],
+  "undergrad:080214T": [
+   {
+    "company": "比亚迪",
+    "position": "2027届校招（智能驾驶/车辆）",
+    "status": "官网持续开放",
+    "url": "https://job.byd.com"
+   },
+   {
+    "company": "蔚来",
+    "position": "2027届校招（智能驾驶）",
+    "status": "技术提前批7/15-8/14",
+    "url": "https://campus.nio.com"
+   },
+   {
+    "company": "小鹏汽车",
+    "position": "2027届探索者计划（智驾）",
+    "status": "7月已启动",
+    "url": "https://xiaopeng.jobs.feishu.cn/campus"
+   },
+   {
+    "company": "华为车BU",
+    "position": "2027届校招（智能汽车）",
+    "status": "秋招进行中",
+    "url": "https://career.huawei.com"
+   }
+  ],
+  "undergrad:082003": [
+   {
+    "company": "中国航空工业",
+    "position": "2027届校招（飞机制造）",
+    "status": "各院所陆续发布",
+    "url": "https://www.avic.com"
+   },
+   {
+    "company": "中国商飞",
+    "position": "2027届校招（民机制造）",
+    "status": "实习生+校招开放",
+    "url": "https://zhaopin.comac.cc"
+   },
+   {
+    "company": "航天科技集团",
+    "position": "2027届校招（制造）",
+    "status": "提前批已启动",
+    "url": "http://www.spacetalent.com.cn"
+   },
+   {
+    "company": "航空制造上市公司",
+    "position": "飞机制造/工艺",
+    "status": "各公司官网招聘"
+   }
+  ],
+  "undergrad:082004": [
+   {
+    "company": "中国航发",
+    "position": "2027届校招（航空发动机）",
+    "status": "官网招聘开放",
+    "url": "https://www.aecc.cn"
+   },
+   {
+    "company": "航天科技集团",
+    "position": "2027届校招（动力）",
+    "status": "提前批已启动",
+    "url": "http://www.spacetalent.com.cn"
+   },
+   {
+    "company": "中国航空工业",
+    "position": "2027届校招（动力）",
+    "status": "各院所陆续发布",
+    "url": "https://www.avic.com"
+   },
+   {
+    "company": "航天科工集团",
+    "position": "2027届校招（动力岗）",
+    "status": "8月启动",
+    "url": "https://casicjob.iguopin.com"
+   }
+  ],
+  "undergrad:081811T": [
+   {
+    "company": "中国交建",
+    "position": "2027届校招（智慧交通）",
+    "status": "各子公司陆续发布",
+    "url": "https://www.ccccltd.cn/rlzy/rczp/rcyjtx/"
+   },
+   {
+    "company": "海康威视",
+    "position": "2027届校招（智慧交通）",
+    "status": "超新星+正式批开放",
+    "url": "https://campushr.hikvision.com"
+   },
+   {
+    "company": "华为",
+    "position": "2027届秋招（智慧交通/ICT）",
+    "status": "秋招进行中",
+    "url": "https://career.huawei.com"
+   },
+   {
+    "company": "高德/百度等位置服务",
+    "position": "智慧交通/地图",
+    "status": "各公司官网招聘"
+   }
+  ],
+  "undergrad:081806T": [
+   {
+    "company": "中国中车",
+    "position": "2027届校招（交通设备）",
+    "status": "9月上旬上线",
+    "url": "https://crrc.hotjob.cn"
+   },
+   {
+    "company": "中国通号",
+    "position": "校招（轨道交通信号）",
+    "status": "官网招聘开放",
+    "url": "https://www.crsc.cn"
+   },
+   {
+    "company": "海康威视",
+    "position": "2027届校招（交通/视觉）",
+    "status": "超新星+正式批开放",
+    "url": "https://campushr.hikvision.com"
+   },
+   {
+    "company": "中国铁路局系统",
+    "position": "2027届校招（设备/信号岗）",
+    "status": "关注各局公告",
+    "url": "https://rczp.china-railway.com.cn"
+   }
+  ],
+  "undergrad:090403T": [
+   {
+    "company": "海关（考编）",
+    "position": "动植物检疫岗",
+    "status": "国考公告预计10月",
+    "url": "http://bm.scs.gov.cn"
+   },
+   {
+    "company": "农业农村部门（考编）",
+    "position": "检疫/监管",
+    "status": "各省公告陆续发布"
+   },
+   {
+    "company": "出入境检验检疫机构",
+    "position": "检疫技术",
+    "status": "各机构招聘公告"
+   },
+   {
+    "company": "海关系统",
+    "position": "动植物检疫岗（公务员招录）",
+    "status": "关注国考公告",
+    "url": "https://bm.scs.gov.cn"
+   },
+   {
+    "company": "牧原股份",
+    "position": "2027届校招（动检/兽医岗）",
+    "status": "8-9月启动",
+    "url": "https://www.muyuanfoods.com"
+   },
+   {
+    "company": "温氏股份",
+    "position": "2027届校招（动检/技术岗）",
+    "status": "8-9月启动",
+    "url": "https://www.wens.com.cn"
+   }
+  ],
+  "undergrad:080102": [
+   {
+    "company": "华为",
+    "position": "2027届秋招（结构/仿真）",
+    "status": "秋招进行中",
+    "url": "https://career.huawei.com"
+   },
+   {
+    "company": "中国商飞",
+    "position": "2027届校招（结构/强度）",
+    "status": "实习生+校招开放",
+    "url": "https://zhaopin.comac.cc"
+   },
+   {
+    "company": "中建集团",
+    "position": "2027届校招（结构/力学）",
+    "status": "统一测试后投递",
+    "url": "https://recruit.cscec.com"
+   },
+   {
+    "company": "航天科技集团",
+    "position": "2027届校招（力学/结构）",
+    "status": "提前批已启动",
+    "url": "http://www.spacetalent.com.cn"
+   }
+  ],
+  "zhuanke:460703": [
+   {
+    "company": "比亚迪",
+    "position": "2027届校招（汽车电子）",
+    "status": "官网持续开放",
+    "url": "https://job.byd.com"
+   },
+   {
+    "company": "联合电子/博世",
+    "position": "汽车电子技术岗",
+    "status": "官网招聘开放",
+    "url": "https://www.uaes.com.cn"
+   },
+   {
+    "company": "吉利汽车",
+    "position": "校招（汽车电子）",
+    "status": "官网招聘开放",
+    "url": "https://campus.geely.com"
+   },
+   {
+    "company": "上汽通用五菱",
+    "position": "校招（汽车电子）",
+    "status": "官网招聘开放",
+    "url": "https://www.sgmw.com.cn"
+   },
+   {
+    "company": "京东·新锐之星",
+    "position": "2027届（物流储备/销售/职能/运维支持等，专科可报）",
+    "status": "8月17日已启动，11月30日截止",
+    "url": "https://campus.jd.com"
+   }
+  ],
+  "zhuanke:500212": [
+   {
+    "company": "比亚迪",
+    "position": "2027届校招（新能源维修/售后）",
+    "status": "官网持续开放",
+    "url": "https://job.byd.com"
+   },
+   {
+    "company": "途虎养车",
+    "position": "校招/社招（新能源维修）",
+    "status": "官网招聘开放",
+    "url": "https://www.tuhu.cn"
+   },
+   {
+    "company": "蔚来",
+    "position": "2027届校招（售后/服务）",
+    "status": "技术提前批7/15-8/14",
+    "url": "https://campus.nio.com"
+   },
+   {
+    "company": "上汽通用五菱",
+    "position": "校招（新能源售后）",
+    "status": "官网招聘开放",
+    "url": "https://www.sgmw.com.cn"
+   },
+   {
+    "company": "京东·新锐之星",
+    "position": "2027届（物流储备/销售/职能/运维支持等，专科可报）",
+    "status": "8月17日已启动，11月30日截止",
+    "url": "https://campus.jd.com"
+   }
+  ],
+  "zhuanke:440703": [
+   {
+    "company": "万物云",
+    "position": "校招（物业/管家）",
+    "status": "官网招聘开放",
+    "url": "https://www.onewo.com"
+   },
+   {
+    "company": "碧桂园服务",
+    "position": "校招（物业/管家）",
+    "status": "官网招聘开放",
+    "url": "https://www.bgyfw.com"
+   },
+   {
+    "company": "保利物业",
+    "position": "校招（物业/管家）",
+    "status": "官网招聘开放",
+    "url": "https://www.polywuye.com"
+   },
+   {
+    "company": "中海物业",
+    "position": "校招（物业/管家）",
+    "status": "官网招聘开放",
+    "url": "https://www.copm.com.cn"
+   }
+  ],
+  "zhuanke:520602": [
+   {
+    "company": "康复医院/机构",
+    "position": "康复辅具技师",
+    "status": "各医院/机构招聘公告"
+   },
+   {
+    "company": "康复辅具企业",
+    "position": "辅具设计/装配",
+    "status": "各公司官网招聘"
+   },
+   {
+    "company": "养老/康养机构",
+    "position": "辅具适配",
+    "status": "各机构招聘公告"
+   },
+   {
+    "company": "鱼跃医疗",
+    "position": "2027届校招（康复器具/技术岗）",
+    "status": "8-9月启动",
+    "url": "https://www.yuyue.com.cn"
+   },
+   {
+    "company": "泰康之家",
+    "position": "2027届校招（康复/辅具岗）",
+    "status": "8月陆续开放",
+    "url": "https://jobtaikang.zhiye.com"
+   }
+  ],
+  "undergrad:081601": [
+   {
+    "company": "恒力集团",
+    "position": "校招（纺织/化纤）",
+    "status": "官网招聘开放",
+    "url": "https://www.hengli.com"
+   },
+   {
+    "company": "申洲国际",
+    "position": "校招（纺织/针织）",
+    "status": "官网招聘开放",
+    "url": "https://www.shenzhouintl.com"
+   },
+   {
+    "company": "魏桥创业",
+    "position": "校招（纺织）",
+    "status": "官网招聘开放",
+    "url": "https://www.weiqiaocy.com"
+   },
+   {
+    "company": "纺织检测/外贸企业",
+    "position": "检测/外贸",
+    "status": "各公司官网招聘"
+   }
+  ],
+  "undergrad:081602": [
+   {
+    "company": "安踏",
+    "position": "校招（服装工程/供应链）",
+    "status": "官网招聘开放",
+    "url": "https://www.anta.com"
+   },
+   {
+    "company": "李宁",
+    "position": "校招（服装工程）",
+    "status": "官网招聘开放",
+    "url": "https://www.lining.com"
+   },
+   {
+    "company": "申洲国际",
+    "position": "校招（服装制造）",
+    "status": "官网招聘开放",
+    "url": "https://www.shenzhouintl.com"
+   },
+   {
+    "company": "波司登",
+    "position": "校招（服装/供应链）",
+    "status": "官网招聘开放",
+    "url": "https://www.bosideng.com"
+   }
+  ],
+  "undergrad:081702": [
+   {
+    "company": "裕同科技",
+    "position": "校招（包装工程）",
+    "status": "官网招聘开放",
+    "url": "https://www.yuto.com.cn"
+   },
+   {
+    "company": "美盈森",
+    "position": "校招（包装）",
+    "status": "官网招聘开放",
+    "url": "https://www.szmys.com"
+   },
+   {
+    "company": "食品/快消企业包装部门",
+    "position": "包装工程师",
+    "status": "各公司官网招聘"
+   },
+   {
+    "company": "晨鸣纸业",
+    "position": "2027届校招（包装/工艺岗）",
+    "status": "8-9月启动",
+    "url": "https://www.chenmingpaper.com"
+   }
+  ],
+  "undergrad:081701": [
+   {
+    "company": "恒力集团",
+    "position": "校招（化纤/轻化）",
+    "status": "官网招聘开放",
+    "url": "https://www.hengli.com"
+   },
+   {
+    "company": "晨鸣纸业",
+    "position": "校招（造纸/轻化）",
+    "status": "官网招聘开放",
+    "url": "https://www.chenmingpaper.com"
+   },
+   {
+    "company": "皮革/染整企业",
+    "position": "工艺/技术",
+    "status": "各公司官网招聘"
+   },
+   {
+    "company": "万华化学",
+    "position": "2027届校招（化工/工艺岗）",
+    "status": "8-9月启动",
+    "url": "https://www.whchem.com"
+   }
+  ],
+  "undergrad:050307T": [
+   {
+    "company": "中文在线",
+    "position": "校招（数字出版/内容）",
+    "status": "官网招聘开放",
+    "url": "https://www.chineseall.com"
+   },
+   {
+    "company": "阅文集团",
+    "position": "校招（网络文学/内容）",
+    "status": "官网招聘开放",
+    "url": "https://www.yuewen.com"
+   },
+   {
+    "company": "字节跳动",
+    "position": "2027届校招（内容/出版）",
+    "status": "8月3日已启动",
+    "url": "https://jobs.bytedance.com"
+   },
+   {
+    "company": "出版社数字化部门",
+    "position": "数字编辑",
+    "status": "各出版社招聘公告"
+   }
+  ],
+  "undergrad:071003": [
+   {
+    "company": "华大基因",
+    "position": "校招（生物信息）",
+    "status": "官网招聘开放",
+    "url": "https://www.genomics.cn"
+   },
+   {
+    "company": "药明康德",
+    "position": "校招（生物信息/数据）",
+    "status": "官网招聘开放",
+    "url": "https://www.wuxiapptec.com"
+   },
+   {
+    "company": "基因测序/医学AI企业",
+    "position": "生物信息分析",
+    "status": "各公司官网招聘"
+   },
+   {
+    "company": "字节跳动",
+    "position": "2027届校招（生信/数据分析）",
+    "status": "8月3日已启动",
+    "url": "https://jobs.bytedance.com"
+   }
+  ],
+  "undergrad:100511TK": [
+   {
+    "company": "中医馆连锁",
+    "position": "中医养生/调理",
+    "status": "各连锁官网招聘",
+    "url": "https://www.gstzy.cn"
+   },
+   {
+    "company": "康养机构",
+    "position": "中医养生/健康管理",
+    "status": "各机构招聘公告"
+   },
+   {
+    "company": "同仁堂",
+    "position": "校招（中医药）",
+    "status": "官网招聘开放",
+    "url": "https://www.tongrentang.com"
+   },
+   {
+    "company": "固生堂",
+    "position": "2027届校招（中医养生/临床岗）",
+    "status": "8-9月启动",
+    "url": "https://www.gstzy.cn"
+   },
+   {
+    "company": "泰康之家",
+    "position": "2027届校招（中医康养/健康管理）",
+    "status": "8月陆续开放",
+    "url": "https://jobtaikang.zhiye.com"
+   }
+  ],
+  "undergrad:100805T": [
+   {
+    "company": "云南白药",
+    "position": "校招（中药制药）",
+    "status": "官网招聘开放",
+    "url": "https://www.ynby.com"
+   },
+   {
+    "company": "同仁堂",
+    "position": "校招（中药制药）",
+    "status": "官网招聘开放",
+    "url": "https://www.tongrentang.com"
+   },
+   {
+    "company": "以岭药业",
+    "position": "校招（中药制药）",
+    "status": "官网招聘开放",
+    "url": "https://www.yiling.cn"
+   },
+   {
+    "company": "国药集团",
+    "position": "2027届校招（中药）",
+    "status": "专属网申开放",
+    "url": "https://www.sinopharm.com"
+   }
+  ],
+  "undergrad:082703": [
+   {
+    "company": "中粮集团",
+    "position": "2027届校招（粮食加工）",
+    "status": "统一网申开放",
+    "url": "http://campus.51job.com/cofco"
+   },
+   {
+    "company": "中储粮",
+    "position": "2027届校招（仓储/质检）",
+    "status": "秋招待启动",
+    "url": "https://www.sinograin.com.cn"
+   },
+   {
+    "company": "益海嘉里",
+    "position": "校招（粮油加工）",
+    "status": "官网招聘开放",
+    "url": "https://www.yihaijiali.com"
+   },
+   {
+    "company": "北大荒集团",
+    "position": "2027届校招（粮食/农业技术岗）",
+    "status": "8-9月启动",
+    "url": "https://www.chinabdh.com"
+   },
+   {
+    "company": "各地粮食局/储备库",
+    "position": "粮食仓储/质检（事业单位）",
+    "status": "关注省考/事业单位公告",
+    "url": "https://bm.scs.gov.cn"
+   }
+  ],
+  "undergrad:082710T": [
+   {
+    "company": "中粮集团",
+    "position": "2027届校招（食品营养）",
+    "status": "统一网申开放",
+    "url": "http://campus.51job.com/cofco"
+   },
+   {
+    "company": "伊利",
+    "position": "校招（营养/研发）",
+    "status": "官网招聘开放",
+    "url": "https://www.yili.com"
+   },
+   {
+    "company": "汤臣倍健",
+    "position": "校招（营养/研发）",
+    "status": "官网招聘开放",
+    "url": "https://www.by-health.com.cn"
+   },
+   {
+    "company": "蒙牛",
+    "position": "校招（营养/研发）",
+    "status": "官网招聘开放",
+    "url": "https://www.mengniu.com.cn"
+   }
+  ],
+  "zhuanke:520507": [
+   {
+    "company": "医美机构",
+    "position": "医美咨询/技术助理",
+    "status": "各机构招聘公告"
+   },
+   {
+    "company": "整形美容医院",
+    "position": "医美技术/护理",
+    "status": "各医院招聘公告"
+   },
+   {
+    "company": "美莱/艺星等连锁",
+    "position": "医美运营/助理",
+    "status": "各连锁招聘公告"
+   },
+   {
+    "company": "泰康医疗/泰康口腔",
+    "position": "2027届校招（医美/医疗岗）",
+    "status": "8月陆续开放",
+    "url": "https://jobtaikang.zhiye.com"
+   },
+   {
+    "company": "爱尔眼科",
+    "position": "2027届校招（眼健康/医美相关）",
+    "status": "8-9月启动",
+    "url": "https://www.aierchina.com"
+   },
+   {
+    "company": "各地医美机构",
+    "position": "医美技师/咨询岗",
+    "status": "关注机构招聘公告",
+    "url": "https://www.health-100.cn"
+   }
+  ],
+  "zhuanke:490206": [
+   {
+    "company": "药企 QA/QC",
+    "position": "药品质量/检验",
+    "status": "各药企官网招聘",
+    "url": "https://www.sinopharm.com"
+   },
+   {
+    "company": "国药集团",
+    "position": "2027届校招（质量）",
+    "status": "专属网申开放",
+    "url": "https://www.sinopharm.com"
+   },
+   {
+    "company": "药明康德",
+    "position": "校招（质检）",
+    "status": "官网招聘开放",
+    "url": "https://www.wuxiapptec.com"
+   },
+   {
+    "company": "扬子江药业",
+    "position": "2027届校招（质量/生产岗）",
+    "status": "8-9月启动",
+    "url": "https://www.yzj.cn"
+   },
+   {
+    "company": "广药集团",
+    "position": "2027届校招（质量/药学岗）",
+    "status": "8-9月启动",
+    "url": "https://www.gpc.com.cn"
+   }
+  ],
+  "zhuanke:490202": [
+   {
+    "company": "药明康德",
+    "position": "校招（生物制药）",
+    "status": "官网招聘开放",
+    "url": "https://www.wuxiapptec.com"
+   },
+   {
+    "company": "恒瑞医药",
+    "position": "校招（生物制药）",
+    "status": "官网招聘开放",
+    "url": "https://www.hrs.com.cn"
+   },
+   {
+    "company": "复宏汉霖",
+    "position": "校招（生物药）",
+    "status": "官网招聘开放",
+    "url": "https://www.henlius.com"
+   },
+   {
+    "company": "华大基因",
+    "position": "校招（生物技术）",
+    "status": "官网招聘开放",
+    "url": "https://www.genomics.cn"
+   }
+  ],
+  "zhuanke:480402": [
+   {
+    "company": "服装制造企业",
+    "position": "服装工艺/版师",
+    "status": "各企业招聘公告",
+    "url": "https://www.shenzhouintl.com"
+   },
+   {
+    "company": "申洲国际",
+    "position": "校招（服装工艺）",
+    "status": "官网招聘开放",
+    "url": "https://www.shenzhouintl.com"
+   },
+   {
+    "company": "跨境电商服装",
+    "position": "服装跟单/工艺",
+    "status": "各公司官网招聘"
+   },
+   {
+    "company": "波司登",
+    "position": "2027届校招（设计/工艺岗）",
+    "status": "8-9月启动",
+    "url": "https://www.bosideng.com"
+   },
+   {
+    "company": "安踏",
+    "position": "2027届校招（设计/商品岗）",
+    "status": "8月启动",
+    "url": "https://www.anta.com"
+   },
+   {
+    "company": "李宁",
+    "position": "2027届校招（设计/商品岗）",
+    "status": "8-9月启动",
+    "url": "https://www.lining.com"
+   }
+  ],
+  "undergrad:081202": [
+   {
+    "company": "航天宏图",
+    "position": "校招（遥感）",
+    "status": "官网招聘开放",
+    "url": "https://www.piesat.com.cn"
+   },
+   {
+    "company": "中科星图",
+    "position": "校招（遥感/数字地球）",
+    "status": "官网招聘开放",
+    "url": "https://www.geovis.com.cn"
+   },
+   {
+    "company": "航天科技集团",
+    "position": "2027届校招（遥感/卫星）",
+    "status": "提前批已启动",
+    "url": "http://www.spacetalent.com.cn"
+   },
+   {
+    "company": "自然资源/测绘部门（考编）",
+    "position": "遥感技术岗",
+    "status": "各省公告陆续发布"
+   }
+  ],
+  "undergrad:081203T": [
+   {
+    "company": "北斗星通",
+    "position": "校招（北斗/导航）",
+    "status": "官网招聘开放",
+    "url": "https://www.bdstar.com"
+   },
+   {
+    "company": "海格通信",
+    "position": "校招（导航/通信）",
+    "status": "官网招聘开放",
+    "url": "https://www.haige.com"
+   },
+   {
+    "company": "中国电科",
+    "position": "2027届校招（导航院所）",
+    "status": "各院所陆续发布",
+    "url": "https://cetc38.zhaopin.com"
+   },
+   {
+    "company": "华为",
+    "position": "2027届秋招（定位/导航）",
+    "status": "秋招进行中",
+    "url": "https://career.huawei.com"
+   }
+  ],
+  "undergrad:081205T": [
+   {
+    "company": "超图软件",
+    "position": "校招（GIS 平台）",
+    "status": "官网招聘开放",
+    "url": "https://www.supermap.com"
+   },
+   {
+    "company": "航天宏图",
+    "position": "校招（地理空间）",
+    "status": "官网招聘开放",
+    "url": "https://www.piesat.com.cn"
+   },
+   {
+    "company": "高德/百度地图",
+    "position": "GIS/地图",
+    "status": "各公司官网招聘",
+    "url": "https://campus-talent.alibaba.com"
+   },
+   {
+    "company": "自然资源部门（考编）",
+    "position": "地理信息岗",
+    "status": "各省公告陆续发布"
+   }
+  ],
+  "undergrad:081703": [
+   {
+    "company": "裕同科技",
+    "position": "校招（印刷包装）",
+    "status": "官网招聘开放",
+    "url": "https://www.yuto.com.cn"
+   },
+   {
+    "company": "劲嘉股份",
+    "position": "校招（烟标印刷）",
+    "status": "官网招聘开放",
+    "url": "https://www.sjjy.com"
+   },
+   {
+    "company": "雅昌文化",
+    "position": "校招（艺术印刷）",
+    "status": "官网招聘开放",
+    "url": "https://www.artron.com.cn"
+   },
+   {
+    "company": "包装印刷企业",
+    "position": "印刷工艺/技术",
+    "status": "各公司官网招聘"
+   }
+  ],
+  "undergrad:082401": [
+   {
+    "company": "林业系统（考编）",
+    "position": "森林工程/管理",
+    "status": "各省公告陆续发布"
+   },
+   {
+    "company": "中林集团",
+    "position": "校招（林业工程）",
+    "status": "官网招聘开放",
+    "url": "https://www.chinagrainforest.com"
+   },
+   {
+    "company": "森工企业",
+    "position": "森林工程/采运",
+    "status": "各公司官网招聘"
+   },
+   {
+    "company": "索菲亚",
+    "position": "2027届校招（林业工程/工艺岗）",
+    "status": "8-9月启动",
+    "url": "https://www.suofeiya.com.cn"
+   },
+   {
+    "company": "北大荒集团",
+    "position": "2027届校招（林业/农业岗）",
+    "status": "8-9月启动",
+    "url": "https://www.chinabdh.com"
+   }
+  ],
+  "undergrad:082402": [
+   {
+    "company": "欧派家居",
+    "position": "校招（木材/家居）",
+    "status": "官网招聘开放",
+    "url": "https://www.oppein.com"
+   },
+   {
+    "company": "索菲亚",
+    "position": "校招（家居/板材）",
+    "status": "官网招聘开放",
+    "url": "https://www.suofeiya.com.cn"
+   },
+   {
+    "company": "中林集团/木业企业",
+    "position": "木材加工/供应链",
+    "status": "官网招聘开放",
+    "url": "https://www.chinagrainforest.com"
+   },
+   {
+    "company": "裕同科技",
+    "position": "2027届校招（材料/工艺岗）",
+    "status": "8-9月启动",
+    "url": "https://www.yuto.com.cn"
+   }
+  ],
+  "undergrad:081503": [
+   {
+    "company": "国家能源集团",
+    "position": "2027届校招（矿物加工）",
+    "status": "秋招进行中",
+    "url": "http://zhaopin.chnenergy.com.cn"
+   },
+   {
+    "company": "中国五矿",
+    "position": "2027届校招（矿业）",
+    "status": "已开放",
+    "url": "https://zhaopin.minmetals.com.cn"
+   },
+   {
+    "company": "紫金矿业",
+    "position": "校招（选矿）",
+    "status": "官网招聘开放",
+    "url": "https://www.zjky.cn"
+   },
+   {
+    "company": "中国中煤",
+    "position": "2027届校招（洗选）",
+    "status": "陆续开放",
+    "url": "https://zhaopin.chinacoal.com"
+   }
+  ],
+  "undergrad:080408": [
+   {
+    "company": "中复神鹰",
+    "position": "校招（碳纤维复材）",
+    "status": "官网招聘开放",
+    "url": "https://www.zfsy.com.cn"
+   },
+   {
+    "company": "光威复材",
+    "position": "校招（碳纤维）",
+    "status": "官网招聘开放",
+    "url": "https://www.gwcfc.com"
+   },
+   {
+    "company": "中国航空工业",
+    "position": "2027届校招（复材）",
+    "status": "各院所陆续发布",
+    "url": "https://www.avic.com"
+   },
+   {
+    "company": "宁德时代",
+    "position": "2027届校招（复材/材料）",
+    "status": "8月18日已启动",
+    "url": "https://Talent.CATL.com"
+   }
+  ],
+  "undergrad:080413T": [
+   {
+    "company": "中芯国际等半导体",
+    "position": "校招（纳米材料/工艺）",
+    "status": "官网招聘开放",
+    "url": "https://www.smics.com"
+   },
+   {
+    "company": "宁德时代",
+    "position": "2027届校招（纳米材料）",
+    "status": "8月18日已启动",
+    "url": "https://Talent.CATL.com"
+   },
+   {
+    "company": "京东方",
+    "position": "2027届校招（显示材料）",
+    "status": "提前批已启动",
+    "url": "https://campus.boe.com"
+   },
+   {
+    "company": "科研院所",
+    "position": "纳米科研",
+    "status": "各院所招聘公告"
+   }
+  ],
+  "undergrad:082403": [
+   {
+    "company": "中林集团",
+    "position": "校招（林产化工）",
+    "status": "官网招聘开放",
+    "url": "https://www.chinagrainforest.com"
+   },
+   {
+    "company": "林化/胶黏剂企业",
+    "position": "林化技术",
+    "status": "各公司官网招聘"
+   },
+   {
+    "company": "松香/松脂加工企业",
+    "position": "林化工艺",
+    "status": "各公司招聘公告"
+   },
+   {
+    "company": "索菲亚",
+    "position": "2027届校招（林产化工/工艺）",
+    "status": "8-9月启动",
+    "url": "https://www.suofeiya.com.cn"
+   },
+   {
+    "company": "万华化学",
+    "position": "2027届校招（化工/材料岗）",
+    "status": "8-9月启动",
+    "url": "https://www.whchem.com"
+   },
+   {
+    "company": "晨鸣纸业",
+    "position": "2027届校招（制浆/化工岗）",
+    "status": "8-9月启动",
+    "url": "https://www.chenmingpaper.com"
+   }
+  ],
+  "undergrad:071102": [
+   {
+    "company": "字节跳动",
+    "position": "2027届校招（用户研究/用研岗）",
+    "status": "8月3日已启动",
+    "url": "https://jobs.bytedance.com"
+   },
+   {
+    "company": "腾讯",
+    "position": "2027届校招（用户研究/产品体验）",
+    "status": "8月启动",
+    "url": "https://join.qq.com"
+   },
+   {
+    "company": "泰康之家",
+    "position": "2027届校招（心理/康养服务岗）",
+    "status": "8月陆续开放",
+    "url": "https://jobtaikang.zhiye.com"
+   },
+   {
+    "company": "各地中小学/教育机构",
+    "position": "心理教师（考编/合同制）",
+    "status": "关注当地教育局公告",
+    "url": "https://bm.scs.gov.cn"
+   },
+   {
+    "company": "国考/省考",
+    "position": "心理矫治/监管岗（监狱系统等）",
+    "status": "关注国考公告",
+    "url": "https://bm.scs.gov.cn"
+   }
+  ],
+  "undergrad:080201": [
+   {
+    "company": "比亚迪",
+    "position": "2027届校招（机械/结构/工艺岗）",
+    "status": "8月启动",
+    "url": "https://job.byd.com"
+   },
+   {
+    "company": "三一集团",
+    "position": "2027届校招（机械设计/研发岗）",
+    "status": "8月启动",
+    "url": "https://sany.zhiye.com"
+   },
+   {
+    "company": "中国中车",
+    "position": "2027届校招（轨道装备机械岗）",
+    "status": "8月启动",
+    "url": "https://crrc.hotjob.cn"
+   },
+   {
+    "company": "宁德时代",
+    "position": "2027届校招（机械结构/设备岗）",
+    "status": "8月启动",
+    "url": "https://talent.catl.com"
+   },
+   {
+    "company": "徐工集团",
+    "position": "2027届校招（机械设计/工艺岗）",
+    "status": "8-9月启动",
+    "url": "https://www.xcmg.com"
+   }
+  ],
+  "undergrad:080503T": [
+   {
+    "company": "宁德时代",
+    "position": "2027届校招（电芯/材料/系统岗）",
+    "status": "8月启动",
+    "url": "https://talent.catl.com"
+   },
+   {
+    "company": "比亚迪",
+    "position": "2027届校招（电池/新能源技术岗）",
+    "status": "8月启动",
+    "url": "https://job.byd.com"
+   },
+   {
+    "company": "隆基绿能",
+    "position": "2027届校招（光伏研发/技术岗）",
+    "status": "8-9月启动",
+    "url": "https://www.longi.com"
+   },
+   {
+    "company": "国家电投",
+    "position": "2027届校招（新能源发电技术岗）",
+    "status": "8月启动",
+    "url": "https://zhaopin.spic.com.cn"
+   },
+   {
+    "company": "中创新航",
+    "position": "2027届校招（电池研发/工艺岗）",
+    "status": "8-9月启动",
+    "url": "https://www.calb.cn"
+   }
+  ],
+  "undergrad:080911TK": [
+   {
+    "company": "奇安信",
+    "position": "2027届校招（安全研发/攻防岗）",
+    "status": "8-9月启动",
+    "url": "https://www.qianxin.com"
+   },
+   {
+    "company": "深信服",
+    "position": "2027届校招（安全研发/服务岗）",
+    "status": "8-9月启动",
+    "url": "https://www.sangfor.com.cn"
+   },
+   {
+    "company": "华为",
+    "position": "2027届校招（网络安全/研发岗）",
+    "status": "8月启动",
+    "url": "https://career.huawei.com"
+   },
+   {
+    "company": "中国移动",
+    "position": "2027届校招（信息安全岗）",
+    "status": "8月启动",
+    "url": "https://job.10086.cn"
+   },
+   {
+    "company": "工商银行科技子公司",
+    "position": "2027届校招（安全/研发岗）",
+    "status": "8月启动",
+    "url": "https://job.icbc.com.cn"
+   }
+  ],
+  "undergrad:071202": [
+   {
+    "company": "字节跳动",
+    "position": "2027届校招（数据分析/策略岗）",
+    "status": "8月3日已启动",
+    "url": "https://jobs.bytedance.com"
+   },
+   {
+    "company": "京东",
+    "position": "2027届校招（数据分析/运营岗）",
+    "status": "8月17日已启动",
+    "url": "https://campus.jd.com"
+   },
+   {
+    "company": "毕马威",
+    "position": "2027届校招（审计/咨询）",
+    "status": "8月4日已启动",
+    "url": "https://www.kpmg.com/cn"
+   },
+   {
+    "company": "中国银行",
+    "position": "2027届校招（数据分析/金融科技）",
+    "status": "8月启动",
+    "url": "https://www.boc.cn"
+   },
+   {
+    "company": "统计局系统",
+    "position": "统计业务岗（公务员）",
+    "status": "关注国考公告",
+    "url": "https://bm.scs.gov.cn"
+   }
+  ],
+  "undergrad:071203T": [
+   {
+    "company": "字节跳动",
+    "position": "2027届校招（数据/算法岗）",
+    "status": "8月3日已启动",
+    "url": "https://jobs.bytedance.com"
+   },
+   {
+    "company": "华为",
+    "position": "2027届校招（数据科学/算法岗）",
+    "status": "8月启动",
+    "url": "https://career.huawei.com"
+   },
+   {
+    "company": "京东",
+    "position": "2027届校招（数据/算法岗）",
+    "status": "8月17日已启动",
+    "url": "https://campus.jd.com"
+   },
+   {
+    "company": "中国移动",
+    "position": "2027届校招（大数据/算法岗）",
+    "status": "8月启动",
+    "url": "https://job.10086.cn"
+   },
+   {
+    "company": "用友",
+    "position": "2027届校招（数据产品/分析岗）",
+    "status": "8月7日已启动",
+    "url": "https://career.yonyou.com"
+   }
+  ],
+  "undergrad:020109T": [
+   {
+    "company": "京东",
+    "position": "2027届校招（电商/数据/运营岗）",
+    "status": "8月17日已启动",
+    "url": "https://campus.jd.com"
+   },
+   {
+    "company": "字节跳动",
+    "position": "2027届校招（商业化/运营岗）",
+    "status": "8月3日已启动",
+    "url": "https://jobs.bytedance.com"
+   },
+   {
+    "company": "中国移动",
+    "position": "2027届校招（数字产业化岗）",
+    "status": "8月启动",
+    "url": "https://job.10086.cn"
+   },
+   {
+    "company": "用友",
+    "position": "2027届校招（数字化咨询/实施岗）",
+    "status": "8月7日已启动",
+    "url": "https://career.yonyou.com"
+   },
+   {
+    "company": "宁波银行",
+    "position": "2027届校招（金融科技/运营岗）",
+    "status": "8月中旬已开",
+    "url": "https://zhaopin.nbcb.com.cn"
+   }
+  ],
+  "undergrad:050262": [
+   {
+    "company": "字节跳动",
+    "position": "2027届校招（国际化/运营岗）",
+    "status": "8月3日已启动",
+    "url": "https://jobs.bytedance.com"
+   },
+   {
+    "company": "华为",
+    "position": "2027届校招（海外/销售支持岗）",
+    "status": "8月启动",
+    "url": "https://career.huawei.com"
+   },
+   {
+    "company": "比亚迪",
+    "position": "2027届校招（海外市场/销售岗）",
+    "status": "8月启动",
+    "url": "https://job.byd.com"
+   },
+   {
+    "company": "中远海运",
+    "position": "2027届校招（航运/外贸业务岗）",
+    "status": "8-9月启动",
+    "url": "https://www.coscoshipping.com"
+   },
+   {
+    "company": "新东方",
+    "position": "2027届校招（英语教师/国际教育）",
+    "status": "8月提前批",
+    "url": "https://zhaopin.xdf.cn"
+   }
+  ],
+  "undergrad:040206T": [
+   {
+    "company": "泰康之家",
+    "position": "2027届校招（康复治疗/运动康复岗）",
+    "status": "8月已发布",
+    "url": "https://jobtaikang.zhiye.com"
+   },
+   {
+    "company": "美年大健康",
+    "position": "2027届校招（康复/健康管理岗）",
+    "status": "8-9月启动",
+    "url": "https://www.health-100.cn"
+   },
+   {
+    "company": "安踏",
+    "position": "2027届校招（运动科学/康复相关）",
+    "status": "8月启动",
+    "url": "https://www.anta.com"
+   },
+   {
+    "company": "鱼跃医疗",
+    "position": "2027届校招（康复设备/临床）",
+    "status": "8-9月启动",
+    "url": "https://www.yuyue.com.cn"
+   },
+   {
+    "company": "各地康复医院/运动队",
+    "position": "运动康复师（招聘/考编）",
+    "status": "关注医院与体育局公告",
+    "url": "https://bm.scs.gov.cn"
+   }
+  ],
+  "undergrad:120205": [
+   {
+    "company": "字节跳动",
+    "position": "2027届校招（跨境电商/国际化岗）",
+    "status": "8月3日已启动",
+    "url": "https://jobs.bytedance.com"
+   },
+   {
+    "company": "京东",
+    "position": "2027届校招（跨境/国际业务岗）",
+    "status": "8月17日已启动",
+    "url": "https://campus.jd.com"
+   },
+   {
+    "company": "中远海运",
+    "position": "2027届校招（航运/国际业务岗）",
+    "status": "8-9月启动",
+    "url": "https://www.coscoshipping.com"
+   },
+   {
+    "company": "比亚迪",
+    "position": "2027届校招（海外市场/国际业务岗）",
+    "status": "8月启动",
+    "url": "https://job.byd.com"
+   },
+   {
+    "company": "华为",
+    "position": "2027届校招（海外销售/商务岗）",
+    "status": "8月启动",
+    "url": "https://career.huawei.com"
+   }
+  ],
+  "undergrad:120902": [
+   {
+    "company": "携程集团",
+    "position": "2027届校招（酒店/运营/产品岗）",
+    "status": "8-9月启动",
+    "url": "https://campus.ctrip.com"
+   },
+   {
+    "company": "华侨城集团",
+    "position": "2027届校招（文旅/酒店运营岗）",
+    "status": "8-9月启动",
+    "url": "https://www.chinaoct.com"
+   },
+   {
+    "company": "华住集团",
+    "position": "2027届校招（酒店运营/管培生）",
+    "status": "8-9月启动",
+    "url": "https://www.huazhu.com"
+   },
+   {
+    "company": "万豪/洲际等国际酒店",
+    "position": "管培生项目（MT）",
+    "status": "关注各集团官网",
+    "url": "https://www.marriott.com"
+   },
+   {
+    "company": "中国旅游集团",
+    "position": "2027届校招（酒店/文旅运营岗）",
+    "status": "8-9月启动",
+    "url": "https://ctg.zhaopin.com"
+   }
+  ],
+  "undergrad:082501": [
+   {
+    "company": "中建集团",
+    "position": "2027届校招（环保/水处理工程岗）",
+    "status": "8月启动",
+    "url": "https://recruit.cscec.com"
+   },
+   {
+    "company": "光大环境",
+    "position": "2027届校招（固废/水处理技术岗）",
+    "status": "8-9月启动",
+    "url": "https://www.ebchinaintl.com"
+   },
+   {
+    "company": "中国节能",
+    "position": "2027届校招（环保工程/技术岗）",
+    "status": "8-9月启动",
+    "url": "https://www.cecep.cn"
+   },
+   {
+    "company": "先正达中国",
+    "position": "2027届校招（环保/农业环境岗）",
+    "status": "8-9月启动",
+    "url": "https://www.syngenta.com.cn"
+   },
+   {
+    "company": "环保系统事业单位",
+    "position": "环境监测/管理岗（考编）",
+    "status": "关注省考/事业单位公告",
+    "url": "https://bm.scs.gov.cn"
+   }
+  ],
+  "zhuanke:430101": [
+   {
+    "company": "国家电网",
+    "position": "2027届校招（电工类，含专科批次）",
+    "status": "提前批9月下旬/第一批11月中旬",
+    "url": "https://zhaopin.sgcc.com.cn"
+   },
+   {
+    "company": "南方电网",
+    "position": "2027届校招（电工类专科岗位）",
+    "status": "8-9月启动",
+    "url": "https://zhaopin.csg.cn"
+   },
+   {
+    "company": "华能集团",
+    "position": "2027届校招（发电运行/检修岗）",
+    "status": "8-9月启动",
+    "url": "https://zhaopin.chng.com.cn"
+   },
+   {
+    "company": "国家能源集团",
+    "position": "2027届校招（火电/新能源运行岗）",
+    "status": "8月启动",
+    "url": "https://zhaopin.chnenergy.com.cn"
+   },
+   {
+    "company": "中广核",
+    "position": "2027届校招（核电运行/检修岗）",
+    "status": "8-9月启动",
+    "url": "https://cgn.hotjob.cn"
+   }
+  ],
+  "zhuanke:430106": [
+   {
+    "company": "国家电网",
+    "position": "2027届校招（继电保护/电气类）",
+    "status": "提前批9月下旬/第一批11月中旬",
+    "url": "https://zhaopin.sgcc.com.cn"
+   },
+   {
+    "company": "南方电网",
+    "position": "2027届校招（继保/电气类）",
+    "status": "8-9月启动",
+    "url": "https://zhaopin.csg.cn"
+   },
+   {
+    "company": "许继电气",
+    "position": "2027届校招（继保设备/研发岗）",
+    "status": "8-9月启动",
+    "url": "https://www.xjgc.com"
+   },
+   {
+    "company": "国电南瑞",
+    "position": "2027届校招（继保/电力自动化岗）",
+    "status": "8-9月启动",
+    "url": "https://www.naritech.cn"
+   },
+   {
+    "company": "国家电投",
+    "position": "2027届校招（电气二次/继保岗）",
+    "status": "8月启动",
+    "url": "https://zhaopin.spic.com.cn"
+   }
+  ],
+  "zhuanke:460101": [
+   {
+    "company": "比亚迪",
+    "position": "2027届校招（机械/工艺/设备岗，含专科）",
+    "status": "8月启动",
+    "url": "https://job.byd.com"
+   },
+   {
+    "company": "三一集团",
+    "position": "2027届校招（机械/工艺岗）",
+    "status": "8月启动",
+    "url": "https://sany.zhiye.com"
+   },
+   {
+    "company": "徐工集团",
+    "position": "2027届校招（机械/制造岗）",
+    "status": "8-9月启动",
+    "url": "https://www.xcmg.com"
+   },
+   {
+    "company": "创维集团",
+    "position": "2027届校招（智能制造岗，含专科）",
+    "status": "8月17日已启动",
+    "url": "https://skyworth.hotjob.cn"
+   },
+   {
+    "company": "中国中车",
+    "position": "2027届校招（轨道装备制造岗）",
+    "status": "8月启动",
+    "url": "https://crrc.hotjob.cn"
+   }
+  ],
+  "zhuanke:460113": [
+   {
+    "company": "比亚迪",
+    "position": "2027届校招（模具/工艺岗，含专科）",
+    "status": "8月启动",
+    "url": "https://job.byd.com"
+   },
+   {
+    "company": "美的集团",
+    "position": "2027届校招（模具/制造岗）",
+    "status": "8-9月启动",
+    "url": "https://www.midea.com"
+   },
+   {
+    "company": "格力电器",
+    "position": "2027届校招（模具/工艺岗）",
+    "status": "8-9月启动",
+    "url": "https://www.gree.com.cn"
+   },
+   {
+    "company": "三一集团",
+    "position": "2027届校招（模具/制造岗）",
+    "status": "8月启动",
+    "url": "https://sany.zhiye.com"
+   },
+   {
+    "company": "裕同科技",
+    "position": "2027届校招（模具/包装制造岗）",
+    "status": "8-9月启动",
+    "url": "https://www.yuto.com.cn"
+   }
+  ],
+  "zhuanke:460302": [
+   {
+    "company": "比亚迪",
+    "position": "2027届校招（机电/设备岗，含专科）",
+    "status": "8月启动",
+    "url": "https://job.byd.com"
+   },
+   {
+    "company": "三一集团",
+    "position": "2027届校招（机电/自动化岗）",
+    "status": "8月启动",
+    "url": "https://sany.zhiye.com"
+   },
+   {
+    "company": "创维集团",
+    "position": "2027届校招（智能制造/机电岗，含专科）",
+    "status": "8月17日已启动",
+    "url": "https://skyworth.hotjob.cn"
+   },
+   {
+    "company": "新松机器人",
+    "position": "2027届校招（机电/机器人调试岗）",
+    "status": "8-9月启动",
+    "url": "https://www.siasun.com"
+   },
+   {
+    "company": "海尔智家",
+    "position": "2027届校招（智能制造/机电岗）",
+    "status": "8-9月启动",
+    "url": "https://www.haier.com"
+   }
+  ],
+  "zhuanke:460304": [
+   {
+    "company": "新松机器人",
+    "position": "2027届校招（机器人调试/研发岗）",
+    "status": "8-9月启动",
+    "url": "https://www.siasun.com"
+   },
+   {
+    "company": "比亚迪",
+    "position": "2027届校招（机器人/自动化岗，含专科）",
+    "status": "8月启动",
+    "url": "https://job.byd.com"
+   },
+   {
+    "company": "汇川技术",
+    "position": "2027届校招（机器人/自动化岗）",
+    "status": "8-9月启动",
+    "url": "https://www.inovance.com"
+   },
+   {
+    "company": "大疆",
+    "position": "2027届校招（机器人/技术支持岗）",
+    "status": "8-9月启动",
+    "url": "https://careers.dji.com"
+   },
+   {
+    "company": "创维集团",
+    "position": "2027届校招（智能制造/机器人岗，含专科）",
+    "status": "8月17日已启动",
+    "url": "https://skyworth.hotjob.cn"
+   }
+  ],
+  "zhuanke:460704": [
+   {
+    "company": "比亚迪",
+    "position": "2027届校招（智能网联/车辆岗，含专科）",
+    "status": "8月启动",
+    "url": "https://job.byd.com"
+   },
+   {
+    "company": "小鹏汽车",
+    "position": "2027届校招（智能网联/三电岗）",
+    "status": "8月启动",
+    "url": "https://xiaopeng.jobs.feishu.cn"
+   },
+   {
+    "company": "蔚来",
+    "position": "2027届校招（智能网联/整车岗）",
+    "status": "8月启动",
+    "url": "https://campus.nio.com"
+   },
+   {
+    "company": "吉利汽车",
+    "position": "2027届校招（智能网联/车辆岗）",
+    "status": "8-9月启动",
+    "url": "https://campus.geely.com"
+   },
+   {
+    "company": "创维集团",
+    "position": "2027届校招（智能网联/整车岗，含专科）",
+    "status": "8月17日已启动",
+    "url": "https://skyworth.hotjob.cn"
+   }
+  ],
+  "zhuanke:510214": [
+   {
+    "company": "用友",
+    "position": "2027届校招（软件实施/开发岗，含专科）",
+    "status": "8月7日已启动",
+    "url": "https://career.yonyou.com"
+   },
+   {
+    "company": "创维集团",
+    "position": "2027届校招（软件开发岗，含专科）",
+    "status": "8月17日已启动",
+    "url": "https://skyworth.hotjob.cn"
+   },
+   {
+    "company": "顺丰科技",
+    "position": "2027届校招（软件开发岗）",
+    "status": "8月17日已启动",
+    "url": "https://campus.sf-express.com"
+   },
+   {
+    "company": "广联达",
+    "position": "2027届校招（工业软件/开发岗）",
+    "status": "8-9月启动",
+    "url": "https://www.glodon.com"
+   },
+   {
+    "company": "华为",
+    "position": "2027届校招（软件开发岗）",
+    "status": "8月启动",
+    "url": "https://career.huawei.com"
+   }
+  ],
+  "zhuanke:510217": [
+   {
+    "company": "字节跳动",
+    "position": "2027届校招（数据标注/数据工程岗）",
+    "status": "8月3日已启动",
+    "url": "https://jobs.bytedance.com"
+   },
+   {
+    "company": "科大讯飞",
+    "position": "2027届校招（数据/算法工程岗）",
+    "status": "8月启动",
+    "url": "https://iflytek.zhiye.com"
+   },
+   {
+    "company": "海康威视",
+    "position": "2027届校招（数据/技术支持岗）",
+    "status": "8-9月启动",
+    "url": "https://campushr.hikvision.com"
+   },
+   {
+    "company": "京东",
+    "position": "2027届校招（数据/运营岗）",
+    "status": "8月17日已启动",
+    "url": "https://campus.jd.com"
+   },
+   {
+    "company": "天翼云",
+    "position": "2027届校招（数据/云技术岗）",
+    "status": "7月已启动",
+    "url": "https://ctyun.hotjob.cn"
+   }
+  ],
+  "zhuanke:530101": [
+   {
+    "company": "毕马威",
+    "position": "2027届校招（税务/审计岗）",
+    "status": "8月4日已启动",
+    "url": "https://www.kpmg.com/cn"
+   },
+   {
+    "company": "德勤中国",
+    "position": "2027届校招（税务/审计岗）",
+    "status": "8月启动",
+    "url": "https://www.deloitte.com"
+   },
+   {
+    "company": "用友",
+    "position": "2027届校招（财税软件实施岗，含专科）",
+    "status": "8月7日已启动",
+    "url": "https://career.yonyou.com"
+   },
+   {
+    "company": "京东",
+    "position": "2027届校招（财务/税务岗）",
+    "status": "8月17日已启动",
+    "url": "https://campus.jd.com"
+   },
+   {
+    "company": "税务系统",
+    "position": "税务岗位（公务员招录）",
+    "status": "关注国考公告",
+    "url": "https://bm.scs.gov.cn"
+   }
+  ],
+  "zhuanke:530202": [
+   {
+    "company": "宁波银行",
+    "position": "2027届校招（金融科技/运营岗）",
+    "status": "8月中旬已开",
+    "url": "https://zhaopin.nbcb.com.cn"
+   },
+   {
+    "company": "中国银行",
+    "position": "2027届校招（金融科技/客服运营岗）",
+    "status": "8月启动",
+    "url": "https://www.boc.cn"
+   },
+   {
+    "company": "招商银行",
+    "position": "2027届校招（运营/金融科技岗）",
+    "status": "8月启动",
+    "url": "https://career.cmbchina.com"
+   },
+   {
+    "company": "京东",
+    "position": "2027届校招（金融/运营岗）",
+    "status": "8月17日已启动",
+    "url": "https://campus.jd.com"
+   },
+   {
+    "company": "用友",
+    "position": "2027届校招（金融软件实施岗）",
+    "status": "8月7日已启动",
+    "url": "https://career.yonyou.com"
+   }
+  ],
+  "zhuanke:530601": [
+   {
+    "company": "京东·新锐之星",
+    "position": "2027届校招（物流储备/运营，专科可报）",
+    "status": "8月17日-11月30日",
+    "url": "https://campus.jd.com"
+   },
+   {
+    "company": "创维集团",
+    "position": "2027届校招（销售/职能岗，含专科）",
+    "status": "8月17日已启动",
+    "url": "https://skyworth.hotjob.cn"
+   },
+   {
+    "company": "恒安集团",
+    "position": "2027届校招（营销管培生）",
+    "status": "8月启动",
+    "url": "https://hr.hengan.com"
+   },
+   {
+    "company": "云南白药",
+    "position": "2027届校招（销售培训生）",
+    "status": "8月启动",
+    "url": "https://7w.ncss.cn"
+   },
+   {
+    "company": "加多宝",
+    "position": "2027届校招（销售/推广管培生）",
+    "status": "8月启动",
+    "url": "https://www.jdbchina.com"
+   }
+  ],
+  "undergrad:030202": [
+   {
+    "company": "外交部/外事系统",
+    "position": "国际政治岗（公务员）",
+    "status": "关注国考公告",
+    "url": "https://bm.scs.gov.cn"
+   },
+   {
+    "company": "央国企海外业务",
+    "position": "海外业务/国际事务岗",
+    "status": "关注各央企官网",
+    "url": "https://www.cscec.com"
+   },
+   {
+    "company": "新华社/央媒",
+    "position": "国际新闻采编岗",
+    "status": "关注招聘公告",
+    "url": "https://www.news.cn"
+   },
+   {
+    "company": "字节跳动",
+    "position": "2027届校招（国际化/公共事务岗）",
+    "status": "8月3日已启动",
+    "url": "https://jobs.bytedance.com"
+   },
+   {
+    "company": "中国国际问题研究院等智库",
+    "position": "研究助理岗",
+    "status": "关注各机构公告",
+    "url": "https://bm.scs.gov.cn"
+   }
+  ],
+  "undergrad:030203": [
+   {
+    "company": "外交部",
+    "position": "外交业务岗（国考）",
+    "status": "关注国考公告",
+    "url": "https://bm.scs.gov.cn"
+   },
+   {
+    "company": "央国企海外业务",
+    "position": "外事/海外项目岗",
+    "status": "关注各央企官网",
+    "url": "https://www.cscec.com"
+   },
+   {
+    "company": "字节跳动",
+    "position": "2027届校招（国际化/GR岗）",
+    "status": "8月3日已启动",
+    "url": "https://jobs.bytedance.com"
+   },
+   {
+    "company": "新华社/国际台",
+    "position": "国际传播岗",
+    "status": "关注招聘公告",
+    "url": "https://www.news.cn"
+   },
+   {
+    "company": "国际组织/智库",
+    "position": "研究/项目助理",
+    "status": "关注各机构公告",
+    "url": "https://bm.scs.gov.cn"
+   }
+  ],
+  "undergrad:020308T": [
+   {
+    "company": "中国人寿",
+    "position": "2027届校招（精算/产品岗）",
+    "status": "8-9月启动",
+    "url": "https://www.chinalife.com.cn"
+   },
+   {
+    "company": "中国人保",
+    "position": "2027届校招（精算/产品岗）",
+    "status": "8-9月启动",
+    "url": "https://www.picc.com.cn"
+   },
+   {
+    "company": "泰康保险",
+    "position": "2027届校招（精算/产品岗）",
+    "status": "8月陆续开放",
+    "url": "https://jobtaikang.zhiye.com"
+   },
+   {
+    "company": "中国平安",
+    "position": "2027届校招（精算/风控岗）",
+    "status": "8-9月启动",
+    "url": "https://www.pingan.com"
+   },
+   {
+    "company": "外资保险（安盛/友邦等）",
+    "position": "精算助理（Actuarial Analyst）",
+    "status": "关注各公司官网",
+    "url": "https://www.axa.com"
+   }
+  ],
+  "undergrad:020304": [
+   {
+    "company": "中信证券",
+    "position": "2027届校招（培训生/研究岗）",
+    "status": "8月启动",
+    "url": "https://jobs.citics.com"
+   },
+   {
+    "company": "招商银行",
+    "position": "2027届校招（投资/财富管理岗）",
+    "status": "8月启动",
+    "url": "https://career.cmbchina.com"
+   },
+   {
+    "company": "中国银行",
+    "position": "2027届校招（投资/金融市场岗）",
+    "status": "8月启动",
+    "url": "https://www.boc.cn"
+   },
+   {
+    "company": "中国人寿",
+    "position": "2027届校招（投资/资产岗）",
+    "status": "8-9月启动",
+    "url": "https://www.chinalife.com.cn"
+   },
+   {
+    "company": "普华永道",
+    "position": "2027届校招（咨询/审计）",
+    "status": "8月启动",
+    "url": "https://www.pwccn.com"
+   }
+  ],
+  "undergrad:030102T": [
+   {
+    "company": "金杜律师事务所",
+    "position": "知识产权方向（毕业生岗）",
+    "status": "关注官网公告",
+    "url": "https://www.kwm.com"
+   },
+   {
+    "company": "国家知识产权局",
+    "position": "专利审查员（考编/社招）",
+    "status": "关注官网公告",
+    "url": "https://www.cnipa.gov.cn"
+   },
+   {
+    "company": "华为",
+    "position": "2027届校招（知识产权/法务岗）",
+    "status": "8月启动",
+    "url": "https://career.huawei.com"
+   },
+   {
+    "company": "字节跳动",
+    "position": "2027届校招（法务/知识产权岗）",
+    "status": "8月3日已启动",
+    "url": "https://jobs.bytedance.com"
+   },
+   {
+    "company": "腾讯",
+    "position": "2027届校招（法务/知识产权岗）",
+    "status": "8月启动",
+    "url": "https://join.qq.com"
+   }
+  ],
+  "undergrad:030306T": [
+   {
+    "company": "泰康之家",
+    "position": "2027届校招（康养/运营/研究岗）",
+    "status": "8月已发布",
+    "url": "https://jobtaikang.zhiye.com"
+   },
+   {
+    "company": "中国人寿",
+    "position": "2027届校招（养老/健康险岗）",
+    "status": "8-9月启动",
+    "url": "https://www.chinalife.com.cn"
+   },
+   {
+    "company": "中国平安",
+    "position": "2027届校招（养老金融/运营岗）",
+    "status": "8-9月启动",
+    "url": "https://www.pingan.com"
+   },
+   {
+    "company": "美年大健康",
+    "position": "2027届校招（健康管理岗）",
+    "status": "8-9月启动",
+    "url": "https://www.health-100.cn"
+   },
+   {
+    "company": "民政系统事业单位",
+    "position": "养老服务/社会福利岗（考编）",
+    "status": "关注省考/事业单位公告",
+    "url": "https://bm.scs.gov.cn"
+   }
+  ],
+  "undergrad:080218T": [
+   {
+    "company": "字节跳动",
+    "position": "2027届校招（交互/体验设计岗）",
+    "status": "8月3日已启动",
+    "url": "https://jobs.bytedance.com"
+   },
+   {
+    "company": "腾讯",
+    "position": "2027届校招（交互/视觉设计岗）",
+    "status": "8月启动",
+    "url": "https://join.qq.com"
+   },
+   {
+    "company": "华为",
+    "position": "2027届校招（UX/交互设计岗）",
+    "status": "8月启动",
+    "url": "https://career.huawei.com"
+   },
+   {
+    "company": "小米",
+    "position": "2027届校招（交互设计岗）",
+    "status": "8月10日已启动",
+    "url": "https://hr.xiaomi.com"
+   },
+   {
+    "company": "海康威视",
+    "position": "2027届校招（交互/产品设计岗）",
+    "status": "8-9月启动",
+    "url": "https://campushr.hikvision.com"
+   }
+  ],
+  "undergrad:080405": [
+   {
+    "company": "中国宝武",
+    "position": "2027届校招（材料/工艺岗）",
+    "status": "8-9月启动",
+    "url": "https://www.baosteel.com"
+   },
+   {
+    "company": "中铝集团",
+    "position": "2027届校招（金属材料/工艺岗）",
+    "status": "8-9月启动",
+    "url": "https://www.chalco.com.cn"
+   },
+   {
+    "company": "宁德时代",
+    "position": "2027届校招（材料研发岗）",
+    "status": "8月启动",
+    "url": "https://talent.catl.com"
+   },
+   {
+    "company": "万华化学",
+    "position": "2027届校招（材料研发岗）",
+    "status": "8-9月启动",
+    "url": "https://www.whchem.com"
+   },
+   {
+    "company": "金发科技",
+    "position": "2027届校招（材料研发/工艺岗）",
+    "status": "8-9月启动",
+    "url": "https://www.kingfa.com.cn"
+   }
+  ],
+  "undergrad:080909T": [
+   {
+    "company": "华为",
+    "position": "2027届校招（软硬件研发岗）",
+    "status": "8月启动",
+    "url": "https://career.huawei.com"
+   },
+   {
+    "company": "中兴通讯",
+    "position": "2027届校招（软硬件研发岗）",
+    "status": "8-9月启动",
+    "url": "https://job.zte.com.cn"
+   },
+   {
+    "company": "京东方",
+    "position": "2027届校招（电子/研发岗）",
+    "status": "8月启动",
+    "url": "https://campus.boe.com"
+   },
+   {
+    "company": "海康威视",
+    "position": "2027届校招（软硬件研发岗）",
+    "status": "8-9月启动",
+    "url": "https://campushr.hikvision.com"
+   },
+   {
+    "company": "中国移动",
+    "position": "2027届校招（研发/网络岗）",
+    "status": "8月启动",
+    "url": "https://job.10086.cn"
+   }
+  ],
+  "undergrad:080919T": [
+   {
+    "company": "华为",
+    "position": "2027届校招（工业软件/研发岗）",
+    "status": "8月启动",
+    "url": "https://career.huawei.com"
+   },
+   {
+    "company": "用友",
+    "position": "2027届校招（工业软件/实施岗）",
+    "status": "8月7日已启动",
+    "url": "https://career.yonyou.com"
+   },
+   {
+    "company": "广联达",
+    "position": "2027届校招（工业软件/研发岗）",
+    "status": "8-9月启动",
+    "url": "https://www.glodon.com"
+   },
+   {
+    "company": "中国中车",
+    "position": "2027届校招（工业软件/数字化岗）",
+    "status": "8月启动",
+    "url": "https://crrc.hotjob.cn"
+   },
+   {
+    "company": "三一集团",
+    "position": "2027届校招（工业软件/数字化岗）",
+    "status": "8月启动",
+    "url": "https://sany.zhiye.com"
+   }
+  ],
+  "undergrad:130515TK": [
+   {
+    "company": "米哈游",
+    "position": "2027届校招（美术/原画/UI岗）",
+    "status": "8-9月启动",
+    "url": "https://jobs.mihoyo.com"
+   },
+   {
+    "company": "腾讯",
+    "position": "2027届校招（游戏美术岗）",
+    "status": "8月启动",
+    "url": "https://join.qq.com"
+   },
+   {
+    "company": "网易游戏",
+    "position": "2027届校招（游戏美术岗）",
+    "status": "8月启动",
+    "url": "https://campus.game.163.com"
+   },
+   {
+    "company": "字节跳动",
+    "position": "2027届校招（游戏美术/设计岗）",
+    "status": "8月3日已启动",
+    "url": "https://jobs.bytedance.com"
+   },
+   {
+    "company": "完美世界",
+    "position": "2027届校招（游戏美术岗）",
+    "status": "8-9月启动",
+    "url": "https://www.pwrd.com"
+   }
+  ],
+  "undergrad:120803T": [
+   {
+    "company": "字节跳动",
+    "position": "2027届校招（跨境电商/运营岗）",
+    "status": "8月3日已启动",
+    "url": "https://jobs.bytedance.com"
+   },
+   {
+    "company": "京东",
+    "position": "2027届校招（跨境/国际业务岗）",
+    "status": "8月17日已启动",
+    "url": "https://campus.jd.com"
+   },
+   {
+    "company": "阿里国际站/蚂蚁生态",
+    "position": "2027届校招（跨境电商岗）",
+    "status": "8月启动",
+    "url": "https://campus-talent.alibaba.com"
+   },
+   {
+    "company": "拼多多",
+    "position": "2027届校招（跨境电商运营岗）",
+    "status": "8-9月启动",
+    "url": "https://careers.pddglobalhr.com"
+   },
+   {
+    "company": "顺丰",
+    "position": "2027届校招（跨境物流/运营岗）",
+    "status": "8月17日已启动",
+    "url": "https://campus.sf-express.com"
+   }
+  ],
+  "zhuanke:440106": [
+   {
+    "company": "东易日盛",
+    "position": "2027届校招（室内设计/助理岗）",
+    "status": "8-9月启动",
+    "url": "https://www.dyrs.com.cn"
+   },
+   {
+    "company": "欧派家居",
+    "position": "2027届校招（整装设计/技术岗）",
+    "status": "8-9月启动",
+    "url": "https://www.oppein.com"
+   },
+   {
+    "company": "索菲亚",
+    "position": "2027届校招（设计/技术岗）",
+    "status": "8-9月启动",
+    "url": "https://www.suofeiya.com.cn"
+   },
+   {
+    "company": "中建集团",
+    "position": "2027届校招（装饰/设计岗）",
+    "status": "8月启动",
+    "url": "https://recruit.cscec.com"
+   },
+   {
+    "company": "尚品宅配/家居企业",
+    "position": "设计助理/家居设计岗",
+    "status": "关注各企业官网",
+    "url": "https://www.spzp.com"
+   }
+  ],
+  "zhuanke:440404": [
+   {
+    "company": "中建集团",
+    "position": "2027届校招（智能化/工程岗）",
+    "status": "8月启动",
+    "url": "https://recruit.cscec.com"
+   },
+   {
+    "company": "海康威视",
+    "position": "2027届校招（智能楼宇/技术支持岗）",
+    "status": "8-9月启动",
+    "url": "https://campushr.hikvision.com"
+   },
+   {
+    "company": "大华股份",
+    "position": "2027届校招（智能建筑/技术支持岗）",
+    "status": "8-9月启动",
+    "url": "https://www.dahuasecurity.com"
+   },
+   {
+    "company": "美的集团",
+    "position": "2027届校招（楼宇科技/工程岗）",
+    "status": "8-9月启动",
+    "url": "https://www.midea.com"
+   },
+   {
+    "company": "各地智能建筑/安防企业",
+    "position": "智能化设计与施工岗",
+    "status": "关注各企业招聘",
+    "url": "https://www.dahuasecurity.com"
+   }
+  ],
+  "zhuanke:500602": [
+   {
+    "company": "中国中车",
+    "position": "2027届校招（城轨车辆制造/检修岗）",
+    "status": "8月启动",
+    "url": "https://crrc.hotjob.cn"
+   },
+   {
+    "company": "各地地铁公司",
+    "position": "城轨车辆检修/运用岗（专科可报）",
+    "status": "关注各地地铁招聘",
+    "url": "https://www.gzmtr.com"
+   },
+   {
+    "company": "北京地铁",
+    "position": "车辆检修/运用岗",
+    "status": "关注官网公告",
+    "url": "https://www.bjsubway.com"
+   },
+   {
+    "company": "上海申通地铁",
+    "position": "车辆检修/运用岗",
+    "status": "关注官网公告",
+    "url": "https://www.shmetro.com"
+   },
+   {
+    "company": "中国铁路局系统",
+    "position": "轨道车辆运用检修岗",
+    "status": "关注各局公告",
+    "url": "https://rczp.china-railway.com.cn"
+   }
+  ],
+  "zhuanke:510212": [
+   {
+    "company": "蚂蚁集团生态",
+    "position": "2027届校招（区块链/技术岗）",
+    "status": "8月启动",
+    "url": "https://campus-talent.alibaba.com"
+   },
+   {
+    "company": "华为",
+    "position": "2027届校招（区块链/研发岗）",
+    "status": "8月启动",
+    "url": "https://career.huawei.com"
+   },
+   {
+    "company": "腾讯",
+    "position": "2027届校招（区块链/研发岗）",
+    "status": "8月启动",
+    "url": "https://join.qq.com"
+   },
+   {
+    "company": "京东",
+    "position": "2027届校招（区块链/技术岗）",
+    "status": "8月17日已启动",
+    "url": "https://campus.jd.com"
+   },
+   {
+    "company": "用友",
+    "position": "2027届校招（区块链应用/实施岗）",
+    "status": "8月7日已启动",
+    "url": "https://career.yonyou.com"
+   }
+  ],
+  "zhuanke:530809": [
+   {
+    "company": "京东·新锐之星",
+    "position": "2027届校招（物流储备/运营，专科可报）",
+    "status": "8月17日-11月30日",
+    "url": "https://campus.jd.com"
+   },
+   {
+    "company": "顺丰",
+    "position": "2027届校招（物流运营/技术岗）",
+    "status": "8月17日已启动",
+    "url": "https://campus.sf-express.com"
+   },
+   {
+    "company": "中国物流集团",
+    "position": "2027届校招（物流/供应链岗）",
+    "status": "8月启动",
+    "url": "https://chinalogisticsgroup.hotjob.cn"
+   },
+   {
+    "company": "中远海运",
+    "position": "2027届校招（物流/供应链岗）",
+    "status": "8-9月启动",
+    "url": "https://www.coscoshipping.com"
+   },
+   {
+    "company": "中国邮政",
+    "position": "2027届校招（物流/运营岗）",
+    "status": "8月启动",
+    "url": "https://zhaopin.chinapost.com.cn"
+   }
+  ],
+  "zhuanke:550102": [
+   {
+    "company": "字节跳动",
+    "position": "2027届校招（视觉/设计岗）",
+    "status": "8月3日已启动",
+    "url": "https://jobs.bytedance.com"
+   },
+   {
+    "company": "腾讯",
+    "position": "2027届校招（视觉设计岗）",
+    "status": "8月启动",
+    "url": "https://join.qq.com"
+   },
+   {
+    "company": "奥美等4A广告",
+    "position": "设计/创意岗",
+    "status": "关注公司官网",
+    "url": "https://www.ogilvy.com.cn"
+   },
+   {
+    "company": "蓝色光标",
+    "position": "2027届校招（设计/创意岗）",
+    "status": "8-9月启动",
+    "url": "https://www.bluefocus.com"
+   },
+   {
+    "company": "雅昌文化",
+    "position": "2027届校招（设计/印艺岗）",
+    "status": "8-9月启动",
+    "url": "https://www.artron.com.cn"
+   }
+  ],
+  "zhuanke:520102K": [
+   {
+    "company": "泰康口腔",
+    "position": "2027届校招（口腔医师/医助岗）",
+    "status": "8月陆续开放",
+    "url": "https://jobtaikang.zhiye.com"
+   },
+   {
+    "company": "通策医疗等口腔连锁",
+    "position": "口腔医师/助理岗",
+    "status": "关注各连锁官网",
+    "url": "https://www.tongce.com"
+   },
+   {
+    "company": "现代牙科",
+    "position": "2027届校招（口腔技术岗）",
+    "status": "8-9月启动",
+    "url": "https://www.moderndental.com"
+   },
+   {
+    "company": "各地口腔医院/诊所",
+    "position": "口腔医师助理（招聘）",
+    "status": "关注当地卫健委公告",
+    "url": "https://www.health-100.cn"
+   },
+   {
+    "company": "爱尔眼科/连锁医疗",
+    "position": "口腔医疗管理岗",
+    "status": "8-9月启动",
+    "url": "https://www.aierchina.com"
+   }
+  ],
+  "zhuanke:520401K": [
+   {
+    "company": "固生堂",
+    "position": "2027届校招（中医临床/助理岗）",
+    "status": "8-9月启动",
+    "url": "https://www.gstzy.cn"
+   },
+   {
+    "company": "同仁堂",
+    "position": "2027届校招（中医药岗）",
+    "status": "8-9月启动",
+    "url": "https://www.tongrentang.com"
+   },
+   {
+    "company": "泰康之家",
+    "position": "2027届校招（中医康养岗）",
+    "status": "8月陆续开放",
+    "url": "https://jobtaikang.zhiye.com"
+   },
+   {
+    "company": "广药集团",
+    "position": "2027届校招（中医药岗）",
+    "status": "8-9月启动",
+    "url": "https://www.gpc.com.cn"
+   },
+   {
+    "company": "各地基层医院/中医馆",
+    "position": "中医医师助理（招聘/考编）",
+    "status": "关注当地卫健委公告",
+    "url": "https://www.health-100.cn"
+   }
+  ],
+  "zhuanke:570104K": [
+   {
+    "company": "各省小学教师招聘",
+    "position": "小学语文教师（考编）",
+    "status": "关注当地教育局/人社局",
+    "url": "https://bm.scs.gov.cn"
+   },
+   {
+    "company": "新东方",
+    "position": "2027届校招（语文/素养教师岗）",
+    "status": "8月提前批",
+    "url": "https://zhaopin.xdf.cn"
+   },
+   {
+    "company": "学而思",
+    "position": "2027届校招（语文/素养教师岗）",
+    "status": "7月已启动",
+    "url": "https://www.xueersi.com"
+   },
+   {
+    "company": "高途教育",
+    "position": "2027届校招（辅导/教研岗）",
+    "status": "8-9月启动",
+    "url": "https://www.gaotu.cn"
+   },
+   {
+    "company": "各地民办学校/教培",
+    "position": "语文教师岗",
+    "status": "关注各地招聘公告",
+    "url": "https://bm.scs.gov.cn"
+   }
+  ],
+  "zhuanke:570105K": [
+   {
+    "company": "各省小学数学教师招聘",
+    "position": "小学数学教师（考编）",
+    "status": "关注当地教育局/人社局",
+    "url": "https://bm.scs.gov.cn"
+   },
+   {
+    "company": "新东方",
+    "position": "2027届校招（数学/素养教师岗）",
+    "status": "8月提前批",
+    "url": "https://zhaopin.xdf.cn"
+   },
+   {
+    "company": "学而思",
+    "position": "2027届校招（数学/思维教师岗）",
+    "status": "7月已启动",
+    "url": "https://www.xueersi.com"
+   },
+   {
+    "company": "高途教育",
+    "position": "2027届校招（辅导/教研岗）",
+    "status": "8-9月启动",
+    "url": "https://www.gaotu.cn"
+   },
+   {
+    "company": "各地民办学校/教培",
+    "position": "数学教师岗",
+    "status": "关注各地招聘公告",
+    "url": "https://bm.scs.gov.cn"
+   }
+  ],
+  "zhuanke:570110K": [
+   {
+    "company": "各省中小学体育教师",
+    "position": "体育教师（考编）",
+    "status": "关注当地教育局/人社局",
+    "url": "https://bm.scs.gov.cn"
+   },
+   {
+    "company": "安踏",
+    "position": "2027届校招（零售/运动服务岗）",
+    "status": "8月启动",
+    "url": "https://www.anta.com"
+   },
+   {
+    "company": "李宁",
+    "position": "2027届校招（零售/运动服务岗）",
+    "status": "8-9月启动",
+    "url": "https://www.lining.com"
+   },
+   {
+    "company": "泰康之家",
+    "position": "2027届校招（运动康复/健康岗）",
+    "status": "8月陆续开放",
+    "url": "https://jobtaikang.zhiye.com"
+   },
+   {
+    "company": "各地健身房/体育机构",
+    "position": "教练/体育培训岗",
+    "status": "关注各地招聘公告",
+    "url": "https://bm.scs.gov.cn"
+   }
+  ],
+  "zhuanke:560214": [
+   {
+    "company": "字节跳动",
+    "position": "2027届校招（抖音电商/直播运营岗）",
+    "status": "8月3日已启动",
+    "url": "https://jobs.bytedance.com"
+   },
+   {
+    "company": "京东",
+    "position": "2027届校招（电商/直播运营岗）",
+    "status": "8月17日已启动",
+    "url": "https://campus.jd.com"
+   },
+   {
+    "company": "拼多多",
+    "position": "2027届校招（电商运营岗）",
+    "status": "8-9月启动",
+    "url": "https://careers.pddglobalhr.com"
+   },
+   {
+    "company": "创维集团",
+    "position": "2027届校招（电商/直播岗，含专科）",
+    "status": "8月17日已启动",
+    "url": "https://skyworth.hotjob.cn"
+   },
+   {
+    "company": "芒果超媒",
+    "position": "2027届校招（直播/内容运营岗）",
+    "status": "8-9月启动",
+    "url": "https://www.mgtv.com"
+   }
+  ]
+ }
+};

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>快找Z哥 · 专业去向查询（央国企/外企/大厂）</title>
+<meta name="description" content="输入你的大学专业，查询适合你的央国企、外资企业、上市公司大厂岗位方向，每周更新。">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <div class="brand"><a href="../index.html" style="text-decoration:none;color:inherit;">◈ 快找Z哥 · 专业去向查询</a></div>
+    <nav class="nav">
+      <a href="#finder">查方向</a>
+      <a href="#weekly">本周更新</a>
+      <a href="#cities">城市指南</a>
+      <a href="#about">数据说明</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container">
+    <h1>你的专业，能往哪里走？</h1>
+    <p class="hero-sub">选学历 → 选专业，一键查看 <b>央国企</b> · <b>外资企业</b> · <b>上市公司大厂</b> 的适配方向，每周更新最新招聘信息</p>
+    <div class="search-row">
+      <input id="searchInput" type="search" placeholder="搜索专业名称或代码，如：计算机、市场营销、510202" autocomplete="off">
+      <button id="searchBtn" class="btn-primary">查询</button>
+    </div>
+    <p class="demo-tip">当前为初版演示站，内容正在逐步完善中</p>
+  </div>
+</section>
+
+<main class="container">
+  <section id="finder" class="card">
+    <div id="levelStep">
+      <h2 class="section-title">第一步 · 选择你的学历</h2>
+      <div class="chips" id="levelChips">
+        <button class="chip active" data-level="undergrad">本科</button>
+        <button class="chip" data-level="zhuanke">专科</button>
+        <button class="chip" data-level="graduate">硕士</button>
+      </div>
+    </div>
+    <div class="level-fixed hidden" id="levelFixed">
+      <span>📌 当前查询：<b id="levelFixedName"></b></span>
+      <a class="chip" href="index.html">切换学历</a>
+    </div>
+    <h2 class="section-title">第二步 · 选择专业大类 <span class="hint" id="browserHint"></span></h2>
+    <div id="majorBrowser"></div>
+  </section>
+
+  <section id="result" class="hidden"></section>
+
+  <section id="hiredata" class="card">
+    <h2 class="section-title">🏢 公司招录数据（官方口径） <span class="week-label" id="hireMeta"></span></h2>
+    <div id="hireList"></div>
+  </section>
+
+  <section id="weekly" class="card">
+    <h2 class="section-title">📅 本周更新 <span class="week-label" id="weekLabel"></span></h2>
+    <div id="weeklyList"></div>
+  </section>
+
+  <section id="cities" class="card">
+    <h2 class="section-title">🏙️ 热门城市指南 <span class="week-label">（想转行 / 换城市的朋友参考）</span></h2>
+    <div id="cityList"></div>
+  </section>
+
+  <section id="about" class="card">
+    <h2 class="section-title">📚 数据说明</h2>
+    <ul class="about-list">
+      <li>专业目录来源：教育部《普通高等学校本科专业目录（2025年）》《职业教育专业目录（2021年，2024年12月更新）》《研究生教育学科专业目录（2022年）》。</li>
+      <li>各专业岗位方向为初版整理内容，仅供参考，具体请以各招聘单位官方公告为准。</li>
+      <li>每条招聘信息均注明来源链接、发布时间与截止时间；无法核实的信息不会发布。</li>
+      <li>网站将每周更新最新招聘信息，并逐步覆盖更多专业。</li>
+    </ul>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>快找Z哥 · 专业去向查询 · 每周更新 · 内容仅供参考，不构成求职建议</p>
+  </div>
+</footer>
+
+<script src="data/majors_data.js"></script>
+<script src="data/careers.js"></script>
+<script src="data/outlooks.js"></script>
+<script src="data/hire_stats.js"></script>
+<script src="data/classes.js"></script>
+<script src="data/employment.js"></script>
+<script src="data/cities.js"></script>
+<script src="data/current.js"></script>
+<script src="data/weekly.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
