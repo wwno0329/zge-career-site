@@ -523,8 +523,10 @@
     renderDirs(false);
     document.getElementById("btnAllDirs").onclick = function(){ renderDirs(true); };
     document.getElementById("screenResult").classList.remove("hidden");
+    try { sessionStorage.setItem("zx_quiz_v1", JSON.stringify({ answers: answers, multiSel: multiSel })); } catch(e){}
   }
   document.getElementById("btnStart").addEventListener("click", function(){
+    try { sessionStorage.removeItem("zx_quiz_v1"); } catch(e){}
     document.getElementById("screenStart").classList.add("hidden");
     document.getElementById("screenQuiz").classList.remove("hidden");
     document.getElementById("progress").classList.remove("hidden");
@@ -535,8 +537,22 @@
   document.getElementById("btnBack").addEventListener("click", function(){
     if (stepIdx > 0){ stepIdx--; renderStep(); }
   });
-  document.getElementById("btnRetry").addEventListener("click", function(){ location.reload(); });
+  document.getElementById("btnRetry").addEventListener("click", function(){ try { sessionStorage.removeItem("zx_quiz_v1"); } catch(e){} location.reload(); });
   modalMask.addEventListener("click", function(e){ if (e.target === modalMask) hideModal(); });
+  // 恢复上次测评结果（返回方向页后能回到结果页）
+  (function(){
+    try {
+      var saved = sessionStorage.getItem("zx_quiz_v1");
+      if (saved) {
+        var st = JSON.parse(saved);
+        answers = st.answers || {};
+        multiSel = st.multiSel || {};
+        document.getElementById("screenStart").classList.add("hidden");
+        document.getElementById("screenLoading").classList.add("hidden");
+        showResult();
+      }
+    } catch(e){}
+  })();
   document.getElementById("dirModalMask").addEventListener("click", function(e){ if (e.target === this) this.classList.add("hidden"); });
   document.getElementById("dmClose").addEventListener("click", function(){ document.getElementById("dirModalMask").classList.add("hidden"); });
   document.getElementById("dmCta").addEventListener("click", function(){ window.location.href = "mailto:425987691@qq.com?subject=预约1v1了解转行方向"; });
