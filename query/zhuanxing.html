@@ -71,6 +71,7 @@
 .dir-name .e{font-size:18px}
 .dir-hot{font-size:11px;color:var(--accent-3);border:1px solid rgba(139,92,246,.4);border-radius:999px;padding:2px 8px;white-space:nowrap}
 .dir-fit{font-size:13px;color:var(--accent-1);font-family:var(--mono);white-space:nowrap}
+.dir-reco{font-size:11px;color:#0a0f1e;background:linear-gradient(90deg,#fbbf24,#f59e0b);border-radius:999px;padding:2px 8px;font-weight:700;white-space:nowrap}
 .dir-do{font-size:13px;color:var(--text);line-height:1.7;margin-bottom:6px}
 .dir-meta{font-size:12px;color:var(--text-dim);line-height:1.8}
 .dir-meta b{color:var(--text)}
@@ -398,6 +399,7 @@
       var bigDirs = ["aigc","bi","newmedia","ecom","crossborder","coding","energy"];
       if (cityBig && bigDirs.indexOf(d.id) >= 0) s += 8;
       if (!cityBig && (d.id === "health" || d.id === "sales" || d.id === "smartmanu")) s += 4;
+      if (d.id === "aigc" || d.id === "bi") s += 14; // 重点推荐方向（AIGC/BI 大数据）加权
       if ((answers.salary === "s8" || answers.salary === "s1220") && (d.id === "bi" || d.id === "coding" || d.id === "aigc")) s += 6;
       return { d:d, s:s };
     });
@@ -428,7 +430,7 @@
       var card = document.createElement("div");
       card.className = "dir-card";
       var skillsHtml = (x.d.skills||[]).map(function(s){ return "<span class=\"dir-skill\">已有 " + s + "</span>"; }).join("");
-      card.innerHTML = '<div class="dir-head"><span class="dir-name"><span class="e">' + x.d.emoji + '</span> ' + x.d.name + '</span><span class="dir-fit">适配 ' + x.pct + '%</span></div><div class="dir-do">' + x.d.do + '</div><div class="dir-meta"><b>薪资：</b>' + x.d.salary + '　<b>门槛：</b>' + x.d.level + '　<b>热度：</b>' + x.d.hot + '</div>' + (skillsHtml ? '<div style="margin-top:6px">' + skillsHtml + '</div>' : '') + '<div class="dir-why">✅ 推荐理由：' + whyReason(x.d) + '</div><a class="dir-detail" href="direction.html?id=' + x.d.id + '">查看完整解读 →</a>';
+      card.innerHTML = '<div class="dir-head"><span class="dir-name"><span class="e">' + x.d.emoji + '</span> ' + x.d.name + '</span>' + (x.d.id==="aigc"||x.d.id==="bi" ? '<span class="dir-reco">⭐ 重点推荐</span>' : '') + '<span class="dir-fit">适配 ' + x.pct + '%</span></div><div class="dir-do">' + x.d.do + '</div><div class="dir-meta"><b>薪资：</b>' + x.d.salary + '　<b>门槛：</b>' + x.d.level + '　<b>热度：</b>' + x.d.hot + '</div>' + (skillsHtml ? '<div style="margin-top:6px">' + skillsHtml + '</div>' : '') + '<div class="dir-why">✅ 推荐理由：' + whyReason(x.d) + '</div><a class="dir-detail" href="direction.html?id=' + x.d.id + '">查看完整解读 →</a>';
       list.appendChild(card);
     });
 
