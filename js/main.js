@@ -60,34 +60,36 @@
   const toggle = document.getElementById('navToggle');
   const links = document.getElementById('navLinks');
 
-  const onScrollNav = () => nav.classList.toggle('scrolled', window.scrollY > 10);
+  const onScrollNav = () => { if (nav) nav.classList.toggle('scrolled', window.scrollY > 10); };
   window.addEventListener('scroll', onScrollNav, { passive: true });
   onScrollNav();
 
-  toggle.addEventListener('click', () => {
-    const open = links.classList.toggle('open');
-    toggle.classList.toggle('open', open);
-    toggle.setAttribute('aria-expanded', open);
-  });
+  if (toggle && links) {
+    toggle.addEventListener('click', () => {
+      const open = links.classList.toggle('open');
+      toggle.classList.toggle('open', open);
+      toggle.setAttribute('aria-expanded', open);
+    });
 
-  links.querySelectorAll('a').forEach((a) =>
-    a.addEventListener('click', () => {
-      links.classList.remove('open');
-      toggle.classList.remove('open');
-      toggle.setAttribute('aria-expanded', 'false');
-    })
-  );
+    links.querySelectorAll('a').forEach((a) =>
+      a.addEventListener('click', () => {
+        links.classList.remove('open');
+        toggle.classList.remove('open');
+        toggle.setAttribute('aria-expanded', 'false');
+      })
+    );
 
-  const sections = [...document.querySelectorAll('main section[id]')];
-  const navLinks = [...links.querySelectorAll('a')];
-  const onScrollActive = () => {
-    const pos = window.scrollY + 120;
-    let current = sections[0] && sections[0].id;
-    sections.forEach((s) => { if (pos >= s.offsetTop) current = s.id; });
-    navLinks.forEach((l) => l.classList.toggle('active', l.getAttribute('href') === '#' + current));
-  };
-  window.addEventListener('scroll', onScrollActive, { passive: true });
-  onScrollActive();
+    const sections = [...document.querySelectorAll('main section[id]')];
+    const navLinks = [...links.querySelectorAll('a')];
+    const onScrollActive = () => {
+      const pos = window.scrollY + 120;
+      let current = sections[0] && sections[0].id;
+      sections.forEach((s) => { if (pos >= s.offsetTop) current = s.id; });
+      navLinks.forEach((l) => l.classList.toggle('active', l.getAttribute('href') === '#' + current));
+    };
+    window.addEventListener('scroll', onScrollActive, { passive: true });
+    onScrollActive();
+  }
 })();
 
 /* ============ 滚动显现动画 ============ */
