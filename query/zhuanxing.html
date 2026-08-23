@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>转行适配测评 · 快找Z哥 &amp; 大伟</title>
+<link rel="stylesheet" href="../css/style.css" />
+<style>
+.wrap{width:min(760px,92%);margin:0 auto;padding:40px 0 80px}
+.progress{display:flex;align-items:center;gap:12px;margin-bottom:28px}
+.progress .bar{flex:1;height:6px;background:rgba(255,255,255,.08);border-radius:999px;overflow:hidden}
+.progress .bar i{display:block;height:100%;width:0%;background:linear-gradient(90deg,var(--accent-1),var(--accent-2));border-radius:999px;transition:width .4s}
+.progress .num{font-size:13px;color:var(--text-dim);font-family:var(--mono)}
+.quiz{min-height:340px}
+.q-title{font-size:22px;margin-bottom:6px}
+.q-sub{color:var(--text-dim);font-size:14px;margin-bottom:22px}
+.opts{display:flex;flex-direction:column;gap:12px}
+.opt{display:block;width:100%;text-align:left;background:var(--card);border:1px solid var(--card-border);border-radius:14px;padding:16px 18px;color:var(--text);font-size:15px;cursor:pointer;transition:border-color .25s,background .25s,transform .2s}
+.opt:hover{border-color:rgba(34,211,238,.45);transform:translateX(4px)}
+.opt.sel{border-color:var(--accent-1);background:rgba(34,211,238,.08)}
+.opt small{display:block;color:var(--text-dim);font-size:12px;margin-top:4px}
+.opt.dream{border-color:rgba(139,92,246,.5);background:linear-gradient(135deg,rgba(139,92,246,.12),rgba(34,211,238,.06))}
+.opt.dream small{color:var(--accent-3)}
+.chips{display:flex;flex-wrap:wrap;gap:10px}
+.chip{border:1px solid var(--card-border);background:var(--card);border-radius:999px;padding:10px 18px;font-size:14px;color:var(--text);cursor:pointer;transition:all .2s}
+.chip.sel{border-color:var(--accent-1);background:rgba(34,211,238,.1);color:var(--accent-1)}
+.search-box{position:relative;margin-bottom:14px}
+.search-box input{width:100%;background:rgba(255,255,255,.04);border:1px solid var(--card-border);border-radius:12px;padding:14px 16px;color:var(--text);font-size:15px;outline:none}
+.search-box input:focus{border-color:rgba(34,211,238,.5)}
+.dropdown{position:absolute;top:calc(100% + 6px);left:0;right:0;background:#0d1426;border:1px solid var(--card-border);border-radius:12px;max-height:220px;overflow:auto;z-index:20;display:none}
+.dropdown.show{display:block}
+.dropdown div{padding:11px 16px;font-size:14px;cursor:pointer;border-bottom:1px solid rgba(255,255,255,.04)}
+.dropdown div:hover,.dropdown div.sel{background:rgba(34,211,238,.08);color:var(--accent-1)}
+.actions{display:flex;justify-content:space-between;margin-top:26px}
+.btn-ghost2{background:transparent;border:1px solid var(--card-border);color:var(--text-dim);border-radius:12px;padding:12px 22px;cursor:pointer;font-size:14px}
+.btn-ghost2:hover{color:var(--text);border-color:rgba(255,255,255,.3)}
+.btn-next{background:linear-gradient(135deg,var(--accent-1),var(--accent-2));border:none;border-radius:12px;color:#0a0f1e;font-weight:700;padding:12px 30px;cursor:pointer;font-size:15px;opacity:.55}
+.btn-next:not(:disabled){opacity:1}
+.btn-next:disabled{cursor:not-allowed}
+.loading{text-align:center;padding:80px 0}
+.loading .ring{width:56px;height:56px;border:3px solid rgba(34,211,238,.15);border-top-color:var(--accent-1);border-radius:50%;margin:0 auto 20px;animation:spin 1s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+.loading p{color:var(--text-dim);font-size:15px}
+.result-card{background:var(--card);border:1px solid var(--card-border);border-radius:16px;padding:22px;margin-bottom:16px}
+.result-card h4{font-size:16px;margin-bottom:12px;color:var(--accent-1)}
+.stars{font-size:26px;letter-spacing:4px;margin-bottom:8px}
+.muted{color:var(--text-dim);font-size:13px;line-height:1.8}
+.hidden{display:none}
+.foot-note{text-align:center;color:var(--text-dim);font-size:13px;margin-top:30px}
+.modal-mask{position:fixed;inset:0;background:rgba(3,6,15,.78);backdrop-filter:blur(6px);z-index:100;display:flex;align-items:center;justify-content:center;padding:20px}.modal-mask.hidden{display:none}
+.modal{background:linear-gradient(160deg,#0d1426,#0a0f1e);border:1px solid rgba(255,255,255,.12);border-radius:20px;max-width:400px;width:100%;padding:30px 26px;text-align:center;box-shadow:var(--shadow)}
+.modal .emoji{font-size:44px;margin-bottom:12px}
+.modal h3{font-size:20px;margin-bottom:10px;line-height:1.5}
+.modal p{color:var(--text-dim);font-size:14px;line-height:1.8;margin-bottom:22px}
+.modal .mbtns{display:flex;flex-direction:column;gap:10px}
+.modal .mbtn{border:none;border-radius:12px;padding:13px;font-size:15px;cursor:pointer;font-weight:600}
+.modal .mbtn.primary{background:linear-gradient(135deg,var(--accent-1),var(--accent-2));color:#0a0f1e}
+.modal .mbtn.ghost{background:transparent;border:1px solid var(--card-border);color:var(--text)}
+.modal .mbtn.purple{background:linear-gradient(135deg,var(--accent-3),var(--accent-1));color:#0a0f1e}
+.gap-line{background:rgba(34,211,238,.07);border:1px solid rgba(34,211,238,.25);border-radius:12px;padding:12px 16px;margin-bottom:12px;font-size:14px;color:var(--accent-1);line-height:1.7}
+.effort-line{background:rgba(139,92,246,.08);border:1px solid rgba(139,92,246,.3);border-radius:12px;padding:12px 16px;font-size:14px;color:#c4b5fd;line-height:1.7}
+.ability-bars{display:flex;flex-direction:column;gap:10px}
+.ability-row{display:flex;align-items:center;gap:12px;font-size:13px}
+.ability-row .lb{width:64px;color:var(--text-dim);flex-shrink:0}
+.ability-row .track{flex:1;height:8px;background:rgba(255,255,255,.07);border-radius:999px;overflow:hidden}
+.ability-row .track i{display:block;height:100%;background:linear-gradient(90deg,var(--accent-1),var(--accent-2));border-radius:999px}
+.ability-row .val{width:30px;text-align:right;color:var(--accent-1);font-family:var(--mono);font-size:12px}
+.dir-card{background:var(--card);border:1px solid var(--card-border);border-radius:14px;padding:16px 18px;margin-bottom:12px}
+.dir-head{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:6px}
+.dir-name{font-size:15px;font-weight:600}
+.dir-name .e{font-size:18px}
+.dir-hot{font-size:11px;color:var(--accent-3);border:1px solid rgba(139,92,246,.4);border-radius:999px;padding:2px 8px;white-space:nowrap}
+.dir-fit{font-size:13px;color:var(--accent-1);font-family:var(--mono);white-space:nowrap}
+.dir-do{font-size:13px;color:var(--text);line-height:1.7;margin-bottom:6px}
+.dir-meta{font-size:12px;color:var(--text-dim);line-height:1.8}
+.dir-meta b{color:var(--text)}
+.dir-skill{display:inline-block;font-size:11px;color:var(--accent-2);border:1px solid rgba(59,130,246,.35);border-radius:999px;padding:1px 8px;margin:2px 4px 0 0}
+.dir-why{font-size:12px;color:#67e8f9;line-height:1.7;margin-top:8px;padding:8px 10px;background:rgba(34,211,238,.06);border-radius:10px}
+.dir-detail{display:inline-block;margin-top:10px;font-size:13px;color:var(--accent-1);background:none;border:none;cursor:pointer;padding:0;font-weight:600}
+.dir-detail:hover{text-decoration:underline}
+.cta-box{background:linear-gradient(135deg,rgba(34,211,238,.1),rgba(139,92,246,.1));border:1px solid rgba(139,92,246,.35);border-radius:16px;padding:22px;text-align:center;margin-bottom:16px}
+.cta-box h4{font-size:17px;margin-bottom:8px;color:var(--text)}
+.cta-box p{font-size:13px;color:var(--text-dim);margin-bottom:16px}
+.cta-box .mbtn{width:100%;margin-bottom:10px}
+.share-line{font-size:12px;color:var(--text-dim);text-align:center;margin-top:10px}
+.dir-modal{max-width:560px;text-align:left;padding:30px 28px}
+.dir-modal .dm-head{display:flex;align-items:center;gap:10px;margin-bottom:6px}
+.dir-modal .dm-head h3{font-size:22px;margin:0;flex:1}
+.dir-modal .dm-close{background:none;border:1px solid var(--card-border);color:var(--text-dim);width:32px;height:32px;border-radius:8px;font-size:16px;cursor:pointer;line-height:1}
+.dir-modal .dm-close:hover{color:var(--text);border-color:rgba(255,255,255,.3)}
+.dir-modal .dm-hot{font-size:12px;color:var(--accent-3);border:1px solid rgba(139,92,246,.4);border-radius:999px;padding:2px 10px}
+.dir-modal .dm-sec{margin-top:16px}
+.dir-modal .dm-sec h5{font-size:14px;color:var(--accent-1);margin-bottom:6px}
+.dir-modal .dm-sec p{font-size:13px;color:var(--text-dim);line-height:1.8;margin:0}
+.dir-modal .dm-cta{margin-top:22px}
+</style>
+</head><body>
+<nav class="nav"><div class="nav-inner container">
+  <a class="brand" href="../index.html">快找Z哥 &amp; 大伟</a>
+  <div class="nav-links">
+    <a class="nav-link" href="../index.html">首页</a>
+    <a class="nav-link" href="tool.html">查去向</a>
+    <a class="nav-link active" href="zhuanxing.html">转行测评</a>
+    <a class="nav-link" href="weekly.html">本周更新</a>
+  </div>
+</div></nav>
+<canvas id="particles"></canvas>
+
+<div class="wrap">
+  <div class="progress hidden" id="progress"><div class="bar"><i id="barFill"></i></div><div class="num" id="stepNum"></div></div>
+
+  <div id="screenStart">
+    <div class="page-badge" style="display:inline-block;font-size:13px;color:var(--accent-1);border:1px solid rgba(34,211,238,.4);border-radius:999px;padding:4px 14px;margin-bottom:18px">转行适配测评</div>
+    <h1 style="font-size:32px;margin-bottom:12px">查我该不该转行</h1>
+    <p style="color:var(--text-dim);font-size:15px;line-height:1.9;margin-bottom:30px">12 个问题（全程点选，不用填表）：先看你的转行适配，再看你的能力画像，最后匹配 2026 最热门的转行方向。测评结果免费开放。</p>
+    <button class="btn-next" id="btnStart" style="padding:14px 44px;font-size:16px">开始测评 →</button>
+  </div>
+
+  <div id="screenQuiz" class="hidden">
+    <div class="quiz" id="quizBody"></div>
+    <div class="actions">
+      <button class="btn-ghost2" id="btnBack" style="visibility:hidden">← 上一步</button>
+      <button class="btn-next" id="btnNext" disabled>下一步 →</button>
+    </div>
+  </div>
+
+  <div id="screenLoading" class="hidden loading"><div class="ring"></div><p>正在生成你的转行适配报告…</p></div>
+
+  <div id="screenResult" class="hidden">
+    <div class="page-badge" style="display:inline-block;font-size:13px;color:var(--accent-1);border:1px solid rgba(34,211,238,.4);border-radius:999px;padding:4px 14px;margin-bottom:18px">转行适配测评</div>
+    <h1 style="font-size:26px;margin-bottom:6px" id="resultTitle"></h1>
+    <p style="color:var(--text-dim);font-size:13px;margin-bottom:20px">以下为演示效果，真实报告建设中</p>
+    <div class="result-card"><h4>📊 你的薪资差距</h4><div class="gap-line" id="gapLine"></div><div class="effort-line" id="effortLine"></div></div>
+    <div class="result-card"><h4>🎯 转行适配评估</h4><div class="stars" id="stars"></div><p class="muted" id="assessText"></p></div>
+    <div class="result-card"><h4>🧠 你的能力画像</h4><div class="ability-bars" id="abilityBars"></div></div>
+    <div class="result-card"><h4>🧭 2026 最热门转行方向（按你的适配度排序）</h4><div id="dirList"></div><button class="btn-ghost2" id="btnAllDirs" style="display:block;margin:14px auto 0">查看全部 10 个方向</button></div>
+    <div class="cta-box">
+      <h4>✨ 想了解更多？</h4>
+      <p>让 Z哥&大伟 帮你把「适配方向」变成「可落地的转行方案」</p>
+      <button class="mbtn purple" id="btnCta1v1">📞 预约 1v1 规划</button>
+      <button class="mbtn ghost" id="btnSaveCard">🖼️ 生成结果卡 · 保存/分享</button>
+      <button class="mbtn ghost" id="btnCopyText">📋 复制分享文案</button>
+      <div class="share-line" id="copyTip"></div>
+    </div>
+    <div class="result-card"><h4>🛤️ 转行路径</h4><p class="muted">从现在到入行的时间线 · 学习路线 · 真实案例 —— 建设中</p></div>
+    <button class="btn-ghost2" id="btnRetry" style="display:block;margin:0 auto">重新测评</button>
+    <p class="foot-note">测评结果仅供参考，转行决策请结合自身情况</p>
+  </div>
+</div>
+
+<div class="modal-mask hidden" id="modalMask">
+  <div class="modal">
+    <div class="emoji" id="modalEmoji">😏</div>
+    <h3 id="modalTitle"></h3>
+    <p id="modalDesc"></p>
+    <div class="mbtns" id="modalBtns"></div>
+  </div>
+</div>
+
+<div class="modal-mask hidden" id="dirModalMask">
+  <div class="modal dir-modal">
+    <div class="dm-head"><h3 id="dmTitle"></h3><button class="dm-close" id="dmClose">✕</button><span class="dm-hot" id="dmHot"></span></div>
+    <p class="muted" id="dmFit" style="font-size:12px"></p>
+    <div class="dm-sec"><h5>💼 做什么</h5><p id="dmDo"></p></div>
+    <div class="dm-sec"><h5>💰 薪资参考</h5><p id="dmSalary"></p></div>
+    <div class="dm-sec"><h5>🚪 入行门槛</h5><p id="dmLevel"></p></div>
+    <div class="dm-sec"><h5>🧭 学习路径</h5><p>内容建设中（后续补充：课程/自学路线/时间线）</p></div>
+    <div class="dm-sec"><h5>📖 真实案例</h5><p>内容建设中（后续补充：转行案例与薪资变化）</p></div>
+    <div class="dm-cta"><button class="mbtn purple" style="width:100%" id="dmCta">📞 预约 1v1 了解这个方向</button></div>
+  </div>
+</div>
+
+<footer class="footer"><div class="container footer-inner"><p>快找Z哥 &amp; 大伟 · 职业规划查询 · 信息免费开放</p></div></footer>
+
+<script src="directions.js?v=20260823"></script>
+<script>(function(){
+  var COMMON_MAJORS = ["计算机科学与技术","软件工程","会计学","财务管理","汉语言文学","英语","市场营销","电子商务","机械设计制造及其自动化","电气工程及其自动化","土木工程","工商管理","金融学","国际经济与贸易","护理学","小学教育","学前教育","新闻传播学","法学","行政管理","人力资源管理","物流管理","旅游管理","视觉传达设计","环境设计","生物技术","化学工程与工艺","自动化","电子信息工程","通信工程","临床医学","药学","数据科学与大数据技术","人工智能","物联网工程"];
+  var COMMON_JOBS = ["行政文员","人事专员","销售","客服","出纳","会计","运营","客服主管","质检员","生产管理","技术员","教师","护士","编辑","设计助理"];
+  var ABILITY_DIMS = { logic:"逻辑分析", express:"沟通表达", create:"创意内容", tech:"动手技术", exec:"执行抗压", detail:"细心耐心" };
+  var questions = [
+    { id:"identity", t:"你现在是？", sub:"不同处境，测评解读不同", single:true, opts:[
+      { v:"fresh", l:"🎓 应届毕业生", d:"刚毕业 / 即将毕业" },
+      { v:"worker", l:"💼 职场人", d:"工作太累 / 工资太低 / 想转行" } ] },
+    { id:"level", t:"你的学历是？", sub:"影响转行目标的门槛评估", single:true, opts:[
+      { v:"zk", l:"大专", d:"" }, { v:"bk", l:"本科", d:"" }, { v:"ss", l:"硕士", d:"" }, { v:"bs", l:"博士", d:"" } ] },
+    { id:"major", t:"你的专业 / 当前岗位是？", sub:"输入关键词，从列表中选择（也可直接选常见项）", search:true },
+    { id:"pain", t:"你最想解决什么问题？（可多选）", sub:"让结果更贴合你的现状", multi:true, opts:[
+      { v:"low", l:"💰 工资太低" }, { v:"tired", l:"😮‍💨 太累、没前途" }, { v:"lost", l:"🧭 没方向、很迷茫" }, { v:"hate", l:"🙅 不喜欢本行" }, { v:"down", l:"📉 行业在走下坡路" } ] },
+    { id:"cur_salary", t:"你现在的月薪大概是？", sub:"如实选，才知道差距有多大", single:true, opts:[
+      { v:"c3", l:"3k 以下" }, { v:"c35", l:"3-5k" }, { v:"c58", l:"5-8k" }, { v:"c815", l:"8-15k" }, { v:"c15", l:"15k 以上" } ] },
+    { id:"salary", t:"你期望转行后的薪资？", sub:"选得真实点，才有参考价值 😏", single:true, opts:[
+      { v:"s46", l:"4-6k", d:"" }, { v:"s68", l:"6-8k", d:"" }, { v:"s8", l:"8-12k", d:"" }, { v:"s1220", l:"12-20k", d:"" }, { v:"dream", l:"我想挣100w！", d:"", dream:true } ] },
+    { id:"effort", t:"你觉得工资低，是因为自己不够努力吗？", sub:"别急着回答，想三秒", hot:true, single:true, opts:[
+      { v:"yes", l:"是，确实不够努力" }, { v:"no", l:"不是，是行业和平台的问题" }, { v:"mid", l:"不好说，都有点" } ] },
+    { id:"city", t:"你愿意为了转行去大城市发展吗？", sub:"北京 / 深圳等一线城市，机会和薪资完全不同", single:true, opts:[
+      { v:"y", l:"愿意，北京/深圳都行", d:"" }, { v:"maybe", l:"可以考虑一线城市", d:"" }, { v:"n", l:"更想留在家乡附近", d:"" } ] },
+    { id:"base", t:"你的基础怎么样？", sub:"数学 / 逻辑 / 计算机基础（如实选）", single:true, opts:[
+      { v:"b0", l:"0 基础", d:"基本没接触过" }, { v:"b1", l:"有一点", d:"会 Excel / 用过编程" }, { v:"b2", l:"还不错", d:"理工科 / 学过编程" } ] },
+    { id:"timegoal", t:"你希望多久内转行成功？", sub:"目标越清晰，路径越好定", single:true, opts:[
+      { v:"g3", l:"3 个月内" }, { v:"g6", l:"半年内" }, { v:"g12", l:"一年内" }, { v:"gslow", l:"走一步看一步" } ] },
+    { id:"ability", t:"你更擅长做哪类事？（可多选）", sub:"能力测评 · 决定你适合往哪转", multi:true, opts:[
+      { v:"logic", l:"📈 数据分析、逻辑推理" }, { v:"express", l:"🗣️ 沟通表达、说服人" }, { v:"create", l:"🎨 创意内容、写/剪/做图" }, { v:"tech", l:"🔧 动手实操、爱捣鼓技术" }, { v:"exec", l:"⚡ 执行落地、扛得住压" }, { v:"detail", l:"🔍 细心耐心、坐得住" } ] },
+    { id:"skills", t:"你现在会哪些技能？（可多选）", sub:"能力测评 · 已有技能是转行捷径", multi:true, opts:[
+      { v:"excel", l:"📊 Excel / 办公软件" }, { v:"sql", l:"🗄️ SQL / 数据库" }, { v:"code", l:"💻 Python / 编程" }, { v:"media", l:"🎬 剪辑 / 设计" }, { v:"eng", l:"🌐 英语不错" }, { v:"sell", l:"🤝 销售 / 沟通强" }, { v:"none", l:"😅 都还没怎么接触" } ] }
+  ];
+  var steps = ["identity","level","major","pain","cur_salary","salary","effort","city","base","timegoal","ability","skills"];
+  var stepIdx = 0, answers = {}, multiSel = {};
+  var quizBody = document.getElementById("quizBody");
+  var modalMask = document.getElementById("modalMask");
+
+  function showModal(emoji, title, desc, btns){
+    document.getElementById("modalEmoji").textContent = emoji;
+    document.getElementById("modalTitle").textContent = title;
+    document.getElementById("modalDesc").textContent = desc;
+    var box = document.getElementById("modalBtns");
+    box.innerHTML = "";
+    btns.forEach(function(b){
+      var el = document.createElement("button");
+      el.className = "mbtn " + (b.kind||"ghost");
+      el.textContent = b.label;
+      el.addEventListener("click", function(){ hideModal(); b.fn && b.fn(); });
+      box.appendChild(el);
+    });
+    modalMask.classList.remove("hidden");
+  }
+  function hideModal(){ modalMask.classList.add("hidden"); }
+
+  function renderStep(){
+    var q = questions.find(function(x){ return x.id === steps[stepIdx]; });
+    var idx = stepIdx + 1, total = steps.length;
+    document.getElementById("stepNum").textContent = idx + " / " + total;
+    document.getElementById("barFill").style.width = (idx/total*100) + "%";
+    document.getElementById("btnBack").style.visibility = stepIdx === 0 ? "hidden" : "visible";
+    var html = "<h2 class=\"q-title\">" + q.t + "</h2><p class=\"q-sub\">" + (q.sub||"") + "</p>";
+    if (q.search) {
+      html += "<div class=\"search-box\"><input id=\"searchInput\" placeholder=\"输入关键词，如：会计 / 电商\" /><div class=\"dropdown\" id=\"dropdown\"></div></div>";
+      html += "<div class=\"chips\" id=\"quickChips\"></div>";
+    } else if (q.multi) {
+      html += "<div class=\"chips\" id=\"chipWrap\">" + q.opts.map(function(o){ return "<span class=\"chip\" data-v=\""+o.v+"\">"+o.l+"</span>"; }).join("") + "</div>";
+    } else {
+      html += "<div class=\"opts\">" + q.opts.map(function(o){
+        return "<button class=\"opt"+(o.dream?" dream":(o.hot?" hot":""))+"\" data-v=\""+o.v+"\">"+o.l+(o.d?"<small>"+o.d+"</small>":"")+"</button>";
+      }).join("") + "</div>";
+    }
+    quizBody.innerHTML = html;
+    if (q.search) bindSearch(q);
+    else if (q.multi) bindMulti(q);
+    else bindSingle(q);
+    if (q.single) {
+      quizBody.querySelectorAll(".opt").forEach(function(x){ if (x.dataset.v === answers[q.id]) x.classList.add("sel"); });
+    } else if (q.multi) {
+      quizBody.querySelectorAll(".chip").forEach(function(x){ if ((multiSel[q.id]||[]).indexOf(x.dataset.v) >= 0) x.classList.add("sel"); });
+    }
+    document.getElementById("btnNext").disabled = !hasAnswer(q);
+  }
+  function hasAnswer(q){
+    if (q.search) return !!answers.major;
+    if (q.multi) return multiSel[q.id] && multiSel[q.id].length > 0;
+    return !!answers[q.id];
+  }
+  function bindSingle(q){
+    quizBody.querySelectorAll(".opt").forEach(function(b){
+      b.addEventListener("click", function(){
+        var v = b.dataset.v;
+        if (q.id === "salary" && v === "s46") {
+          showModal("😏", "你没有梦想，别找Z哥&大伟", "（开个玩笑）选薪资不代表选人生。换个期望，说不定更适合你？", [
+            { label:"呜呜，我换个期望", kind:"primary", fn:function(){} }
+          ]);
+          return;
+        }
+        if (q.id === "salary" && v === "dream") {
+          showModal("🚀", "就怕你不敢想，快找Z哥&大伟", "有梦想的人，最值得认真规划。测评继续，后面给你看方向。", [
+            { label:"继续测评", kind:"purple", fn:function(){ pick(b, q); } },
+            { label:"先预约 1v1 聊聊", kind:"ghost", fn:function(){ window.location.href = "mailto:425987691@qq.com?subject=预约1v1职业规划"; } }
+          ]);
+          return;
+        }
+        pick(b, q);
+      });
+    });
+  }
+  function pick(b, q){
+    quizBody.querySelectorAll(".opt").forEach(function(x){ x.classList.remove("sel"); });
+    b.classList.add("sel");
+    answers[q.id] = b.dataset.v;
+    document.getElementById("btnNext").disabled = false;
+  }
+  function bindMulti(q){
+    var wrap = document.getElementById("chipWrap");
+    multiSel[q.id] = multiSel[q.id] || [];
+    wrap.querySelectorAll(".chip").forEach(function(c){
+      c.addEventListener("click", function(){
+        var v = c.dataset.v, arr = multiSel[q.id];
+        if (arr.indexOf(v) >= 0){ arr.splice(arr.indexOf(v),1); c.classList.remove("sel"); }
+        else { arr.push(v); c.classList.add("sel"); }
+        document.getElementById("btnNext").disabled = arr.length === 0;
+      });
+    });
+  }
+  function bindSearch(q){
+    var input = document.getElementById("searchInput"), dd = document.getElementById("dropdown"), quick = document.getElementById("quickChips");
+    var pool = COMMON_MAJORS.concat(COMMON_JOBS);
+    function render(list){
+      dd.innerHTML = "";
+      list.slice(0,8).forEach(function(name){
+        var d = document.createElement("div");
+        d.textContent = name;
+        d.addEventListener("click", function(){ pick(name); });
+        dd.appendChild(d);
+      });
+      dd.classList.toggle("show", list.length > 0);
+    }
+    function pick(name){
+      answers.major = name;
+      input.value = name;
+      dd.classList.remove("show");
+      quick.innerHTML = "";
+      var chip = document.createElement("span");
+      chip.className = "chip sel";
+      chip.textContent = name + " ✕";
+      chip.style.cursor = "pointer";
+      chip.addEventListener("click", function(){ answers.major = null; input.value=""; quick.innerHTML=""; document.getElementById("btnNext").disabled = true; });
+      quick.appendChild(chip);
+      document.getElementById("btnNext").disabled = false;
+    }
+    input.addEventListener("input", function(){
+      var kw = input.value.trim();
+      if (!kw){ dd.classList.remove("show"); return; }
+      render(pool.filter(function(n){ return n.indexOf(kw) >= 0; }));
+    });
+    input.addEventListener("focus", function(){
+      var kw = input.value.trim();
+      if (kw) render(pool.filter(function(n){ return n.indexOf(kw) >= 0; }));
+    });
+    document.addEventListener("click", function(e){ if (!e.target.closest(".search-box")) dd.classList.remove("show"); });
+    pool.slice(0,6).forEach(function(name){
+      var c = document.createElement("span");
+      c.className = "chip";
+      c.textContent = name;
+      c.addEventListener("click", function(){ pick(name); });
+      quick.appendChild(c);
+    });
+  }
+  function next(){
+    if (stepIdx < steps.length - 1){ stepIdx++; renderStep(); }
+    else { showLoading(); }
+  }
+  function showLoading(){
+    document.getElementById("screenQuiz").classList.add("hidden");
+    document.getElementById("screenLoading").classList.remove("hidden");
+    setTimeout(showResult, 1600);
+  }
+  function salaryLabel(v){
+    var map = { c3:"3k以下", c35:"3-5k", c58:"5-8k", c815:"8-15k", c15:"15k以上", s46:"4-6k", s68:"6-8k", s8:"8-12k", s1220:"12-20k", dream:"100w+" };
+    return map[v] || v;
+  }
+  function abilityProfile(){
+    var p = { logic:1, express:1, create:1, tech:1, exec:1, detail:1 };
+    (multiSel.ability||[]).forEach(function(v){ p[v] += 2; });
+    (multiSel.skills||[]).forEach(function(s){
+      if (s === "excel" || s === "sql") p.logic += 1;
+      if (s === "code") { p.tech += 1; p.logic += 1; }
+      if (s === "media") { p.create += 1; p.tech += 1; }
+      if (s === "eng") p.express += 1;
+      if (s === "sell") { p.express += 1; p.exec += 1; }
+      if (s === "none") { p.detail += 1; }
+    });
+    if (answers.base === "b2") { p.logic += 1; p.tech += 1; }
+    if (answers.base === "b1") { p.logic += 1; }
+    return p;
+  }
+  function skillTags(){
+    var map = { excel:"Excel", sql:"SQL或数据库", code:"Python或编程", media:"剪辑设计", eng:"英语", sell:"销售沟通", none:"" };
+    return (multiSel.skills||[]).map(function(s){ return map[s]; }).filter(Boolean);
+  }
+  function whyReason(d){
+    var parts = [];
+    var skills = skillTags();
+    if (skills.length) parts.push("已具备 " + skills.slice(0,2).join("、") + " 技能");
+    var p = abilityProfile();
+    var topKeys = Object.keys(ABILITY_DIMS).sort(function(a,b){ return p[b]-p[a]; });
+    var top = topKeys[0], top2 = topKeys[1];
+    if (p[top] >= 3) parts.push(ABILITY_DIMS[top] + "型");
+    if (p[top2] >= 3) parts.push(ABILITY_DIMS[top2] + "型");
+    if (answers.city === "y") parts.push("愿意去北京/深圳发展");
+    if (answers.salary === "dream") parts.push("目标感强");
+    return parts.length ? parts.join(" · ") : "你的基础与这个方向较为匹配";
+  }
+  function matchDirections(){
+    var p = abilityProfile(), skills = skillTags();
+    var cityBig = answers.city === "y" || answers.city === "maybe";
+    var level = answers.level || "bk";
+    var scored = (window.ZHUANXING_DIRECTIONS||[]).map(function(d){
+      var s = 0;
+      Object.keys(d.fit).forEach(function(k){ s += p[k] * d.fit[k]; });
+      skills.forEach(function(sk){ if (d.skills && d.skills.indexOf(sk) >= 0) s += 12; });
+      if (level === "zk" && /本科/.test(d.level)) s -= 10;
+      var bigDirs = ["aigc","bi","newmedia","ecom","crossborder","coding","energy"];
+      if (cityBig && bigDirs.indexOf(d.id) >= 0) s += 8;
+      if (!cityBig && (d.id === "health" || d.id === "sales" || d.id === "smartmanu")) s += 4;
+      if ((answers.salary === "s8" || answers.salary === "s1220") && (d.id === "bi" || d.id === "coding" || d.id === "aigc")) s += 6;
+      return { d:d, s:s };
+    });
+    scored.sort(function(a,b){ return b.s - a.s; });
+    var max = scored[0].s, min = scored[scored.length-1].s;
+    var range = Math.max(1, max - min);
+    scored.forEach(function(x){ x.pct = Math.round(55 + (x.s - min) / range * 40); });
+    return scored;
+  }
+  function renderAbilityBars(){
+    var p = abilityProfile();
+    var box = document.getElementById("abilityBars");
+    box.innerHTML = "";
+    Object.keys(ABILITY_DIMS).forEach(function(k){
+      var v = Math.min(5, p[k]);
+      var row = document.createElement("div");
+      row.className = "ability-row";
+      row.innerHTML = "<span class=\"lb\">" + ABILITY_DIMS[k] + "</span><span class=\"track\"><i style=\"width:" + (v/5*100) + "%\"></i></span><span class=\"val\">" + v + "/5</span>";
+      box.appendChild(row);
+    });
+  }
+  function renderDirs(showAll){
+    var list = document.getElementById("dirList");
+    var scored = matchDirections();
+    var shown = showAll ? scored : scored.slice(0,5);
+    list.innerHTML = "";
+    shown.forEach(function(x){
+      var card = document.createElement("div");
+      card.className = "dir-card";
+      var skillsHtml = (x.d.skills||[]).map(function(s){ return "<span class=\"dir-skill\">已有 " + s + "</span>"; }).join("");
+      card.innerHTML = '<div class="dir-head"><span class="dir-name"><span class="e">' + x.d.emoji + '</span> ' + x.d.name + '</span><span class="dir-fit">适配 ' + x.pct + '%</span></div><div class="dir-do">' + x.d.do + '</div><div class="dir-meta"><b>薪资：</b>' + x.d.salary + '　<b>门槛：</b>' + x.d.level + '　<b>热度：</b>' + x.d.hot + '</div>' + (skillsHtml ? '<div style="margin-top:6px">' + skillsHtml + '</div>' : '') + '<div class="dir-why">✅ 推荐理由：' + whyReason(x.d) + '</div><a class="dir-detail" href="direction.html?id=' + x.d.id + '">查看完整解读 →</a>';
+      list.appendChild(card);
+    });
+
+    document.getElementById("btnAllDirs").classList.toggle("hidden", showAll);
+  }
+  function openDirDetail(id){
+    var d = (window.ZHUANXING_DIRECTIONS||[]).find(function(x){ return x.id === id; });
+    if (!d) return;
+    var scored = matchDirections().find(function(x){ return x.d.id === id; });
+    document.getElementById("dmTitle").textContent = d.emoji + " " + d.name;
+    document.getElementById("dmHot").textContent = d.hot;
+    document.getElementById("dmFit").textContent = scored ? "你的适配度 " + scored.pct + "%" : "";
+    document.getElementById("dmDo").textContent = d.do;
+    document.getElementById("dmSalary").textContent = d.salary + "（参考口径，以实际 offer 为准）";
+    document.getElementById("dmLevel").textContent = d.level + "；" + d.desc;
+    document.getElementById("dirModalMask").classList.remove("hidden");
+  }
+  function effortResponse(){
+    if (answers.effort === "yes") return "你说得对，努力是地基——但同一份努力，放在天花板更高的赛道，回报完全不同。";
+    if (answers.effort === "no") return "你说得对，很多时候不是你不努力，是赛道本身就限定了你的天花板。";
+    return "努力和赛道都重要——但换个赛道，往往比在同一条路上加倍努力更有效。";
+  }
+  function shareText(){
+    var scored = matchDirections();
+    var top = scored[0] ? scored[0].d.name : "";
+    return "我的转行适配度 " + (scored[0]?scored[0].pct:"60") + "%，最匹配方向：「" + top + "」。你也来测测该不该转行 → https://wwno0329.github.io/zge-career-site/query/zhuanxing.html";
+  }
+  function buildShareCard(){
+    var cv = document.createElement("canvas");
+    cv.width = 750; cv.height = 1000;
+    var ctx = cv.getContext("2d");
+    var g = ctx.createLinearGradient(0,0,0,1000);
+    g.addColorStop(0,"#0a0f1e"); g.addColorStop(1,"#05070f");
+    ctx.fillStyle = g; ctx.fillRect(0,0,750,1000);
+    ctx.strokeStyle = "rgba(34,211,238,.35)"; ctx.lineWidth = 2;
+    ctx.strokeRect(20,20,710,960);
+    ctx.textAlign = "center";
+    ctx.fillStyle = "#22d3ee"; ctx.font = "bold 30px sans-serif";
+    ctx.fillText("我的转行适配报告", 375, 90);
+    ctx.fillStyle = "#8b96b3"; ctx.font = "20px sans-serif";
+    ctx.fillText((answers.identity==="fresh"?"应届生":"职场人") + " · " + (answers.major||"") , 375, 130);
+    var scored = matchDirections();
+    var top = scored[0];
+    ctx.fillStyle = "#e9eefc"; ctx.font = "bold 64px sans-serif";
+    ctx.fillText(top ? top.pct + "%" : "60%", 375, 260);
+    ctx.fillStyle = "#8b96b3"; ctx.font = "22px sans-serif";
+    ctx.fillText("转行适配度", 375, 300);
+    ctx.fillStyle = "#22d3ee"; ctx.font = "bold 28px sans-serif";
+    ctx.fillText("最匹配方向：", 375, 380);
+    ctx.fillStyle = "#e9eefc"; ctx.font = "bold 34px sans-serif";
+    ctx.fillText(top ? top.d.name : "", 375, 430);
+    var ys = [520, 590, 660];
+    for (var i=0;i<3 && scored[i];i++){
+      ctx.textAlign = "left";
+      ctx.fillStyle = "#8b96b3"; ctx.font = "22px sans-serif";
+      ctx.fillText((i+1) + ". " + scored[i].d.name, 90, ys[i]);
+      ctx.fillStyle = "#67e8f9"; ctx.font = "bold 22px sans-serif";
+      ctx.textAlign = "right";
+      ctx.fillText(scored[i].pct + "%", 660, ys[i]);
+    }
+    ctx.textAlign = "center";
+    ctx.fillStyle = "#5b6b8c"; ctx.font = "20px sans-serif";
+    ctx.fillText("你也来测测该不该转行 →", 375, 870);
+    ctx.fillStyle = "#22d3ee"; ctx.font = "bold 24px sans-serif";
+    ctx.fillText("快找Z哥 & 大伟 · 转行测评", 375, 920);
+    return cv;
+  }
+  function showResult(){
+    document.getElementById("screenLoading").classList.add("hidden");
+    var base = 2;
+    if (answers.base === "b2") base += 1;
+    var stars, tag;
+    if (answers.salary === "dream"){ stars = 5; tag = "· 追梦人"; }
+    else if (answers.salary === "s46"){ stars = Math.max(2, base); tag = "· 务实派"; }
+    else { stars = Math.max(2, Math.min(5, base + 1)); tag = ""; }
+    var starStr = "";
+    for (var i=0;i<stars;i++) starStr += "★";
+    for (var j=stars;j<5;j++) starStr += "☆";
+    document.getElementById("stars").textContent = starStr;
+    document.getElementById("resultTitle").textContent = (answers.identity === "fresh" ? "应届生" : "职场人") + " · " + (answers.major || "你的专业") + " → 转行适配" + tag;
+    var gapLine;
+    if (answers.salary === "dream") gapLine = "你现在 " + salaryLabel(answers.cur_salary) + "，想挣 100w+ —— 有梦想，但中间差的不只是努力，是赛道。";
+    else gapLine = "你现在 " + salaryLabel(answers.cur_salary) + "，期望转行后 " + salaryLabel(answers.salary) + " —— 这就是你的转行动力（演示数据，真实报告建设中）。";
+    document.getElementById("gapLine").innerHTML = gapLine;
+    document.getElementById("effortLine").innerHTML = "💬 " + effortResponse();
+    var reason = "基于你的「" + (answers.major||"专业") + "」背景、" + (answers.base==="b0"?"0 基础":answers.base==="b1"?"有一点基础":"基础不错") + "和期望薪资评估，你的转行适配度约 " + stars*20 + "%。<br/>具体差距分析与推荐方向将在内容上线后展示（演示数据）。";
+    if (answers.salary === "dream") reason = "有梦想就是最好的起点！你的转行适配度 100%（梦想加成）。具体差距分析与推荐方向将在内容上线后展示（演示数据）。";
+    document.getElementById("assessText").innerHTML = reason;
+    renderAbilityBars();
+    renderDirs(false);
+    document.getElementById("btnAllDirs").onclick = function(){ renderDirs(true); };
+    document.getElementById("screenResult").classList.remove("hidden");
+  }
+  document.getElementById("btnStart").addEventListener("click", function(){
+    document.getElementById("screenStart").classList.add("hidden");
+    document.getElementById("screenQuiz").classList.remove("hidden");
+    document.getElementById("progress").classList.remove("hidden");
+    stepIdx = 0;
+    renderStep();
+  });
+  document.getElementById("btnNext").addEventListener("click", next);
+  document.getElementById("btnBack").addEventListener("click", function(){
+    if (stepIdx > 0){ stepIdx--; renderStep(); }
+  });
+  document.getElementById("btnRetry").addEventListener("click", function(){ location.reload(); });
+  modalMask.addEventListener("click", function(e){ if (e.target === modalMask) hideModal(); });
+  document.getElementById("dirModalMask").addEventListener("click", function(e){ if (e.target === this) this.classList.add("hidden"); });
+  document.getElementById("dmClose").addEventListener("click", function(){ document.getElementById("dirModalMask").classList.add("hidden"); });
+  document.getElementById("dmCta").addEventListener("click", function(){ window.location.href = "mailto:425987691@qq.com?subject=预约1v1了解转行方向"; });
+  document.getElementById("btnCta1v1").addEventListener("click", function(){ window.location.href = "mailto:425987691@qq.com?subject=预约1v1职业规划"; });
+  document.getElementById("btnSaveCard").addEventListener("click", function(){
+    var cv = buildShareCard();
+    var a = document.createElement("a");
+    a.href = cv.toDataURL("image/png");
+    a.download = "我的转行适配报告.png";
+    document.getElementById("copyTip").textContent = "结果卡已生成（PNG），正在下载…";
+    document.body.appendChild(a); a.click(); document.body.removeChild(a);
+  });
+  document.getElementById("btnCopyText").addEventListener("click", function(){
+    var txt = shareText();
+    function done(){ document.getElementById("copyTip").textContent = "已复制，去发朋友圈/直播间吧！"; }
+    function fallback(){
+      var ta = document.createElement("textarea");
+      ta.value = txt; document.body.appendChild(ta); ta.select();
+      try { document.execCommand("copy"); done(); } catch(e){ document.getElementById("copyTip").textContent = txt; }
+      document.body.removeChild(ta);
+    }
+    if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(txt).then(done, fallback);
+    else fallback();
+  });
+})();
+</script>
+</body>
+</html>

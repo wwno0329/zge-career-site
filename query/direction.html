@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>转行方向解读 · 快找Z哥 &amp; 大伟</title>
+<link rel="stylesheet" href="../css/style.css" />
+<style>
+.wrap{width:min(760px,92%);margin:0 auto;padding:40px 0 80px}
+.hd{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:8px}
+.hd h1{font-size:30px;margin:0}
+.hot{font-size:12px;color:var(--accent-3);border:1px solid rgba(139,92,246,.4);border-radius:999px;padding:3px 12px}
+.sub{color:var(--text-dim);font-size:14px;margin-bottom:26px}
+.card{background:var(--card);border:1px solid var(--card-border);border-radius:16px;padding:22px;margin-bottom:16px}
+.card h3{font-size:16px;margin-bottom:14px;color:var(--accent-1)}
+.card p{font-size:14px;color:var(--text-dim);line-height:1.9;margin:0}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin-bottom:16px}
+.stat{background:var(--card);border:1px solid var(--card-border);border-radius:12px;padding:16px}
+.stat .lb{font-size:12px;color:var(--text-dim);margin-bottom:6px}
+.stat .val{font-size:15px;color:var(--text);font-weight:600;line-height:1.5}
+.path-item{display:flex;gap:14px;margin-bottom:14px}
+.path-num{width:34px;height:34px;flex-shrink:0;border-radius:50%;background:linear-gradient(135deg,var(--accent-1),var(--accent-2));color:#0a0f1e;font-weight:700;display:flex;align-items:center;justify-content:center;font-size:14px}
+.path-body h4{font-size:15px;margin:0 0 4px;color:var(--text)}
+.path-body .tm{font-size:12px;color:var(--accent-1);margin-bottom:6px}
+.path-body p{font-size:13px;color:var(--text-dim);line-height:1.8;margin:0}
+.case-card{background:rgba(34,211,238,.05);border:1px solid rgba(34,211,238,.22);border-radius:12px;padding:16px;margin-bottom:12px}
+.case-card .who{font-size:14px;color:var(--text);font-weight:600;margin-bottom:4px}
+.case-card .sal{font-size:13px;color:var(--accent-1);margin-bottom:6px}
+.case-card .note{font-size:13px;color:var(--text-dim);line-height:1.7}
+.faq-item{border-bottom:1px solid rgba(255,255,255,.06);padding:14px 0}
+.faq-item:last-child{border-bottom:none}
+.faq-item .q{font-size:14px;color:var(--text);font-weight:600;margin-bottom:6px}
+.faq-item .a{font-size:13px;color:var(--text-dim);line-height:1.8}
+.cta-box{background:linear-gradient(135deg,rgba(34,211,238,.1),rgba(139,92,246,.1));border:1px solid rgba(139,92,246,.35);border-radius:16px;padding:24px;text-align:center;margin-top:8px}
+.cta-box h3{font-size:18px;margin:0 0 8px;color:var(--text)}
+.cta-box p{font-size:13px;color:var(--text-dim);margin:0 0 16px}
+.mbtn{border:none;border-radius:12px;padding:14px 30px;font-size:15px;cursor:pointer;font-weight:600}
+.mbtn.purple{background:linear-gradient(135deg,var(--accent-3),var(--accent-1));color:#0a0f1e;margin-right:10px}
+.mbtn.ghost{background:transparent;border:1px solid var(--card-border);color:var(--text)}
+.note-line{font-size:12px;color:var(--text-dim);text-align:center;margin-top:26px}
+</style>
+</head>
+<body>
+<nav class="nav"><div class="nav-inner container">
+  <a class="brand" href="../index.html">快找Z哥 &amp; 大伟</a>
+  <div class="nav-links">
+    <a class="nav-link" href="../index.html">首页</a>
+    <a class="nav-link" href="tool.html">查去向</a>
+    <a class="nav-link" href="zhuanxing.html">转行测评</a>
+    <a class="nav-link" href="weekly.html">本周更新</a>
+  </div>
+</div></nav>
+<canvas id="particles"></canvas>
+
+<div class="wrap" id="page"></div>
+
+<footer class="footer"><div class="container footer-inner"><p>快找Z哥 &amp; 大伟 · 职业规划查询 · 信息免费开放</p></div></footer>
+
+<script src="directions.js?v=20260823"></script>
+<script>
+(function(){
+  var id = new URLSearchParams(location.search).get("id") || "";
+  var d = (window.ZHUANXING_DIRECTIONS||[]).find(function(x){ return x.id === id; });
+  var page = document.getElementById("page");
+  if (!d) { page.innerHTML = '<div class="hd"><h1>方向不存在</h1></div><p class="sub">请返回测评页重新查看。</p><a class="mbtn purple" href="zhuanxing.html">返回转行测评</a>'; return; }
+  var pathHtml = (d.path||[]).map(function(p,i){
+    return '<div class="path-item"><div class="path-num">' + (i+1) + '</div><div class="path-body"><h4>' + p.stage + ' · ' + p.time + '</h4><p>' + p.content + '</p></div></div>';
+  }).join("");
+  var caseHtml = (d.cases||[]).map(function(c){
+    return '<div class="case-card"><div class="who">' + c.from + ' → ' + c.to + '（' + c.time + '）</div><div class="sal">💸 ' + c.salary + '</div><div class="note">' + c.note + '</div></div>';
+  }).join("") || '<p style="color:var(--text-dim);font-size:13px">案例整理中…</p>';
+  var faqHtml = (d.faq||[]).map(function(f){
+    return '<div class="faq-item"><div class="q">Q：' + f.q + '</div><div class="a">' + f.a + '</div></div>';
+  }).join("");
+  page.innerHTML =
+    '<div class="hd"><h1>' + d.emoji + ' ' + d.name + '</h1><span class="hot">' + d.hot + '</span></div>' +
+    '<p class="sub">' + d.desc + '</p>' +
+    '<div class="stats">' +
+      '<div class="stat"><div class="lb">💼 做什么</div><div class="val">' + d.do + '</div></div>' +
+      '<div class="stat"><div class="lb">💰 薪资参考</div><div class="val">' + d.salary + '</div></div>' +
+      '<div class="stat"><div class="lb">🚪 入行门槛</div><div class="val">' + d.level + '</div></div>' +
+    '</div>' +
+    '<div class="card"><h3>🧭 学习路径（从现在到入行）</h3>' + pathHtml + '</div>' +
+    '<div class="card"><h3>📖 真实转行案例</h3>' + caseHtml + '</div>' +
+    '<div class="card"><h3>❓ 常见疑问</h3>' + faqHtml + '</div>' +
+    '<div class="cta-box"><h3>想系统拿下「' + d.name.replace(/^\S+\s/, "") + '」？</h3><p>让 Z哥&大伟 帮你把这条路走通</p><a class="mbtn purple" href="mailto:425987691@qq.com?subject=' + encodeURIComponent("预约1v1了解" + d.name) + '">📞 预约 1v1 规划</a><a class="mbtn ghost" href="zhuanxing.html">重新测评</a></div>' +
+    '<p class="note-line">薪资/数据为参考口径，以实际 offer 为准 · 转行决策请结合自身情况</p>';
+})();
+</script>
+</body>
+</html>
