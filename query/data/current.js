@@ -1,5 +1,5 @@
 window.CURRENT_DATA = {
- "updatedAt": "2026-09-11",
+ "updatedAt": "2026-09-18",
  "note": "按专业整理的「当前可报企业」（官方渠道+链接，每周更新）。状态含预计时间，以各单位官网公告为准。",
  "majors": {
   "undergrad:080601": [
@@ -11,8 +11,8 @@ window.CURRENT_DATA = {
    },
    {
     "company": "国家能源集团",
-    "position": "2027届校招（电气/机械/能动/采矿等）",
-    "status": "2026春招已结束，关注秋招",
+    "position": "2027届校招（统招+直招7932人；总部“菁英”管培生20人）",
+    "status": "官方公告9/2发布；总部及统招网申至10/7，全国统考10/25",
     "url": "https://zhaopin.chnenergy.com.cn"
    },
    {
@@ -86,6 +86,18 @@ window.CURRENT_DATA = {
     "position": "2027届校招（车辆/电气/材料/信息/财务/法务等）",
     "status": "中国中车官网在招19个长江集团相关职位，持续更新",
     "url": "https://crrc.hotjob.cn/"
+   },
+   {
+    "company": "国机集团",
+    "position": "2027届校招（官网949个在招职位，机械/电气/软件/AI/工程/经营等）",
+    "status": "2026-09-18央企信息公开；官网职位持续更新",
+    "url": "https://zhaopin.sinomach.com.cn/SU64b4cfe82f9d24760ae8b80c/pb/school.html"
+   },
+   {
+    "company": "中国华能",
+    "position": "2027年校招（近4000个岗位，500余家企业）",
+    "status": "集团官网9/15正式启动；以招聘系统公告为准",
+    "url": "https://zhaopin.chng.com.cn"
    }
   ],
   "undergrad:080901": [
@@ -304,6 +316,24 @@ window.CURRENT_DATA = {
     "position": "2027届校招（车辆/电气/材料/信息/财务/法务等）",
     "status": "中国中车官网在招19个长江集团相关职位，持续更新",
     "url": "https://crrc.hotjob.cn/"
+   },
+   {
+    "company": "国机集团",
+    "position": "2027届校招（官网949个在招职位，机械/电气/软件/AI/工程/经营等）",
+    "status": "2026-09-18央企信息公开；官网职位持续更新",
+    "url": "https://zhaopin.sinomach.com.cn/SU64b4cfe82f9d24760ae8b80c/pb/school.html"
+   },
+   {
+    "company": "航空工业成飞",
+    "position": "2027届校招（人工智能/计算机/航空航天/机械/材料等13大类）",
+    "status": "本批次13大类岗位开放；以官方招聘系统为准",
+    "url": "https://cac.avic.com/sycd/rlzy/?PC=PC"
+   },
+   {
+    "company": "中国华能",
+    "position": "2027年校招（近4000个岗位，500余家企业）",
+    "status": "集团官网9/15正式启动；以招聘系统公告为准",
+    "url": "https://zhaopin.chng.com.cn"
    }
   ],
   "undergrad:080902": [
@@ -486,6 +516,18 @@ window.CURRENT_DATA = {
     "position": "2027届校招·秋季正式批（程序/策划/美术/运营）",
     "status": "网申2026-09-01至11-30",
     "url": "https://xz.duoyi.com"
+   },
+   {
+    "company": "国机集团",
+    "position": "2027届校招（官网949个在招职位，机械/电气/软件/AI/工程/经营等）",
+    "status": "2026-09-18央企信息公开；官网职位持续更新",
+    "url": "https://zhaopin.sinomach.com.cn/SU64b4cfe82f9d24760ae8b80c/pb/school.html"
+   },
+   {
+    "company": "航空工业成飞",
+    "position": "2027届校招（人工智能/计算机/航空航天/机械/材料等13大类）",
+    "status": "本批次13大类岗位开放；以官方招聘系统为准",
+    "url": "https://cac.avic.com/sycd/rlzy/?PC=PC"
    }
   ],
   "undergrad:080701": [
@@ -626,6 +668,12 @@ window.CURRENT_DATA = {
     "position": "2027届校招（车辆/电气/材料/信息/财务/法务等）",
     "status": "中国中车官网在招19个长江集团相关职位，持续更新",
     "url": "https://crrc.hotjob.cn/"
+   },
+   {
+    "company": "航空工业成飞",
+    "position": "2027届校招（人工智能/计算机/航空航天/机械/材料等13大类）",
+    "status": "本批次13大类岗位开放；以官方招聘系统为准",
+    "url": "https://cac.avic.com/sycd/rlzy/?PC=PC"
    }
   ],
   "undergrad:120202": [
@@ -898,6 +946,18 @@ window.CURRENT_DATA = {
     "position": "2027届校招（车辆/电气/材料/信息/财务/法务等）",
     "status": "中国中车官网在招19个长江集团相关职位，持续更新",
     "url": "https://crrc.hotjob.cn/"
+   },
+   {
+    "company": "国机集团",
+    "position": "2027届校招（官网949个在招职位，机械/电气/软件/AI/工程/经营等）",
+    "status": "2026-09-18央企信息公开；官网职位持续更新",
+    "url": "https://zhaopin.sinomach.com.cn/SU64b4cfe82f9d24760ae8b80c/pb/school.html"
+   },
+   {
+    "company": "中国华能",
+    "position": "2027年校招（近4000个岗位，500余家企业）",
+    "status": "集团官网9/15正式启动；以招聘系统公告为准",
+    "url": "https://zhaopin.chng.com.cn"
    }
   ],
   "undergrad:020301K": [
@@ -1099,8 +1159,8 @@ window.CURRENT_DATA = {
    },
    {
     "company": "国家能源集团",
-    "position": "2027届校招（机械类）",
-    "status": "关注秋招",
+    "position": "2027届校招（统招+直招7932人；总部“菁英”管培生20人）",
+    "status": "官方公告9/2发布；总部及统招网申至10/7，全国统考10/25",
     "url": "https://zhaopin.chnenergy.com.cn"
    },
    {
@@ -1368,6 +1428,18 @@ window.CURRENT_DATA = {
     "position": "2027届校招（集团总部及所属单位，战略新兴产业/金融/管理方向）",
     "status": "官方公告9/7发布；网申至10/23，每人可报2岗",
     "url": "https://zp.crhc.cn/recportal/recruitAnnouncement?title=recruit_9003&recruitType=9003&recordId=b43e3c64b2a17e8fc412eab67c5f25b1&isCanDelete=1"
+   },
+   {
+    "company": "国机集团",
+    "position": "2027届校招（官网949个在招职位，机械/电气/软件/AI/工程/经营等）",
+    "status": "2026-09-18央企信息公开；官网职位持续更新",
+    "url": "https://zhaopin.sinomach.com.cn/SU64b4cfe82f9d24760ae8b80c/pb/school.html"
+   },
+   {
+    "company": "航空工业成飞",
+    "position": "2027届校招（人工智能/计算机/航空航天/机械/材料等13大类）",
+    "status": "本批次13大类岗位开放；以官方招聘系统为准",
+    "url": "https://cac.avic.com/sycd/rlzy/?PC=PC"
    }
   ],
   "undergrad:080903": [
@@ -1841,8 +1913,8 @@ window.CURRENT_DATA = {
    },
    {
     "company": "国家能源集团",
-    "position": "生产/运维类岗位",
-    "status": "关注秋招",
+    "position": "2027届校招（统招+直招7932人；总部“菁英”管培生20人）",
+    "status": "官方公告9/2发布；总部及统招网申至10/7，全国统考10/25",
     "url": "https://zhaopin.chnenergy.com.cn"
    },
    {
@@ -1853,9 +1925,9 @@ window.CURRENT_DATA = {
    },
    {
     "company": "中国中车",
-    "position": "2027届校招（机电/车辆/装配，大专可报）",
-    "status": "秋招陆续发布",
-    "url": "https://crrc.hotjob.cn"
+    "position": "2027届全球校招（官网在招484个职位，多子公司）",
+    "status": "集团全球招聘公告及子公司简章上线；岗位持续更新",
+    "url": "https://crrc.hotjob.cn/SU64d47c466202cc36e27a52d4/pb/index.html"
    },
    {
     "company": "三一集团",
@@ -1891,8 +1963,8 @@ window.CURRENT_DATA = {
    },
    {
     "company": "国家能源集团",
-    "position": "电气/运行类岗位",
-    "status": "关注秋招",
+    "position": "2027届校招（统招+直招7932人；总部“菁英”管培生20人）",
+    "status": "官方公告9/2发布；总部及统招网申至10/7，全国统考10/25",
     "url": "https://zhaopin.chnenergy.com.cn"
    },
    {
@@ -1903,9 +1975,9 @@ window.CURRENT_DATA = {
    },
    {
     "company": "中国中车",
-    "position": "2027届校招（电气/自动化，大专可报）",
-    "status": "秋招陆续发布",
-    "url": "https://crrc.hotjob.cn"
+    "position": "2027届全球校招（官网在招484个职位，多子公司）",
+    "status": "集团全球招聘公告及子公司简章上线；岗位持续更新",
+    "url": "https://crrc.hotjob.cn/SU64d47c466202cc36e27a52d4/pb/index.html"
    },
    {
     "company": "格力电器",
@@ -1918,6 +1990,12 @@ window.CURRENT_DATA = {
     "position": "2027届全球校招（研发/制造/营销/供应链/财务等7大类）",
     "status": "8月26日启动，官网网申开放",
     "url": "https://zhaopin.tcl.com/industries"
+   },
+   {
+    "company": "中国华能",
+    "position": "2027年校招（近4000个岗位，500余家企业）",
+    "status": "集团官网9/15正式启动；以招聘系统公告为准",
+    "url": "https://zhaopin.chng.com.cn"
    }
   ],
   "zhuanke:460305": [
@@ -1929,8 +2007,8 @@ window.CURRENT_DATA = {
    },
    {
     "company": "国家能源集团",
-    "position": "智能制造相关岗位",
-    "status": "关注秋招",
+    "position": "2027届校招（统招+直招7932人；总部“菁英”管培生20人）",
+    "status": "官方公告9/2发布；总部及统招网申至10/7，全国统考10/25",
     "url": "https://zhaopin.chnenergy.com.cn"
    },
    {
@@ -2133,6 +2211,12 @@ window.CURRENT_DATA = {
     "position": "2027届校招（集团总部及招商银行/蛇口/轮船等成员单位）",
     "status": "2026-09-08正式启动；成员单位职位陆续开放",
     "url": "https://cmhk.zhiye.com/campuslist"
+   },
+   {
+    "company": "国机集团",
+    "position": "2027届校招（官网949个在招职位，机械/电气/软件/AI/工程/经营等）",
+    "status": "2026-09-18央企信息公开；官网职位持续更新",
+    "url": "https://zhaopin.sinomach.com.cn/SU64b4cfe82f9d24760ae8b80c/pb/school.html"
    }
   ],
   "undergrad:082801": [
@@ -2291,6 +2375,18 @@ window.CURRENT_DATA = {
     "position": "2027届校招（车辆/电气/材料/信息/财务/法务等）",
     "status": "中国中车官网在招19个长江集团相关职位，持续更新",
     "url": "https://crrc.hotjob.cn/"
+   },
+   {
+    "company": "国机集团",
+    "position": "2027届校招（官网949个在招职位，机械/电气/软件/AI/工程/经营等）",
+    "status": "2026-09-18央企信息公开；官网职位持续更新",
+    "url": "https://zhaopin.sinomach.com.cn/SU64b4cfe82f9d24760ae8b80c/pb/school.html"
+   },
+   {
+    "company": "中国华能",
+    "position": "2027年校招（近4000个岗位，500余家企业）",
+    "status": "集团官网9/15正式启动；以招聘系统公告为准",
+    "url": "https://zhaopin.chng.com.cn"
    }
   ],
   "undergrad:080703": [
@@ -2442,8 +2538,8 @@ window.CURRENT_DATA = {
    },
    {
     "company": "国家能源集团",
-    "position": "2027届校招（电气/自动化）",
-    "status": "关注秋招",
+    "position": "2027届校招（统招+直招7932人；总部“菁英”管培生20人）",
+    "status": "官方公告9/2发布；总部及统招网申至10/7，全国统考10/25",
     "url": "https://zhaopin.chnenergy.com.cn"
    },
    {
@@ -2499,6 +2595,24 @@ window.CURRENT_DATA = {
     "position": "2027届校招（车辆/电气/材料/信息/财务/法务等）",
     "status": "中国中车官网在招19个长江集团相关职位，持续更新",
     "url": "https://crrc.hotjob.cn/"
+   },
+   {
+    "company": "国机集团",
+    "position": "2027届校招（官网949个在招职位，机械/电气/软件/AI/工程/经营等）",
+    "status": "2026-09-18央企信息公开；官网职位持续更新",
+    "url": "https://zhaopin.sinomach.com.cn/SU64b4cfe82f9d24760ae8b80c/pb/school.html"
+   },
+   {
+    "company": "航空工业成飞",
+    "position": "2027届校招（人工智能/计算机/航空航天/机械/材料等13大类）",
+    "status": "本批次13大类岗位开放；以官方招聘系统为准",
+    "url": "https://cac.avic.com/sycd/rlzy/?PC=PC"
+   },
+   {
+    "company": "中国华能",
+    "position": "2027年校招（近4000个岗位，500余家企业）",
+    "status": "集团官网9/15正式启动；以招聘系统公告为准",
+    "url": "https://zhaopin.chng.com.cn"
    }
   ],
   "undergrad:080207": [
@@ -2510,8 +2624,9 @@ window.CURRENT_DATA = {
    },
    {
     "company": "中国中车",
-    "position": "2027届校招（车辆工程）",
-    "status": "关注各子企业公告"
+    "position": "2027届全球校招（官网在招484个职位，多子公司）",
+    "status": "集团全球招聘公告及子公司简章上线；岗位持续更新",
+    "url": "https://crrc.hotjob.cn/SU64d47c466202cc36e27a52d4/pb/index.html"
    },
    {
     "company": "外资/合资整车厂",
@@ -2877,6 +2992,12 @@ window.CURRENT_DATA = {
     "position": "2027年校园招聘（总行+各分行）",
     "status": "网申已开启，简历接收暂定至2026-10-09",
     "url": "https://job.citicbank.com"
+   },
+   {
+    "company": "国机集团",
+    "position": "2027届校招（官网949个在招职位，机械/电气/软件/AI/工程/经营等）",
+    "status": "2026-09-18央企信息公开；官网职位持续更新",
+    "url": "https://zhaopin.sinomach.com.cn/SU64b4cfe82f9d24760ae8b80c/pb/school.html"
    }
   ],
   "undergrad:120206": [
@@ -3275,6 +3396,12 @@ window.CURRENT_DATA = {
     "position": "2027年校园招聘（总行+各分行）",
     "status": "网申已开启，简历接收暂定至2026-10-09",
     "url": "https://job.citicbank.com"
+   },
+   {
+    "company": "航空工业成飞",
+    "position": "2027届校招（人工智能/计算机/航空航天/机械/材料等13大类）",
+    "status": "本批次13大类岗位开放；以官方招聘系统为准",
+    "url": "https://cac.avic.com/sycd/rlzy/?PC=PC"
    }
   ],
   "undergrad:100801": [
@@ -3598,9 +3725,9 @@ window.CURRENT_DATA = {
    },
    {
     "company": "国家能源集团",
-    "position": "2027届校招（材料类）",
-    "status": "秋招进行中",
-    "url": "http://zhaopin.chnenergy.com.cn"
+    "position": "2027届校招（统招+直招7932人；总部“菁英”管培生20人）",
+    "status": "官方公告9/2发布；总部及统招网申至10/7，全国统考10/25",
+    "url": "https://zhaopin.chnenergy.com.cn"
    },
    {
     "company": "中国宝武（宝钢）",
@@ -3631,14 +3758,32 @@ window.CURRENT_DATA = {
     "position": "2027届全球校招（研发/制造/营销/供应链/财务等7大类）",
     "status": "8月26日启动，官网网申开放",
     "url": "https://zhaopin.tcl.com/industries"
+   },
+   {
+    "company": "国机集团",
+    "position": "2027届校招（官网949个在招职位，机械/电气/软件/AI/工程/经营等）",
+    "status": "2026-09-18央企信息公开；官网职位持续更新",
+    "url": "https://zhaopin.sinomach.com.cn/SU64b4cfe82f9d24760ae8b80c/pb/school.html"
+   },
+   {
+    "company": "航空工业成飞",
+    "position": "2027届校招（人工智能/计算机/航空航天/机械/材料等13大类）",
+    "status": "本批次13大类岗位开放；以官方招聘系统为准",
+    "url": "https://cac.avic.com/sycd/rlzy/?PC=PC"
+   },
+   {
+    "company": "中国华能",
+    "position": "2027年校招（近4000个岗位，500余家企业）",
+    "status": "集团官网9/15正式启动；以招聘系统公告为准",
+    "url": "https://zhaopin.chng.com.cn"
    }
   ],
   "undergrad:080501": [
    {
     "company": "国家能源集团",
-    "position": "2027届校招（火电/风电/光伏）",
-    "status": "秋招进行中",
-    "url": "http://zhaopin.chnenergy.com.cn"
+    "position": "2027届校招（统招+直招7932人；总部“菁英”管培生20人）",
+    "status": "官方公告9/2发布；总部及统招网申至10/7，全国统考10/25",
+    "url": "https://zhaopin.chnenergy.com.cn"
    },
    {
     "company": "国家电投",
@@ -3647,9 +3792,9 @@ window.CURRENT_DATA = {
     "url": "https://zhaopin.spic.com.cn"
    },
    {
-    "company": "华能集团",
-    "position": "2027届校招（火电/风电）",
-    "status": "校招系统开放",
+    "company": "中国华能",
+    "position": "2027年校招（近4000个岗位，500余家企业）",
+    "status": "集团官网9/15正式启动；以招聘系统公告为准",
     "url": "https://zhaopin.chng.com.cn"
    },
    {
@@ -4264,9 +4409,9 @@ window.CURRENT_DATA = {
    },
    {
     "company": "国家能源集团",
-    "position": "2027届校招（安全工程类）",
-    "status": "秋招进行中",
-    "url": "http://zhaopin.chnenergy.com.cn"
+    "position": "2027届校招（统招+直招7932人；总部“菁英”管培生20人）",
+    "status": "官方公告9/2发布；总部及统招网申至10/7，全国统考10/25",
+    "url": "https://zhaopin.chnenergy.com.cn"
    },
    {
     "company": "中建集团",
@@ -4404,9 +4549,9 @@ window.CURRENT_DATA = {
    },
    {
     "company": "中国中车",
-    "position": "2027届校招（智能制造/产线）",
-    "status": "9月上旬上线",
-    "url": "https://crrc.hotjob.cn"
+    "position": "2027届全球校招（官网在招484个职位，多子公司）",
+    "status": "集团全球招聘公告及子公司简章上线；岗位持续更新",
+    "url": "https://crrc.hotjob.cn/SU64d47c466202cc36e27a52d4/pb/index.html"
    },
    {
     "company": "小米",
@@ -4492,9 +4637,9 @@ window.CURRENT_DATA = {
    },
    {
     "company": "中国中车",
-    "position": "2027届校招（轨道交通）",
-    "status": "9月上旬上线",
-    "url": "https://crrc.hotjob.cn"
+    "position": "2027届全球校招（官网在招484个职位，多子公司）",
+    "status": "集团全球招聘公告及子公司简章上线；岗位持续更新",
+    "url": "https://crrc.hotjob.cn/SU64d47c466202cc36e27a52d4/pb/index.html"
    },
    {
     "company": "顺丰",
@@ -4909,9 +5054,9 @@ window.CURRENT_DATA = {
     "url": "https://zhaopin.spic.com.cn"
    },
    {
-    "company": "华能集团",
-    "position": "2027届校招（电厂运行）",
-    "status": "校招系统开放",
+    "company": "中国华能",
+    "position": "2027年校招（近4000个岗位，500余家企业）",
+    "status": "集团官网9/15正式启动；以招聘系统公告为准",
     "url": "https://zhaopin.chng.com.cn"
    },
    {
@@ -5189,9 +5334,9 @@ window.CURRENT_DATA = {
   "zhuanke:460103": [
    {
     "company": "中国中车",
-    "position": "2027届校招（数控/制造）",
-    "status": "9月上旬上线",
-    "url": "https://crrc.hotjob.cn"
+    "position": "2027届全球校招（官网在招484个职位，多子公司）",
+    "status": "集团全球招聘公告及子公司简章上线；岗位持续更新",
+    "url": "https://crrc.hotjob.cn/SU64d47c466202cc36e27a52d4/pb/index.html"
    },
    {
     "company": "三一集团",
@@ -5221,9 +5366,9 @@ window.CURRENT_DATA = {
   "zhuanke:460104": [
    {
     "company": "中国中车",
-    "position": "2027届校招（机械制造）",
-    "status": "9月上旬上线",
-    "url": "https://crrc.hotjob.cn"
+    "position": "2027届全球校招（官网在招484个职位，多子公司）",
+    "status": "集团全球招聘公告及子公司简章上线；岗位持续更新",
+    "url": "https://crrc.hotjob.cn/SU64d47c466202cc36e27a52d4/pb/index.html"
    },
    {
     "company": "三一集团",
@@ -5364,9 +5509,9 @@ window.CURRENT_DATA = {
    },
    {
     "company": "中国中车",
-    "position": "2027届校招（技术技能类，优秀专科可择优）",
-    "status": "已开放",
-    "url": "https://crrc.hotjob.cn"
+    "position": "2027届全球校招（官网在招484个职位，多子公司）",
+    "status": "集团全球招聘公告及子公司简章上线；岗位持续更新",
+    "url": "https://crrc.hotjob.cn/SU64d47c466202cc36e27a52d4/pb/index.html"
    }
   ],
   "zhuanke:510204": [
@@ -6365,9 +6510,9 @@ window.CURRENT_DATA = {
     "url": "https://zhaopin.csg.cn"
    },
    {
-    "company": "华能集团",
-    "position": "2027届校招（电厂运行）",
-    "status": "校招系统开放",
+    "company": "中国华能",
+    "position": "2027年校招（近4000个岗位，500余家企业）",
+    "status": "集团官网9/15正式启动，招聘系统岗位持续开放",
     "url": "https://zhaopin.chng.com.cn"
    },
    {
@@ -6547,9 +6692,9 @@ window.CURRENT_DATA = {
    },
    {
     "company": "中国中车",
-    "position": "2027届校招（轨交机电）",
-    "status": "9月上旬上线",
-    "url": "https://crrc.hotjob.cn"
+    "position": "2027届全球校招（官网在招484个职位，多子公司）",
+    "status": "集团全球招聘公告及子公司简章上线；岗位持续更新",
+    "url": "https://crrc.hotjob.cn/SU64d47c466202cc36e27a52d4/pb/index.html"
    },
    {
     "company": "北京地铁",
@@ -6844,9 +6989,9 @@ window.CURRENT_DATA = {
   "undergrad:080204": [
    {
     "company": "中国中车",
-    "position": "2027届校招（机电/电气）",
-    "status": "9月上旬上线",
-    "url": "https://crrc.hotjob.cn"
+    "position": "2027届全球校招（官网在招484个职位，多子公司）",
+    "status": "集团全球招聘公告及子公司简章上线；岗位持续更新",
+    "url": "https://crrc.hotjob.cn/SU64d47c466202cc36e27a52d4/pb/index.html"
    },
    {
     "company": "比亚迪",
@@ -6900,9 +7045,9 @@ window.CURRENT_DATA = {
   "undergrad:080203": [
    {
     "company": "中国中车",
-    "position": "2027届校招（材料成型/工艺）",
-    "status": "9月上旬上线",
-    "url": "https://crrc.hotjob.cn"
+    "position": "2027届全球校招（官网在招484个职位，多子公司）",
+    "status": "集团全球招聘公告及子公司简章上线；岗位持续更新",
+    "url": "https://crrc.hotjob.cn/SU64d47c466202cc36e27a52d4/pb/index.html"
    },
    {
     "company": "比亚迪",
@@ -7087,10 +7232,10 @@ window.CURRENT_DATA = {
   ],
   "undergrad:081901": [
    {
-    "company": "中国船舶",
-    "position": "2027届校招（造船/设计）",
-    "status": "已开放",
-    "url": "http://www.cssc.net.cn"
+    "company": "中国船舶集团",
+    "position": "2027届校招（AI/软件/电气/系统研发/船舶设计等）",
+    "status": "官方校招系统显示63个在招职位，持续更新",
+    "url": "https://cssc.zhiye.com/campus/"
    },
    {
     "company": "中远海运",
@@ -7159,6 +7304,12 @@ window.CURRENT_DATA = {
     "position": "2027届校招（飞行器/无人机研发）",
     "status": "2026-06-24 启动",
     "url": "https://careers.dji.com"
+   },
+   {
+    "company": "航空工业成飞",
+    "position": "2027届校招（人工智能/计算机/航空航天/机械/材料等13大类）",
+    "status": "本批次13大类岗位开放；以官方招聘系统为准",
+    "url": "https://cac.avic.com/sycd/rlzy/?PC=PC"
    }
   ],
   "undergrad:082702": [
@@ -7327,9 +7478,9 @@ window.CURRENT_DATA = {
    },
    {
     "company": "中国中车",
-    "position": "2027届校招（信号/电气）",
-    "status": "9月上旬上线",
-    "url": "https://crrc.hotjob.cn"
+    "position": "2027届全球校招（官网在招484个职位，多子公司）",
+    "status": "集团全球招聘公告及子公司简章上线；岗位持续更新",
+    "url": "https://crrc.hotjob.cn/SU64d47c466202cc36e27a52d4/pb/index.html"
    },
    {
     "company": "中国通号",
@@ -7452,9 +7603,9 @@ window.CURRENT_DATA = {
   "zhuanke:500601": [
    {
     "company": "中国中车",
-    "position": "2027届校招（轨交工程）",
-    "status": "9月上旬上线",
-    "url": "https://crrc.hotjob.cn"
+    "position": "2027届全球校招（官网在招484个职位，多子公司）",
+    "status": "集团全球招聘公告及子公司简章上线；岗位持续更新",
+    "url": "https://crrc.hotjob.cn/SU64d47c466202cc36e27a52d4/pb/index.html"
    },
    {
     "company": "中国铁建",
@@ -7532,15 +7683,15 @@ window.CURRENT_DATA = {
   "zhuanke:460110": [
    {
     "company": "中国中车",
-    "position": "2027届校招（焊接/制造）",
-    "status": "9月上旬上线",
-    "url": "https://crrc.hotjob.cn"
+    "position": "2027届全球校招（官网在招484个职位，多子公司）",
+    "status": "集团全球招聘公告及子公司简章上线；岗位持续更新",
+    "url": "https://crrc.hotjob.cn/SU64d47c466202cc36e27a52d4/pb/index.html"
    },
    {
-    "company": "中国船舶",
-    "position": "2027届校招（焊接/造船）",
-    "status": "已开放",
-    "url": "http://www.cssc.net.cn"
+    "company": "中国船舶集团",
+    "position": "2027届校招（AI/软件/电气/系统研发/船舶设计等）",
+    "status": "官方校招系统显示63个在招职位，持续更新",
+    "url": "https://cssc.zhiye.com/campus/"
    },
    {
     "company": "三一集团",
@@ -7915,10 +8066,10 @@ window.CURRENT_DATA = {
     "url": "https://www.coscoshipping.com"
    },
    {
-    "company": "中国船舶",
-    "position": "2027届校招（轮机/动力）",
-    "status": "已开放",
-    "url": "http://www.cssc.net.cn"
+    "company": "中国船舶集团",
+    "position": "2027届校招（AI/软件/电气/系统研发/船舶设计等）",
+    "status": "官方校招系统显示63个在招职位，持续更新",
+    "url": "https://cssc.zhiye.com/campus/"
    },
    {
     "company": "招商轮船",
@@ -8289,15 +8440,21 @@ window.CURRENT_DATA = {
    },
    {
     "company": "国家能源集团",
-    "position": "2027届校招（光伏/新能源）",
-    "status": "秋招进行中",
-    "url": "http://zhaopin.chnenergy.com.cn"
+    "position": "2027届校招（统招+直招7932人；总部“菁英”管培生20人）",
+    "status": "官方公告9/2发布；总部及统招网申至10/7，全国统考10/25",
+    "url": "https://zhaopin.chnenergy.com.cn"
    },
    {
     "company": "晶澳科技",
     "position": "校招（光伏制造）",
     "status": "官网招聘开放",
     "url": "https://www.jasolar.com"
+   },
+   {
+    "company": "中国华能",
+    "position": "2027年校招（近4000个岗位，500余家企业）",
+    "status": "集团官网9/15正式启动；以招聘系统公告为准",
+    "url": "https://zhaopin.chng.com.cn"
    }
   ],
   "undergrad:100203TK": [
@@ -8514,9 +8671,9 @@ window.CURRENT_DATA = {
    },
    {
     "company": "中国中车",
-    "position": "2027届校招（工业工程）",
-    "status": "9月上旬上线",
-    "url": "https://crrc.hotjob.cn"
+    "position": "2027届全球校招（官网在招484个职位，多子公司）",
+    "status": "集团全球招聘公告及子公司简章上线；岗位持续更新",
+    "url": "https://crrc.hotjob.cn/SU64d47c466202cc36e27a52d4/pb/index.html"
    },
    {
     "company": "三一集团",
@@ -8810,9 +8967,9 @@ window.CURRENT_DATA = {
    },
    {
     "company": "国家能源集团",
-    "position": "2027届校招（煤化工）",
-    "status": "秋招进行中",
-    "url": "http://zhaopin.chnenergy.com.cn"
+    "position": "2027届校招（统招+直招7932人；总部“菁英”管培生20人）",
+    "status": "官方公告9/2发布；总部及统招网申至10/7，全国统考10/25",
+    "url": "https://zhaopin.chnenergy.com.cn"
    }
   ],
   "undergrad:100703TK": [
@@ -8931,9 +9088,9 @@ window.CURRENT_DATA = {
    },
    {
     "company": "中国中车",
-    "position": "2027届校招（机车制造）",
-    "status": "9月上旬上线",
-    "url": "https://crrc.hotjob.cn"
+    "position": "2027届全球校招（官网在招484个职位，多子公司）",
+    "status": "集团全球招聘公告及子公司简章上线；岗位持续更新",
+    "url": "https://crrc.hotjob.cn/SU64d47c466202cc36e27a52d4/pb/index.html"
    },
    {
     "company": "中国铁路局系统",
@@ -8963,9 +9120,9 @@ window.CURRENT_DATA = {
    },
    {
     "company": "中国中车",
-    "position": "2027届校招（动车检修）",
-    "status": "9月上旬上线",
-    "url": "https://crrc.hotjob.cn"
+    "position": "2027届全球校招（官网在招484个职位，多子公司）",
+    "status": "集团全球招聘公告及子公司简章上线；岗位持续更新",
+    "url": "https://crrc.hotjob.cn/SU64d47c466202cc36e27a52d4/pb/index.html"
    },
    {
     "company": "中国铁路局系统",
@@ -11261,9 +11418,9 @@ window.CURRENT_DATA = {
   "undergrad:081501": [
    {
     "company": "国家能源集团",
-    "position": "2027届校招（采矿/生产）",
-    "status": "秋招进行中",
-    "url": "http://zhaopin.chnenergy.com.cn"
+    "position": "2027届校招（统招+直招7932人；总部“菁英”管培生20人）",
+    "status": "官方公告9/2发布；总部及统招网申至10/7，全国统考10/25",
+    "url": "https://zhaopin.chnenergy.com.cn"
    },
    {
     "company": "中国中煤",
@@ -11448,6 +11605,12 @@ window.CURRENT_DATA = {
     "company": "农业部门（考编）",
     "position": "农机管理",
     "status": "各省公告陆续发布"
+   },
+   {
+    "company": "国机集团",
+    "position": "2027届校招（官网949个在招职位，机械/电气/软件/AI/工程/经营等）",
+    "status": "2026-09-18央企信息公开；官网职位持续更新",
+    "url": "https://zhaopin.sinomach.com.cn/SU64b4cfe82f9d24760ae8b80c/pb/school.html"
    }
   ],
   "undergrad:081805K": [
@@ -11796,6 +11959,12 @@ window.CURRENT_DATA = {
     "company": "航空制造上市公司",
     "position": "飞机制造/工艺",
     "status": "各公司官网招聘"
+   },
+   {
+    "company": "航空工业成飞",
+    "position": "2027届校招（人工智能/计算机/航空航天/机械/材料等13大类）",
+    "status": "本批次13大类岗位开放；以官方招聘系统为准",
+    "url": "https://cac.avic.com/sycd/rlzy/?PC=PC"
    }
   ],
   "undergrad:082004": [
@@ -11852,9 +12021,9 @@ window.CURRENT_DATA = {
   "undergrad:081806T": [
    {
     "company": "中国中车",
-    "position": "2027届校招（交通设备）",
-    "status": "9月上旬上线",
-    "url": "https://crrc.hotjob.cn"
+    "position": "2027届全球校招（官网在招484个职位，多子公司）",
+    "status": "集团全球招聘公告及子公司简章上线；岗位持续更新",
+    "url": "https://crrc.hotjob.cn/SU64d47c466202cc36e27a52d4/pb/index.html"
    },
    {
     "company": "中国通号",
@@ -12612,9 +12781,9 @@ window.CURRENT_DATA = {
   "undergrad:081503": [
    {
     "company": "国家能源集团",
-    "position": "2027届校招（矿物加工）",
-    "status": "秋招进行中",
-    "url": "http://zhaopin.chnenergy.com.cn"
+    "position": "2027届校招（统招+直招7932人；总部“菁英”管培生20人）",
+    "status": "官方公告9/2发布；总部及统招网申至10/7，全国统考10/25",
+    "url": "https://zhaopin.chnenergy.com.cn"
    },
    {
     "company": "中国五矿",
@@ -12769,9 +12938,9 @@ window.CURRENT_DATA = {
    },
    {
     "company": "中国中车",
-    "position": "2027届校招（轨道装备机械岗）",
-    "status": "8月启动",
-    "url": "https://crrc.hotjob.cn"
+    "position": "2027届全球校招（官网在招484个职位，多子公司）",
+    "status": "集团全球招聘公告及子公司简章上线；岗位持续更新",
+    "url": "https://crrc.hotjob.cn/SU64d47c466202cc36e27a52d4/pb/index.html"
    },
    {
     "company": "宁德时代",
@@ -12796,6 +12965,24 @@ window.CURRENT_DATA = {
     "position": "2027届校招（车辆/电气/材料/信息/财务/法务等）",
     "status": "中国中车官网在招19个长江集团相关职位，持续更新",
     "url": "https://crrc.hotjob.cn/"
+   },
+   {
+    "company": "国机集团",
+    "position": "2027届校招（官网949个在招职位，机械/电气/软件/AI/工程/经营等）",
+    "status": "2026-09-18央企信息公开；官网职位持续更新",
+    "url": "https://zhaopin.sinomach.com.cn/SU64b4cfe82f9d24760ae8b80c/pb/school.html"
+   },
+   {
+    "company": "航空工业成飞",
+    "position": "2027届校招（人工智能/计算机/航空航天/机械/材料等13大类）",
+    "status": "本批次13大类岗位开放；以官方招聘系统为准",
+    "url": "https://cac.avic.com/sycd/rlzy/?PC=PC"
+   },
+   {
+    "company": "中国华能",
+    "position": "2027年校招（近4000个岗位，500余家企业）",
+    "status": "集团官网9/15正式启动；以招聘系统公告为准",
+    "url": "https://zhaopin.chng.com.cn"
    }
   ],
   "undergrad:080503T": [
@@ -12828,6 +13015,12 @@ window.CURRENT_DATA = {
     "position": "2027届校招（电池研发/工艺岗）",
     "status": "8-9月启动",
     "url": "https://www.calb.cn"
+   },
+   {
+    "company": "中国华能",
+    "position": "2027年校招（近4000个岗位，500余家企业）",
+    "status": "集团官网9/15正式启动；以招聘系统公告为准",
+    "url": "https://zhaopin.chng.com.cn"
    }
   ],
   "undergrad:080911TK": [
@@ -13132,15 +13325,15 @@ window.CURRENT_DATA = {
     "url": "https://zhaopin.csg.cn"
    },
    {
-    "company": "华能集团",
-    "position": "2027届校招（发电运行/检修岗）",
-    "status": "8-9月启动",
+    "company": "中国华能",
+    "position": "2027年校招（近4000个岗位，500余家企业）",
+    "status": "集团官网9/15正式启动；以招聘系统公告为准",
     "url": "https://zhaopin.chng.com.cn"
    },
    {
     "company": "国家能源集团",
-    "position": "2027届校招（火电/新能源运行岗）",
-    "status": "8月启动",
+    "position": "2027届校招（统招+直招7932人；总部“菁英”管培生20人）",
+    "status": "官方公告9/2发布；总部及统招网申至10/7，全国统考10/25",
     "url": "https://zhaopin.chnenergy.com.cn"
    },
    {
@@ -13209,9 +13402,9 @@ window.CURRENT_DATA = {
    },
    {
     "company": "中国中车",
-    "position": "2027届校招（轨道装备制造岗）",
-    "status": "8月启动",
-    "url": "https://crrc.hotjob.cn"
+    "position": "2027届全球校招（官网在招484个职位，多子公司）",
+    "status": "集团全球招聘公告及子公司简章上线；岗位持续更新",
+    "url": "https://crrc.hotjob.cn/SU64d47c466202cc36e27a52d4/pb/index.html"
    }
   ],
   "zhuanke:460113": [
@@ -13817,9 +14010,9 @@ window.CURRENT_DATA = {
    },
    {
     "company": "中国中车",
-    "position": "2027届校招（工业软件/数字化岗）",
-    "status": "8月启动",
-    "url": "https://crrc.hotjob.cn"
+    "position": "2027届全球校招（官网在招484个职位，多子公司）",
+    "status": "集团全球招聘公告及子公司简章上线；岗位持续更新",
+    "url": "https://crrc.hotjob.cn/SU64d47c466202cc36e27a52d4/pb/index.html"
    },
    {
     "company": "三一集团",
@@ -13965,9 +14158,9 @@ window.CURRENT_DATA = {
   "zhuanke:500602": [
    {
     "company": "中国中车",
-    "position": "2027届校招（城轨车辆制造/检修岗）",
-    "status": "8月启动",
-    "url": "https://crrc.hotjob.cn"
+    "position": "2027届全球校招（官网在招484个职位，多子公司）",
+    "status": "集团全球招聘公告及子公司简章上线；岗位持续更新",
+    "url": "https://crrc.hotjob.cn/SU64d47c466202cc36e27a52d4/pb/index.html"
    },
    {
     "company": "各地地铁公司",
@@ -14312,6 +14505,12 @@ window.CURRENT_DATA = {
     "position": "2027届校招（飞机设计/制造岗）",
     "status": "8-9月启动",
     "url": "https://www.avic.com"
+   },
+   {
+    "company": "航空工业成飞",
+    "position": "2027届校招（人工智能/计算机/航空航天/机械/材料等13大类）",
+    "status": "本批次13大类岗位开放；以官方招聘系统为准",
+    "url": "https://cac.avic.com/sycd/rlzy/?PC=PC"
    }
   ],
   "undergrad:082009T": [
@@ -14349,9 +14548,9 @@ window.CURRENT_DATA = {
   "undergrad:081809T": [
    {
     "company": "中国中车",
-    "position": "2027届校招（牵引/电气控制岗）",
-    "status": "8月启动",
-    "url": "https://crrc.hotjob.cn"
+    "position": "2027届全球校招（官网在招484个职位，多子公司）",
+    "status": "集团全球招聘公告及子公司简章上线；岗位持续更新",
+    "url": "https://crrc.hotjob.cn/SU64d47c466202cc36e27a52d4/pb/index.html"
    },
    {
     "company": "中国通号",
@@ -14719,9 +14918,9 @@ window.CURRENT_DATA = {
    },
    {
     "company": "中国中车",
-    "position": "2027届校招（信号/车辆装备岗）",
-    "status": "8月启动",
-    "url": "https://crrc.hotjob.cn"
+    "position": "2027届全球校招（官网在招484个职位，多子公司）",
+    "status": "集团全球招聘公告及子公司简章上线；岗位持续更新",
+    "url": "https://crrc.hotjob.cn/SU64d47c466202cc36e27a52d4/pb/index.html"
    },
    {
     "company": "中国铁路局系统",
@@ -15335,14 +15534,14 @@ window.CURRENT_DATA = {
   "undergrad:080502T": [
    {
     "company": "国家能源集团",
-    "position": "2027届校招（能源/环保技术岗）",
-    "status": "8月启动",
+    "position": "2027届校招（统招+直招7932人；总部“菁英”管培生20人）",
+    "status": "官方公告9/2发布；总部及统招网申至10/7，全国统考10/25",
     "url": "https://zhaopin.chnenergy.com.cn"
    },
    {
-    "company": "华能集团",
-    "position": "2027届校招（能源技术岗）",
-    "status": "8-9月启动",
+    "company": "中国华能",
+    "position": "2027年校招（近4000个岗位，500余家企业）",
+    "status": "集团官网9/15正式启动，招聘系统岗位持续开放",
     "url": "https://zhaopin.chng.com.cn"
    },
    {
@@ -15391,9 +15590,9 @@ window.CURRENT_DATA = {
    },
    {
     "company": "中国中车",
-    "position": "2027届校招（电机/牵引岗）",
-    "status": "8月启动",
-    "url": "https://crrc.hotjob.cn"
+    "position": "2027届全球校招（官网在招484个职位，多子公司）",
+    "status": "集团全球招聘公告及子公司简章上线；岗位持续更新",
+    "url": "https://crrc.hotjob.cn/SU64d47c466202cc36e27a52d4/pb/index.html"
    }
   ],
   "undergrad:082603T": [
@@ -15789,8 +15988,8 @@ window.CURRENT_DATA = {
   "undergrad:020106T": [
    {
     "company": "国家能源集团",
-    "position": "2027届校招（能源经济/战略岗）",
-    "status": "8月启动",
+    "position": "2027届校招（统招+直招7932人；总部“菁英”管培生20人）",
+    "status": "官方公告9/2发布；总部及统招网申至10/7，全国统考10/25",
     "url": "https://zhaopin.chnenergy.com.cn"
    },
    {
@@ -16001,9 +16200,9 @@ window.CURRENT_DATA = {
   "undergrad:081808TK": [
    {
     "company": "中国船舶集团",
-    "position": "2027届校招（船舶电子电气岗）",
-    "status": "8-9月启动",
-    "url": "https://www.cssc.net.cn"
+    "position": "2027届校招（AI/软件/电气/系统研发/船舶设计等）",
+    "status": "官方校招系统显示63个在招职位，持续更新",
+    "url": "https://cssc.zhiye.com/campus/"
    },
    {
     "company": "招商局工业",
@@ -16315,9 +16514,9 @@ window.CURRENT_DATA = {
   "zhuanke:460401": [
    {
     "company": "中国中车",
-    "position": "2027届校招（机车车辆制造/维护岗）",
-    "status": "8月启动",
-    "url": "https://crrc.hotjob.cn"
+    "position": "2027届全球校招（官网在招484个职位，多子公司）",
+    "status": "集团全球招聘公告及子公司简章上线；岗位持续更新",
+    "url": "https://crrc.hotjob.cn/SU64d47c466202cc36e27a52d4/pb/index.html"
    },
    {
     "company": "中国铁路局系统",
@@ -16521,8 +16720,8 @@ window.CURRENT_DATA = {
   "undergrad:020104T": [
    {
     "company": "国家能源集团",
-    "position": "2027届校招（资源经济/战略岗）",
-    "status": "8月启动",
+    "position": "2027届校招（统招+直招7932人；总部“菁英”管培生20人）",
+    "status": "官方公告9/2发布；总部及统招网申至10/7，全国统考10/25",
     "url": "https://zhaopin.chnenergy.com.cn"
    },
    {
@@ -17109,8 +17308,8 @@ window.CURRENT_DATA = {
    },
    {
     "company": "国家能源集团",
-    "position": "2027届校招（储能/新能源岗）",
-    "status": "8月启动",
+    "position": "2027届校招（统招+直招7932人；总部“菁英”管培生20人）",
+    "status": "官方公告9/2发布；总部及统招网申至10/7，全国统考10/25",
     "url": "https://zhaopin.chnenergy.com.cn"
    }
   ],
@@ -17129,8 +17328,8 @@ window.CURRENT_DATA = {
    },
    {
     "company": "国家能源集团",
-    "position": "2027届校招（安全技术岗）",
-    "status": "8月启动",
+    "position": "2027届校招（统招+直招7932人；总部“菁英”管培生20人）",
+    "status": "官方公告9/2发布；总部及统招网申至10/7，全国统考10/25",
     "url": "https://zhaopin.chnenergy.com.cn"
    },
    {
@@ -17999,9 +18198,9 @@ window.CURRENT_DATA = {
    },
    {
     "company": "中国中车",
-    "position": "2027届校招（轨道交通装备岗）",
-    "status": "8月启动",
-    "url": "https://crrc.hotjob.cn"
+    "position": "2027届全球校招（官网在招484个职位，多子公司）",
+    "status": "集团全球招聘公告及子公司简章上线；岗位持续更新",
+    "url": "https://crrc.hotjob.cn/SU64d47c466202cc36e27a52d4/pb/index.html"
    },
    {
     "company": "中铁快运",
@@ -18537,9 +18736,9 @@ window.CURRENT_DATA = {
    },
    {
     "company": "中国船舶集团",
-    "position": "2027届校招（轮机/制造岗）",
-    "status": "8-9月启动",
-    "url": "https://www.cssc.net.cn"
+    "position": "2027届校招（AI/软件/电气/系统研发/船舶设计等）",
+    "status": "官方校招系统显示63个在招职位，持续更新",
+    "url": "https://cssc.zhiye.com/campus/"
    },
    {
     "company": "中集来福士",
@@ -22979,8 +23178,8 @@ window.CURRENT_DATA = {
   "zhuanke:420601": [
    {
     "company": "国家能源集团",
-    "position": "2027届校招（矿山智能/技术岗）",
-    "status": "8月启动",
+    "position": "2027届校招（统招+直招7932人；总部“菁英”管培生20人）",
+    "status": "官方公告9/2发布；总部及统招网申至10/7，全国统考10/25",
     "url": "https://zhaopin.chnenergy.com.cn"
    },
    {
@@ -24151,8 +24350,8 @@ window.CURRENT_DATA = {
   "zhuanke:420501": [
    {
     "company": "国家能源集团",
-    "position": "2027届校招（煤矿智能/技术岗）",
-    "status": "8月启动",
+    "position": "2027届校招（统招+直招7932人；总部“菁英”管培生20人）",
+    "status": "官方公告9/2发布；总部及统招网申至10/7，全国统考10/25",
     "url": "https://zhaopin.chnenergy.com.cn"
    },
    {
@@ -24177,8 +24376,8 @@ window.CURRENT_DATA = {
   "zhuanke:420504": [
    {
     "company": "国家能源集团",
-    "position": "2027届校招（矿山机电/技术岗）",
-    "status": "8月启动",
+    "position": "2027届校招（统招+直招7932人；总部“菁英”管培生20人）",
+    "status": "官方公告9/2发布；总部及统招网申至10/7，全国统考10/25",
     "url": "https://zhaopin.chnenergy.com.cn"
    },
    {
@@ -24849,8 +25048,8 @@ window.CURRENT_DATA = {
   "zhuanke:420105": [
    {
     "company": "国家能源集团",
-    "position": "2027届校招（煤田地质/技术岗）",
-    "status": "8月启动",
+    "position": "2027届校招（统招+直招7932人；总部“菁英”管培生20人）",
+    "status": "官方公告9/2发布；总部及统招网申至10/7，全国统考10/25",
     "url": "https://zhaopin.chnenergy.com.cn"
    },
    {
@@ -24887,8 +25086,8 @@ window.CURRENT_DATA = {
    },
    {
     "company": "国家能源集团",
-    "position": "2027届校招（矿山地质岗）",
-    "status": "8月启动",
+    "position": "2027届校招（统招+直招7932人；总部“菁英”管培生20人）",
+    "status": "官方公告9/2发布；总部及统招网申至10/7，全国统考10/25",
     "url": "https://zhaopin.chnenergy.com.cn"
    },
    {
@@ -24953,8 +25152,8 @@ window.CURRENT_DATA = {
   "zhuanke:420505": [
    {
     "company": "国家能源集团",
-    "position": "2027届校招（煤炭清洁/技术岗）",
-    "status": "8月启动",
+    "position": "2027届校招（统招+直招7932人；总部“菁英”管培生20人）",
+    "status": "官方公告9/2发布；总部及统招网申至10/7，全国统考10/25",
     "url": "https://zhaopin.chnenergy.com.cn"
    },
    {
@@ -25499,8 +25698,8 @@ window.CURRENT_DATA = {
    },
    {
     "company": "国家能源集团",
-    "position": "2027届校招（分布式发电岗）",
-    "status": "8月启动",
+    "position": "2027届校招（统招+直招7932人；总部“菁英”管培生20人）",
+    "status": "官方公告9/2发布；总部及统招网申至10/7，全国统考10/25",
     "url": "https://zhaopin.chnenergy.com.cn"
    },
    {
@@ -25536,9 +25735,9 @@ window.CURRENT_DATA = {
     "url": "https://zhaopin.spic.com.cn"
    },
    {
-    "company": "华能集团",
-    "position": "2027届校招（水电机电岗）",
-    "status": "8-9月启动",
+    "company": "中国华能",
+    "position": "2027年校招（近4000个岗位，500余家企业）",
+    "status": "集团官网9/15正式启动，招聘系统岗位持续开放",
     "url": "https://zhaopin.chng.com.cn"
    }
   ],
@@ -25556,9 +25755,9 @@ window.CURRENT_DATA = {
     "url": "https://zhaopin.csg.cn"
    },
    {
-    "company": "华能集团",
-    "position": "2027届校招（营销/客服岗）",
-    "status": "8-9月启动",
+    "company": "中国华能",
+    "position": "2027年校招（近4000个岗位，500余家企业）",
+    "status": "集团官网9/15正式启动，招聘系统岗位持续开放",
     "url": "https://zhaopin.chng.com.cn"
    },
    {
@@ -25571,8 +25770,8 @@ window.CURRENT_DATA = {
   "zhuanke:420502": [
    {
     "company": "国家能源集团",
-    "position": "2027届校招（矿井建设/技术岗）",
-    "status": "8月启动",
+    "position": "2027届校招（统招+直招7932人；总部“菁英”管培生20人）",
+    "status": "官方公告9/2发布；总部及统招网申至10/7，全国统考10/25",
     "url": "https://zhaopin.chnenergy.com.cn"
    },
    {
@@ -25597,8 +25796,8 @@ window.CURRENT_DATA = {
   "zhuanke:420503": [
    {
     "company": "国家能源集团",
-    "position": "2027届校招（通风/安全岗）",
-    "status": "8月启动",
+    "position": "2027届校招（统招+直招7932人；总部“菁英”管培生20人）",
+    "status": "官方公告9/2发布；总部及统招网申至10/7，全国统考10/25",
     "url": "https://zhaopin.chnenergy.com.cn"
    },
    {
@@ -26162,15 +26361,15 @@ window.CURRENT_DATA = {
   ],
   "zhuanke:430201": [
    {
-    "company": "华能集团",
-    "position": "2027届校招（热能动力/技术岗）",
-    "status": "8-9月启动",
+    "company": "中国华能",
+    "position": "2027年校招（近4000个岗位，500余家企业）",
+    "status": "集团官网9/15正式启动，招聘系统岗位持续开放",
     "url": "https://zhaopin.chng.com.cn"
    },
    {
     "company": "国家能源集团",
-    "position": "2027届校招（热能动力岗）",
-    "status": "8月启动",
+    "position": "2027届校招（统招+直招7932人；总部“菁英”管培生20人）",
+    "status": "官方公告9/2发布；总部及统招网申至10/7，全国统考10/25",
     "url": "https://zhaopin.chnenergy.com.cn"
    },
    {
@@ -26189,14 +26388,14 @@ window.CURRENT_DATA = {
   "zhuanke:430205": [
    {
     "company": "国家能源集团",
-    "position": "2027届校招（发电运行岗）",
-    "status": "8月启动",
+    "position": "2027届校招（统招+直招7932人；总部“菁英”管培生20人）",
+    "status": "官方公告9/2发布；总部及统招网申至10/7，全国统考10/25",
     "url": "https://zhaopin.chnenergy.com.cn"
    },
    {
-    "company": "华能集团",
-    "position": "2027届校招（发电运行岗）",
-    "status": "8-9月启动",
+    "company": "中国华能",
+    "position": "2027年校招（近4000个岗位，500余家企业）",
+    "status": "集团官网9/15正式启动，招聘系统岗位持续开放",
     "url": "https://zhaopin.chng.com.cn"
    },
    {
@@ -26214,15 +26413,15 @@ window.CURRENT_DATA = {
   ],
   "zhuanke:430206": [
    {
-    "company": "华能集团",
-    "position": "2027届校招（热工自动化岗）",
-    "status": "8-9月启动",
+    "company": "中国华能",
+    "position": "2027年校招（近4000个岗位，500余家企业）",
+    "status": "集团官网9/15正式启动，招聘系统岗位持续开放",
     "url": "https://zhaopin.chng.com.cn"
    },
    {
     "company": "国家能源集团",
-    "position": "2027届校招（热工自动化岗）",
-    "status": "8月启动",
+    "position": "2027届校招（统招+直招7932人；总部“菁英”管培生20人）",
+    "status": "官方公告9/2发布；总部及统招网申至10/7，全国统考10/25",
     "url": "https://zhaopin.chnenergy.com.cn"
    },
    {
@@ -26258,9 +26457,9 @@ window.CURRENT_DATA = {
     "url": "https://zhaopin.spic.com.cn"
    },
    {
-    "company": "华能集团",
-    "position": "2027届校招（核电动力岗）",
-    "status": "8-9月启动",
+    "company": "中国华能",
+    "position": "2027年校招（近4000个岗位，500余家企业）",
+    "status": "集团官网9/15正式启动，招聘系统岗位持续开放",
     "url": "https://zhaopin.chng.com.cn"
    }
   ],
@@ -26293,8 +26492,8 @@ window.CURRENT_DATA = {
   "zhuanke:430304": [
    {
     "company": "国家能源集团",
-    "position": "2027届校招（氢能/技术岗）",
-    "status": "8月启动",
+    "position": "2027届校招（统招+直招7932人；总部“菁英”管培生20人）",
+    "status": "官方公告9/2发布；总部及统招网申至10/7，全国统考10/25",
     "url": "https://zhaopin.chnenergy.com.cn"
    },
    {
@@ -26345,8 +26544,8 @@ window.CURRENT_DATA = {
   "zhuanke:420308": [
    {
     "company": "国家能源集团",
-    "position": "2027届校招（矿山测量/技术岗）",
-    "status": "8月启动",
+    "position": "2027届校招（统招+直招7932人；总部“菁英”管培生20人）",
+    "status": "官方公告9/2发布；总部及统招网申至10/7，全国统考10/25",
     "url": "https://zhaopin.chnenergy.com.cn"
    },
    {
@@ -26884,15 +27083,15 @@ window.CURRENT_DATA = {
   ],
   "zhuanke:430208": [
    {
-    "company": "华能集团",
-    "position": "2027届校招（电厂化学/技术岗）",
-    "status": "8-9月启动",
+    "company": "中国华能",
+    "position": "2027年校招（近4000个岗位，500余家企业）",
+    "status": "集团官网9/15正式启动，招聘系统岗位持续开放",
     "url": "https://zhaopin.chng.com.cn"
    },
    {
     "company": "国家能源集团",
-    "position": "2027届校招（电厂化学/环保岗）",
-    "status": "8月启动",
+    "position": "2027届校招（统招+直招7932人；总部“菁英”管培生20人）",
+    "status": "官方公告9/2发布；总部及统招网申至10/7，全国统考10/25",
     "url": "https://zhaopin.chnenergy.com.cn"
    },
    {
@@ -27033,9 +27232,9 @@ window.CURRENT_DATA = {
    },
    {
     "company": "中国中车",
-    "position": "2027届校招（材料检测岗）",
-    "status": "8月启动",
-    "url": "https://crrc.hotjob.cn"
+    "position": "2027届全球校招（官网在招484个职位，多子公司）",
+    "status": "集团全球招聘公告及子公司简章上线；岗位持续更新",
+    "url": "https://crrc.hotjob.cn/SU64d47c466202cc36e27a52d4/pb/index.html"
    }
   ],
   "zhuanke:430402": [
@@ -27632,15 +27831,15 @@ window.CURRENT_DATA = {
   ],
   "zhuanke:430202": [
    {
-    "company": "华能集团",
-    "position": "2027届校招（城市热能/技术岗）",
-    "status": "8-9月启动",
+    "company": "中国华能",
+    "position": "2027年校招（近4000个岗位，500余家企业）",
+    "status": "集团官网9/15正式启动，招聘系统岗位持续开放",
     "url": "https://zhaopin.chng.com.cn"
    },
    {
     "company": "国家能源集团",
-    "position": "2027届校招（城市热能岗）",
-    "status": "8月启动",
+    "position": "2027届校招（统招+直招7932人；总部“菁英”管培生20人）",
+    "status": "官方公告9/2发布；总部及统招网申至10/7，全国统考10/25",
     "url": "https://zhaopin.chnenergy.com.cn"
    },
    {
@@ -29686,9 +29885,9 @@ window.CURRENT_DATA = {
     "url": "https://zhaopin.spic.com.cn"
    },
    {
-    "company": "华能集团",
-    "position": "2027届校招（水电运行岗）",
-    "status": "8-9月启动",
+    "company": "中国华能",
+    "position": "2027年校招（近4000个岗位，500余家企业）",
+    "status": "集团官网9/15正式启动，招聘系统岗位持续开放",
     "url": "https://zhaopin.chng.com.cn"
    }
   ],
@@ -29791,9 +29990,9 @@ window.CURRENT_DATA = {
    },
    {
     "company": "中国中车",
-    "position": "2027届校招（增材制造岗）",
-    "status": "8月启动",
-    "url": "https://crrc.hotjob.cn"
+    "position": "2027届全球校招（官网在招484个职位，多子公司）",
+    "status": "集团全球招聘公告及子公司简章上线；岗位持续更新",
+    "url": "https://crrc.hotjob.cn/SU64d47c466202cc36e27a52d4/pb/index.html"
    }
   ],
   "zhuanke:460107": [
@@ -30365,9 +30564,9 @@ window.CURRENT_DATA = {
   "zhuanke:460202": [
    {
     "company": "中国中车",
-    "position": "2027届校招（机电设备/技术岗）",
-    "status": "8月启动",
-    "url": "https://crrc.hotjob.cn"
+    "position": "2027届全球校招（官网在招484个职位，多子公司）",
+    "status": "集团全球招聘公告及子公司简章上线；岗位持续更新",
+    "url": "https://crrc.hotjob.cn/SU64d47c466202cc36e27a52d4/pb/index.html"
    },
    {
     "company": "比亚迪",
@@ -30443,9 +30642,9 @@ window.CURRENT_DATA = {
   "zhuanke:460108": [
    {
     "company": "中国中车",
-    "position": "2027届校招（铸造/技术岗）",
-    "status": "8月启动",
-    "url": "https://crrc.hotjob.cn"
+    "position": "2027届全球校招（官网在招484个职位，多子公司）",
+    "status": "集团全球招聘公告及子公司简章上线；岗位持续更新",
+    "url": "https://crrc.hotjob.cn/SU64d47c466202cc36e27a52d4/pb/index.html"
    },
    {
     "company": "中国宝武",
@@ -30469,9 +30668,9 @@ window.CURRENT_DATA = {
   "zhuanke:460114": [
    {
     "company": "中国中车",
-    "position": "2027届校招（特种加工/技术岗）",
-    "status": "8月启动",
-    "url": "https://crrc.hotjob.cn"
+    "position": "2027届全球校招（官网在招484个职位，多子公司）",
+    "status": "集团全球招聘公告及子公司简章上线；岗位持续更新",
+    "url": "https://crrc.hotjob.cn/SU64d47c466202cc36e27a52d4/pb/index.html"
    },
    {
     "company": "中航工业集团",
@@ -30527,9 +30726,9 @@ window.CURRENT_DATA = {
    },
    {
     "company": "中国中车",
-    "position": "2027届校招（质量检测岗）",
-    "status": "8月启动",
-    "url": "https://crrc.hotjob.cn"
+    "position": "2027届全球校招（官网在招484个职位，多子公司）",
+    "status": "集团全球招聘公告及子公司简章上线；岗位持续更新",
+    "url": "https://crrc.hotjob.cn/SU64d47c466202cc36e27a52d4/pb/index.html"
    },
    {
     "company": "比亚迪",
@@ -30957,9 +31156,9 @@ window.CURRENT_DATA = {
    },
    {
     "company": "中国中车",
-    "position": "2027届校招（增材制造岗）",
-    "status": "8月启动",
-    "url": "https://crrc.hotjob.cn"
+    "position": "2027届全球校招（官网在招484个职位，多子公司）",
+    "status": "集团全球招聘公告及子公司简章上线；岗位持续更新",
+    "url": "https://crrc.hotjob.cn/SU64d47c466202cc36e27a52d4/pb/index.html"
    },
    {
     "company": "华中科技大学等高校团队",
@@ -31035,9 +31234,9 @@ window.CURRENT_DATA = {
   "zhuanke:460402": [
    {
     "company": "中国中车",
-    "position": "2027届校招（动车组制造/维护岗）",
-    "status": "8月启动",
-    "url": "https://crrc.hotjob.cn"
+    "position": "2027届全球校招（官网在招484个职位，多子公司）",
+    "status": "集团全球招聘公告及子公司简章上线；岗位持续更新",
+    "url": "https://crrc.hotjob.cn/SU64d47c466202cc36e27a52d4/pb/index.html"
    },
    {
     "company": "中国铁路局系统",
@@ -31061,9 +31260,9 @@ window.CURRENT_DATA = {
   "zhuanke:460403": [
    {
     "company": "中国中车",
-    "position": "2027届校招（城轨车辆制造/维护岗）",
-    "status": "8月启动",
-    "url": "https://crrc.hotjob.cn"
+    "position": "2027届全球校招（官网在招484个职位，多子公司）",
+    "status": "集团全球招聘公告及子公司简章上线；岗位持续更新",
+    "url": "https://crrc.hotjob.cn/SU64d47c466202cc36e27a52d4/pb/index.html"
    },
    {
     "company": "各地地铁公司",
@@ -31087,9 +31286,9 @@ window.CURRENT_DATA = {
   "zhuanke:460501": [
    {
     "company": "中国船舶集团",
-    "position": "2027届校招（船舶/技术岗）",
-    "status": "8-9月启动",
-    "url": "https://www.cssc.net.cn"
+    "position": "2027届校招（AI/软件/电气/系统研发/船舶设计等）",
+    "status": "官方校招系统显示63个在招职位，持续更新",
+    "url": "https://cssc.zhiye.com/campus/"
    },
    {
     "company": "招商局工业",
@@ -31113,9 +31312,9 @@ window.CURRENT_DATA = {
   "zhuanke:460502": [
    {
     "company": "中国船舶集团",
-    "position": "2027届校招（船舶动力/技术岗）",
-    "status": "8-9月启动",
-    "url": "https://www.cssc.net.cn"
+    "position": "2027届校招（AI/软件/电气/系统研发/船舶设计等）",
+    "status": "官方校招系统显示63个在招职位，持续更新",
+    "url": "https://cssc.zhiye.com/campus/"
    },
    {
     "company": "招商局工业",
@@ -31139,9 +31338,9 @@ window.CURRENT_DATA = {
   "zhuanke:460503": [
    {
     "company": "中国船舶集团",
-    "position": "2027届校招（船舶电气/技术岗）",
-    "status": "8-9月启动",
-    "url": "https://www.cssc.net.cn"
+    "position": "2027届校招（AI/软件/电气/系统研发/船舶设计等）",
+    "status": "官方校招系统显示63个在招职位，持续更新",
+    "url": "https://cssc.zhiye.com/campus/"
    },
    {
     "company": "招商局工业",
@@ -31165,9 +31364,9 @@ window.CURRENT_DATA = {
   "zhuanke:460504": [
    {
     "company": "中国船舶集团",
-    "position": "2027届校招（船舶焊接/技术岗）",
-    "status": "8-9月启动",
-    "url": "https://www.cssc.net.cn"
+    "position": "2027届校招（AI/软件/电气/系统研发/船舶设计等）",
+    "status": "官方校招系统显示63个在招职位，持续更新",
+    "url": "https://cssc.zhiye.com/campus/"
    },
    {
     "company": "招商局工业",
@@ -31287,17 +31486,17 @@ window.CURRENT_DATA = {
    },
    {
     "company": "中国中车",
-    "position": "2027届校招（机械装备岗）",
-    "status": "8月启动",
-    "url": "https://crrc.hotjob.cn"
+    "position": "2027届全球校招（官网在招484个职位，多子公司）",
+    "status": "集团全球招聘公告及子公司简章上线；岗位持续更新",
+    "url": "https://crrc.hotjob.cn/SU64d47c466202cc36e27a52d4/pb/index.html"
    }
   ],
   "zhuanke:460111": [
    {
     "company": "中国中车",
-    "position": "2027届校招（表面处理/技术岗）",
-    "status": "8月启动",
-    "url": "https://crrc.hotjob.cn"
+    "position": "2027届全球校招（官网在招484个职位，多子公司）",
+    "status": "集团全球招聘公告及子公司简章上线；岗位持续更新",
+    "url": "https://crrc.hotjob.cn/SU64d47c466202cc36e27a52d4/pb/index.html"
    },
    {
     "company": "比亚迪",
@@ -31493,9 +31692,9 @@ window.CURRENT_DATA = {
    },
    {
     "company": "中国中车",
-    "position": "2027届校招（机械工艺岗）",
-    "status": "8月启动",
-    "url": "https://crrc.hotjob.cn"
+    "position": "2027届全球校招（官网在招484个职位，多子公司）",
+    "status": "集团全球招聘公告及子公司简章上线；岗位持续更新",
+    "url": "https://crrc.hotjob.cn/SU64d47c466202cc36e27a52d4/pb/index.html"
    },
    {
     "company": "格力电器",
@@ -31603,15 +31802,15 @@ window.CURRENT_DATA = {
   "undergrad:080411T": [
    {
     "company": "中国船舶集团",
-    "position": "2027届校招（焊接/技术岗）",
-    "status": "8-9月启动",
-    "url": "https://www.cssc.net.cn"
+    "position": "2027届校招（AI/软件/电气/系统研发/船舶设计等）",
+    "status": "官方校招系统显示63个在招职位，持续更新",
+    "url": "https://cssc.zhiye.com/campus/"
    },
    {
     "company": "中国中车",
-    "position": "2027届校招（焊接/技术岗）",
-    "status": "8月启动",
-    "url": "https://crrc.hotjob.cn"
+    "position": "2027届全球校招（官网在招484个职位，多子公司）",
+    "status": "集团全球招聘公告及子公司简章上线；岗位持续更新",
+    "url": "https://crrc.hotjob.cn/SU64d47c466202cc36e27a52d4/pb/index.html"
    },
    {
     "company": "中国宝武",
@@ -31667,8 +31866,8 @@ window.CURRENT_DATA = {
   "undergrad:080506TK": [
    {
     "company": "国家能源集团",
-    "position": "2027届校招（氢能/技术岗）",
-    "status": "8月启动",
+    "position": "2027届校招（统招+直招7932人；总部“菁英”管培生20人）",
+    "status": "官方公告9/2发布；总部及统招网申至10/7，全国统考10/25",
     "url": "https://zhaopin.chnenergy.com.cn"
    },
    {
@@ -31723,8 +31922,8 @@ window.CURRENT_DATA = {
    },
    {
     "company": "国家能源集团",
-    "position": "2027届校招（智慧能源/技术岗）",
-    "status": "8月启动",
+    "position": "2027届校招（统招+直招7932人；总部“菁英”管培生20人）",
+    "status": "官方公告9/2发布；总部及统招网申至10/7，全国统考10/25",
     "url": "https://zhaopin.chnenergy.com.cn"
    }
   ],
@@ -31861,9 +32060,9 @@ window.CURRENT_DATA = {
   "zhuanke:460505": [
    {
     "company": "中国船舶集团",
-    "position": "2027届校招（船舶舾装/技术岗）",
-    "status": "8-9月启动",
-    "url": "https://www.cssc.net.cn"
+    "position": "2027届校招（AI/软件/电气/系统研发/船舶设计等）",
+    "status": "官方校招系统显示63个在招职位，持续更新",
+    "url": "https://cssc.zhiye.com/campus/"
    },
    {
     "company": "招商局工业",
@@ -31899,9 +32098,9 @@ window.CURRENT_DATA = {
    },
    {
     "company": "中国船舶集团",
-    "position": "2027届校招（海工装备岗）",
-    "status": "8-9月启动",
-    "url": "https://www.cssc.net.cn"
+    "position": "2027届校招（AI/软件/电气/系统研发/船舶设计等）",
+    "status": "官方校招系统显示63个在招职位，持续更新",
+    "url": "https://cssc.zhiye.com/campus/"
    },
    {
     "company": "中国海油",
@@ -31919,9 +32118,9 @@ window.CURRENT_DATA = {
    },
    {
     "company": "中国中车",
-    "position": "2027届校招（轨道信号/技术岗）",
-    "status": "8月启动",
-    "url": "https://crrc.hotjob.cn"
+    "position": "2027届全球校招（官网在招484个职位，多子公司）",
+    "status": "集团全球招聘公告及子公司简章上线；岗位持续更新",
+    "url": "https://crrc.hotjob.cn/SU64d47c466202cc36e27a52d4/pb/index.html"
    },
    {
     "company": "各地地铁公司",
@@ -31939,9 +32138,9 @@ window.CURRENT_DATA = {
   "zhuanke:460405": [
    {
     "company": "中国中车",
-    "position": "2027届校招（轨道工程机械/技术岗）",
-    "status": "8月启动",
-    "url": "https://crrc.hotjob.cn"
+    "position": "2027届全球校招（官网在招484个职位，多子公司）",
+    "status": "集团全球招聘公告及子公司简章上线；岗位持续更新",
+    "url": "https://crrc.hotjob.cn/SU64d47c466202cc36e27a52d4/pb/index.html"
    },
    {
     "company": "中国通号",
@@ -32009,9 +32208,9 @@ window.CURRENT_DATA = {
    },
    {
     "company": "中国中车",
-    "position": "2027届校招（计量/技术岗）",
-    "status": "8月启动",
-    "url": "https://crrc.hotjob.cn"
+    "position": "2027届全球校招（官网在招484个职位，多子公司）",
+    "status": "集团全球招聘公告及子公司简章上线；岗位持续更新",
+    "url": "https://crrc.hotjob.cn/SU64d47c466202cc36e27a52d4/pb/index.html"
    }
   ],
   "zhuanke:460115": [
@@ -32246,9 +32445,9 @@ window.CURRENT_DATA = {
     "url": "https://zhaopin.spic.com.cn"
    },
    {
-    "company": "华能集团",
-    "position": "2027届校招（能源服务岗）",
-    "status": "8-9月启动",
+    "company": "中国华能",
+    "position": "2027年校招（近4000个岗位，500余家企业）",
+    "status": "集团官网9/15正式启动，招聘系统岗位持续开放",
     "url": "https://zhaopin.chng.com.cn"
    },
    {
@@ -32259,8 +32458,8 @@ window.CURRENT_DATA = {
    },
    {
     "company": "国家能源集团",
-    "position": "2027届校招（能源服务岗）",
-    "status": "8月启动",
+    "position": "2027届校招（统招+直招7932人；总部“菁英”管培生20人）",
+    "status": "官方公告9/2发布；总部及统招网申至10/7，全国统考10/25",
     "url": "https://zhaopin.chnenergy.com.cn"
    }
   ],
@@ -32355,8 +32554,8 @@ window.CURRENT_DATA = {
    },
    {
     "company": "国家能源集团",
-    "position": "2027届校招（能源互联网岗）",
-    "status": "8月启动",
+    "position": "2027届校招（统招+直招7932人；总部“菁英”管培生20人）",
+    "status": "官方公告9/2发布；总部及统招网申至10/7，全国统考10/25",
     "url": "https://zhaopin.chnenergy.com.cn"
    }
   ],
@@ -32583,9 +32782,9 @@ window.CURRENT_DATA = {
   "zhuanke:460507": [
    {
     "company": "中国船舶集团",
-    "position": "2027届校招（船舶通信/技术岗）",
-    "status": "8-9月启动",
-    "url": "https://www.cssc.net.cn"
+    "position": "2027届校招（AI/软件/电气/系统研发/船舶设计等）",
+    "status": "官方校招系统显示63个在招职位，持续更新",
+    "url": "https://cssc.zhiye.com/campus/"
    },
    {
     "company": "中远海运",
@@ -32873,9 +33072,9 @@ window.CURRENT_DATA = {
    },
    {
     "company": "中国中车",
-    "position": "2027届校招（电动载运/技术岗）",
-    "status": "8月启动",
-    "url": "https://crrc.hotjob.cn"
+    "position": "2027届全球校招（官网在招484个职位，多子公司）",
+    "status": "集团全球招聘公告及子公司简章上线；岗位持续更新",
+    "url": "https://crrc.hotjob.cn/SU64d47c466202cc36e27a52d4/pb/index.html"
    },
    {
     "company": "宁德时代",
@@ -32931,9 +33130,9 @@ window.CURRENT_DATA = {
   "undergrad:080708T": [
    {
     "company": "中国船舶集团",
-    "position": "2027届校招（水声/技术岗）",
-    "status": "8-9月启动",
-    "url": "https://www.cssc.net.cn"
+    "position": "2027届校招（AI/软件/电气/系统研发/船舶设计等）",
+    "status": "官方校招系统显示63个在招职位，持续更新",
+    "url": "https://cssc.zhiye.com/campus/"
    },
    {
     "company": "中科院声学所等院所",
@@ -33059,9 +33258,9 @@ window.CURRENT_DATA = {
   "undergrad:080718T": [
    {
     "company": "中国船舶集团",
-    "position": "2027届校招（海洋信息/技术岗）",
-    "status": "8-9月启动",
-    "url": "https://www.cssc.net.cn"
+    "position": "2027届校招（AI/软件/电气/系统研发/船舶设计等）",
+    "status": "官方校招系统显示63个在招职位，持续更新",
+    "url": "https://cssc.zhiye.com/campus/"
    },
    {
     "company": "航天宏图",
@@ -33155,8 +33354,8 @@ window.CURRENT_DATA = {
    },
    {
     "company": "国家能源集团",
-    "position": "2027届校招（煤化工岗）",
-    "status": "8月启动",
+    "position": "2027届校招（统招+直招7932人；总部“菁英”管培生20人）",
+    "status": "官方公告9/2发布；总部及统招网申至10/7，全国统考10/25",
     "url": "https://zhaopin.chnenergy.com.cn"
    },
    {
@@ -33517,9 +33716,9 @@ window.CURRENT_DATA = {
    },
    {
     "company": "中国中车",
-    "position": "2027届校招（智能装备/技术岗）",
-    "status": "8月启动",
-    "url": "https://crrc.hotjob.cn"
+    "position": "2027届全球校招（官网在招484个职位，多子公司）",
+    "status": "集团全球招聘公告及子公司简章上线；岗位持续更新",
+    "url": "https://crrc.hotjob.cn/SU64d47c466202cc36e27a52d4/pb/index.html"
    },
    {
     "company": "大疆",
@@ -33590,6 +33789,12 @@ window.CURRENT_DATA = {
     "position": "2027届校招（智能科学/算法岗）",
     "status": "8月启动",
     "url": "https://talent.baidu.com"
+   },
+   {
+    "company": "航空工业成飞",
+    "position": "2027届校招（人工智能/计算机/航空航天/机械/材料等13大类）",
+    "status": "本批次13大类岗位开放；以官方招聘系统为准",
+    "url": "https://cac.avic.com/sycd/rlzy/?PC=PC"
    }
   ],
   "undergrad:080916T": [
@@ -33831,9 +34036,9 @@ window.CURRENT_DATA = {
    },
    {
     "company": "中国中车",
-    "position": "2027届校招（锻压/技术岗）",
-    "status": "8月启动",
-    "url": "https://crrc.hotjob.cn"
+    "position": "2027届全球校招（官网在招484个职位，多子公司）",
+    "status": "集团全球招聘公告及子公司简章上线；岗位持续更新",
+    "url": "https://crrc.hotjob.cn/SU64d47c466202cc36e27a52d4/pb/index.html"
    },
    {
     "company": "中国宝武",
@@ -33877,9 +34082,9 @@ window.CURRENT_DATA = {
    },
    {
     "company": "中国中车",
-    "position": "2027届校招（理化测试/技术岗）",
-    "status": "8月启动",
-    "url": "https://crrc.hotjob.cn"
+    "position": "2027届全球校招（官网在招484个职位，多子公司）",
+    "status": "集团全球招聘公告及子公司简章上线；岗位持续更新",
+    "url": "https://crrc.hotjob.cn/SU64d47c466202cc36e27a52d4/pb/index.html"
    },
    {
     "company": "中国宝武",
@@ -34079,9 +34284,9 @@ window.CURRENT_DATA = {
   "zhuanke:470212": [
    {
     "company": "中国中车",
-    "position": "2027届校招（涂装/技术岗）",
-    "status": "8月启动",
-    "url": "https://crrc.hotjob.cn"
+    "position": "2027届全球校招（官网在招484个职位，多子公司）",
+    "status": "集团全球招聘公告及子公司简章上线；岗位持续更新",
+    "url": "https://crrc.hotjob.cn/SU64d47c466202cc36e27a52d4/pb/index.html"
    },
    {
     "company": "比亚迪",
@@ -34091,9 +34296,9 @@ window.CURRENT_DATA = {
    },
    {
     "company": "中国船舶集团",
-    "position": "2027届校招（涂装/技术岗）",
-    "status": "8-9月启动",
-    "url": "https://www.cssc.net.cn"
+    "position": "2027届校招（AI/软件/电气/系统研发/船舶设计等）",
+    "status": "官方校招系统显示63个在招职位，持续更新",
+    "url": "https://cssc.zhiye.com/campus/"
    },
    {
     "company": "三一集团",
@@ -34378,9 +34583,9 @@ window.CURRENT_DATA = {
     "url": "https://www.supcon.com"
    },
    {
-    "company": "华能集团",
-    "position": "2027届校招（核电控制岗）",
-    "status": "8-9月启动",
+    "company": "中国华能",
+    "position": "2027年校招（近4000个岗位，500余家企业）",
+    "status": "集团官网9/15正式启动，招聘系统岗位持续开放",
     "url": "https://zhaopin.chng.com.cn"
    }
   ],
@@ -35535,8 +35740,8 @@ window.CURRENT_DATA = {
    },
    {
     "company": "国家能源集团",
-    "position": "2027届校招（矿物资源岗）",
-    "status": "8月启动",
+    "position": "2027届校招（统招+直招7932人；总部“菁英”管培生20人）",
+    "status": "官方公告9/2发布；总部及统招网申至10/7，全国统考10/25",
     "url": "https://zhaopin.chnenergy.com.cn"
    },
    {
@@ -35587,8 +35792,8 @@ window.CURRENT_DATA = {
   "undergrad:081507T": [
    {
     "company": "国家能源集团",
-    "position": "2027届校招（智能采矿/技术岗）",
-    "status": "8月启动",
+    "position": "2027届校招（统招+直招7932人；总部“菁英”管培生20人）",
+    "status": "官方公告9/2发布；总部及统招网申至10/7，全国统考10/25",
     "url": "https://zhaopin.chnenergy.com.cn"
    },
    {
@@ -35631,8 +35836,8 @@ window.CURRENT_DATA = {
    },
    {
     "company": "国家能源集团",
-    "position": "2027届校招（碳储/技术岗）",
-    "status": "8月启动",
+    "position": "2027届校招（统招+直招7932人；总部“菁英”管培生20人）",
+    "status": "官方公告9/2发布；总部及统招网申至10/7，全国统考10/25",
     "url": "https://zhaopin.chnenergy.com.cn"
    },
    {
@@ -35669,9 +35874,9 @@ window.CURRENT_DATA = {
    },
    {
     "company": "中国中车",
-    "position": "2027届校招（智能运输/技术岗）",
-    "status": "8月启动",
-    "url": "https://crrc.hotjob.cn"
+    "position": "2027届全球校招（官网在招484个职位，多子公司）",
+    "status": "集团全球招聘公告及子公司简章上线；岗位持续更新",
+    "url": "https://crrc.hotjob.cn/SU64d47c466202cc36e27a52d4/pb/index.html"
    },
    {
     "company": "滴滴/出行企业",
@@ -35683,9 +35888,9 @@ window.CURRENT_DATA = {
   "undergrad:081902T": [
    {
     "company": "中国船舶集团",
-    "position": "2027届校招（海洋工程/技术岗）",
-    "status": "8-9月启动",
-    "url": "https://www.cssc.net.cn"
+    "position": "2027届校招（AI/软件/电气/系统研发/船舶设计等）",
+    "status": "官方校招系统显示63个在招职位，持续更新",
+    "url": "https://cssc.zhiye.com/campus/"
    },
    {
     "company": "招商局工业",
@@ -35721,9 +35926,9 @@ window.CURRENT_DATA = {
    },
    {
     "company": "中国船舶集团",
-    "position": "2027届校招（海洋机器人/技术岗）",
-    "status": "8-9月启动",
-    "url": "https://www.cssc.net.cn"
+    "position": "2027届校招（AI/软件/电气/系统研发/船舶设计等）",
+    "status": "官方校招系统显示63个在招职位，持续更新",
+    "url": "https://cssc.zhiye.com/campus/"
    },
    {
     "company": "大疆",
@@ -35747,9 +35952,9 @@ window.CURRENT_DATA = {
   "undergrad:081906T": [
    {
     "company": "中国船舶集团",
-    "position": "2027届校招（智能海洋装备/技术岗）",
-    "status": "8-9月启动",
-    "url": "https://www.cssc.net.cn"
+    "position": "2027届校招（AI/软件/电气/系统研发/船舶设计等）",
+    "status": "官方校招系统显示63个在招职位，持续更新",
+    "url": "https://cssc.zhiye.com/campus/"
    },
    {
     "company": "招商局工业",
@@ -35965,9 +36170,9 @@ window.CURRENT_DATA = {
    },
    {
     "company": "中国中车",
-    "position": "2027届校招（铁道车辆/技术岗）",
-    "status": "8月启动",
-    "url": "https://crrc.hotjob.cn"
+    "position": "2027届全球校招（官网在招484个职位，多子公司）",
+    "status": "集团全球招聘公告及子公司简章上线；岗位持续更新",
+    "url": "https://crrc.hotjob.cn/SU64d47c466202cc36e27a52d4/pb/index.html"
    },
    {
     "company": "国铁集团",
@@ -36049,9 +36254,9 @@ window.CURRENT_DATA = {
    },
    {
     "company": "中国中车",
-    "position": "2027届校招（信号/技术岗）",
-    "status": "8月启动",
-    "url": "https://crrc.hotjob.cn"
+    "position": "2027届全球校招（官网在招484个职位，多子公司）",
+    "status": "集团全球招聘公告及子公司简章上线；岗位持续更新",
+    "url": "https://crrc.hotjob.cn/SU64d47c466202cc36e27a52d4/pb/index.html"
    },
    {
     "company": "和利时",
@@ -36507,9 +36712,9 @@ window.CURRENT_DATA = {
   "undergrad:081905T": [
    {
     "company": "中国船舶集团",
-    "position": "2027届校招（智慧海洋/技术岗）",
-    "status": "8-9月启动",
-    "url": "https://www.cssc.net.cn"
+    "position": "2027届校招（AI/软件/电气/系统研发/船舶设计等）",
+    "status": "官方校招系统显示63个在招职位，持续更新",
+    "url": "https://cssc.zhiye.com/campus/"
    },
    {
     "company": "航天宏图",
@@ -36785,9 +36990,9 @@ window.CURRENT_DATA = {
   "zhuanke:500308": [
    {
     "company": "中国船舶集团",
-    "position": "2027届校招（船舶电子电气/技术岗）",
-    "status": "8-9月启动",
-    "url": "https://www.cssc.net.cn"
+    "position": "2027届校招（AI/软件/电气/系统研发/船舶设计等）",
+    "status": "官方校招系统显示63个在招职位，持续更新",
+    "url": "https://cssc.zhiye.com/campus/"
    },
    {
     "company": "中远海运",
@@ -36817,9 +37022,9 @@ window.CURRENT_DATA = {
    },
    {
     "company": "中国船舶集团",
-    "position": "2027届校招（船舶检验/技术岗）",
-    "status": "8-9月启动",
-    "url": "https://www.cssc.net.cn"
+    "position": "2027届校招（AI/软件/电气/系统研发/船舶设计等）",
+    "status": "官方校招系统显示63个在招职位，持续更新",
+    "url": "https://cssc.zhiye.com/campus/"
    },
    {
     "company": "中远海运",
@@ -39653,8 +39858,8 @@ window.CURRENT_DATA = {
    },
    {
     "company": "国家能源集团",
-    "position": "2027届校招（煤层气/技术岗）",
-    "status": "8月启动",
+    "position": "2027届校招（统招+直招7932人；总部“菁英”管培生20人）",
+    "status": "官方公告9/2发布；总部及统招网申至10/7，全国统考10/25",
     "url": "https://zhaopin.chnenergy.com.cn"
    },
    {
@@ -39699,9 +39904,9 @@ window.CURRENT_DATA = {
   "undergrad:070704T": [
    {
     "company": "中国船舶集团",
-    "position": "2027届校招（军事海洋/技术岗）",
-    "status": "8-9月启动",
-    "url": "https://www.cssc.net.cn"
+    "position": "2027届校招（AI/软件/电气/系统研发/船舶设计等）",
+    "status": "官方校招系统显示63个在招职位，持续更新",
+    "url": "https://cssc.zhiye.com/campus/"
    },
    {
     "company": "中科院海洋所等院所",
@@ -39883,9 +40088,9 @@ window.CURRENT_DATA = {
    },
    {
     "company": "中国船舶集团",
-    "position": "2027届校招（救助打捞/技术岗）",
-    "status": "8-9月启动",
-    "url": "https://www.cssc.net.cn"
+    "position": "2027届校招（AI/软件/电气/系统研发/船舶设计等）",
+    "status": "官方校招系统显示63个在招职位，持续更新",
+    "url": "https://cssc.zhiye.com/campus/"
    }
   ],
   "undergrad:081810T": [
@@ -40265,9 +40470,9 @@ window.CURRENT_DATA = {
   "zhuanke:460506": [
    {
     "company": "中国船舶集团",
-    "position": "2027届校招（船舶涂装/技术岗）",
-    "status": "8-9月启动",
-    "url": "https://www.cssc.net.cn"
+    "position": "2027届校招（AI/软件/电气/系统研发/船舶设计等）",
+    "status": "官方校招系统显示63个在招职位，持续更新",
+    "url": "https://cssc.zhiye.com/campus/"
    },
    {
     "company": "招商局工业",
@@ -40407,9 +40612,9 @@ window.CURRENT_DATA = {
    },
    {
     "company": "中国中车",
-    "position": "2027届校招（表面精饰/技术岗）",
-    "status": "8月启动",
-    "url": "https://crrc.hotjob.cn"
+    "position": "2027届全球校招（官网在招484个职位，多子公司）",
+    "status": "集团全球招聘公告及子公司简章上线；岗位持续更新",
+    "url": "https://crrc.hotjob.cn/SU64d47c466202cc36e27a52d4/pb/index.html"
    },
    {
     "company": "三一集团",
@@ -40459,9 +40664,9 @@ window.CURRENT_DATA = {
    },
    {
     "company": "中国船舶集团",
-    "position": "2027届校招（舰艇/技术岗）",
-    "status": "8-9月启动",
-    "url": "https://www.cssc.net.cn"
+    "position": "2027届校招（AI/软件/电气/系统研发/船舶设计等）",
+    "status": "官方校招系统显示63个在招职位，持续更新",
+    "url": "https://cssc.zhiye.com/campus/"
    },
    {
     "company": "海事系统",
@@ -44148,6 +44353,12 @@ window.CURRENT_DATA = {
     "position": "2027届校招（集团总部及所属单位，战略新兴产业/金融/管理方向）",
     "status": "官方公告9/7发布；网申至10/23，每人可报2岗",
     "url": "https://zp.crhc.cn/recportal/recruitAnnouncement?title=recruit_9003&recruitType=9003&recordId=b43e3c64b2a17e8fc412eab67c5f25b1&isCanDelete=1"
+   },
+   {
+    "company": "国机集团",
+    "position": "2027届校招（官网949个在招职位，机械/电气/软件/AI/工程/经营等）",
+    "status": "2026-09-18央企信息公开；官网职位持续更新",
+    "url": "https://zhaopin.sinomach.com.cn/SU64b4cfe82f9d24760ae8b80c/pb/school.html"
    }
   ],
   "undergrad:120104": [
@@ -45991,9 +46202,9 @@ window.CURRENT_DATA = {
    },
    {
     "company": "中国船舶集团",
-    "position": "2027届校招（后勤/管理岗）",
-    "status": "8-9月启动",
-    "url": "https://www.cssc.net.cn"
+    "position": "2027届校招（AI/软件/电气/系统研发/船舶设计等）",
+    "status": "官方校招系统显示63个在招职位，持续更新",
+    "url": "https://cssc.zhiye.com/campus/"
    },
    {
     "company": "中远海运",
@@ -46227,9 +46438,9 @@ window.CURRENT_DATA = {
    },
    {
     "company": "中国中车",
-    "position": "2027届校招（标准化/技术岗）",
-    "status": "8月启动",
-    "url": "https://crrc.hotjob.cn"
+    "position": "2027届全球校招（官网在招484个职位，多子公司）",
+    "status": "集团全球招聘公告及子公司简章上线；岗位持续更新",
+    "url": "https://crrc.hotjob.cn/SU64d47c466202cc36e27a52d4/pb/index.html"
    },
    {
     "company": "央国企标准化部门",
@@ -46253,9 +46464,9 @@ window.CURRENT_DATA = {
    },
    {
     "company": "中国中车",
-    "position": "2027届校招（质量管理/技术岗）",
-    "status": "8月启动",
-    "url": "https://crrc.hotjob.cn"
+    "position": "2027届全球校招（官网在招484个职位，多子公司）",
+    "status": "集团全球招聘公告及子公司简章上线；岗位持续更新",
+    "url": "https://crrc.hotjob.cn/SU64d47c466202cc36e27a52d4/pb/index.html"
    },
    {
     "company": "SGS等检测机构",
@@ -50673,9 +50884,9 @@ window.CURRENT_DATA = {
    },
    {
     "company": "中国中车",
-    "position": "2027届校招（质量管理/技术岗）",
-    "status": "8月启动",
-    "url": "https://crrc.hotjob.cn"
+    "position": "2027届全球校招（官网在招484个职位，多子公司）",
+    "status": "集团全球招聘公告及子公司简章上线；岗位持续更新",
+    "url": "https://crrc.hotjob.cn/SU64d47c466202cc36e27a52d4/pb/index.html"
    },
    {
     "company": "比亚迪",
@@ -50763,9 +50974,9 @@ window.CURRENT_DATA = {
    },
    {
     "company": "中国中车",
-    "position": "2027届校招（标准化/技术岗）",
-    "status": "8月启动",
-    "url": "https://crrc.hotjob.cn"
+    "position": "2027届全球校招（官网在招484个职位，多子公司）",
+    "status": "集团全球招聘公告及子公司简章上线；岗位持续更新",
+    "url": "https://crrc.hotjob.cn/SU64d47c466202cc36e27a52d4/pb/index.html"
    }
   ],
   "zhuanke:590211": [
@@ -51186,6 +51397,18 @@ window.CURRENT_DATA = {
     "position": "2027届校招（集团总部及所属单位，战略新兴产业/金融/管理方向）",
     "status": "官方公告9/7发布；网申至10/23，每人可报2岗",
     "url": "https://zp.crhc.cn/recportal/recruitAnnouncement?title=recruit_9003&recruitType=9003&recordId=b43e3c64b2a17e8fc412eab67c5f25b1&isCanDelete=1"
+   },
+   {
+    "company": "国机集团",
+    "position": "2027届校招（官网949个在招职位，机械/电气/软件/AI/工程/经营等）",
+    "status": "2026-09-18央企信息公开；官网职位持续更新",
+    "url": "https://zhaopin.sinomach.com.cn/SU64b4cfe82f9d24760ae8b80c/pb/school.html"
+   },
+   {
+    "company": "中国华能",
+    "position": "2027年校招（近4000个岗位，500余家企业）",
+    "status": "集团官网9/15正式启动；以招聘系统公告为准",
+    "url": "https://zhaopin.chng.com.cn"
    }
   ],
   "graduate:0251": [
@@ -52810,6 +53033,18 @@ window.CURRENT_DATA = {
     "position": "2027届校招（集团总部及所属单位，战略新兴产业/金融/管理方向）",
     "status": "官方公告9/7发布；网申至10/23，每人可报2岗",
     "url": "https://zp.crhc.cn/recportal/recruitAnnouncement?title=recruit_9003&recruitType=9003&recordId=b43e3c64b2a17e8fc412eab67c5f25b1&isCanDelete=1"
+   },
+   {
+    "company": "国机集团",
+    "position": "2027届校招（官网949个在招职位，机械/电气/软件/AI/工程/经营等）",
+    "status": "2026-09-18央企信息公开；官网职位持续更新",
+    "url": "https://zhaopin.sinomach.com.cn/SU64b4cfe82f9d24760ae8b80c/pb/school.html"
+   },
+   {
+    "company": "中国华能",
+    "position": "2027年校招（近4000个岗位，500余家企业）",
+    "status": "集团官网9/15正式启动；以招聘系统公告为准",
+    "url": "https://zhaopin.chng.com.cn"
    }
   ],
   "graduate:1202": [
@@ -53604,10 +53839,10 @@ window.CURRENT_DATA = {
     "url": ""
    },
    {
-    "company": "中国船舶",
-    "position": "海洋科研岗",
-    "status": "以官网公告为准（秋招9-11月为主）",
-    "url": "http://www.cssc.net.cn"
+    "company": "中国船舶集团",
+    "position": "2027届校招（AI/软件/电气/系统研发/船舶设计等）",
+    "status": "官方校招系统显示63个在招职位，持续更新",
+    "url": "https://cssc.zhiye.com/campus/"
    },
    {
     "company": "海油工程",
@@ -55890,10 +56125,10 @@ window.CURRENT_DATA = {
     "url": ""
    },
    {
-    "company": "中国船舶",
-    "position": "装备研发岗",
-    "status": "以官网为准（秋招陆续开启）",
-    "url": "http://www.cssc.net.cn"
+    "company": "中国船舶集团",
+    "position": "2027届校招（AI/软件/电气/系统研发/船舶设计等）",
+    "status": "官方校招系统显示63个在招职位，持续更新",
+    "url": "https://cssc.zhiye.com/campus/"
    },
    {
     "company": "中国兵器",
@@ -55992,10 +56227,10 @@ window.CURRENT_DATA = {
     "url": "https://www.cetc.com.cn/zgdk/1593022/1592495/2127615/index.html"
    },
    {
-    "company": "中国船舶",
-    "position": "智能系统研发岗",
-    "status": "以官网为准（秋招陆续开启）",
-    "url": "http://www.cssc.net.cn"
+    "company": "中国船舶集团",
+    "position": "2027届校招（AI/软件/电气/系统研发/船舶设计等）",
+    "status": "官方校招系统显示63个在招职位，持续更新",
+    "url": "https://cssc.zhiye.com/campus/"
    },
    {
     "company": "科大讯飞",
@@ -56122,10 +56357,10 @@ window.CURRENT_DATA = {
     "url": ""
    },
    {
-    "company": "中国船舶",
-    "position": "装备保障/供应链岗",
-    "status": "以官网为准（秋招陆续开启）",
-    "url": "http://www.cssc.net.cn"
+    "company": "中国船舶集团",
+    "position": "2027届校招（AI/软件/电气/系统研发/船舶设计等）",
+    "status": "官方校招系统显示63个在招职位，持续更新",
+    "url": "https://cssc.zhiye.com/campus/"
    },
    {
     "company": "中国兵器",
@@ -56219,15 +56454,15 @@ window.CURRENT_DATA = {
   "graduate:0802": [
    {
     "company": "中国中车",
-    "position": "机械研发岗",
-    "status": "以官网公告为准（秋招9-11月为主）",
-    "url": "https://crrc.hotjob.cn"
+    "position": "2027届全球校招（官网在招484个职位，多子公司）",
+    "status": "集团全球招聘公告及子公司简章上线；岗位持续更新",
+    "url": "https://crrc.hotjob.cn/SU64d47c466202cc36e27a52d4/pb/index.html"
    },
    {
-    "company": "中国船舶",
-    "position": "装备设计岗",
-    "status": "以官网公告为准（秋招9-11月为主）",
-    "url": "http://www.cssc.net.cn"
+    "company": "中国船舶集团",
+    "position": "2027届校招（AI/软件/电气/系统研发/船舶设计等）",
+    "status": "官方校招系统显示63个在招职位，持续更新",
+    "url": "https://cssc.zhiye.com/campus/"
    },
    {
     "company": "中国商飞",
@@ -56237,8 +56472,8 @@ window.CURRENT_DATA = {
    },
    {
     "company": "国家能源集团",
-    "position": "装备设计岗",
-    "status": "以官网公告为准（秋招9-11月为主）",
+    "position": "2027届校招（统招+直招7932人；总部“菁英”管培生20人）",
+    "status": "官方公告9/2发布；总部及统招网申至10/7，全国统考10/25",
     "url": "https://zhaopin.chnenergy.com.cn"
    },
    {
@@ -56288,6 +56523,18 @@ window.CURRENT_DATA = {
     "position": "2027届校招（集团总部及所属单位，战略新兴产业/金融/管理方向）",
     "status": "官方公告9/7发布；网申至10/23，每人可报2岗",
     "url": "https://zp.crhc.cn/recportal/recruitAnnouncement?title=recruit_9003&recruitType=9003&recordId=b43e3c64b2a17e8fc412eab67c5f25b1&isCanDelete=1"
+   },
+   {
+    "company": "国机集团",
+    "position": "2027届校招（官网949个在招职位，机械/电气/软件/AI/工程/经营等）",
+    "status": "2026-09-18央企信息公开；官网职位持续更新",
+    "url": "https://zhaopin.sinomach.com.cn/SU64b4cfe82f9d24760ae8b80c/pb/school.html"
+   },
+   {
+    "company": "航空工业成飞",
+    "position": "2027届校招（人工智能/计算机/航空航天/机械/材料等13大类）",
+    "status": "本批次13大类岗位开放；以官方招聘系统为准",
+    "url": "https://cac.avic.com/sycd/rlzy/?PC=PC"
    }
   ],
   "graduate:0803": [
@@ -56387,9 +56634,9 @@ window.CURRENT_DATA = {
   "graduate:0805": [
    {
     "company": "中国中车",
-    "position": "材料研发岗",
-    "status": "以官网公告为准（秋招9-11月为主）",
-    "url": "https://crrc.hotjob.cn"
+    "position": "2027届全球校招（官网在招484个职位，多子公司）",
+    "status": "集团全球招聘公告及子公司简章上线；岗位持续更新",
+    "url": "https://crrc.hotjob.cn/SU64d47c466202cc36e27a52d4/pb/index.html"
    },
    {
     "company": "中国商飞",
@@ -56438,6 +56685,18 @@ window.CURRENT_DATA = {
     "position": "工艺工程师",
     "status": "以官网为准（秋招陆续开启）",
     "url": "https://www.whchem.com"
+   },
+   {
+    "company": "国机集团",
+    "position": "2027届校招（官网949个在招职位，机械/电气/软件/AI/工程/经营等）",
+    "status": "2026-09-18央企信息公开；官网职位持续更新",
+    "url": "https://zhaopin.sinomach.com.cn/SU64b4cfe82f9d24760ae8b80c/pb/school.html"
+   },
+   {
+    "company": "航空工业成飞",
+    "position": "2027届校招（人工智能/计算机/航空航天/机械/材料等13大类）",
+    "status": "本批次13大类岗位开放；以官方招聘系统为准",
+    "url": "https://cac.avic.com/sycd/rlzy/?PC=PC"
    }
   ],
   "graduate:0806": [
@@ -56475,15 +56734,15 @@ window.CURRENT_DATA = {
   "graduate:0807": [
    {
     "company": "国家能源集团",
-    "position": "动力系统研发岗",
-    "status": "以官网公告为准（秋招9-11月为主）",
+    "position": "2027届校招（统招+直招7932人；总部“菁英”管培生20人）",
+    "status": "官方公告9/2发布；总部及统招网申至10/7，全国统考10/25",
     "url": "https://zhaopin.chnenergy.com.cn"
    },
    {
     "company": "中国华能",
-    "position": "热能技术岗",
-    "status": "以官网公告为准（秋招9-11月为主）",
-    "url": ""
+    "position": "2027年校招（近4000个岗位，500余家企业）",
+    "status": "集团官网9/15正式启动；以招聘系统公告为准",
+    "url": "https://zhaopin.chng.com.cn"
    },
    {
     "company": "中国电建",
@@ -56537,15 +56796,15 @@ window.CURRENT_DATA = {
    },
    {
     "company": "国家能源集团",
-    "position": "新能源电气岗",
-    "status": "以官网公告为准（秋招9-11月为主）",
+    "position": "2027届校招（统招+直招7932人；总部“菁英”管培生20人）",
+    "status": "官方公告9/2发布；总部及统招网申至10/7，全国统考10/25",
     "url": "https://zhaopin.chnenergy.com.cn"
    },
    {
     "company": "中国华能",
-    "position": "电气工程师",
-    "status": "以官网公告为准（秋招9-11月为主）",
-    "url": ""
+    "position": "2027年校招（近4000个岗位，500余家企业）",
+    "status": "集团官网9/15正式启动；以招聘系统公告为准",
+    "url": "https://zhaopin.chng.com.cn"
    },
    {
     "company": "西门子",
@@ -56588,6 +56847,12 @@ window.CURRENT_DATA = {
     "position": "电力电子工程师",
     "status": "以官网为准（秋招陆续开启）",
     "url": "https://www.inovance.com"
+   },
+   {
+    "company": "国机集团",
+    "position": "2027届校招（官网949个在招职位，机械/电气/软件/AI/工程/经营等）",
+    "status": "2026-09-18央企信息公开；官网职位持续更新",
+    "url": "https://zhaopin.sinomach.com.cn/SU64b4cfe82f9d24760ae8b80c/pb/school.html"
    }
   ],
   "graduate:0809": [
@@ -56723,9 +56988,9 @@ window.CURRENT_DATA = {
    },
    {
     "company": "中国中车",
-    "position": "控制算法岗",
-    "status": "以官网公告为准（秋招9-11月为主）",
-    "url": "https://crrc.hotjob.cn"
+    "position": "2027届全球校招（官网在招484个职位，多子公司）",
+    "status": "集团全球招聘公告及子公司简章上线；岗位持续更新",
+    "url": "https://crrc.hotjob.cn/SU64d47c466202cc36e27a52d4/pb/index.html"
    },
    {
     "company": "西门子",
@@ -56768,6 +57033,12 @@ window.CURRENT_DATA = {
     "position": "机器人工程师",
     "status": "以官网为准（秋招陆续开启）",
     "url": "https://Talent.CATL.com"
+   },
+   {
+    "company": "航空工业成飞",
+    "position": "2027届校招（人工智能/计算机/航空航天/机械/材料等13大类）",
+    "status": "本批次13大类岗位开放；以官方招聘系统为准",
+    "url": "https://cac.avic.com/sycd/rlzy/?PC=PC"
    }
   ],
   "graduate:0812": [
@@ -56842,6 +57113,24 @@ window.CURRENT_DATA = {
     "position": "2027届校招（集团总部及所属单位，战略新兴产业/金融/管理方向）",
     "status": "官方公告9/7发布；网申至10/23，每人可报2岗",
     "url": "https://zp.crhc.cn/recportal/recruitAnnouncement?title=recruit_9003&recruitType=9003&recordId=b43e3c64b2a17e8fc412eab67c5f25b1&isCanDelete=1"
+   },
+   {
+    "company": "国机集团",
+    "position": "2027届校招（官网949个在招职位，机械/电气/软件/AI/工程/经营等）",
+    "status": "2026-09-18央企信息公开；官网职位持续更新",
+    "url": "https://zhaopin.sinomach.com.cn/SU64b4cfe82f9d24760ae8b80c/pb/school.html"
+   },
+   {
+    "company": "航空工业成飞",
+    "position": "2027届校招（人工智能/计算机/航空航天/机械/材料等13大类）",
+    "status": "本批次13大类岗位开放；以官方招聘系统为准",
+    "url": "https://cac.avic.com/sycd/rlzy/?PC=PC"
+   },
+   {
+    "company": "中国华能",
+    "position": "2027年校招（近4000个岗位，500余家企业）",
+    "status": "集团官网9/15正式启动；以招聘系统公告为准",
+    "url": "https://zhaopin.chng.com.cn"
    }
   ],
   "graduate:0813": [
@@ -56930,6 +57219,12 @@ window.CURRENT_DATA = {
     "position": "工程管理岗",
     "status": "以官网为准（秋招陆续开启）",
     "url": ""
+   },
+   {
+    "company": "国机集团",
+    "position": "2027届校招（官网949个在招职位，机械/电气/软件/AI/工程/经营等）",
+    "status": "2026-09-18央企信息公开；官网职位持续更新",
+    "url": "https://zhaopin.sinomach.com.cn/SU64b4cfe82f9d24760ae8b80c/pb/school.html"
    }
   ],
   "graduate:0815": [
@@ -57111,8 +57406,8 @@ window.CURRENT_DATA = {
   "graduate:0819": [
    {
     "company": "国家能源集团",
-    "position": "采矿技术岗",
-    "status": "以官网公告为准（秋招9-11月为主）",
+    "position": "2027届校招（统招+直招7932人；总部“菁英”管培生20人）",
+    "status": "官方公告9/2发布；总部及统招网申至10/7，全国统考10/25",
     "url": "https://zhaopin.chnenergy.com.cn"
    },
    {
@@ -57281,9 +57576,9 @@ window.CURRENT_DATA = {
    },
    {
     "company": "中国中车",
-    "position": "工程岗",
-    "status": "以官网公告为准（秋招9-11月为主）",
-    "url": "https://crrc.hotjob.cn"
+    "position": "2027届全球校招（官网在招484个职位，多子公司）",
+    "status": "集团全球招聘公告及子公司简章上线；岗位持续更新",
+    "url": "https://crrc.hotjob.cn/SU64d47c466202cc36e27a52d4/pb/index.html"
    },
    {
     "company": "中国交建",
@@ -57312,10 +57607,10 @@ window.CURRENT_DATA = {
   ],
   "graduate:0824": [
    {
-    "company": "中国船舶",
-    "position": "船舶设计岗",
-    "status": "以官网公告为准（秋招9-11月为主）",
-    "url": "http://www.cssc.net.cn"
+    "company": "中国船舶集团",
+    "position": "2027届校招（AI/软件/电气/系统研发/船舶设计等）",
+    "status": "官方校招系统显示63个在招职位，持续更新",
+    "url": "https://cssc.zhiye.com/campus/"
    },
    {
     "company": "中国海油",
@@ -57384,6 +57679,12 @@ window.CURRENT_DATA = {
     "position": "航天应用岗",
     "status": "以官网为准（秋招陆续开启）",
     "url": ""
+   },
+   {
+    "company": "航空工业成飞",
+    "position": "2027届校招（人工智能/计算机/航空航天/机械/材料等13大类）",
+    "status": "本批次13大类岗位开放；以官方招聘系统为准",
+    "url": "https://cac.avic.com/sycd/rlzy/?PC=PC"
    }
   ],
   "graduate:0826": [
@@ -57799,8 +58100,8 @@ window.CURRENT_DATA = {
    },
    {
     "company": "国家能源集团",
-    "position": "应急技术岗",
-    "status": "以官网公告为准（秋招9-11月为主）",
+    "position": "2027届校招（统招+直招7932人；总部“菁英”管培生20人）",
+    "status": "官方公告9/2发布；总部及统招网申至10/7，全国统考10/25",
     "url": "https://zhaopin.chnenergy.com.cn"
    },
    {
@@ -57811,9 +58112,9 @@ window.CURRENT_DATA = {
    },
    {
     "company": "中国中车",
-    "position": "安全工程师",
-    "status": "以官网为准（秋招陆续开启）",
-    "url": "https://crrc.hotjob.cn"
+    "position": "2027届全球校招（官网在招484个职位，多子公司）",
+    "status": "集团全球招聘公告及子公司简章上线；岗位持续更新",
+    "url": "https://crrc.hotjob.cn/SU64d47c466202cc36e27a52d4/pb/index.html"
    },
    {
     "company": "宁德时代",
@@ -58039,20 +58340,20 @@ window.CURRENT_DATA = {
   "graduate:0855": [
    {
     "company": "中国中车",
-    "position": "机械研发岗",
-    "status": "以官网公告为准（秋招9-11月为主）",
-    "url": "https://crrc.hotjob.cn"
+    "position": "2027届全球校招（官网在招484个职位，多子公司）",
+    "status": "集团全球招聘公告及子公司简章上线；岗位持续更新",
+    "url": "https://crrc.hotjob.cn/SU64d47c466202cc36e27a52d4/pb/index.html"
    },
    {
-    "company": "中国船舶",
-    "position": "装备技术岗",
-    "status": "以官网公告为准（秋招9-11月为主）",
-    "url": "http://www.cssc.net.cn"
+    "company": "中国船舶集团",
+    "position": "2027届校招（AI/软件/电气/系统研发/船舶设计等）",
+    "status": "官方校招系统显示63个在招职位，持续更新",
+    "url": "https://cssc.zhiye.com/campus/"
    },
    {
     "company": "国家能源集团",
-    "position": "机械研发岗",
-    "status": "以官网公告为准（秋招9-11月为主）",
+    "position": "2027届校招（统招+直招7932人；总部“菁英”管培生20人）",
+    "status": "官方公告9/2发布；总部及统招网申至10/7，全国统考10/25",
     "url": "https://zhaopin.chnenergy.com.cn"
    },
    {
@@ -58113,9 +58414,9 @@ window.CURRENT_DATA = {
    },
    {
     "company": "中国中车",
-    "position": "材料/工艺岗",
-    "status": "以官网公告为准（秋招9-11月为主）",
-    "url": "https://crrc.hotjob.cn"
+    "position": "2027届全球校招（官网在招484个职位，多子公司）",
+    "status": "集团全球招聘公告及子公司简章上线；岗位持续更新",
+    "url": "https://crrc.hotjob.cn/SU64d47c466202cc36e27a52d4/pb/index.html"
    },
    {
     "company": "巴斯夫",
@@ -58207,8 +58508,8 @@ window.CURRENT_DATA = {
   "graduate:0858": [
    {
     "company": "国家能源集团",
-    "position": "能源动力技术岗",
-    "status": "以官网公告为准（秋招9-11月为主）",
+    "position": "2027届校招（统招+直招7932人；总部“菁英”管培生20人）",
+    "status": "官方公告9/2发布；总部及统招网申至10/7，全国统考10/25",
     "url": "https://zhaopin.chnenergy.com.cn"
    },
    {
@@ -58219,9 +58520,9 @@ window.CURRENT_DATA = {
    },
    {
     "company": "中国华能",
-    "position": "能源动力技术岗",
-    "status": "以官网公告为准（秋招9-11月为主）",
-    "url": ""
+    "position": "2027年校招（近4000个岗位，500余家企业）",
+    "status": "集团官网9/15正式启动，招聘系统岗位持续开放",
+    "url": "https://zhaopin.chng.com.cn"
    },
    {
     "company": "中核集团",
@@ -58357,9 +58658,9 @@ window.CURRENT_DATA = {
    },
    {
     "company": "中国中车",
-    "position": "工程岗",
-    "status": "以官网公告为准（秋招9-11月为主）",
-    "url": "https://crrc.hotjob.cn"
+    "position": "2027届全球校招（官网在招484个职位，多子公司）",
+    "status": "集团全球招聘公告及子公司简章上线；岗位持续更新",
+    "url": "https://crrc.hotjob.cn/SU64d47c466202cc36e27a52d4/pb/index.html"
    },
    {
     "company": "中国交建",
